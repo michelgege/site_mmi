@@ -24,7 +24,7 @@
 define( 'DB_NAME', 'wordpressmmi' );
 
 /** MySQL database username */
-define( 'DB_USER', 'user' );
+define( 'DB_USER', 'root' );
 
 /** MySQL database password */
 define( 'DB_PASSWORD', '' );
