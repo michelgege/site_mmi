@@ -1,41 +1,68 @@
 div.wrap_footer {
-background-color:black;
-padding: 0 185px; 
-display: flex;
-        
-    #logo 
-    {
-    	padding-top: 78px;
-    	width: calc(100% / 3);
+	background-color:black;
+	padding: 0 185px; 
+	
+	div.left
+	{
+		width: calc(100% / 3);
 		
 		#twitter
 		{
-         margin-right: 34px;
+			margin-right: 34px;
 		}
 
-			#facebook
-			{
-        	 margin-right: 34px;
-			}
+		#facebook
+		{
+			margin-right: 34px;
+		}
 
 	}
 
-	#adress 
+	h3.center
 	{   width: calc(100% / 3);
 		font-family: 'Raleway';
 		color: white;
 		text-align: center;
 		font-size: 17px;
-		padding-top: 74px;
+		
 		
 	}
 
-	#arrow 
+	h3.centerbot
+	{   width: calc(100% / 3);
+		font-family: 'Raleway';
+		color: white;
+		text-align: center;
+		font-size: 17px;
+		padding-bottom: 87px;	
+	}
+
+	span.grey 
+	{
+		color: #B5B5B5;
+		opacity: 0.4;
+	}
+
+	div.right
 	{
 		width: calc(100% / 3);
 		text-align: right;
-		padding-top: 64px;
 	}
+
+
+
+	div#top
+	{
+		display: flex;
+		padding-top: 70px;
+	}
+
+	div#bottom
+	{
+		display: flex;
+		padding-top: 35px;
+	}
+
 
 
 
