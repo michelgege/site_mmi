@@ -1,8 +1,44 @@
-div#wrap_footer {
-background-color:red; }
+div.wrap_footer {
+background-color:black;
+padding: 0 185px; 
+display: flex;
+        
+    #logo 
+    {
+    	padding-top: 78px;
+    	width: calc(100% / 3);
+		
+		#twitter
+		{
+         margin-right: 34px;
+		}
 
-#rouge 
-{
-	font-size: 160px;
-	color: green;
+			#facebook
+			{
+        	 margin-right: 34px;
+			}
+
+	}
+
+	#adress 
+	{   width: calc(100% / 3);
+		font-family: 'Raleway';
+		color: white;
+		text-align: center;
+		font-size: 17px;
+		padding-top: 74px;
+		
+	}
+
+	#arrow 
+	{
+		width: calc(100% / 3);
+		text-align: right;
+		padding-top: 64px;
+	}
+
+
+
+
+
 }
