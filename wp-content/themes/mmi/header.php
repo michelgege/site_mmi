@@ -15,9 +15,11 @@
 			</nav>
 		</div>
 		<h1><?php the_field('titre'); ?></h1>
-		<div id="header_social">
+		<div id="header2">
 			<div id="social">
-				<?php the_field('header_reseau'); ?>
+				<img src="<?php the_field('twitter'); ?>" alt="Logo Twitter">
+				<img src="<?php the_field('facebook'); ?>" alt="Logo Facebook">
+				<img src="<?php the_field('instagram'); ?>" alt="Logo Instagram">
 			</div>
 		</div>
 	</header>
