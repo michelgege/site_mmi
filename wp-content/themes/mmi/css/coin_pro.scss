@@ -1,5 +1,4 @@
 $background:#181818;
-$white:#FFFFFF;
 $subtitle_after:#590909;
 $border_red:#971212;
 $gradient_left:#971212;
@@ -12,8 +11,8 @@ $gradient_right:#590909;
 
 div#wrap_body
 {
-background-color:$background;
-padding:0px 235px 0px 180px;
+	background-color:$background;
+	padding:0px 235px 0px 180px;
 
 
 	h2.pro_title
@@ -45,40 +44,235 @@ padding:0px 235px 0px 180px;
 	{
 		padding-top: 111px;
 
-			h4.text
-			{
+		h4.text
+		{
 			font-family: 'Raleway', sans-serif;
 			font-weight: 600;
 			color: white;
 			text-align: right;
 			font-size: 18px;
-			}
+		}
 
 	}
 	
 	.scene {
-  	margin: 0;
-  	padding-left: 0;
+		margin: 0;
+		padding-left: 0;
 
-    	#grey_square,#white_triangle,#border_red_triangle
-    	{
-    	padding-left: 350px
-    	}	
+		#grey_square,#white_triangle,#border_red_triangle
+		{
+			padding-left: 350px
+		}	
 
-    	#white_triangle
-    	{
-         margin-top: -20px;
-    	}
+		#white_triangle
+		{
+			margin-top: -20px;
+		}
 
-    	#border_red_triangle
-    	{
-         padding-top: 50px;
-         margin-left: -30px;
-    	}
+		#border_red_triangle
+		{
+			padding-top: 50px;
+			margin-left: -30px;
+		}
 
 
 	}
 
+
+	div#skills
+	{
+		padding-top: 47px;
+		padding-bottom: 100px;
+
+
+		h3.pro_subtitle
+		{
+			font-family: 'Raleway', sans-serif;
+			font-weight: 600;
+			color: white;
+			text-align: left;
+			font-size: 30px;
+			padding-bottom: 25px;
+		}
+
+
+
+		div#paragraph_button
+		{
+			display: flex;
+
+			
+			p.pro_paragraph
+			{	
+				max-width: 710px;
+				max-height: 126px;
+				font-family: 'Raleway', sans-serif;
+				font-weight: 400;
+				color: white;
+				text-align: left;
+				font-size: 15px;
+				line-height: 1.2;
+
+				span.bold
+				{
+					font-weight: bold;
+				}
+			}
+
+			span.button 
+			{
+				display: block;
+				height: 76px;
+				width: 281px;
+				background: linear-gradient(to right, $gradient_left,$gradient_right);
+				margin-left: auto;
+
+				p.button_text
+				{
+					width: 281px;
+					height: 74px;
+					text-align: center;
+					line-height: 74px;
+					font-family: 'Raleway', sans-serif;
+					font-weight: 400;
+					color: white;
+					font-size: 22px;
+				}
+			}
+		}
+	}
+
+	div#projects
+	{
+		padding-top: 47px;
+		padding-bottom: 100px;
+
+
+			h3.pro_subtitle
+			{
+				font-family: 'Raleway', sans-serif;
+				font-weight: 600;
+				color: white;
+				text-align: left;
+				font-size: 30px;
+				padding-bottom: 25px;
+			}
+
+				p.pro_paragraph_min
+				{	
+					max-width: 500px;
+					max-height: 126px;
+					font-family: 'Raleway', sans-serif;
+					font-weight: 400;
+					color: white;
+					text-align: left;
+					font-size: 15px;
+					line-height: 1.2;
+
+					span.bold
+					{
+						font-weight: bold;
+					}
+				}
+		
+	}
+
+	div#projects::after
+		{	
+			display: block;
+			content: "";
+			width: 570px;
+			height: 70px;
+			background-color: $subtitle_after;
+			margin-top: -115px;
+		}
+
+
+
+		div#stage
+	{
+		padding-top: 47px;
+		padding-bottom: 100px;
+
+
+			h3.pro_subtitle
+			{
+				font-family: 'Raleway', sans-serif;
+				font-weight: 600;
+				color: white;
+				text-align: right;
+				font-size: 30px;
+				padding-bottom: 25px;
+			}
+
+				p.pro_paragraph_min
+				{	
+					max-width: 500px;
+					max-height: 126px;
+					font-family: 'Raleway', sans-serif;
+					font-weight: 400;
+					color: white;
+					text-align: right;
+					font-size: 15px;
+					line-height: 1.2;
+					margin-left: auto;
+
+					span.bold
+					{
+						font-weight: bold;
+					}
+				}
+		
+	}
+
+	div#stage::after
+		{	
+			display: block;
+			content: "";
+			width: 570px;
+			height: 70px;
+			background-color: $subtitle_after;
+			margin-top: -115px;
+			margin-left: auto;
+		}
+
+
+
+			div#event
+	{
+		padding-top: 47px;
+		padding-bottom: 100px;
+
+
+			h3.pro_subtitle
+			{
+				font-family: 'Raleway', sans-serif;
+				font-weight: 600;
+				color: white;
+				text-align: right;
+				font-size: 30px;
+				padding-bottom: 25px;
+			}
+
+				p.pro_paragraph_min
+				{	
+					max-width: 500px;
+					max-height: 126px;
+					font-family: 'Raleway', sans-serif;
+					font-weight: 400;
+					color: white;
+					text-align: right;
+					font-size: 15px;
+					line-height: 1.2;
+					margin-left: auto;
+
+					span.bold
+					{
+						font-weight: bold;
+					}
+				}
+		
+	}
 
 
 

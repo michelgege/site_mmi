@@ -35,3 +35,121 @@ div#wrap_body {
     div#wrap_body .scene #border_red_triangle {
       padding-top: 50px;
       margin-left: -30px; }
+  div#wrap_body div#skills {
+    padding-top: 47px;
+    padding-bottom: 100px; }
+    div#wrap_body div#skills h3.pro_subtitle {
+      font-family: 'Raleway', sans-serif;
+      font-weight: 600;
+      color: white;
+      text-align: left;
+      font-size: 30px;
+      padding-bottom: 25px; }
+    div#wrap_body div#skills div#paragraph_button {
+      display: flex; }
+      div#wrap_body div#skills div#paragraph_button p.pro_paragraph {
+        max-width: 710px;
+        max-height: 126px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 400;
+        color: white;
+        text-align: left;
+        font-size: 15px;
+        line-height: 1.2; }
+        div#wrap_body div#skills div#paragraph_button p.pro_paragraph span.bold {
+          font-weight: bold; }
+      div#wrap_body div#skills div#paragraph_button span.button {
+        display: block;
+        height: 76px;
+        width: 281px;
+        background: linear-gradient(to right, #971212, #590909);
+        margin-left: auto; }
+        div#wrap_body div#skills div#paragraph_button span.button p.button_text {
+          width: 281px;
+          height: 74px;
+          text-align: center;
+          line-height: 74px;
+          font-family: 'Raleway', sans-serif;
+          font-weight: 400;
+          color: white;
+          font-size: 22px; }
+  div#wrap_body div#projects {
+    padding-top: 47px;
+    padding-bottom: 100px; }
+    div#wrap_body div#projects h3.pro_subtitle {
+      font-family: 'Raleway', sans-serif;
+      font-weight: 600;
+      color: white;
+      text-align: left;
+      font-size: 30px;
+      padding-bottom: 25px; }
+    div#wrap_body div#projects p.pro_paragraph_min {
+      max-width: 500px;
+      max-height: 126px;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 400;
+      color: white;
+      text-align: left;
+      font-size: 15px;
+      line-height: 1.2; }
+      div#wrap_body div#projects p.pro_paragraph_min span.bold {
+        font-weight: bold; }
+  div#wrap_body div#projects::after {
+    display: block;
+    content: "";
+    width: 570px;
+    height: 70px;
+    background-color: #590909;
+    margin-top: -115px; }
+  div#wrap_body div#stage {
+    padding-top: 47px;
+    padding-bottom: 100px; }
+    div#wrap_body div#stage h3.pro_subtitle {
+      font-family: 'Raleway', sans-serif;
+      font-weight: 600;
+      color: white;
+      text-align: right;
+      font-size: 30px;
+      padding-bottom: 25px; }
+    div#wrap_body div#stage p.pro_paragraph_min {
+      max-width: 500px;
+      max-height: 126px;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 400;
+      color: white;
+      text-align: right;
+      font-size: 15px;
+      line-height: 1.2;
+      margin-left: auto; }
+      div#wrap_body div#stage p.pro_paragraph_min span.bold {
+        font-weight: bold; }
+  div#wrap_body div#stage::after {
+    display: block;
+    content: "";
+    width: 570px;
+    height: 70px;
+    background-color: #590909;
+    margin-top: -115px;
+    margin-left: auto; }
+  div#wrap_body div#event {
+    padding-top: 47px;
+    padding-bottom: 100px; }
+    div#wrap_body div#event h3.pro_subtitle {
+      font-family: 'Raleway', sans-serif;
+      font-weight: 600;
+      color: white;
+      text-align: right;
+      font-size: 30px;
+      padding-bottom: 25px; }
+    div#wrap_body div#event p.pro_paragraph_min {
+      max-width: 500px;
+      max-height: 126px;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 400;
+      color: white;
+      text-align: right;
+      font-size: 15px;
+      line-height: 1.2;
+      margin-left: auto; }
+      div#wrap_body div#event p.pro_paragraph_min span.bold {
+        font-weight: bold; }
