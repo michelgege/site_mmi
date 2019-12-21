@@ -13,7 +13,9 @@
 		wp_register_style('international', get_template_directory_uri().'/css/international.css');
 		wp_register_style('lptsi', get_template_directory_uri().'/css/lptsi.css');
 		wp_register_style('realisations', get_template_directory_uri().'/css/realisations.css');
-		// wp_enqueue_script('index', get_template_directory_uri().'/js/index.js');
+		
+        // SCRIPT
+		wp_enqueue_script('index', get_template_directory_uri().'/js/coin_pro.js');
 
 		if (is_page('Accueil')) {
 			wp_enqueue_style('index');
