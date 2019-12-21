@@ -27,13 +27,13 @@
 
 <div id="container" class="container">
     <div id="scene" class="scene">
-       <div  class="layer" data-depth="0.40">
-            <img src="<?php echo get_template_directory_uri() ?>/img/pro_white_triangle_1.svg" id="">
-        </div> 
-        <div  class="layer" data-depth="0.40">
+    	<div  class="layer" data-depth="0.10">
             <img src="<?php echo get_template_directory_uri() ?>/img/pro_grey_square_1.svg" id="">
         </div> 
-        <div  class="layer" data-depth="0.40">
+       <div  class="layer" data-depth="0.40">
+            <img src="<?php echo get_template_directory_uri() ?>/img/pro_white_triangle_1.svg" id="white_triangle">
+        </div> 
+        <div  class="layer" data-depth="1.30">
             <img src="<?php echo get_template_directory_uri() ?>/img/pro_border_red_triangle_1.svg" id="">
         </div> 
     </div>  
@@ -42,6 +42,15 @@
 
 </div>
 
+
+<script src="<?php echo get_template_directory_uri() ?>/js/libs/parallax.min.js"></script>
+<script>
+
+    var scene = document.getElementById('scene');
+    var parallax = new Parallax(scene, {
+        selector: '.layer'
+    });
+</script>
 
 
 

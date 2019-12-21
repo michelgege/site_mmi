@@ -25,12 +25,6 @@ div#wrap_body {
       color: white;
       text-align: right;
       font-size: 18px; }
-  div#wrap_body .container {
-    margin: -300px auto;
-    max-width: 600px;
-    height: 400px;
-    padding: 10px;
-    position: relative; }
   div#wrap_body .scene {
     margin: 0;
     padding: 0;

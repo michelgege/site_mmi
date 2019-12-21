@@ -15,8 +15,11 @@
 		wp_register_style('realisations', get_template_directory_uri().'/css/realisations.css');
 		
         // SCRIPT
+        wp_enqueue_script('coin_pro', get_template_directory_uri().'/js/libs/jquery.js');
+        wp_enqueue_script('coin_pro', get_template_directory_uri().'/js/libs/parallax.min.js');
 		wp_enqueue_script('coin_pro', get_template_directory_uri().'/js/coin_pro.js');
-		wp_enqueue_script('coin_pro', get_template_directory_uri().'/js/libs/parallax.min.js');
+		
+		
 
 		if (is_page('Accueil')) {
 			wp_enqueue_style('index');
