@@ -8,6 +8,7 @@
 		wp_enqueue_style('raleway', get_template_directory_uri()."https://fonts.googleapis.com/css?family=Oswald:700&display=swap");
 
 		wp_register_style('index', get_template_directory_uri().'/css/index.css');
+		wp_register_style('header_index', get_template_directory_uri().'/css/header_index.css');
 		wp_register_style('coin_pro', get_template_directory_uri().'/css/coin_pro.css');
 		wp_register_style('en_detail', get_template_directory_uri().'/css/en_detail.css');
 		wp_register_style('et_apres', get_template_directory_uri().'/css/et_apres.css');
@@ -24,6 +25,7 @@
 
 		if (is_page('Accueil')) {
 			wp_enqueue_style('index');
+			wp_enqueue_style('header_index');
 		}
 
 		else if (is_page('lptsi')) {

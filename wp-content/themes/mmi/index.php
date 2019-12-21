@@ -5,10 +5,10 @@
 ?>
 
 <?php
-	get_header();
+	get_header('index');
 ?>
 
-<p>Index</p>
+<p><?php the_field('test'); ?></p>
 
 <?php
 	get_footer();
