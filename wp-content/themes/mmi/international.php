@@ -1,4 +1,10 @@
 <?php
+/**
+ * Template Name: International
+ */
+?>
+
+<?php
 	get_header();
 ?>
 

@@ -1,4 +1,10 @@
 <?php
+/**
+ * Template Name: Coin Pro
+ */
+?>
+
+<?php
 	get_header();
 ?>
 

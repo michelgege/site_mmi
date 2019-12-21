@@ -1,4 +1,10 @@
 <?php
+/**
+ * Template Name: En Détail
+ */
+?>
+
+<?php
 	get_header();
 ?>
 
