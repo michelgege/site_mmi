@@ -268,3 +268,137 @@ div#wrap_body {
     transform: rotate(-17deg);
     margin-top: -194px;
     box-shadow: 0px 0px 15px 3px #971212; }
+  div#wrap_body h2#form {
+    font-weight: 100;
+    color: white;
+    text-align: left;
+    font-size: 60px; }
+  div#wrap_body #form_shape {
+    margin-top: -40px; }
+  div#wrap_body #red_square, div#wrap_body #white_triangle_three, div#wrap_body #border_grey_triangle {
+    padding-left: 50px;
+    margin-top: 2750px; }
+  div#wrap_body #red_square {
+    margin-left: -40px; }
+  div#wrap_body #white_triangle_three {
+    padding-top: -20px;
+    margin-left: 10px; }
+  div#wrap_body #border_grey_triangle {
+    margin-left: -20px;
+    padding-top: 60px; }
+  div#wrap_body div#wrap_form {
+    padding: 0px 290px 0px 290px;
+    background-color: #181818; }
+    div#wrap_body div#wrap_form div#form_flex {
+      display: flex; }
+      div#wrap_body div#wrap_form div#form_flex input#name {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 300;
+        margin-top: 105px;
+        font-size: 18px;
+        text-align: left;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.07;
+        letter-spacing: normal;
+        color: white;
+        outline: none;
+        border: 0;
+        border-top: 3px solid white;
+        border-bottom: 3px solid white;
+        padding-left: 28px;
+        height: 61px;
+        background-color: #262626;
+        opacity: 1;
+        width: 346px;
+        margin-right: auto; }
+      div#wrap_body div#wrap_form div#form_flex input#surname {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 300;
+        margin-top: 105px;
+        font-size: 18px;
+        text-align: left;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.07;
+        letter-spacing: normal;
+        color: white;
+        outline: none;
+        border: 0;
+        border-top: 3px solid white;
+        border-bottom: 3px solid white;
+        padding-left: 28px;
+        height: 61px;
+        background-color: #262626;
+        opacity: 1;
+        width: 346px;
+        margin-left: auto; }
+    div#wrap_body div#wrap_form input#email {
+      font-family: 'Raleway', sans-serif;
+      font-weight: 300;
+      margin-top: 45px;
+      font-size: 18px;
+      text-align: left;
+      font-weight: 300;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.07;
+      letter-spacing: normal;
+      color: white;
+      outline: none;
+      border: 0;
+      border-top: 3px solid white;
+      border-bottom: 3px solid white;
+      padding-left: 28px;
+      width: 824px;
+      height: 61px;
+      background-color: #262626;
+      opacity: 1; }
+    div#wrap_body div#wrap_form input#skills_required {
+      font-family: 'Raleway', sans-serif;
+      font-weight: 300;
+      margin-top: 45px;
+      font-size: 18px;
+      text-align: left;
+      font-weight: 300;
+      font-style: normal;
+      letter-spacing: normal;
+      color: white;
+      outline: none;
+      border: 0;
+      border-top: 3px solid white;
+      border-bottom: 3px solid white;
+      padding-left: 28px;
+      height: 355px;
+      width: 823px;
+      background-color: #262626;
+      opacity: 1; }
+    div#wrap_body div#wrap_form div#grey_pro {
+      padding-bottom: 300px; }
+      div#wrap_body div#wrap_form div#grey_pro span.button {
+        display: block;
+        height: 76px;
+        width: 281px;
+        background: linear-gradient(to right, #971212, #590909);
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px; }
+        div#wrap_body div#wrap_form div#grey_pro span.button p.button_text {
+          width: 281px;
+          height: 74px;
+          text-align: center;
+          line-height: 74px;
+          font-weight: 400;
+          color: white;
+          font-size: 22px; }
+  div#wrap_body #border__white_triangle_four, div#wrap_body #white_triangle_four_big, div#wrap_body #white_triangle_four_small {
+    padding-left: 1150px;
+    margin-top: 3450px; }
+  div#wrap_body #border__white_triangle_four {
+    margin-left: 40px; }
+  div#wrap_body #white_triangle_four_big {
+    padding-top: 60px;
+    margin-left: 10px; }
+  div#wrap_body #white_triangle_four_small {
+    margin-left: 120px;
+    padding-top: 110px; }

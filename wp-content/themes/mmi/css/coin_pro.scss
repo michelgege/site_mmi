@@ -3,6 +3,7 @@ $subtitle_after:#590909;
 $red:#971212;
 $gradient_left:#971212;
 $gradient_right:#590909;
+$form:#262626;
 
 
 
@@ -144,155 +145,155 @@ div#wrap_body
 		padding-bottom: 100px;
 
 
-			h3.pro_subtitle
+		h3.pro_subtitle
+		{
+			font-weight: 600;
+			color: white;
+			text-align: left;
+			font-size: 30px;
+			padding-bottom: 25px;
+		}
+
+		p.pro_paragraph_min
+		{	
+			max-width: 500px;
+			max-height: 126px;
+			font-weight: 400;
+			color: white;
+			text-align: left;
+			font-size: 15px;
+			line-height: 1.2;
+
+			span.bold
 			{
-				font-weight: 600;
-				color: white;
-				text-align: left;
-				font-size: 30px;
-				padding-bottom: 25px;
+				font-weight: bold;
 			}
-
-				p.pro_paragraph_min
-				{	
-					max-width: 500px;
-					max-height: 126px;
-					font-weight: 400;
-					color: white;
-					text-align: left;
-					font-size: 15px;
-					line-height: 1.2;
-
-					span.bold
-					{
-						font-weight: bold;
-					}
-				}
+		}
 		
 	}
 
 	div#projects::after
-		{	
-			display: block;
-			content: "";
-			width: 570px;
-			height: 70px;
-			background-color: $subtitle_after;
-			margin-top: -115px;
-		}
+	{	
+		display: block;
+		content: "";
+		width: 570px;
+		height: 70px;
+		background-color: $subtitle_after;
+		margin-top: -115px;
+	}
 
 
 
-		div#stage
+	div#stage
 	{
 		padding-top: 47px;
 		padding-bottom: 100px;
 
 
-			h3.pro_subtitle
+		h3.pro_subtitle
+		{
+			font-weight: 600;
+			color: white;
+			text-align: right;
+			font-size: 30px;
+			padding-bottom: 25px;
+		}
+
+		p.pro_paragraph_min
+		{	
+			max-width: 500px;
+			max-height: 126px;
+			font-weight: 400;
+			color: white;
+			text-align: right;
+			font-size: 15px;
+			line-height: 1.2;
+			margin-left: auto;
+
+			span.bold
 			{
-				font-weight: 600;
-				color: white;
-				text-align: right;
-				font-size: 30px;
-				padding-bottom: 25px;
+				font-weight: bold;
 			}
-
-				p.pro_paragraph_min
-				{	
-					max-width: 500px;
-					max-height: 126px;
-					font-weight: 400;
-					color: white;
-					text-align: right;
-					font-size: 15px;
-					line-height: 1.2;
-					margin-left: auto;
-
-					span.bold
-					{
-						font-weight: bold;
-					}
-				}
+		}
 		
 	}
 
 	div#stage::after
-		{	
-			display: block;
-			content: "";
-			width: 570px;
-			height: 70px;
-			background-color: $subtitle_after;
-			margin-top: -115px;
-			margin-left: auto;
-		}
+	{	
+		display: block;
+		content: "";
+		width: 570px;
+		height: 70px;
+		background-color: $subtitle_after;
+		margin-top: -115px;
+		margin-left: auto;
+	}
 
 
 
-			div#event
+	div#event
 	{
 		padding-top: 47px;
 		padding-bottom: 100px;
 
 
-			h3.pro_subtitle
+		h3.pro_subtitle
+		{
+			font-weight: 600;
+			color: white;
+			text-align: right;
+			font-size: 30px;
+			padding-bottom: 25px;
+		}
+
+		p.pro_paragraph_min
+		{	
+			max-width: 500px;
+			max-height: 126px;
+			font-weight: 400;
+			color: white;
+			text-align: right;
+			font-size: 15px;
+			line-height: 1.2;
+			margin-left: auto;
+
+			span.bold
 			{
-				font-weight: 600;
-				color: white;
-				text-align: right;
-				font-size: 30px;
-				padding-bottom: 25px;
+				font-weight: bold;
 			}
-
-				p.pro_paragraph_min
-				{	
-					max-width: 500px;
-					max-height: 126px;
-					font-weight: 400;
-					color: white;
-					text-align: right;
-					font-size: 15px;
-					line-height: 1.2;
-					margin-left: auto;
-
-					span.bold
-					{
-						font-weight: bold;
-					}
-				}
+		}
 		
 	}
 
 
 	#red_triangle,#border_white_triangle,#grey_triangle
-		{
-			padding-left: 350px;
-			margin-top: 750px;
-		}	
+	{
+		padding-left: 350px;
+		margin-top: 750px;
+	}	
 
-		#red_triangle
-		{
-			margin-left: -40px;
-		}
+	#red_triangle
+	{
+		margin-left: -40px;
+	}
 
-		#border_white_triangle
-		{
-			padding-top: 60px;
-			margin-left: -110px;
-		}
+	#border_white_triangle
+	{
+		padding-top: 60px;
+		margin-left: -110px;
+	}
 
-		#grey_triangle
-		{
-			margin-left: 120px;
-			padding-top: 100px;
-		}
-
-
+	#grey_triangle
+	{
+		margin-left: 120px;
+		padding-top: 100px;
+	}
 
 
 
-		h2.pro_title_up
+
+
+	h2.pro_title_up
 	{
 
 		font-weight: 300;
@@ -388,7 +389,7 @@ div#wrap_body
 			}
 
 		}
-	
+
 	}
 
 	div.after::after
@@ -407,7 +408,7 @@ div#wrap_body
 
 
 
-		div.testimony_second
+	div.testimony_second
 	{
 		padding: 0px 85px 0px 60px;
 		z-index: 1;
@@ -481,7 +482,7 @@ div#wrap_body
 			}
 
 		}
-	
+
 	}
 
 	div.after::after
@@ -498,33 +499,202 @@ div#wrap_body
 
 
 
+	h2#form
+	{
+		font-weight: 100;
+		color: white;
+		text-align: left;
+		font-size: 60px;
+	}
 
+	#form_shape
+	{
+		margin-top: -40px;
+	}
+
+
+
+	#red_square,#white_triangle_three,#border_grey_triangle
+	{
+		padding-left: 50px;
+		margin-top: 2750px;
+	}	
+
+	#red_square
+	{
+		margin-left: -40px;
+	}
+
+	#white_triangle_three
+	{
+		padding-top: -20px;
+		margin-left: 10px;
+	}
+
+	#border_grey_triangle
+	{
+		margin-left: -20px;
+		padding-top: 60px;
+	}
+
+	div#wrap_form
+	{
+		padding: 0px 290px 0px 290px;
+		background-color:$background;
+
+
+		div#form_flex
+		{
+
+			display: flex; 
+
+			input#name
+			{
+				font-family: 'Raleway', sans-serif;
+				font-weight: 300;
+				margin-top: 105px;
+				font-size: 18px;
+				text-align: left;
+				font-stretch: normal;
+				font-style: normal;
+				line-height: 1.07;
+				letter-spacing: normal;
+				color: white;
+				outline: none;
+				border: 0;
+				border-top: 3px solid white;
+				border-bottom: 3px solid white;
+				padding-left: 28px;
+				height: 61px;
+				background-color: $form;
+				opacity: 1;
+				width: 346px;
+				margin-right: auto;
+			}	
+
+
+
+			input#surname
+			{
+				font-family: 'Raleway', sans-serif;
+				font-weight: 300;
+				margin-top: 105px;
+				font-size: 18px;
+				text-align: left;
+				font-stretch: normal;
+				font-style: normal;
+				line-height: 1.07;
+				letter-spacing: normal;
+				color: white;
+				outline: none;
+				border: 0;
+				border-top: 3px solid white;
+				border-bottom: 3px solid white;
+				padding-left: 28px;
+				height: 61px;
+				background-color: $form;
+				opacity: 1;
+				width: 346px;
+				margin-left: auto;
+			}
+		}
+		input#email
+		{
+			font-family: 'Raleway', sans-serif;
+			font-weight: 300;
+			margin-top: 45px;
+			font-size: 18px;
+			text-align: left;
+			font-weight: 300;
+			font-stretch: normal;
+			font-style: normal;
+			line-height: 1.07;
+			letter-spacing: normal;
+			color: white;
+			outline: none;
+			border: 0;
+			border-top: 3px solid white;
+			border-bottom: 3px solid white;
+			padding-left: 28px;
+			width:824px;
+			height: 61px;
+			background-color: $form;
+			opacity: 1;
+		}
+
+		input#skills_required
+		{
+			font-family: 'Raleway', sans-serif;
+			font-weight: 300;
+			margin-top: 45px;
+			font-size: 18px;
+			text-align: left;
+			font-weight: 300;
+			font-style: normal;
+			letter-spacing: normal;
+			color: white;
+			outline: none;
+			border: 0;
+			border-top: 3px solid white;
+			border-bottom: 3px solid white;
+			padding-left: 28px;
+			height: 355px;
+			width:823px; 
+			background-color: $form;
+			opacity: 1;           
+		}
+
+		div#grey_pro
+		{
+			padding-bottom: 300px;
+
+			span.button 
+			{
+				display: block;
+				height: 76px;
+				width: 281px;
+				background: linear-gradient(to right, $gradient_left,$gradient_right);
+				margin-left: auto;
+				margin-right: auto;
+				margin-top: 100px;
+
+				p.button_text
+				{
+					width: 281px;
+					height: 74px;
+					text-align: center;
+					line-height: 74px;
+					font-weight: 400;
+					color: white;
+					font-size: 22px;
+				}
+			}
+		}
+	}
+
+
+
+	#border__white_triangle_four,#white_triangle_four_big,#white_triangle_four_small
+	{
+		padding-left: 1150px;
+		margin-top: 3450px;
+	}	
+
+	#border__white_triangle_four
+	{
+		margin-left: 40px;
+	}
+
+	#white_triangle_four_big
+	{
+		padding-top: 60px;
+		margin-left: 10px;
+	}
+
+	#white_triangle_four_small
+	{
+		margin-left: 120px;
+		padding-top: 110px;
+	}
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
