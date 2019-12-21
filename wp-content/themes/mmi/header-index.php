@@ -9,12 +9,15 @@
 	<header>
 		<img src="<?php the_field('image'); ?>" alt="Fond header">
 		<div id="menu">
-			<a href="<?php get_site_url(); ?>"><img src="<?php echo get_template_directory_uri() ?>/img/mmi_normal.svg" alt="Logo MMI Chambéry"></a>
+			<a href="index.php"><img src="<?php echo get_template_directory_uri() ?>/img/header_footer/mmi_normal.svg" alt="Logo MMI Chambéry"></a>
 			<nav>
 				<?php wp_nav_menu();?>
 			</nav>
 		</div>
 		<h1><?php the_field('titre'); ?></h1>
+		<div id="scroll">
+			<img src="<?php echo get_template_directory_uri() ?>/img/" alt="Scroll">
+		</div>
 		<div id="header2">
 			<div id="social">
 				<img src="<?php the_field('twitter'); ?>" alt="Logo Twitter">

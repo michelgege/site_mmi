@@ -27,24 +27,24 @@ get_header();
 
 	<div id="scene" class="scene">
 		<div  class="layer" data-depth="0.10">
-			<img src="<?php echo get_template_directory_uri() ?>/img/pro_grey_square_1.svg" id="grey_square">
+			<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/pro_grey_square_1.svg" id="grey_square">
 		</div> 
 		<div  class="layer" data-depth="0.40">
-			<img src="<?php echo get_template_directory_uri() ?>/img/pro_white_triangle_1.svg" id="white_triangle">
+			<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/pro_white_triangle_1.svg" id="white_triangle">
 		</div> 
 		<div  class="layer" data-depth="0.90">
-			<img src="<?php echo get_template_directory_uri() ?>/img/pro_border_red_triangle_1.svg" id="border_red_triangle">
+			<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/pro_border_red_triangle_1.svg" id="border_red_triangle">
 		</div> 
 
 
 		<div  class="layer" data-depth="-.50">
-			<img src="<?php echo get_template_directory_uri() ?>/img/pro_red_triangle_2.svg" id="red_triangle">
+			<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/pro_red_triangle_2.svg" id="red_triangle">
 		</div> 
 		<div  class="layer" data-depth="0.20">
-			<img src="<?php echo get_template_directory_uri() ?>/img/pro_border_white_triangle_2.svg" id="border_white_triangle">
+			<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/pro_border_white_triangle_2.svg" id="border_white_triangle">
 		</div> 
 		<div  class="layer" data-depth="0.70">
-			<img src="<?php echo get_template_directory_uri() ?>/img/pro_grey_triangle_2.svg" id="grey_triangle">
+			<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/pro_grey_triangle_2.svg" id="grey_triangle">
 		</div>
 
 	</div>
@@ -104,19 +104,19 @@ get_header();
 
 		<div class="testimony_block">
 		<div class="after">
-		<img src="<?php echo get_template_directory_uri() ?>/img/testimony_picture_1.jpg" id="testimony_picture">
+		<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/testimony_picture_1.jpg" id="testimony_picture">
 		</div>
 
 		<div class="column">
 			<h3 class="testimony_name"> Sandra <span class="uppercase"> marechal </span> </h3>
 			<p class="profession"> Lorem Ipsum </p> 
-			<img src="<?php echo get_template_directory_uri() ?>/img/pro_shape.svg" id="pro_shape">
+			<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/pro_shape.svg" id="pro_shape">
 
 		</div>
 
 
 		<p class="testimony_comment"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut  erat ac tempus ultricies. In congue commodo risus, et viverra turpis pellentesque id. Aenean sit amet libero blandit, semper. </p>
-		<img src="<?php echo get_template_directory_uri() ?>/img/quote.svg" id="quote">
+		<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/quote.svg" id="quote">
 
 
 		</div>
@@ -128,19 +128,19 @@ get_header();
 
 		<div class="testimony_block_second">
 		<div class="after">
-		<img src="<?php echo get_template_directory_uri() ?>/img/testimony_picture_2.jpg" id="testimony_picture">
+		<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/testimony_picture_2.jpg" id="testimony_picture">
 		</div>
 
 		<div class="column">
 			<h3 class="testimony_name"> Jean <span class="uppercase"> pat </span> </h3>
 			<p class="profession"> Lorem Ipsum </p> 
-			<img src="<?php echo get_template_directory_uri() ?>/img/pro_shape.svg" id="pro_shape">
+			<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/pro_shape.svg" id="pro_shape">
 
 		</div>
 
 
 		<p class="testimony_comment"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut </p>
-		<img src="<?php echo get_template_directory_uri() ?>/img/quote.svg" id="quote">
+		<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/quote.svg" id="quote">
 
 		</div>
 

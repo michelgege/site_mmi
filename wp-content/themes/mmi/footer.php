@@ -4,9 +4,9 @@
 <div class="wrap_footer">
     <div id="top">
         <div class="left">
-              <img src="<?php echo get_template_directory_uri() ?>/img/twitter.svg"  id="twitter" alt="Logo Twitter">
-              <img src="<?php echo get_template_directory_uri() ?>/img/facebook.svg"  id="facebook"   alt="Logo Facebook">
-              <img src="<?php echo get_template_directory_uri() ?>/img/instagram.svg" id="instagram"  alt="Logo Instagram">
+              <img src="<?php echo get_template_directory_uri() ?>/img/header_footer/twitter.svg"  id="twitter" alt="Logo Twitter">
+              <img src="<?php echo get_template_directory_uri() ?>/img/header_footer/facebook.svg"  id="facebook"   alt="Logo Facebook">
+              <img src="<?php echo get_template_directory_uri() ?>/img/header_footer/instagram.svg" id="instagram"  alt="Logo Instagram">
         </div>
 
         <h3 class="center"> 28 Avenue du Lac d'Annecy </br>
@@ -14,7 +14,7 @@
         </h3>
 
         <div class="right">
-           <img src="<?php echo get_template_directory_uri() ?>/img/arrow.svg" alt="arrow">
+           <img src="<?php echo get_template_directory_uri() ?>/img/header_footer/arrow.svg" alt="arrow">
         </div>
 
    </div>
@@ -22,7 +22,7 @@
 
    <div id="bottom">
         <div class="left">
-            <img src="<?php echo get_template_directory_uri() ?>/img/iut.svg" alt="iut">
+            <img src="<?php echo get_template_directory_uri() ?>/img/header_footer/iut.svg" alt="iut">
         </div>
 
         <h3 class="centerbot"> catherine.vandenbroucke@univ-smb.fr </br>
@@ -31,7 +31,7 @@
         </h3>
 
         <div class="right">
-            <img src="<?php echo get_template_directory_uri() ?>/img/mmi_footer.svg" alt="iut">
+            <img src="<?php echo get_template_directory_uri() ?>/img/header_footer/mmi_footer.svg" alt="iut">
         </div>
     </div>
 
