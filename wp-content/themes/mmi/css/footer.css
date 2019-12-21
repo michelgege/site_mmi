@@ -9,13 +9,13 @@ div.wrap_footer {
       margin-right: 34px; }
   div.wrap_footer h3.center {
     width: calc(100% / 3);
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     color: white;
     text-align: center;
     font-size: 17px; }
   div.wrap_footer h3.centerbot {
     width: calc(100% / 3);
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     color: white;
     text-align: center;
     font-size: 17px;
