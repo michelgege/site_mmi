@@ -38,7 +38,7 @@ get_header();
 
 
 		<div  class="layer" data-depth="-.50">
-			<img src="<?php echo get_template_directory_uri() ?>/img//coin_pro/ro_red_triangle_2.svg" id="red_triangle">
+			<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/pro_red_triangle_2.svg" id="red_triangle">
 		</div> 
 		<div  class="layer" data-depth="0.20">
 			<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/pro_border_white_triangle_2.svg" id="border_white_triangle">
