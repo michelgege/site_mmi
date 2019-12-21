@@ -61,7 +61,7 @@ div#wrap_body
 
 		#grey_square,#white_triangle,#border_red_triangle
 		{
-			padding-left: 350px
+			padding-left: 350px;
 		}	
 
 		#white_triangle
@@ -275,36 +275,64 @@ div#wrap_body
 	}
 
 
+	#red_triangle,#border_white_triangle,#grey_triangle
+		{
+			padding-left: 350px;
+			margin-top: 750px;
+		}	
+
+		#red_triangle
+		{
+			margin-left: -40px;
+		}
+
+		#border_white_triangle
+		{
+			padding-top: 60px;
+			margin-left: -110px;
+		}
+
+		#grey_triangle
+		{
+			margin-left: 120px;
+			padding-top: 100px;
+		}
+
+
+
+
+
+		h2.pro_title_up
+	{
+
+		font-family: 'Raleway', sans-serif;
+		font-weight: 300;
+		color: white;
+		text-align: left;
+		font-size: 70px;
+		padding-top: 187px;	
+		padding-left: 3px;
+		text-transform: uppercase; 
+	}
+
+	h2.pro_title_up::after
+	{
+
+		display: block;
+		content: "";
+		width: 700px;
+		height: 64px;
+		background-color: $subtitle_after;
+		margin-top: -25px;
+		margin-left: 25px;
+	}
+
+
 
 
 
 }
 
-
-// #lu {
-//   position: absolute;
-//   margin-right: auto;
-//   margin-left: auto;
-//   left: 110px;
-//   right: 170px;
-//   top:193px;
-// }
-// #luu {
-//   position: absolute;
-//   margin-right: auto;
-//   margin-left: auto;
-//   left: 250px;
-//   right: 50px;
-//   top:170px;
-// }
-// #luuu {
-//   position: absolute;
-//   margin-right: auto;
-//   margin-left: auto;
-//   left: 410px;
-//   right: -30px;
-//   top:195px;
-// }
 
 
 

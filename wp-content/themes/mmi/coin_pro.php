@@ -35,6 +35,18 @@ get_header();
 		<div  class="layer" data-depth="0.90">
 			<img src="<?php echo get_template_directory_uri() ?>/img/pro_border_red_triangle_1.svg" id="border_red_triangle">
 		</div> 
+
+
+		<div  class="layer" data-depth="-.50">
+			<img src="<?php echo get_template_directory_uri() ?>/img/pro_red_triangle_2.svg" id="red_triangle">
+		</div> 
+		<div  class="layer" data-depth="0.20">
+			<img src="<?php echo get_template_directory_uri() ?>/img/pro_border_white_triangle_2.svg" id="border_white_triangle">
+		</div> 
+		<div  class="layer" data-depth="0.70">
+			<img src="<?php echo get_template_directory_uri() ?>/img/pro_grey_triangle_2.svg" id="grey_triangle">
+		</div>
+
 	</div>
 
 	<div id="skills"> 
@@ -71,6 +83,11 @@ get_header();
 		commodo consequat.</p>
 	</div>
 
+
+
+
+
+
 	<div id="event"> 
 		<h3 class="pro_subtitle"> L'évènement MMI Et Après </h3>
 
@@ -81,6 +98,7 @@ get_header();
 	</div>
 
 
+	<h2 class="pro_title_up"> les temoignages </h2>
 
 
 </div>
@@ -93,6 +111,11 @@ get_footer();
 
 <script src="<?php echo get_template_directory_uri() ?>/js/libs/parallax.min.js"></script>
 <script>
+
+	var scene = document.getElementById('scene');
+	var parallax = new Parallax(scene, {
+		selector: '.layer'
+	});
 
 	var scene = document.getElementById('scene');
 	var parallax = new Parallax(scene, {

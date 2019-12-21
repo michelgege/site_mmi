@@ -153,3 +153,31 @@ div#wrap_body {
       margin-left: auto; }
       div#wrap_body div#event p.pro_paragraph_min span.bold {
         font-weight: bold; }
+  div#wrap_body #red_triangle, div#wrap_body #border_white_triangle, div#wrap_body #grey_triangle {
+    padding-left: 350px;
+    margin-top: 750px; }
+  div#wrap_body #red_triangle {
+    margin-left: -40px; }
+  div#wrap_body #border_white_triangle {
+    padding-top: 60px;
+    margin-left: -110px; }
+  div#wrap_body #grey_triangle {
+    margin-left: 120px;
+    padding-top: 100px; }
+  div#wrap_body h2.pro_title_up {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    color: white;
+    text-align: left;
+    font-size: 70px;
+    padding-top: 187px;
+    padding-left: 3px;
+    text-transform: uppercase; }
+  div#wrap_body h2.pro_title_up::after {
+    display: block;
+    content: "";
+    width: 700px;
+    height: 64px;
+    background-color: #590909;
+    margin-top: -25px;
+    margin-left: 25px; }
