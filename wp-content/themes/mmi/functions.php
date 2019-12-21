@@ -24,6 +24,26 @@
 		else if (is_page('lptsi')) {
 			wp_enqueue_style('lptsi');
 		}
+
+		else if (is_page('coin-pro')) {
+			wp_enqueue_style('coin_pro');
+		}
+
+		else if (is_page('et-apres')) {
+			wp_enqueue_style('et_apres');
+		}
+
+		else if (is_page('international')) {
+			wp_enqueue_style('international');
+		}
+
+		else if (is_page('mmi-en-detail')) {
+			wp_enqueue_style('en_detail');
+		}
+
+		else if (is_page('realisations')) {
+			wp_enqueue_style('realisations');
+		}
 	}
 
 		add_action('wp_enqueue_scripts','styles_scripts');
