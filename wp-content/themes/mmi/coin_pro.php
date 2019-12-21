@@ -100,6 +100,53 @@ get_header();
 
 	<h2 class="pro_title_up"> les temoignages </h2>
 
+	<div class="testimony">
+
+		<div class="testimony_block">
+		<div class="after">
+		<img src="<?php echo get_template_directory_uri() ?>/img/testimony_picture_1.jpg" id="testimony_picture">
+		</div>
+
+		<div class="column">
+			<h3 class="testimony_name"> Sandra <span class="uppercase"> marechal </span> </h3>
+			<p class="profession"> Lorem Ipsum </p> 
+			<img src="<?php echo get_template_directory_uri() ?>/img/pro_shape.svg" id="pro_shape">
+
+		</div>
+
+
+		<p class="testimony_comment"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut  erat ac tempus ultricies. In congue commodo risus, et viverra turpis pellentesque id. Aenean sit amet libero blandit, semper. </p>
+		<img src="<?php echo get_template_directory_uri() ?>/img/quote.svg" id="quote">
+
+
+		</div>
+
+
+	</div>
+
+	<div class="testimony_second">
+
+		<div class="testimony_block_second">
+		<div class="after">
+		<img src="<?php echo get_template_directory_uri() ?>/img/testimony_picture_2.jpg" id="testimony_picture">
+		</div>
+
+		<div class="column">
+			<h3 class="testimony_name"> Jean <span class="uppercase"> pat </span> </h3>
+			<p class="profession"> Lorem Ipsum </p> 
+			<img src="<?php echo get_template_directory_uri() ?>/img/pro_shape.svg" id="pro_shape">
+
+		</div>
+
+
+		<p class="testimony_comment"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut </p>
+		<img src="<?php echo get_template_directory_uri() ?>/img/quote.svg" id="quote">
+
+		</div>
+
+
+	</div>
+
 
 </div>
 
