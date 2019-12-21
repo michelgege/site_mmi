@@ -27,5 +27,11 @@ div#wrap_body {
       font-size: 18px; }
   div#wrap_body .scene {
     margin: 0;
-    padding: 0;
-    height: 250px; }
+    padding-left: 0; }
+    div#wrap_body .scene #grey_square, div#wrap_body .scene #white_triangle, div#wrap_body .scene #border_red_triangle {
+      padding-left: 350px; }
+    div#wrap_body .scene #white_triangle {
+      margin-top: -20px; }
+    div#wrap_body .scene #border_red_triangle {
+      padding-top: 50px;
+      margin-left: -30px; }

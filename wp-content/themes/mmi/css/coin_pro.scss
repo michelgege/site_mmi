@@ -55,21 +55,37 @@ padding:0px 235px 0px 180px;
 			}
 
 	}
+	
+	.scene {
+  	margin: 0;
+  	padding-left: 0;
+
+    	#grey_square,#white_triangle,#border_red_triangle
+    	{
+    	padding-left: 350px
+    	}	
+
+    	#white_triangle
+    	{
+         margin-top: -20px;
+    	}
+
+    	#border_red_triangle
+    	{
+         padding-top: 50px;
+         margin-left: -30px;
+    	}
+
+
+	}
 
 
 
 
-.container {
 
 
 }
 
-
-.scene {
-  margin: 0;
-  padding: 0;
-  height:250px;
-}
 
 // #lu {
 //   position: absolute;
@@ -121,4 +137,3 @@ padding:0px 235px 0px 180px;
 
 
 
-}

@@ -25,23 +25,29 @@
 
 
 
-<div id="container" class="container">
     <div id="scene" class="scene">
     	<div  class="layer" data-depth="0.10">
-            <img src="<?php echo get_template_directory_uri() ?>/img/pro_grey_square_1.svg" id="">
+            <img src="<?php echo get_template_directory_uri() ?>/img/pro_grey_square_1.svg" id="grey_square">
         </div> 
        <div  class="layer" data-depth="0.40">
             <img src="<?php echo get_template_directory_uri() ?>/img/pro_white_triangle_1.svg" id="white_triangle">
         </div> 
-        <div  class="layer" data-depth="1.30">
-            <img src="<?php echo get_template_directory_uri() ?>/img/pro_border_red_triangle_1.svg" id="">
+        <div  class="layer" data-depth="0.90">
+            <img src="<?php echo get_template_directory_uri() ?>/img/pro_border_red_triangle_1.svg" id="border_red_triangle">
         </div> 
     </div>  
-</div>
 
 
 </div>
 
+
+
+
+
+
+<?php
+	get_footer();
+?>
 
 <script src="<?php echo get_template_directory_uri() ?>/js/libs/parallax.min.js"></script>
 <script>
@@ -51,9 +57,3 @@
         selector: '.layer'
     });
 </script>
-
-
-
-<?php
-	get_footer();
-?>
