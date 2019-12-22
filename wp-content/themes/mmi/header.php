@@ -8,6 +8,7 @@
 <body>
 	<header>
 		<img src="<?php the_field('image'); ?>" alt="Fond header">
+		<span class="filter" style="background-color: <?php the_field('couleur_filtre'); ?>;"></span>
 		<div id="menu">
 			<a href="../"><img src="<?php echo get_template_directory_uri() ?>/img/mmi_normal.svg" alt="Logo MMI Chambéry"></a>
 			<nav>

@@ -1,13 +1,16 @@
 <?php
 	//Styles and Scripts
 	function styles_scripts() {
+		// Styles loaded
 		wp_enqueue_style('reset', get_template_directory_uri().'/css/libs/reset_css.css');
 		wp_enqueue_style('header', get_template_directory_uri().'/css/header.css');
 		wp_enqueue_style('footer', get_template_directory_uri().'/css/footer.css');
 		wp_enqueue_style('raleway', get_template_directory_uri().'https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800&display=swap');
 		wp_enqueue_style('raleway', get_template_directory_uri()."https://fonts.googleapis.com/css?family=Oswald:700&display=swap");
 
+		//Styles enqueued
 		wp_register_style('index', get_template_directory_uri().'/css/index.css');
+		wp_register_style('header_index', get_template_directory_uri().'/css/header_index.css');
 		wp_register_style('coin_pro', get_template_directory_uri().'/css/coin_pro.css');
 		wp_register_style('en_detail', get_template_directory_uri().'/css/en_detail.css');
 		wp_register_style('et_apres', get_template_directory_uri().'/css/et_apres.css');
@@ -21,9 +24,10 @@
 		wp_enqueue_script('coin_pro', get_template_directory_uri().'/js/coin_pro.js');
 		
 		
-
+		//Load Styles enqueued
 		if (is_page('Accueil')) {
 			wp_enqueue_style('index');
+			wp_enqueue_style('header_index');
 		}
 
 		else if (is_page('lptsi')) {
