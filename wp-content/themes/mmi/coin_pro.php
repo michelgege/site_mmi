@@ -120,7 +120,7 @@ get_header();
 	</div>
 
 
-	<h2 class="pro_title_up"> les temoignages </h2>
+	<h2 class="pro_title"> Les Témoignages </h2>
 
 	<div class="testimony">
 
