@@ -14,7 +14,7 @@
         </h3>
 
         <div class="right">
-           <img src="<?php echo get_template_directory_uri() ?>/img/arrow.svg" alt="arrow">
+          <a href="#menu"> <img src="<?php echo get_template_directory_uri() ?>/img/arrow.svg" alt="arrow" href="#menu"> </a>
         </div>
 
    </div>
