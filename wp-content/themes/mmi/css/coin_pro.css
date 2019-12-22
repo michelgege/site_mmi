@@ -154,22 +154,6 @@ div#wrap_body {
   div#wrap_body #grey_triangle {
     margin-left: 120px;
     padding-top: 100px; }
-  div#wrap_body h2.pro_title_up {
-    font-weight: 300;
-    color: white;
-    text-align: left;
-    font-size: 70px;
-    padding-top: 200px;
-    margin-left: -55px;
-    text-transform: uppercase; }
-  div#wrap_body h2.pro_title_up::after {
-    display: block;
-    content: "";
-    width: 700px;
-    height: 64px;
-    background-color: #590909;
-    margin-top: -37px;
-    margin-left: 25px; }
   div#wrap_body div.testimony {
     padding: 0px 85px 0px 60px;
     z-index: 1; }
