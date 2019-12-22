@@ -31,9 +31,9 @@
 		</div>
 		<div id="header2">
 			<div id="social">
-				<img src="<?php the_field('twitter'); ?>" alt="Logo Twitter">
-				<img src="<?php the_field('facebook'); ?>" alt="Logo Facebook">
-				<img src="<?php the_field('instagram'); ?>" alt="Logo Instagram">
+				<a href="#"><img src="<?php the_field('twitter'); ?>" alt="Logo Twitter"></a>
+				<a href="#"><img src="<?php the_field('facebook'); ?>" alt="Logo Facebook"></a>
+				<a href="#"><img src="<?php the_field('instagram'); ?>" alt="Logo Instagram"></a>
 			</div>
 			<div id="menu2">
 				<img src="<?php echo get_template_directory_uri() ?>/img/header_shape.svg" alt="">
