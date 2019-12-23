@@ -21,7 +21,9 @@
 
 
    <div id="bottom">
-        <div class="left">
+
+
+        <div class="left_bot">
             <img src="<?php echo get_template_directory_uri() ?>/img/iut.svg" alt="iut">
         </div>
 
@@ -30,7 +32,7 @@
         <span class="grey">© MMI Chambéry - Tous droits réservés - Mentions légales </span>
         </h3>
 
-        <div class="right">
+        <div class="right_bot">
             <img src="<?php echo get_template_directory_uri() ?>/img/mmi_footer.svg" alt="iut">
         </div>
     </div>
@@ -48,5 +50,8 @@
 
 </footer>
 
+
+
 </body>
+
 </html>
