@@ -1,3 +1,5 @@
+$bg-color: #181818;
+
 a {
 	text-decoration: none;
 	color: black;
@@ -11,13 +13,14 @@ header {
 	height: 100vh;
 	width: 100%;
 	position: relative;
+	z-index: 10;
 	overflow: hidden;
 
 	>img {
 		position: absolute;
 		top: 0;
 		left: 0;
-		z-index: -10;
+		z-index: -2;
 		width: 100%;
 	}
 
@@ -27,7 +30,7 @@ header {
 		left: 0;
 		width: 100%;
 		height: 100vh;
-		z-index: -5;
+		z-index: -1;
 		opacity: 0.7;
 	}
 
@@ -80,4 +83,9 @@ header {
 		margin-left: 160px;
 		width: 60%;
 	}
+}
+
+.wrap {
+	padding: 0 185px;
+	background-color: $bg-color;
 }
