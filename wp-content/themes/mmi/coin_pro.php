@@ -56,7 +56,7 @@ get_header();
 		<div  class="layer" data-depth="0.60">
 			<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/pro_border_grey_triangle_3.svg" id="border_grey_triangle">
 		</div>
-
+<!-- 
 		<div  class="layer" data-depth="-.90">
 			<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/pro_border_white_triangle_4.svg" id="border__white_triangle_four">
 		</div> 
@@ -65,7 +65,7 @@ get_header();
 		</div> 
 		<div  class="layer" data-depth="0.10">
 			<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/pro_white_triangle_small_4.svg" id="white_triangle_four_small">
-		</div>
+		</div> -->
 
 
 
@@ -80,7 +80,7 @@ get_header();
 				<p class="pro_paragraph">velit esse cillum dolore eu fugiat nulla pariatur. <span class="bold"> Excepteur sint occaecat </span> cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum Integer vel blandit enim. Morbi sollicitudin erat ac tempus ultricies. In congue commodo risus, et viverra turpis pellentesque id. Aenean sit amet libero blandit, semper. </p>
 			</div>
 
-			<span class="button"><p class="button_text"> Voir les realisations </p></span>
+			<a href="realisations.php"> <input type="button" class="button" href="realisations.php" value="Voir les realisations"> </a>
 		</div>
 
 	</div>
@@ -163,18 +163,19 @@ get_header();
 	<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/form_shape.svg" id="form_shape">
 
 	<div id="wrap_form">
+		<form action="form.php" method="post">
+			<div id="form_flex">
+				<input type="text" placeholder="Nom" id="name">
+				<input type="text" placeholder="Prénom" id="surname">
+			</div>
+			<input type="text" placeholder="Email" id="email" name="">
 
-		<div id="form_flex">
-			<input type="text" placeholder="Nom" id="name">
-			<input type="text" placeholder="Prénom" id="surname">
-		</div>
-		<input type="text" placeholder="Email" id="email">
+			<input type="text" placeholder="Description du projet (Durée, missions, compétences requises…)" id="skills_required">
 
-		<input type="text" placeholder="Description du projet (Durée, missions, compétences requises…)" id="skills_required">
-
-		<div id="grey_pro">
-			<span class="button"><p class="button_text"> Envoyer </p></span>
-		</div>
+			<div id="grey_pro">
+				<input type="submit" value="Envoyer" class="button">
+			</div>
+		</form>
 	</div>
 
 
