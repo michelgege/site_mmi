@@ -117,7 +117,7 @@ section#skills {
 		font-weight: var(--font-light);
 		font-size: 22px;
 		padding: 25px 65px;
-		background-color: var(--color-red);
+		background: linear-gradient(90deg, var(--color-red) 0%, rgba(89,9,9,1) 100%);
 		display: inline-block;
 		margin-top: 200px;
 		color: white;
