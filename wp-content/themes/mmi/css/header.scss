@@ -1,3 +1,5 @@
+$bg-color: #181818;
+
 a {
 	text-decoration: none;
 	color: black;
@@ -80,4 +82,9 @@ header {
 		margin-left: 160px;
 		width: 60%;
 	}
+}
+
+.wrap {
+	padding: 0 185px;
+	background-color: $bg-color;
 }
