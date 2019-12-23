@@ -55,22 +55,24 @@ div#wrap_body {
         line-height: 1.2; }
         div#wrap_body div#skills div#paragraph_button p.pro_paragraph span.bold {
           font-weight: bold; }
-      div#wrap_body div#skills div#paragraph_button input[type=button].button {
-        display: block;
-        height: 76px;
-        width: 281px;
-        background: linear-gradient(to right, #971212, #590909);
-        margin-left: auto;
-        width: 281px;
-        height: 74px;
-        text-align: center;
-        line-height: 74px;
-        font-weight: 400;
-        color: white;
-        font-size: 22px;
-        border: none;
-        font-weight: 300;
-        font-family: 'Raleway', sans-serif; }
+      div#wrap_body div#skills div#paragraph_button a#rea {
+        margin-left: auto; }
+        div#wrap_body div#skills div#paragraph_button a#rea input[type=button].button {
+          display: block;
+          height: 76px;
+          width: 281px;
+          background: linear-gradient(to right, #971212, #590909);
+          margin-left: auto;
+          width: 281px;
+          height: 74px;
+          text-align: center;
+          line-height: 74px;
+          font-weight: 400;
+          color: white;
+          font-size: 22px;
+          border: none;
+          font-weight: 300;
+          font-family: 'Raleway', sans-serif; }
   div#wrap_body div#projects {
     padding-top: 47px;
     padding-bottom: 100px; }
@@ -318,7 +320,7 @@ div#wrap_body {
         background-color: #262626;
         opacity: 1;
         width: 346px;
-        margin-left: auto; }
+        margin-right: auto; }
     div#wrap_body div#wrap_form input#email {
       font-family: 'Raleway', sans-serif;
       font-weight: 300;
