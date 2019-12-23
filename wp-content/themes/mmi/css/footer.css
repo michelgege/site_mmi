@@ -41,7 +41,7 @@ div.wrap_footer {
 @media only screen and (max-width: 375px) {
   div.wrap_footer {
     background-color: black;
-    padding: 0 5px; }
+    padding: 0 35px; }
     div.wrap_footer h3.center {
       width: 100%;
       font-family: 'Raleway', sans-serif;
@@ -79,10 +79,10 @@ div.wrap_footer {
       font-size: 17px;
       margin-top: -200px; }
     div.wrap_footer div.left_bot {
-      width: 100%;
       text-align: left; }
     div.wrap_footer div.right_bot {
-      width: 100%;
       text-align: right;
       margin-top: -45px;
-      padding-bottom: 116px; } }
+      padding-bottom: 116px;
+      margin-left: auto;
+      width: auto; } }

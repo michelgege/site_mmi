@@ -76,11 +76,12 @@ div.wrap_footer {
 
 }
 
+
 @media only screen and (max-width : 375px){
 	div.wrap_footer
 	{
 		background-color:black;
-		padding: 0 5px; 
+		padding: 0 35px; 
 
 
 	h3.center
@@ -90,9 +91,7 @@ div.wrap_footer {
 		text-align: center;
 		font-size: 17px;
 		padding-top: 60px;
-		padding-bottom: 30px;
-		
-		
+		padding-bottom: 30px;	
 	}
 
 	div.left
@@ -147,17 +146,17 @@ div.wrap_footer {
 
 	div.left_bot
 	{
-		width: 100%;
 		text-align: left;
 	}
 
 
 	div.right_bot
 	{
-		width: 100%;
 		text-align: right;
 		margin-top: -45px;
 		padding-bottom: 116px;
+		margin-left: auto;
+		width: auto;
 	}
 
 	
