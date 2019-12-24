@@ -1,7 +1,6 @@
 
 $(document).ready(function ()
 {
-
       $('.overlay').click(function ()
       {
             $('.pop_up').addClass('visible');
@@ -12,6 +11,4 @@ $(document).ready(function ()
             $('.pop_up').removeClass('visible');
 
       });
-
-
 });

@@ -13,9 +13,20 @@
 	<h2>Réalisations</h2>
 
 	<div class="inner_wrap">
+		<div class="scene">
+
+			<img class="grey_triangle_empty_2" src="<?php echo get_template_directory_uri() ?>/img/realisations/grey_triangle_empty_2.svg" alt="">
+			<img class="white_triangle_full" src="<?php echo get_template_directory_uri() ?>/img/realisations/white_triangle_full.svg" alt="">
+			<img class="pink_square_full" src="<?php echo get_template_directory_uri() ?>/img/realisations/pink_square_full.svg" alt="">
+			
+		</div>
 		<p class="intro">
 			Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium dicta, distinctio aperiam quo, voluptate delectus ratione sapiente dignissimos ut itaque exercitationem dolores. Laudantium dolorem fuga repudiandae dignissimos, incidunt nam in.
 		</p>
+			<img class="white_triangle_full" src="<?php echo get_template_directory_uri() ?>/img/realisations/white_triangle_full.svg" alt="">
+			<img class="purple_trangle_full" src="<?php echo get_template_directory_uri() ?>/img/realisations/purple_trangle_full.svg" alt="">
+		</div>
+		
 		
 		<div class="column_container">
 
@@ -38,90 +49,47 @@
 				</div>
 				<div class="img_container">
 
-					<img src="http://placehold.jp/100x150.jpg" alt="">
+					<img src="http://placehold.jp/150x120.jpg" alt="">
 					<div class="overlay">
-						<p class="title">
+						<div class="text_container">
+							<p class="title">
 							"lorem ipsum"
-						</p>
-						<p class="author">
-							John Doe
-						</p>
+							</p>
+
+							<p class="author">
+								John Doe
+							</p>
+						</div>
 					</div>
 				</div>
 				<div class="img_container">
 
-					<img src="http://placehold.jp/100x150.jpg" alt="">
+					<img src="http://placehold.jp/100x100.jpg" alt="">
 					<div class="overlay">
-						<p class="title">
+						<div class="text_container">
+							<p class="title">
 							"lorem ipsum"
-						</p>
-						<p class="author">
-							John Doe
-						</p>
+							</p>
+
+							<p class="author">
+								John Doe
+							</p>
+						</div>
 					</div>
 				</div>
 				<div class="img_container">
 
-					<img src="http://placehold.jp/100x150.jpg" alt="">
+					<img src="http://placehold.jp/80x50.jpg" alt="">
 					<div class="overlay">
-						<p class="title">
+						<div class="text_container">
+							<p class="title">
 							"lorem ipsum"
-						</p>
-						<p class="author">
-							John Doe
-						</p>
-					</div>
-				</div>
-				
-			</div>
-			
-			<div class="column">
-				<div class="img_container">
+							</p>
 
-					<img src="http://placehold.jp/100x150.jpg" alt="">
-					<div class="overlay">
-						<p class="title">
-							"lorem ipsum"
-						</p>
-						<p class="author">
-							John Doe
-						</p>
-					</div>
-				</div>
-				<div class="img_container">
-
-					<img src="http://placehold.jp/100x150.jpg" alt="">
-					<div class="overlay">
-						<p class="title">
-							"lorem ipsum"
-						</p>
-						<p class="author">
-							John Doe
-						</p>
-					</div>
-				</div>
-				<div class="img_container">
-
-					<img src="http://placehold.jp/100x150.jpg" alt="">
-					<div class="overlay">
-						<p class="title">
-							"lorem ipsum"
-						</p>
-						<p class="author">
-							John Doe
-						</p>
-					</div>
-				</div>
-				<div class="img_container">
-
-					<img src="http://placehold.jp/100x150.jpg" alt="">
-					<div class="overlay">
-						<p class="title">
-							"lorem ipsum"
-						</p>
-						<p class="author">
-							John Doe
-						</p>
+							<p class="author">
+								John Doe
+							</p>
+						</div>
 					</div>
 				</div>
 			
@@ -131,62 +99,125 @@
 			<div class="column">
 				<div class="img_container">
 
-					<img src="http://placehold.jp/100x150.jpg" alt="">
+					<img src="http://placehold.jp/300x100.jpg" alt="">
 					<div class="overlay">
-						<p class="title">
+						<div class="text_container">
+							<p class="title">
 							"lorem ipsum"
-						</p>
-						<p class="author">
-							John Doe
-						</p>
+							</p>
+
+							<p class="author">
+								John Doe
+							</p>
+						</div>
 					</div>
 				</div>
 				<div class="img_container">
 
-					<img src="http://placehold.jp/100x150.jpg" alt="">
+					<img src="http://placehold.jp/90x50.jpg" alt="">
 					<div class="overlay">
-						<p class="title">
+						<div class="text_container">
+							<p class="title">
 							"lorem ipsum"
-						</p>
-						<p class="author">
-							John Doe
-						</p>
+							</p>
+
+							<p class="author">
+								John Doe
+							</p>
+						</div>
 					</div>
 				</div>
 				<div class="img_container">
 
-					<img src="http://placehold.jp/100x150.jpg" alt="">
+					<img src="http://placehold.jp/100x80.jpg" alt="">
 					<div class="overlay">
-						<p class="title">
+						<div class="text_container">
+							<p class="title">
 							"lorem ipsum"
-						</p>
-						<p class="author">
-							John Doe
-						</p>
+							</p>
+
+							<p class="author">
+								John Doe
+							</p>
+						</div>
 					</div>
 				</div>
 				<div class="img_container">
 
-					<img src="http://placehold.jp/100x150.jpg" alt="">
+					<img src="http://placehold.jp/100x120.jpg" alt="">
 					<div class="overlay">
-						<p class="title">
+						<div class="text_container">
+							<p class="title">
 							"lorem ipsum"
-						</p>
-						<p class="author">
-							John Doe
-						</p>
+							</p>
+
+							<p class="author">
+								John Doe
+							</p>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			<div class="column">
+				<div class="img_container">
+
+					<img src="http://placehold.jp/70x100.jpg" alt="">
+					<div class="overlay">
+						<div class="text_container">
+							<p class="title">
+							"lorem ipsum"
+							</p>
+
+							<p class="author">
+								John Doe
+							</p>
+						</div>
 					</div>
 				</div>
 				<div class="img_container">
 
-					<img src="http://placehold.jp/100x150.jpg" alt="">
+					<img src="http://placehold.jp/180x110.jpg" alt="">
 					<div class="overlay">
-						<p class="title">
+						<div class="text_container">
+							<p class="title">
 							"lorem ipsum"
-						</p>
-						<p class="author">
-							John Doe
-						</p>
+							</p>
+
+							<p class="author">
+								John Doe
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="img_container">
+
+					<img src="http://placehold.jp/140x100.jpg" alt="">
+					<div class="overlay">
+						<div class="text_container">
+							<p class="title">
+							"lorem ipsum"
+							</p>
+
+							<p class="author">
+								John Doe
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="img_container">
+
+					<img src="http://placehold.jp/120x80.jpg" alt="">
+					<div class="overlay">
+						<div class="text_container">
+							<p class="title">
+							"lorem ipsum"
+							</p>
+
+							<p class="author">
+								John Doe
+							</p>
+						</div>
 					</div>
 				</div>
 				
