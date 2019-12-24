@@ -23,6 +23,7 @@
 		<p class="intro">
 			Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium dicta, distinctio aperiam quo, voluptate delectus ratione sapiente dignissimos ut itaque exercitationem dolores. Laudantium dolorem fuga repudiandae dignissimos, incidunt nam in.
 		</p>
+		<div class="scene_2">
 			<img class="white_triangle_full" src="<?php echo get_template_directory_uri() ?>/img/realisations/white_triangle_full.svg" alt="">
 			<img class="purple_trangle_full" src="<?php echo get_template_directory_uri() ?>/img/realisations/purple_trangle_full.svg" alt="">
 		</div>
