@@ -17,8 +17,8 @@ get_header();
 
 
 	<div id="company">
-		<h4 class="text"> Vous êtes une entrepise ? </h4>
-		<h4 class="text"> Nos étudiants peuvent vous aider via les stages ou les projets </h4>
+		<h4 class="text"> Vous êtes une entrepise ? <br/>
+		Nos étudiants peuvent vous aider via les stages ou les projets. </h4>
 	</div>
 
 
