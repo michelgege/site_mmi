@@ -22,7 +22,8 @@
 		wp_deregister_script('jquery');
         wp_enqueue_script('jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js');
         	//Parallax
-	  	wp_enqueue_script('parallax', 'https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js');
+	  	wp_enqueue_script('parallax_libs', 'https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js');
+	  	wp_enqueue_script('parallax', get_template_directory_uri().'/js/parallax.js');
 	  		//Scripts enqueued
 		wp_register_script('coin_pro_js', get_template_directory_uri().'/js/coin_pro.js');
 		wp_register_script('realisations_js', get_template_directory_uri().'/js/realisations.js');
