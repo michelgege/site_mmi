@@ -21,7 +21,7 @@
 			$pattern = explode(" ", get_field('titre_gras'));
 			$replace = array();
 			foreach ($pattern as $key => $value) {
-				$replace[$key] = '<span id="bold_title">'.$value.'</span>';
+				$replace[$key] = '<span class="bold">'.$value.'</span>';
 				$pattern[$key] = "/".$value."/";
 			}
 			echo preg_replace($pattern, $replace, $subject);

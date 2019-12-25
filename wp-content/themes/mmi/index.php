@@ -39,7 +39,7 @@
 				</div>
 			</div>
 		</div>
-		<a href="#">MMI en détails</a>
+		<a class="link_button" href="#">MMI en détails</a>
 	</section>
 
 	<!-- Section Stats -->
@@ -72,6 +72,21 @@
 				<p>Lorem ipsum dolor sit amet, consectetur</p>
 			</div>
 		</div>
+	</section>
+
+	<!-- Section Department -->
+
+	<section id="department">
+		<h2>le département</h2>
+		<div id="department_slider">
+			<img class="second" src="<?php echo get_template_directory_uri() ?>/img/accueil/slider2.jpg" alt="">
+			<img class="first" src="<?php echo get_template_directory_uri() ?>/img/accueil/slider1.jpg" alt="">
+			<img class="thirst" src="<?php echo get_template_directory_uri() ?>/img/accueil/slider3.jpg" alt="">
+		</div>
+		<div id="department_arrows">
+			
+		</div>
+		<a class="link_button" href="#">Voir la vidéo <span class="bold">360°</span></a>
 	</section>
 </div>
 

@@ -40,16 +40,30 @@ h2 {
 		left: 15px;
 		width: 100%;
 		height: 100%;
-		background-color: var(--color-red);
 		z-index: -1;
 
 	}
+
+.link_button {
+	font-weight: var(--font-light);
+	font-size: 22px;
+	padding: 25px 65px;
+	display: inline-block;
+	margin-top: 150px;
+	color: white;
+	margin-left: 50%;
+	transform: translateX(-50%);
+}
 
 /*Section Skills*/
 
 section#skills {
 	
 }
+
+	section#skills h2:after{
+		background-color: var(--color-red);
+	}
 
 	section#skills #skills_container {
 		margin-left: 30px;
@@ -113,22 +127,18 @@ section#skills {
 					background-color: var(--color-green);
 				}
 
-	section#skills >a {
-		font-weight: var(--font-light);
-		font-size: 22px;
-		padding: 25px 65px;
-		background: linear-gradient(90deg, var(--color-red) 0%, rgba(89,9,9,1) 100%);
-		display: inline-block;
-		margin-top: 200px;
-		color: white;
-		margin-left: 50%;
-		transform: translateX(-50%);
+	section#skills .link_button {
+		background: linear-gradient(90deg, var(--color-red) 0%, #590909 100%);
 	}
 
 /*Section Stats*/
 section#stats {
 
 }
+
+	section#stats h2:after{
+		background-color: var(--color-pink);
+	}
 
 	section#stats #stats_container {
 		display: flex;
@@ -176,3 +186,47 @@ section#stats {
 				margin-top: 40px;
 				max-width: 250px;
 			}
+
+/*Section Department*/
+section#department {
+
+}
+
+	section#department h2:after{
+		background-color: var(--color-purple);
+	}
+
+	section#department #department_slider {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+		section#department #department_slider >img {
+			height: 300px;
+		}
+
+		section#department #department_slider .first {
+			height: 350px;
+			z-index: 10;
+		}
+
+		section#department #department_slider .second {
+			opacity: 0.5;
+			margin-right: -15%;
+			z-index: 5;
+		}
+
+		section#department #department_slider .thirst {
+			opacity: 0.5;
+			margin-left: -15%;
+			z-index: 5;
+		}
+
+	section#department #department_arrows {
+		
+	}
+
+	section#department .link_button{
+		background: linear-gradient(90deg, var(--color-purple) 0%, #65107D 100%);
+	}
