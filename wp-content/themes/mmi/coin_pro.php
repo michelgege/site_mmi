@@ -190,7 +190,7 @@ get_footer();
 
 
 
-<script src="<?php echo get_template_directory_uri() ?>/js/libs/parallax.min.js"></script>
+
 <script>
 
 	var scene = document.getElementById('scene');

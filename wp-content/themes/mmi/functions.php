@@ -18,12 +18,13 @@
 		wp_register_style('realisations', get_template_directory_uri().'/css/realisations.css');
 		
         // SCRIPT
-        wp_enqueue_script('coin_pro', get_template_directory_uri().'/js/libs/jquery.js');
-	  wp_enqueue_script('coin_pro', get_template_directory_uri().'/js/libs/parallax.min.js');
-	  wp_enqueue_script('realisations', get_template_directory_uri().'/js/libs/jquery.js');
-        wp_enqueue_script('realisations', get_template_directory_uri().'/js/libs/parallax.min.js');
-		wp_enqueue_script('coin_pro', get_template_directory_uri().'/js/coin_pro.js');
-		wp_enqueue_script('realisations', get_template_directory_uri().'/js/coin_pro.js');
+        	//Jquery
+        wp_enqueue_script('jquery', get_template_directory_uri().'https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js');
+        	//Parallax
+	  	wp_enqueue_script('parallax', get_template_directory_uri().'/js/libs/parallax.min.js');
+	  		//Scripts enqueued
+		wp_register_script('coin_pro', get_template_directory_uri().'/js/coin_pro.js');
+		wp_register_script('realisations', get_template_directory_uri().'/js/coin_pro.js');
 		
 		
 		//Load Styles enqueued
@@ -38,6 +39,7 @@
 
 		else if (is_page('coin-pro')) {
 			wp_enqueue_style('coin_pro');
+			wp_enqueue_script('coin_pro');
 		}
 
 		else if (is_page('et-apres')) {
@@ -54,6 +56,7 @@
 
 		else if (is_page('realisations')) {
 			wp_enqueue_style('realisations');
+			wp_enqueue_script('realisations');
 		}
 	}
 
