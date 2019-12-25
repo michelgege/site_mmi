@@ -25,6 +25,16 @@
 	  		//Scripts enqueued
 		wp_register_script('coin_pro', get_template_directory_uri().'/js/coin_pro.js');
 		wp_register_script('realisations', get_template_directory_uri().'/js/coin_pro.js');
+
+        wp_enqueue_script('coin_pro', get_template_directory_uri().'/js/libs/jquery.js');
+	  wp_enqueue_script('coin_pro', get_template_directory_uri().'/js/libs/parallax.min.js');
+	  
+		wp_enqueue_script('coin_pro', get_template_directory_uri().'/js/coin_pro.js');
+
+		wp_enqueue_script('realisations', get_template_directory_uri().'/js/libs/jquery.js');
+       	wp_enqueue_script('realisations', get_template_directory_uri().'/js/libs/parallax.min.js');
+		wp_enqueue_script('realisations', get_template_directory_uri().'/js/realisations.js');
+
 		
 		
 		//Load Styles enqueued
