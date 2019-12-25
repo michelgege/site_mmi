@@ -186,17 +186,3 @@ get_header();
 <?php
 get_footer();
 ?>
-
-
-
-
-
-
-<script>
-
-	var scene = document.getElementById('scene');
-	var parallax = new Parallax(scene, {
-		selector: '.layer'
-	});
-
-</script>
