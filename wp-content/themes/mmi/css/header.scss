@@ -5,8 +5,13 @@ a {
 	color: black;
 }
 
-#bold_title {
+.bold {
 	font-weight: 800;
+}
+
+.wrap {
+	padding: 0 185px;
+	background-color: $bg-color;
 }
 
 header {
@@ -83,9 +88,17 @@ header {
 		margin-left: 160px;
 		width: 60%;
 	}
-}
 
-.wrap {
-	padding: 0 185px;
-	background-color: $bg-color;
+	#scroll {
+		position: absolute;
+		left: 50%;
+		bottom: 100px;
+		transform: translateX(-50%);
+
+		img {
+			height: 20px;
+			padding: 10px;
+			cursor: pointer;
+		}
+	}
 }
