@@ -56,16 +56,7 @@ get_header();
 		<div  class="layer" data-depth="0.60">
 			<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/pro_border_grey_triangle_3.svg" id="border_grey_triangle">
 		</div>
-<!-- 
-		<div  class="layer" data-depth="-.90">
-			<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/pro_border_white_triangle_4.svg" id="border__white_triangle_four">
-		</div> 
-		<div  class="layer" data-depth="0.70">
-			<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/pro_white_triangle_big_4.svg" id="white_triangle_four_big">
-		</div> 
-		<div  class="layer" data-depth="0.10">
-			<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/pro_white_triangle_small_4.svg" id="white_triangle_four_small">
-		</div> -->
+
 
 
 
@@ -180,6 +171,16 @@ get_header();
 
 
 </div>
+
+<div id="scene_two">
+			<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/pro_border_white_triangle_4.svg" data-depth="-.90" id="border__white_triangle_four">
+			<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/pro_white_triangle_big_4.svg" data-depth="0.70" id="white_triangle_four_big">
+			<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/pro_white_triangle_small_4.svg" data-depth="0.10" id="white_triangle_four_small">
+</div>
+
+
+
+
 
 
 
