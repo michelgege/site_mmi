@@ -13,7 +13,7 @@
 	<h2>Réalisations</h2>
 
 	<div class="inner_wrap">
-		<div id="scene">
+		<div id="scene" class="scene">
 			<div data-depth="-0.80">
 				<img class="grey_triangle_empty_2" src="<?php echo get_template_directory_uri() ?>/img/realisations/grey_triangle_empty_2.svg" alt=""> 
 			</div>
@@ -29,7 +29,7 @@
 		<p class="intro">
 			Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium dicta, distinctio aperiam quo, voluptate delectus ratione sapiente dignissimos ut itaque exercitationem dolores. Laudantium dolorem fuga repudiandae dignissimos, incidunt nam in.
 		</p>
-		<div id="scene_two">
+		<div id="scene_two" class="scene">
 			<img data-depth="-1.20" class="white_triangle_full" src="<?php echo get_template_directory_uri() ?>/img/realisations/white_triangle_full.svg" alt="">
 			<img  data-depth="0.90" class="purple_trangle_full" src="<?php echo get_template_directory_uri() ?>/img/realisations/purple_trangle_full.svg" alt="">
 		</div>
@@ -234,11 +234,11 @@
 	</div>
 </div>
 
-<div id="scene_third">
+<div id="scene_third" class="scene">
 	<img data-depth="-0.80" src="<?php echo get_template_directory_uri() ?>/img/realisations/pink_triangle_empty.svg" alt="">
 	<img data-depth="-1.50" class="white_triangle_full" src="<?php echo get_template_directory_uri() ?>/img/realisations/white_triangle_full.svg" alt="">
 </div>
-<div id="scene_fourth">
+<div id="scene_fourth" class="scene">
 	<img data-depth="0.20" class="white_triangle_full" src="<?php echo get_template_directory_uri() ?>/img/realisations/white_triangle_full.svg" alt="">
 	<img data-depth="0.10"class="grey_triangle_empty" src="<?php echo get_template_directory_uri() ?>/img/realisations/grey_triangle_empty.svg" alt="">
 	<img data-depth="-0.10"class="pink_square_full" src="<?php echo get_template_directory_uri() ?>/img/realisations/pink_square_full.svg" alt="">
@@ -274,10 +274,6 @@
 	</div>
 	<img class="close_button" src="<?php echo get_template_directory_uri() ?>/img/realisations/close_button.svg"/>
 </div>
-
-
-<script src="http://localhost/site_mmi/wp-content/themes/mmi/js/realisations.js"></script>
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script> -->
 
 <?php
 	get_footer();
