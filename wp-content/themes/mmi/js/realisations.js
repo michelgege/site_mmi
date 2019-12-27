@@ -1,13 +1,13 @@
-$(document).ready(function ()
+jQuery(document).ready(function ()
 {
-      $('.overlay').click(function ()
+      jQuery('.overlay').click(function ()
       {
-            $('.pop_up').addClass('visible');
+            jQuery('.pop_up').addClass('visible');
 
       });
-      $('.close_button').click(function ()
+      jQuery('.close_button').click(function ()
       {
-            $('.pop_up').removeClass('visible');
+            jQuery('.pop_up').removeClass('visible');
 
       });
 });

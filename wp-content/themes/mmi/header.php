@@ -26,5 +26,8 @@
 			}
 			echo preg_replace($pattern, $replace, $subject);
 		?></h1>
+		<div id="scroll">
+			<img src="<?php echo get_template_directory_uri() ?>/img/scroll.svg" alt="Scroll">
+		</div>
 
 	</header>
