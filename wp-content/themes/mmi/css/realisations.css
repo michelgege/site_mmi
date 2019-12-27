@@ -257,29 +257,29 @@ div.pop_up.visible
 
                         /* triangle */
 
-div.scene
+div.scene.1
 {
       position: absolute;
       left: 50%;
       margin-top: -15%;
 }
-      div.scene img,div.scene_2
+      div.scene img
       {
             position: absolute;
       }
-      div.scene .pink_square_full
+      div.scene.1 img.pink_square_full
       {
             bottom: -117px;
             right: -110px;
       }
 
-div.scene_2
+div.scene.2
 {
       position: absolute;
       right: 175px;
       margin-top: -140px;
 }
-      div.scene_2 .white_triangle_full
+      div.scene.2 .white_triangle_full
       {
             left: -25px;
       }
