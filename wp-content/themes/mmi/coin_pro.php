@@ -150,6 +150,8 @@ get_header();
 	</div>
 
 
+
+
 	<h2 id="form"> Vous aussi, proposez votre projet </h2>
 	<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/form_shape.svg" id="form_shape">
 
