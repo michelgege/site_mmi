@@ -257,29 +257,65 @@ div.pop_up.visible
 
                         /* triangle */
 
-div.scene.1
+
+div#scene, 
+div#scene_two,
+div#scene_third,
+div#scene_fouth
 {
       position: absolute;
+}
+
+div#scene
+{
       left: 50%;
       margin-top: -15%;
 }
-      div.scene img
+     
+      div#scene img.pink_square_full
       {
-            position: absolute;
-      }
-      div.scene.1 img.pink_square_full
-      {
-            bottom: -117px;
-            right: -110px;
+            margin-bottom: -117px;
+            margin-right: -110px;
       }
 
-div.scene.2
+div#scene_two
 {
-      position: absolute;
       right: 175px;
-      margin-top: -140px;
+      bottom: -520px;
 }
-      div.scene.2 .white_triangle_full
+      div#scene_two img.white_triangle_full
       {
-            left: -25px;
+           margin-left: -25px;
       }
+
+div#scene_third
+{
+      right: 160px;
+      bottom: -180%;
+}
+      div#scene_third img.white_triangle_full
+      {
+            top: 20px;
+      }
+
+div#scene_fourth
+{
+      top: -400px;
+      left: 50px;
+}
+
+      div#scene_fourth img.white_triangle_full
+      {
+            margin-top: -20px;
+      }
+      div#scene_fourth img.pink_square_full
+      {
+            bottom: 116px;
+            z-index: 5;
+            margin-left: 60px;
+      }
+      div#scene_fourth img.grey_triangle_empty
+      {
+            z-index: 6;
+      }
+      
