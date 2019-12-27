@@ -301,7 +301,7 @@ div#scene_third
 div#scene_fourth
 {
       top: -400px;
-      left: 50px;
+      left:0;
 }
 
       div#scene_fourth img.white_triangle_full

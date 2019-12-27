@@ -18,10 +18,10 @@
 				<img class="grey_triangle_empty_2" src="<?php echo get_template_directory_uri() ?>/img/realisations/grey_triangle_empty_2.svg" alt=""> 
 			</div>
 
-			<div data-depth="-1.50">
+			<div data-depth="1.50">
 				<img class="white_triangle_full" src="<?php echo get_template_directory_uri() ?>/img/realisations/white_triangle_full.svg" alt="">
 			</div>
-			<div data-depth="0.75">
+			<div data-depth="-0.25">
 				<img class="pink_square_full" src="<?php echo get_template_directory_uri() ?>/img/realisations/pink_square_full.svg" alt="">
 			</div>
 		</div>
@@ -277,7 +277,7 @@
 
 
 <script src="http://localhost/site_mmi/wp-content/themes/mmi/js/realisations.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script> -->
 
 <?php
 	get_footer();
