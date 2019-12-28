@@ -38,6 +38,27 @@ div.wrap_footer {
     display: flex;
     padding-top: 35px; }
 
+@media only screen and (max-width: 1024px) {
+  div.wrap_footer {
+    background-color: black;
+    padding: 0 75px; } }
+@media only screen and (max-width: 768px) {
+  div.wrap_footer {
+    background-color: black;
+    padding: 0 35px; }
+    div.wrap_footer h3.center {
+      width: calc(100% / 3);
+      font-family: 'Raleway', sans-serif;
+      color: white;
+      text-align: center;
+      font-size: 13px; }
+    div.wrap_footer h3.centerbot {
+      width: calc(100% / 3);
+      font-family: 'Raleway', sans-serif;
+      color: white;
+      text-align: center;
+      font-size: 13px;
+      padding-bottom: 87px; } }
 @media only screen and (max-width: 375px) {
   div.wrap_footer {
     background-color: black;
