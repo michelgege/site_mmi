@@ -158,15 +158,15 @@ get_header();
 	<div id="wrap_form">
 		<form action="form.php" method="post">
 			<div id="form_flex">
-				<input type="text" placeholder="Nom" id="name">
-				<input type="text" placeholder="Prénom" id="surname">
+				<input type="text" placeholder="Nom" id="name" name="nom" required>
+				<input type="text" placeholder="Prénom" id="surname" name="prenom" required>
 			</div>
-			<input type="text" placeholder="Email" id="email" name="">
+			<input type="email" placeholder="Email" id="email" name="mail" required>
 
-			<input type="text" placeholder="Description du projet (Durée, missions, compétences requises…)" id="skills_required">
+			<input type="text" placeholder="Description du projet (Durée, missions, compétences requises…)" id="skills_required" name="desc" required>
 
 			<div id="grey_pro">
-				<input type="submit" value="Envoyer" class="button">
+				<input type="submit" name="" value="Envoyer" class="button" name="submit" required>
 			</div>
 		</form>
 	</div>
