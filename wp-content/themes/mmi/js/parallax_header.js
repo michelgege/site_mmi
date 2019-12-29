@@ -1,7 +1,10 @@
 jQuery(document).ready(function(){
 	//Parallax
-	var scene = jQuery('.scene').get(0);
-	var parallaxInstance = new Parallax(scene);
+	var scenes = [];
+	var scenesSelector = jQuery('body').find('.scene')
+	jQuery('.scene').each(function(i){
+		scenes[i] = new Parallax(scenesSelector[i]);
+	});
 
 	//Scroll
 	function scroll() {
