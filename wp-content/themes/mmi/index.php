@@ -88,8 +88,6 @@
 		</div>
 		<a class="link_button" href="#">Voir la vidéo <span class="bold">360°</span></a>
 	</section>
-
-	<div class="scene"></div>
 </div>
 
 <?php

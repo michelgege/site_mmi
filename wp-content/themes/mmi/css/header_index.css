@@ -69,3 +69,43 @@ header #header2 {
 					font-weight: 400;
 					font-size: 22px;	
 				}
+
+header .scene {
+	position: absolute;
+	top: 10%;
+	left: 22%;
+}
+
+	header .scene >div >img {
+		transform: scale(0.7,0.7);
+	}
+
+	header .scene >div #header_empty_square_small {
+		margin-top: 350px;
+		margin-left: 200px;
+	}
+
+	header .scene >div #header_empty_square_medium {
+		margin-top: 110px;
+		margin-left: 800px;
+	}
+
+	header .scene >div #header_full_triangle_small {
+		margin-top: 100px;
+		margin-left: 500px;
+	}
+
+	header .scene >div #header_full_triangle_medium {
+		margin-top: 410px;
+		margin-left: 250px;
+	}
+
+	header .scene >div #header_full_triangle_big {
+		margin-top: 300px;
+		margin-left: 600px
+	}
+
+	header .scene >div #header_empty_triangle_medium {
+		margin-top: 130px;
+		margin-left: 900px;
+	}
