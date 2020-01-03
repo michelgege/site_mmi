@@ -67,8 +67,7 @@ get_header();
 
 		<div id="paragraph_button">
 			<div id="pro_paragraph_p">
-				<p class="pro_paragraph"> Duis aute irure dolor in reprehenderit in voluptate </p>
-				<p class="pro_paragraph">velit esse cillum dolore eu fugiat nulla pariatur. <span class="bold"> Excepteur sint occaecat </span> cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum Integer vel blandit enim. Morbi sollicitudin erat ac tempus ultricies. In congue commodo risus, et viverra turpis pellentesque id. Aenean sit amet libero blandit, semper. </p>
+				<p class="pro_paragraph"><?php the_field('content_skills'); ?></p>
 			</div>
 
 			<a href="realisations.php" id="rea"> <input type="button" class="button" href="realisations.php" value="Voir les realisations"> </a>
@@ -81,19 +80,13 @@ get_header();
 	<div id="projects"> 
 		<h3 class="pro_subtitle"> Les Projets </h3>
 
-		<p class="pro_paragraph_min"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-			tempor incididunt ut labore et dolore magna aliqua. <span class="bold"> Ut enim ad minim </span> 
-			veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
-		commodo consequat. </p>
+		<p class="pro_paragraph_min"><?php the_field('content_projects'); ?></p>
 	</div>
 
 	<div id="stage"> 
 		<h3 class="pro_subtitle"> Le Stage </h3>
 
-		<p class="pro_paragraph_min"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-			tempor incididunt ut labore et dolore magna aliqua. <span class="bold"> Ut enim ad minim </span>
-			veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
-		commodo consequat.</p>
+		<p class="pro_paragraph_min"><?php the_field('content_internship'); ?></p>
 	</div>
 
 
@@ -104,10 +97,7 @@ get_header();
 	<div id="event"> 
 		<h3 class="pro_subtitle"> L'évènement MMI Et Après </h3>
 
-		<p class="pro_paragraph_min"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-			tempor incididunt ut labore et dolore magna aliqua. <span class="bold"> Ut enim ad minim </span>
-			veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
-		commodo consequat.</p>
+		<p class="pro_paragraph_min"><?php the_field('content_mmi_et_apres'); ?></p>
 	</div>
 
 
@@ -121,12 +111,12 @@ get_header();
 			</div>
 
 			<div class="column">
-				<h3 class="testimony_name"> Sandra <span class="uppercase"> marechal </span> </h3>
-				<p class="profession"> Lorem Ipsum </p> 
+				<h3 class="testimony_name"><?php the_field('testimony_first_name'); ?></h3>
+				<p class="profession"><?php the_field('testimony_first_job'); ?></p> 
 				<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/pro_shape.svg" id="pro_shape">
 			</div>
 
-			<p class="testimony_comment"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut  erat ac tempus ultricies. In congue commodo risus, et viverra turpis pellentesque id. Aenean sit amet libero blandit, semper. </p>
+			<p class="testimony_comment"><?php the_field('testimony_first_content'); ?></p>
 			<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/quote.svg" id="quote">
 		</div>
 	</div>
@@ -139,12 +129,12 @@ get_header();
 			</div>
 
 			<div class="column">
-				<h3 class="testimony_name"> Jean <span class="uppercase"> pat </span> </h3>
-				<p class="profession"> Lorem Ipsum </p> 
+				<h3 class="testimony_name"><?php the_field('testimony_second_name'); ?></h3>
+				<p class="profession"><?php the_field('testimony_second_job'); ?></p> 
 				<img src="<?php echo get_template_directory_uri() ?>/img//coin_pro/pro_shape.svg" id="pro_shape">
 			</div>
 
-			<p class="testimony_comment"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut </p>
+			<p class="testimony_comment"><?php the_field('testimony_second_content'); ?></p>
 			<img src="<?php echo get_template_directory_uri() ?>/img//coin_pro/quote.svg" id="quote">
 		</div>
 	</div>
