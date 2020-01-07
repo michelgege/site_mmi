@@ -8,7 +8,7 @@
 get_header();
 ?>
 
-
+<section>
 
 <div id="wrap_body">
 
@@ -173,7 +173,7 @@ get_header();
 
 
 
-
+</section>
 
 
 <?php
