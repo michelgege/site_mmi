@@ -1,3 +1,7 @@
+h1::after {
+	transform: translateY(-50%);
+}
+
 header .filter {
 	opacity: 0.3;
 }
@@ -16,8 +20,13 @@ header #scroll {
 	}
 
 header #header2 {
+	position: absolute;
 	display: flex;
 	justify-content: space-between;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	margin-bottom: 100px;
 }
 
 	header #header2 #social {

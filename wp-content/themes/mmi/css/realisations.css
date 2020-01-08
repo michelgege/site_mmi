@@ -14,18 +14,6 @@ div.wrap
       margin-right: auto;
 }
 
-h1::after
-{
-      display: block;
-      height: 5%;
-      width: 50%;
-      background-color: rgba(255,255,255,0.4);
-      position: absolute;
-      margin-top: -25px;
-      left: 0;
-      content: '';
-}
-
 h2
 {
       font-size: 70px;

@@ -2,12 +2,11 @@
 <html <?php language_attributes();?>>
 <head>
 	<meta charset="<?php bloginfo('charset');?>">
-	<title>Site MMI</title>
+	<title><?php the_title(); ?></title>
 	<?php wp_head();?>
 </head>
 <body>
 	<header>
-		<img src="<?php the_field('image'); ?>" alt="Fond header">
 		<span class="filter" style="background-color: <?php the_field('couleur_filtre'); ?>;"></span>
 		<div id="menu">
 			<a href="../"><img src="<?php echo get_template_directory_uri() ?>/img/mmi_normal.svg" alt="Logo MMI Chambéry"></a>
@@ -40,3 +39,9 @@
 		</div>
 
 	</header>
+
+	<style>
+		header {
+			background-image: url("<?php the_field('image') ?>");
+		}
+	</style>
