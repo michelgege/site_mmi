@@ -20,4 +20,22 @@ jQuery(document).ready(function(){
    	}
 
    	scroll();
+
+   	//Scroll
+	function scroll_footer() {
+		jQuery('.right').click(function() {
+			scrollTo(jQuery('header'));
+		});
+	}
+
+	function scrollTo(target) {
+       	if (target.length) {
+           	jQuery("html, body").stop().animate( { scrollTop: target.offset().top }, 1000);
+       	}
+   	}
+
+   	scroll_footer();
 });
+
+
+
