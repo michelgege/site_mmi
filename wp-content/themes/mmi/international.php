@@ -2313,7 +2313,7 @@ get_header();
 
 	<h4 class="second_section_title"> Stage </h4>
 	<div class="paragraph_list">
-		<p id="complement"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris turpis urna, pulvinar vel lacus vel, egestas dictum nunc. Morbi sollicitudin in felis a viverra. Nunc non felis ac elit dictum faucibus. Proin quis erat cursus, condimentum nibh sed, laoreet nisl. Quisque tristique sem eu purus consectetur, in euismod erat sagittis.</p>
+		<p class="complement"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris turpis urna, pulvinar vel lacus vel, egestas dictum nunc. Morbi sollicitudin in felis a viverra. Nunc non felis ac elit dictum faucibus. Proin quis erat cursus, condimentum nibh sed, laoreet nisl. Quisque tristique sem eu purus consectetur, in euismod erat sagittis.</p>
 		<ul>
 			<li id="choice">Y réfléchir en septembre (2ème année)</li>
 			<li id="choice">Rencontre responsable RI Octobre</li>
@@ -2324,7 +2324,7 @@ get_header();
 
 	<h4 class="second_section_title"> Semestre </h4>
 	<div class="paragraph_list">
-		<p id="complement"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris turpis urna, pulvinar vel lacus vel, egestas dictum nunc. Morbi sollicitudin in felis a viverra. Nunc non felis ac elit dictum faucibus. Proin quis erat cursus, 
+		<p class="complement"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris turpis urna, pulvinar vel lacus vel, egestas dictum nunc. Morbi sollicitudin in felis a viverra. Nunc non felis ac elit dictum faucibus. Proin quis erat cursus, 
 		condimentum nibh sed, laoreet nisl. Quisque tristique sem eu purus consectetur, in euismod erat sagittis.</p>
 		<ul>
 			<li id="choice"> Morbi sollicitudin in felis a viverra.</li>
@@ -2337,7 +2337,7 @@ get_header();
 
 	<h4 class="second_section_title"> Comment partir ? </h4>
 	<div class="paragraph_list">
-		<p id="complement"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris turpis urna, pulvinar vel lacus vel, egestas dictum nunc. Morbi sollicitudin in felis a viverra. Nunc non felis ac elit dictum faucibus. Proin quis erat cursus, 
+		<p class="complement"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris turpis urna, pulvinar vel lacus vel, egestas dictum nunc. Morbi sollicitudin in felis a viverra. Nunc non felis ac elit dictum faucibus. Proin quis erat cursus, 
 		condimentum nibh sed, laoreet nisl. Quisque tristique sem eu purus consectetur, in euismod erat sagittis.</p>
 		<ul>
 			<li id="choice">Y réfléchir en septembre (2ème année)</li>
