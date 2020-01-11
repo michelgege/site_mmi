@@ -243,6 +243,7 @@ section#highlights {
 
 	section#highlights iframe {
 		display: block;
+		margin: 0 auto;
 	}
 
 	section#highlights .link_button {
