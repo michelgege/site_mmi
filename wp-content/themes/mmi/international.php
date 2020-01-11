@@ -2223,11 +2223,43 @@
 		
 
 		<div class="pop_up" data-id="1">
-			<img src="http://localhost/site_mmi/wp-content/themes/mmi/img/international/testimony_picture_2.jpg">
+			<img class="cross" src="http://localhost/site_mmi/wp-content/themes/mmi/img/international/cross.svg" alt="croix">
+			<div class="header">
+				<div class="img_after">
+					<img src="http://localhost/site_mmi/wp-content/themes/mmi/img/international/testimony_picture_2.jpg">
+				</div>
+				<div class="infos">
+					<h3>Jean PAT</h3>
+					<h4>DUETI Destination</h4>
+					<p>Métier</p>
+				</div>
+			</div>
+			<h3>Expérience</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+			<img class="guillemet_1" src="http://localhost/site_mmi/wp-content/themes/mmi/img/international/quote.svg" alt="guillemet ouvert">
+			<img class="guillemet_2" src="http://localhost/site_mmi/wp-content/themes/mmi/img/international/quote.svg" alt="guillemet fermé">
+			
+
 		</div>
 
 		<div class="pop_up" data-id="2">
-			<img src="http://localhost/site_mmi/wp-content/themes/mmi/img/international/testimony_picture_1.jpg">
+			<img class="cross" src="http://localhost/site_mmi/wp-content/themes/mmi/img/international/cross.svg" alt="croix">
+			<div class="header">
+				<div class="img_after">
+					<img src="http://localhost/site_mmi/wp-content/themes/mmi/img/international/testimony_picture_1.jpg">
+				</div>
+				<div class="infos">
+					<h3>Mylène PAT</h3>
+					<h4>DUETI Destination</h4>
+					<p>Métier</p>
+				</div>
+			</div>
+			<h3>Expérience</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+			<img class="guillemet_1" src="http://localhost/site_mmi/wp-content/themes/mmi/img/international/quote.svg" alt="guillemet ouvert">
+			<img class="guillemet_2" src="http://localhost/site_mmi/wp-content/themes/mmi/img/international/quote.svg" alt="guillemet fermé">
 		</div>
 
 		
@@ -2239,5 +2271,17 @@
 		get_footer();
 	?>
 
+<script>
+  jQuery(document).ready(function() {
+	jQuery(".pins").click(function() {
 
+		jQuery(this).addClass('active');
+		jQuery(".pins").not(this).removeClass('active');
+
+		var id=jQuery(this).attr("data-id");
+		jQuery('.pop_up[data-id= "'+id+'"]').addClass('active');
+		jQuery(".pop_up").not('.pop_up[data-id= "'+id+'"]').removeClass('active');
+	})
+  });	
+</script>
 	
