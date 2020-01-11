@@ -177,7 +177,7 @@ div#wrap_text
 }
 
 
-h3#title
+h3#title_second
 {
 	font-family: 'Raleway', sans-serif;
 	font-size: 70px;
@@ -195,7 +195,7 @@ margin-left: auto;
 right: 235px;				
 }
 
-h4.section_title
+h4.second_section_title
 {
 	font-family: 'Raleway', sans-serif;
 	font-size: 30px;
@@ -206,7 +206,7 @@ h4.section_title
 	padding-top: 122px;
 }
 
-p
+p#complement
 {
 
 	font-family: 'Raleway', sans-serif;

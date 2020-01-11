@@ -2308,12 +2308,12 @@ get_header();
 
 	</div>
 
-	<h3 id="title"> Les démarches </h3>
+	<h3 id="title_second"> Les démarches </h3>
 	<img src="<?php echo get_template_directory_uri() ?>/img/international/testtest.svg" id="sub_title"/>
 
-	<h4 class="section_title"> Stage </h4>
+	<h4 class="second_section_title"> Stage </h4>
 	<div class="paragraph_list">
-		<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris turpis urna, pulvinar vel lacus vel, egestas dictum nunc. Morbi sollicitudin in felis a viverra. Nunc non felis ac elit dictum faucibus. Proin quis erat cursus, condimentum nibh sed, laoreet nisl. Quisque tristique sem eu purus consectetur, in euismod erat sagittis.</p>
+		<p id="complement"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris turpis urna, pulvinar vel lacus vel, egestas dictum nunc. Morbi sollicitudin in felis a viverra. Nunc non felis ac elit dictum faucibus. Proin quis erat cursus, condimentum nibh sed, laoreet nisl. Quisque tristique sem eu purus consectetur, in euismod erat sagittis.</p>
 		<ul>
 			<li id="choice">Y réfléchir en septembre (2ème année)</li>
 			<li id="choice">Rencontre responsable RI Octobre</li>
@@ -2322,9 +2322,9 @@ get_header();
 		</ul>
 	</div>
 
-	<h4 class="section_title"> Semestre </h4>
+	<h4 class="second_section_title"> Semestre </h4>
 	<div class="paragraph_list">
-		<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris turpis urna, pulvinar vel lacus vel, egestas dictum nunc. Morbi sollicitudin in felis a viverra. Nunc non felis ac elit dictum faucibus. Proin quis erat cursus, 
+		<p id="complement"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris turpis urna, pulvinar vel lacus vel, egestas dictum nunc. Morbi sollicitudin in felis a viverra. Nunc non felis ac elit dictum faucibus. Proin quis erat cursus, 
 		condimentum nibh sed, laoreet nisl. Quisque tristique sem eu purus consectetur, in euismod erat sagittis.</p>
 		<ul>
 			<li id="choice"> Morbi sollicitudin in felis a viverra.</li>
@@ -2335,9 +2335,9 @@ get_header();
 
 	<img src="<?php echo get_template_directory_uri() ?>/img/international/sub_title.svg" id="paragraph_line">
 
-	<h4 class="section_title"> Comment partir ? </h4>
+	<h4 class="second_section_title"> Comment partir ? </h4>
 	<div class="paragraph_list">
-		<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris turpis urna, pulvinar vel lacus vel, egestas dictum nunc. Morbi sollicitudin in felis a viverra. Nunc non felis ac elit dictum faucibus. Proin quis erat cursus, 
+		<p id="complement"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris turpis urna, pulvinar vel lacus vel, egestas dictum nunc. Morbi sollicitudin in felis a viverra. Nunc non felis ac elit dictum faucibus. Proin quis erat cursus, 
 		condimentum nibh sed, laoreet nisl. Quisque tristique sem eu purus consectetur, in euismod erat sagittis.</p>
 		<ul>
 			<li id="choice">Y réfléchir en septembre (2ème année)</li>
