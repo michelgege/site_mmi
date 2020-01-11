@@ -67,7 +67,7 @@ get_header();
 
 		<div id="paragraph_button">
 			<div id="pro_paragraph_p">
-				<p class="pro_paragraph"><?php the_field('coin_pro_content_skills'); ?></p>
+				<p class="pro_paragraph"><?php the_field('pro_content_skills'); ?></p>
 			</div>
 
 			<a href="realisations.php" id="rea"> <input type="button" class="button" href="realisations.php" value="Voir les realisations"> </a>
@@ -80,13 +80,13 @@ get_header();
 	<div id="projects"> 
 		<h3 class="pro_subtitle"> Les Projets </h3>
 
-		<p class="pro_paragraph_min"><?php the_field('coin_pro_content_projects'); ?></p>
+		<p class="pro_paragraph_min"><?php the_field('pro_content_projects'); ?></p>
 	</div>
 
 	<div id="stage"> 
 		<h3 class="pro_subtitle"> Le Stage </h3>
 
-		<p class="pro_paragraph_min"><?php the_field('coin_pro_content_internship'); ?></p>
+		<p class="pro_paragraph_min"><?php the_field('pro_content_internship'); ?></p>
 	</div>
 
 
@@ -97,7 +97,7 @@ get_header();
 	<div id="event"> 
 		<h3 class="pro_subtitle"> L'évènement MMI Et Après </h3>
 
-		<p class="pro_paragraph_min"><?php the_field('coin_pro_content_mmi_et_apres'); ?></p>
+		<p class="pro_paragraph_min"><?php the_field('pro_content_mmi_et_apres'); ?></p>
 	</div>
 
 
@@ -111,12 +111,12 @@ get_header();
 			</div>
 
 			<div class="column">
-				<h3 class="testimony_name"><?php the_field('testimony_first_name'); ?></h3>
-				<p class="profession"><?php the_field('testimony_first_job'); ?></p> 
+				<h3 class="testimony_name"><?php the_field('pro_testimony_first_name'); ?></h3>
+				<p class="profession"><?php the_field('pro_testimony_first_job'); ?></p> 
 				<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/pro_shape.svg" id="pro_shape">
 			</div>
 
-			<p class="testimony_comment"><?php the_field('testimony_first_content'); ?></p>
+			<p class="testimony_comment"><?php the_field('pro_testimony_first_content'); ?></p>
 			<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/quote.svg" id="quote">
 		</div>
 	</div>
@@ -129,12 +129,12 @@ get_header();
 			</div>
 
 			<div class="column">
-				<h3 class="testimony_name"><?php the_field('testimony_second_name'); ?></h3>
-				<p class="profession"><?php the_field('testimony_second_job'); ?></p> 
+				<h3 class="testimony_name"><?php the_field('pro_testimony_second_name'); ?></h3>
+				<p class="profession"><?php the_field('pro_testimony_second_job'); ?></p> 
 				<img src="<?php echo get_template_directory_uri() ?>/img//coin_pro/pro_shape.svg" id="pro_shape">
 			</div>
 
-			<p class="testimony_comment"><?php the_field('testimony_second_content'); ?></p>
+			<p class="testimony_comment"><?php the_field('pro_testimony_second_content'); ?></p>
 			<img src="<?php echo get_template_directory_uri() ?>/img//coin_pro/quote.svg" id="quote">
 		</div>
 	</div>

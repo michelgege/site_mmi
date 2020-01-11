@@ -15,7 +15,7 @@
 	<section id="skills">
 		<h2>les compétences</h2>
 		<div id="skills_container">
-			<p><?php the_field('accueil_content_skills'); ?></p>
+			<p><?php the_field('home_content_skills'); ?></p>
 			<div id="skills_content">
 				<div>
 					<img src="<?php echo get_template_directory_uri() ?>/img/accueil/audiovisuel.svg" alt="Logo audiovisuel">
@@ -49,27 +49,27 @@
 		<div id="stats_container">
 			<div class="stats_content">
 				<div>
-					<p><?php the_field('accueil_first_number'); ?></p>
+					<p><?php the_field('home_first_number'); ?></p>
 				</div>
-				<p><?php the_field('accueil_first_desc'); ?></p>
+				<p><?php the_field('home_first_desc'); ?></p>
 			</div>
 			<div class="stats_content">
 				<div>
-					<p><?php the_field('accueil_second_number'); ?></p>
+					<p><?php the_field('home_second_number'); ?></p>
 				</div>
-				<p><?php the_field('accueil_second_desc'); ?></p>
+				<p><?php the_field('home_second_desc'); ?></p>
 			</div>
 			<div class="stats_content">
 				<div>
-					<p><?php the_field('accueil_third_number'); ?></p>
+					<p><?php the_field('home_third_number'); ?></p>
 				</div>
-				<p><?php the_field('accueil_third_desc'); ?></p>
+				<p><?php the_field('home_third_desc'); ?></p>
 			</div>
 			<div class="stats_content">
 				<div>
-					<p><?php the_field('accueil_fourth_number'); ?></p>
+					<p><?php the_field('home_fourth_number'); ?></p>
 				</div>
-				<p><?php the_field('accueil_fourth_desc'); ?></p>
+				<p><?php the_field('home_fourth_desc'); ?></p>
 			</div>
 		</div>
 	</section>
@@ -93,7 +93,10 @@
 
 	<section id="highlights">
 		<h2>les temps forts</h2>
-		<?php the_field('accueil_highlights_video'); ?>
+		<?php the_field('home_highlights_video'); ?>
+		<div id="video">
+			
+		</div>
 		<a class="link_button" href="#">Voir les réalisations</a>
 	</section>
 </div>

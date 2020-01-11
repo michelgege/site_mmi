@@ -7,7 +7,7 @@
 </head>
 <body>
 	<header>
-		<span class="filter" style="background-color: <?php the_field('couleur_filtre'); ?>;"></span>
+		<span class="filter" style="background-color: <?php the_field('header_filter_color'); ?>;"></span>
 		<div id="menu">
 			<a href="../"><img src="<?php echo get_template_directory_uri() ?>/img/mmi_normal.svg" alt="Logo MMI Chambéry"></a>
 			<nav>
@@ -15,9 +15,9 @@
 			</nav>
 		</div>
 		<h1><?php
-			$subject = get_field('titre');
+			$subject = get_field('header_title');
 
-			$pattern = explode(" ", get_field('titre_gras'));
+			$pattern = explode(" ", get_field('header_title_bold'));
 			$replace = array();
 			foreach ($pattern as $key => $value) {
 				$replace[$key] = '<span class="bold">'.$value.'</span>';
@@ -44,6 +44,6 @@
 
 	<style>
 		header {
-			background-image: url("<?php the_field('image') ?>");
+			background-image: url("<?php the_field('header_background_image') ?>");
 		}
 	</style>
