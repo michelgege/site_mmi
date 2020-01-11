@@ -67,7 +67,7 @@ get_header();
 
 		<div id="paragraph_button">
 			<div id="pro_paragraph_p">
-				<p class="pro_paragraph"><?php the_field('content_skills'); ?></p>
+				<p class="pro_paragraph"><?php the_field('coin_pro_content_skills'); ?></p>
 			</div>
 
 			<a href="realisations.php" id="rea"> <input type="button" class="button" href="realisations.php" value="Voir les realisations"> </a>
@@ -80,13 +80,13 @@ get_header();
 	<div id="projects"> 
 		<h3 class="pro_subtitle"> Les Projets </h3>
 
-		<p class="pro_paragraph_min"><?php the_field('content_projects'); ?></p>
+		<p class="pro_paragraph_min"><?php the_field('coin_pro_content_projects'); ?></p>
 	</div>
 
 	<div id="stage"> 
 		<h3 class="pro_subtitle"> Le Stage </h3>
 
-		<p class="pro_paragraph_min"><?php the_field('content_internship'); ?></p>
+		<p class="pro_paragraph_min"><?php the_field('coin_pro_content_internship'); ?></p>
 	</div>
 
 
@@ -97,7 +97,7 @@ get_header();
 	<div id="event"> 
 		<h3 class="pro_subtitle"> L'évènement MMI Et Après </h3>
 
-		<p class="pro_paragraph_min"><?php the_field('content_mmi_et_apres'); ?></p>
+		<p class="pro_paragraph_min"><?php the_field('coin_pro_content_mmi_et_apres'); ?></p>
 	</div>
 
 

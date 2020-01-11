@@ -28,6 +28,8 @@
 		<div id="scroll">
 			<img src="<?php echo get_template_directory_uri() ?>/img/scroll.svg" alt="Scroll">
 		</div>
+		
+		<!-- Parallax -->
 		<div class="scene">
 			<div data-depth="0.2"><img id="header_empty_triangle_medium" src="<?php echo get_template_directory_uri() ?>/img/header_shapes/header_shape1.svg" alt=""></div>
 			<div data-depth="0.8"><img id="header_full_triangle_small" src="<?php echo get_template_directory_uri() ?>/img/header_shapes/header_shape2.svg" alt=""></div>
