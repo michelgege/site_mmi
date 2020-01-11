@@ -222,14 +222,13 @@ div.paragraph_list
 	display: flex;
 }
 
-ul#choice
+ul
 {
-	padding-top: 35px;
-	list-style: square;	
+	padding-top: 35px;	
 	padding-left: 280px;
 }
 
-li
+li#choice
 {
 	font-family: 'Raleway', sans-serif;
 	font-size: 15px;

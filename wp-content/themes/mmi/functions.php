@@ -14,6 +14,7 @@
 		wp_register_style('en_detail', get_template_directory_uri().'/css/en_detail.css');
 		wp_register_style('et_apres', get_template_directory_uri().'/css/et_apres.css');
 		wp_register_style('international', get_template_directory_uri().'/css/international.css');
+		wp_register_style('international', get_template_directory_uri().'/css/international_responsive.css');
 		wp_register_style('lptsi', get_template_directory_uri().'/css/lptsi.css');
 		wp_register_style('realisations', get_template_directory_uri().'/css/realisations.css');
 		

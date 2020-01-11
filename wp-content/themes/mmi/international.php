@@ -2314,11 +2314,11 @@ get_header();
 	<h4 class="section_title"> Stage </h4>
 	<div class="paragraph_list">
 		<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris turpis urna, pulvinar vel lacus vel, egestas dictum nunc. Morbi sollicitudin in felis a viverra. Nunc non felis ac elit dictum faucibus. Proin quis erat cursus, condimentum nibh sed, laoreet nisl. Quisque tristique sem eu purus consectetur, in euismod erat sagittis.</p>
-		<ul id="choice">
-			<li>Y réfléchir en septembre (2ème année)</li>
-			<li>Rencontre responsable RI Octobre</li>
-			<li>Chercher des boites internationales</li>
-			<li>Administration :<span id="bold"> dossiers Move On, dossier Pierre Ledoux </span></li>
+		<ul>
+			<li id="choice">Y réfléchir en septembre (2ème année)</li>
+			<li id="choice">Rencontre responsable RI Octobre</li>
+			<li id="choice">Chercher des boites internationales</li>
+			<li id="choice">Administration :<span id="bold"> dossiers Move On, dossier Pierre Ledoux </span></li>
 		</ul>
 	</div>
 
@@ -2326,10 +2326,10 @@ get_header();
 	<div class="paragraph_list">
 		<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris turpis urna, pulvinar vel lacus vel, egestas dictum nunc. Morbi sollicitudin in felis a viverra. Nunc non felis ac elit dictum faucibus. Proin quis erat cursus, 
 		condimentum nibh sed, laoreet nisl. Quisque tristique sem eu purus consectetur, in euismod erat sagittis.</p>
-		<ul id="choice">
-			<li> Morbi sollicitudin in felis a viverra.</li>
-			<li>Morbi sollicitudin in felis a viverra.</li>
-			<li><span id="bold">Morbi</span> sollicitudin in felis a viverra. </li>
+		<ul>
+			<li id="choice"> Morbi sollicitudin in felis a viverra.</li>
+			<li id="choice">Morbi sollicitudin in felis a viverra.</li>
+			<li id="choice"><span id="bold">Morbi</span> sollicitudin in felis a viverra. </li>
 		</ul>
 	</div>
 
@@ -2339,11 +2339,11 @@ get_header();
 	<div class="paragraph_list">
 		<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris turpis urna, pulvinar vel lacus vel, egestas dictum nunc. Morbi sollicitudin in felis a viverra. Nunc non felis ac elit dictum faucibus. Proin quis erat cursus, 
 		condimentum nibh sed, laoreet nisl. Quisque tristique sem eu purus consectetur, in euismod erat sagittis.</p>
-		<ul id="choice">
-			<li>Y réfléchir en septembre (2ème année)</li>
-			<li>Rencontre responsable RI Octobre</li>
-			<li>Chercher des boites internationales</li>
-			<li>Administration :<span id="bold"> dossiers Move On, dossier Pierre Ledoux </span></li>
+		<ul>
+			<li id="choice">Y réfléchir en septembre (2ème année)</li>
+			<li id="choice">Rencontre responsable RI Octobre</li>
+			<li id="choice">Chercher des boites internationales</li>
+			<li id="choice">Administration :<span id="bold"> dossiers Move On, dossier Pierre Ledoux </span></li>
 		</ul>
 	</div>
 </div>
