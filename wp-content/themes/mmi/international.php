@@ -2222,7 +2222,7 @@ get_header();
 	</svg>
 
 
-	<div class="pop_up" data-id="1">
+	<div class="pop_up fade-in fade-out" data-id="1">
 		<img class="cross" src="http://localhost/site_mmi/wp-content/themes/mmi/img/international/cross.svg" alt="croix">
 		<div class="header">
 			<div class="img_after">
@@ -2243,7 +2243,7 @@ get_header();
 
 	</div>
 
-	<div class="pop_up" data-id="2">
+	<div class="pop_up fade-in" data-id="2">
 		<img class="cross" src="http://localhost/site_mmi/wp-content/themes/mmi/img/international/cross.svg" alt="croix">
 		<div class="header">
 			<div class="img_after">
