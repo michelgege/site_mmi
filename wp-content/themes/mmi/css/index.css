@@ -11,7 +11,8 @@
 	--color-red: #971212;
 	--color-pink: #BE1E83;
 	--color-purple: #A93DC8;
-	--color-blue: #2079D2;
+	--color-light-blue: #2079D2;
+	--color-dark-blue: #382EC5;
 	--color-green: #399F41;
 }
 
@@ -120,7 +121,7 @@ section#skills {
 				}
 
 				section#skills #skills_container #skills_content >div:nth-child(4) {
-					background-color: var(--color-blue);
+					background-color: var(--color-light-blue);
 				}
 
 				section#skills #skills_container #skills_content >div:nth-child(5) {
@@ -166,7 +167,7 @@ section#stats {
 				}
 
 				section#stats #stats_container .stats_content:nth-child(3) >div {
-					border: 3px solid var(--color-blue);
+					border: 3px solid var(--color-light-blue);
 				}
 
 				section#stats #stats_container .stats_content:nth-child(4) >div {
@@ -229,4 +230,21 @@ section#department {
 
 	section#department .link_button{
 		background: linear-gradient(90deg, var(--color-purple) 0%, #65107D 100%);
+	}
+
+/*Section Highlights*/
+section#highlights {
+
+}
+
+	section#highlights h2:after {
+		background-color: var(--color-dark-blue);
+	}
+
+	section#highlights iframe {
+		display: block;
+	}
+
+	section#highlights .link_button {
+		background: linear-gradient(90deg, var(--color-dark-blue) 0%, #1C148A 100%);
 	}
