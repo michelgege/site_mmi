@@ -1,11 +1,11 @@
-$(document).ready(function() {
-	$(".pins").click(function() {
+jQuery(document).ready(function() {
+	jQuery(".pins").click(function() {
 
-		$(this).addClass('active');
-		$(".pins").not(this).removeClass('active');
+		jQuery(this).addClass('active');
+		jQuery(".pins").not(this).removeClass('active');
 
-		var id=$(this).attr("data-id");
-		$('.pop_up[data-id= "'+id+'"]').addClass('active');
-		$(".pop_up").not('.pop_up[data-id= "'+id+'"]').removeClass('active');
+		var id=jQuery(this).attr("data-id");
+		jQuery('.pop_up[data-id= "'+id+'"]').addClass('active');
+		jQuery(".pop_up").not('.pop_up[data-id= "'+id+'"]').removeClass('active');
 	})
 });
