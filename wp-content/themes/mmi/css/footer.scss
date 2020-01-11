@@ -133,6 +133,7 @@ div.wrap_footer {
 	{
 		width: 100%;
 		text-align: center;
+		margin-top: 50px;
 		
 		#twitter
 		{
@@ -148,11 +149,12 @@ div.wrap_footer {
 
 	div.right
 	{
-		text-align: right;
+		text-align: center;
 		margin-left: auto;
-		margin-top: -180px;
-		padding-bottom: 250px;
+		margin-top: -240px;
+		padding-bottom: 280px;
 		z-index: 20;
+		width: 100%;
 	}
 
 	div#top
