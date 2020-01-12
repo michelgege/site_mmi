@@ -6,7 +6,7 @@ div#wrap_text
 }
 
 
-h3#title
+h3#title_second
 {
 	font-family: 'Raleway', sans-serif;
 	font-size: 60px;
@@ -145,7 +145,7 @@ div#wrap_text
 }
 
 
-h3#title
+h3#title_second
 {
 	font-family: 'Raleway', sans-serif;
 	font-size: 50px;
@@ -237,14 +237,14 @@ margin-top: 80px;
 
 #mid_white_triangle
 {
-	padding-top: 590px;
-	padding-left: 535px;
+	padding-top: 720px;
+	padding-left: 235px;
 }
 
 #mid_blue_triangle
 {
-	padding-top: 650px;
-	padding-left: 535px;
+	padding-top: 720px;
+	padding-left: 335px;
 }
 
 #bottom_border_white_triangle
@@ -257,5 +257,153 @@ margin-top: 80px;
 {
 	padding-top: 1100px;
 	padding-left: 115px;
+}
+}
+
+
+@media only screen and (max-width : 375px){
+div#wrap_text
+{
+	padding: 15px 15px;
+
+}
+
+
+h3#title_second
+{
+	font-family: 'Raleway', sans-serif;
+	font-size: 40px;
+	color: white;
+	width: 100%;
+	text-align: left;
+	font-weight: 200;
+}
+
+
+img#sub_title
+{
+position: absolute;
+margin-right: auto;
+margin-left: auto;
+width: 345px;
+left: 15px;	
+transform: rotate(180deg);			
+}
+
+h4.section_title
+{
+	font-family: 'Raleway', sans-serif;
+	font-size: 26px;
+	color: white;
+	width: 100%;
+	text-align: left;
+	font-weight: 600;
+	padding-top: 45px;
+}
+
+p.complement
+{
+
+	font-family: 'Raleway', sans-serif;
+	font-size: 13px;
+	width: 517px;
+	color: white;
+	padding-top: 30px;
+	line-height: 1.2;
+}
+
+div.paragraph_list
+{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+ul
+{
+	padding-top: 30px;
+	padding-left: 15px;	
+}
+
+li#choice
+{
+	font-family: 'Raleway', sans-serif;
+	font-size: 13px;
+	color: white;
+	font-weight: 300;
+	list-style: square;	
+	padding-bottom: 15px;
+	padding-left: 40px;
+}
+
+span#bold
+{
+	font-weight: bold;
+}
+
+img#paragraph_line
+{
+margin-top: 40px;
+width: 345px;
+transform: rotate(-180deg);
+}
+
+
+#top_border_white_triangle
+{
+	display: none;
+}
+
+#top_blue_triangle
+{
+	padding-top: 170px;
+	padding-left: 150px;
+	display: none;
+}
+
+#mid_border_blue_triangle
+{
+	padding-top: 450px;
+	padding-left: 175px;
+	display: none;
+}
+
+#mid_grey_triangle
+{
+	padding-top: 470px;
+	padding-left: 225px;
+	display: none;
+}
+
+#mid_white_triangle
+{
+	padding-top: 720px;
+	padding-left: 235px;
+	display: none;
+}
+
+#mid_blue_triangle
+{
+	padding-top: 720px;
+	padding-left: 335px;
+	display: none;
+}
+
+#bottom_border_white_triangle
+{
+	padding-top: 1100px;
+	padding-left: 155px;
+	display: none;
+}
+
+#bottom_blue_square
+{
+	padding-top: 1100px;
+	padding-left: 115px;
+	display: none;
+}
+
+div#space
+{
+	padding-top: 100px;
 }
 }
