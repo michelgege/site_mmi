@@ -26,7 +26,7 @@
 	  		//Scripts enqueued
 		wp_register_script('coin_pro_js', get_template_directory_uri().'/js/coin_pro.js', array('jquery','parallax_libs'), false, true);
 		wp_register_script('realisations_js', get_template_directory_uri().'/js/realisations.js', array('jquery','parallax_libs'), false, true);
-		wp_register_script('index_js', get_template_directory_uri().'/js/index.js', array('jquery','paralalx_libs'), false, true);
+		wp_register_script('index_js', get_template_directory_uri().'/js/index.js', array('jquery','parallax_libs'), false, true);
 		wp_register_script('international_js', get_template_directory_uri().'/js/international.js', array('jquery','parallax_libs'), false, true);
 		
 		//Load Styles enqueued
