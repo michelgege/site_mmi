@@ -10,11 +10,31 @@ get_header();
 
 <div class="wrap">
 
-	<h2>Destination</h2>
+	<h2>Destinations</h2>
 
 	<div id="scene1" class="scene">
+			<div data-depth="0.5">
+				<img src="<?php echo get_template_directory_uri() ?>/img/international/top_border_white_triangle_map.svg" alt="triangle bord blanc"> 
+			</div>
+	</div>
+
+	<div id="scene2" class="scene">
+			<div data-depth="-0.50">
+				<img class="mid_square_map" src="<?php echo get_template_directory_uri() ?>/img/international/mid_border_grey_square_map.svg" alt="triangle bord blanc"> 
+			</div>
 			<div data-depth="-0.80">
-				<img class="grey_triangle_empty_2" src="<?php echo get_template_directory_uri() ?>/img/international/top_border_white_triangle_map.svg" alt="triangle bord blanc"> 
+				<img class="mid_blue_triangle_map" src="<?php echo get_template_directory_uri() ?>/img/international/mid_blue_triangle_map.svg" alt="triangle bord blanc"> 
+			</div>
+			
+	</div>
+
+	<div id="scene3" class="scene">
+			
+			<div data-depth="0.30">
+				<img src="<?php echo get_template_directory_uri() ?>/img/international/bottom_border_blue_square_map.svg" alt="triangle bord blanc"> 
+			</div>
+			<div data-depth="-1.2">
+				<img class="bottom_white_triangle_map"src="<?php echo get_template_directory_uri() ?>/img/international/bottom_white_triangle_map.svg" alt="triangle bord blanc"> 
 			</div>
 	</div>
 
