@@ -20,7 +20,7 @@ body
 	      {
 	        display: block;
 			content: "";
-			width: 40%;
+			width: 30%;
 			height: 64px;
 			background-color: #2079D2 ;
 			margin-top: -35px;
@@ -84,7 +84,7 @@ body
 				{
 
 					content: "";
-					border: #2079D2 solid 3px;
+					border: #2079D2 solid 2px;
 					display: block;
 					width: 116px;
 					height: 124px;
@@ -173,6 +173,19 @@ body
 		  100% {
 		    opacity: 1;
 		  }
+		}
+
+		div#scene1
+		{
+			position: absolute;
+			width:40%;
+
+		}
+
+		div#scene1 img
+		{
+			margin-left: -74px;
+			margin-top: 110px;
 		}
 
 

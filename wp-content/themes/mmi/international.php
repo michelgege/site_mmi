@@ -10,7 +10,13 @@ get_header();
 
 <div class="wrap">
 
-	<h2>Carte interactive</h2>
+	<h2>Destination</h2>
+
+	<div id="scene1" class="scene">
+			<div data-depth="-0.80">
+				<img class="grey_triangle_empty_2" src="<?php echo get_template_directory_uri() ?>/img/international/top_border_white_triangle_map.svg" alt="triangle bord blanc"> 
+			</div>
+	</div>
 
 	<div class="map_container">
 
@@ -24,9 +30,6 @@ get_header();
 
 		</style>
 		<g id="Map_Monde">
-
-			<image style="overflow:visible;opacity:0.75;enable-background:new    ;" width="4891" height="2981" id="Rectangle_63" xlink:href="FAFE041.png"  transform="matrix(0.2144 0 0 0.2144 0 5.286511e-05)">
-			</image>
 			<path id="Tracé_470" class="st0" d="M805,355c0.2-0.1,0.6-0.2,0.7-0.1c0.7,0.7,1.6,1.1,1.8,2.2c0.2,0.8,0.4,1.7,0.6,2.5
 			c0.7,2.1,1,4.3,2.3,6.2c0.3,0.4,0.4,0.9,0.5,1.4s0.1,1,0.3,1.4c0.6,1.8,0.6,3.7,0.1,5.4c-0.2,0.5-0.2,1-0.1,1.4
 			c0.4,1.3,0.3,2.7-0.2,4c-0.5,1.5-0.3,2.7,1.3,3.3c0.1,0,0.2,0.1,0.3,0.2c1.5,1.8,2.9,3.6,4.3,5.5c0.7,0.9,0.6,2.1,0.8,3.2
