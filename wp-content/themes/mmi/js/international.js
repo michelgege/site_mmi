@@ -15,4 +15,10 @@ jQuery(document).ready(function() {
 		jQuery(".pins").removeClass('active');
 		jQuery(".pop_up").removeClass('active');
 	})
+
+
+	jQuery(".list_header img").click(function() {
+
+		jQuery(".list_content").toggleClass('active');
+	})
 });
