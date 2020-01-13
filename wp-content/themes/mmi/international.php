@@ -22,19 +22,56 @@ get_header();
 				<img src="<?php echo get_template_directory_uri() ?>/img/international/burger.svg" alt="burger menu">
 			</div>
 			<span>"</span>
-			<div class="pays">
-				<p>Allemagne</p>
-				<p>Brésil</p>
-				<p>Espagne</p>
-				<p>Etats-Unis</p>
-				<p>Japon</p>
+			<div class="country">
+				
+				<p class="country_content" data-country="Allemagne">Allemagne</p>
+				<p class="country_content"data-country="Brésil">Brésil</p>
+				<p class="country_content"data-country="Espagne">Espagne</p>
+				<p class="country_content"data-country="Etats-Unis">Etats-Unis</p>
+				<p class="country_content"data-country="Japon">Japon</p>
+				<p>"</p>
 			</div>	
 
 			<div class="gradient">
 			</div>
 		</div>
 
-	<p>pppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp</p>
+		<div class="pop_up" data-country="Etats-Unis">
+			<div class="header">
+				<div class="img_after">
+					<img src="http://localhost/site_mmi/wp-content/themes/mmi/img/international/testimony_picture_2.jpg">
+				</div>
+				<div class="infos">
+					<h3>Jean PAT</h3>
+					<h4>DUETI Destination</h4>
+					<p>Métier</p>
+				</div>
+			</div>
+			<h3>Expérience</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+			<img class="guillemet_1" src="http://localhost/site_mmi/wp-content/themes/mmi/img/international/quote_black.svg" alt="guillemet ouvert">
+			<img class="guillemet_2" src="http://localhost/site_mmi/wp-content/themes/mmi/img/international/quote_black.svg" alt="guillemet fermé">
+		</div>
+
+		<div class="pop_up" data-country="Brésil">
+			<div class="header">
+				<div class="img_after">
+					<img src="http://localhost/site_mmi/wp-content/themes/mmi/img/international/testimony_picture_1.jpg">
+				</div>
+				<div class="infos">
+					<h3>Mylène PAT</h3>
+					<h4>DUETI Destination</h4>
+					<p>Métier</p>
+				</div>
+			</div>
+			<h3>Expérience</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+			<img class="guillemet_1" src="http://localhost/site_mmi/wp-content/themes/mmi/img/international/quote_black.svg" alt="guillemet ouvert">
+			<img class="guillemet_2" src="http://localhost/site_mmi/wp-content/themes/mmi/img/international/quote_black.svg" alt="guillemet fermé">
+		</div>
+
 	</div>
 
 	<div id="scene1" class="scene">
@@ -2270,7 +2307,7 @@ get_header();
 	</svg>
 
 
-	<div class="pop_up fade-in fade-out" data-id="1">
+	<div class="pop_up fade-in" data-id="1">
 		<img class="cross" src="http://localhost/site_mmi/wp-content/themes/mmi/img/international/cross.svg" alt="croix">
 		<div class="header">
 			<div class="img_after">
