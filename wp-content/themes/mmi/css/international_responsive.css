@@ -304,6 +304,13 @@ margin-top: 80px;
 			{
 				border:1px solid black;
 				padding: 20px 30px;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				height: 80px;
+				overflow: scroll;
+				position: relative;
+
 			}
 
 				div.list_content div.list_header
@@ -312,6 +319,7 @@ margin-top: 80px;
 					justify-content: center;
 					position: relative;
 					align-items: center;
+					width: 100%;
 				}
 
 					div.list_content div.list_header img
@@ -326,6 +334,26 @@ margin-top: 80px;
 						display: block;
 						height: 1px;
 						width: 107px;
+						margin: 15px 0;
+						color: white;
+					}
+
+					div.list_content div.pays
+					{
+						text-align: center;
+						line-height: 26px;
+						z-index: 1;
+					}
+
+					div.list_content div.gradient
+					{
+						display: block;
+						height:30px;
+						width: 100%;
+						position: sticky;
+						bottom: 0;
+						background-image: linear-gradient(to top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+						z-index: 4;
 					}
 
 

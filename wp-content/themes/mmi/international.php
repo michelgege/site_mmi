@@ -15,13 +15,13 @@ get_header();
 	<!--Responsive-->
 	<div class="list_container">
 		<p class="intro">Témoignages d'étudiants étant partis faire leur stage ou leur semestre à l'étranger </p>
-		<h5>Pays de destination</h5>
+		<h5>Pays de destination :</h5>
 		<div class="list_content">
 			<div class="list_header">
 				<p>Choisir un pays</p>
 				<img src="<?php echo get_template_directory_uri() ?>/img/international/burger.svg" alt="burger menu">
 			</div>
-			<span></span>
+			<span>"</span>
 			<div class="pays">
 				<p>Allemagne</p>
 				<p>Brésil</p>
@@ -29,6 +29,9 @@ get_header();
 				<p>Etats-Unis</p>
 				<p>Japon</p>
 			</div>	
+
+			<div class="gradient">
+			</div>
 		</div>
 	</div>
 
