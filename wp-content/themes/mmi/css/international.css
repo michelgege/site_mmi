@@ -27,6 +27,11 @@ body
 			margin-left: 35px;
 	      }
 
+	div.list_container
+	{
+		display: none;
+	}
+
 	div#scene1,
 	div#scene2,
 	div#scene3
