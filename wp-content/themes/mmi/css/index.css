@@ -145,6 +145,7 @@ section#stats {
 	section#stats #stats_container {
 		display: flex;
 		justify-content: space-between;
+		margin-left: 30px;
 	}
 
 		section#stats #stats_container .stats_content {
@@ -225,6 +226,10 @@ section#department {
 		section#department #department_slider .department_next {
 			opacity: 0.5;
 			transform: translateX(60%) scale(0.8);
+		}
+
+		section#department #department_slider .department_hide {
+			display: none;
 		}
 
 	section#department #department_arrows {
@@ -319,4 +324,86 @@ section#international {
 
 	section#international .link_button {
 		background: linear-gradient(90deg, var(--color-cyan) 0%, #005F70 100%);
+	}
+
+/*Section Testomny*/
+section#testimony {
+
+}
+
+	section#testimony h2:after {
+		background-color: var(--color-green);
+	}
+
+	section#testimony .testimony_normal {
+		display: flex;
+		margin-left: 30px;
+		margin-bottom: 100px;
+	}
+
+	section#testimony .testimony_reverse {
+		display: flex;
+		margin-left: 30px;
+	}
+
+		section#testimony .testimony_normal .testimony_titles {
+			margin-left: 40px;
+		}
+
+		section#testimony .testimony_reverse .testimony_titles {
+			margin-right: 40px;
+		}
+
+			section#testimony .testimony_titles p:nth-of-type(1) {
+				font-weight: var(--font-extra-bold);
+				font-size: 30px;
+			}
+
+			section#testimony .testimony_titles p:nth-of-type(2) {
+				font-weight: var(--font-medium);
+				font-size: 28px;
+				color: var(--color-green);
+			}
+
+		section#testimony .testimony_content {
+			font-size: 18px;
+			text-align: center;
+			width: 40%;
+			line-height: 20px;
+			margin-top: 30px;
+		}
+
+		section#testimony .testimony_normal .testimony_content {
+			margin-left: auto;
+		}
+
+		section#testimony .testimony_reverse .testimony_content {
+			margin-right: auto;
+		}
+
+		section#testimony .testimony_img {
+			position: relative;
+		}
+
+			section#testimony .testimony_img:after {
+				content: "";
+				display: block;
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				border: 3px solid var(--color-green);
+			}
+
+			section#testimony .testimony_normal .testimony_img:after {
+				transform: rotate(-15deg);
+			}
+
+			section#testimony .testimony_reverse .testimony_img:after {
+				transform: rotate(15deg);
+			}
+
+	section#testimony .link_button {
+		background: linear-gradient(90deg, var(--color-green) 0%, #1B6E21 100%);
 	}

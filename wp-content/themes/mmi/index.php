@@ -79,9 +79,9 @@
 	<section id="department">
 		<h2>le département</h2>
 		<div id="department_slider">
-			<img class="department_selected" src="<?php echo get_template_directory_uri() ?>/img/accueil/slider1_1.jpg" alt="">
-			<img class="department_prev" src="<?php echo get_template_directory_uri() ?>/img/accueil/slider1_2.jpg" alt="">
-			<img class="department_next" src="<?php echo get_template_directory_uri() ?>/img/accueil/slider1_3.jpg" alt="">
+			<img src="<?php echo get_template_directory_uri() ?>/img/accueil/slider1_1.jpg" alt="">
+			<img src="<?php echo get_template_directory_uri() ?>/img/accueil/slider1_3.jpg" alt="">
+			<img src="<?php echo get_template_directory_uri() ?>/img/accueil/slider1_2.jpg" alt="">
 		</div>
 		<div id="department_arrows">
 			
@@ -116,6 +116,33 @@
 			<p><?php the_field('home_international_content')?></p>
 		</div>
 		<a class="link_button" href="#">En savoir plus</a>
+	</section>
+
+	<!-- Section Testimony -->
+
+	<section id="testimony">
+		<h2>les témoignages</h2>
+		<div class="testimony_normal">
+			<div class="testimony_img">
+				<img src="<?php the_field("home_testimony_first_img"); ?>" alt="">
+			</div>
+			<div class="testimony_titles">
+				<p><?php the_field("home_testimony_first_name"); ?></p>
+				<p><?php the_field("home_testimony_first_job"); ?></p>
+			</div>
+			<p class="testimony_content"><?php the_field("home_testimony_first_content"); ?></p>
+		</div>
+		<div class="testimony_reverse">
+			<p class="testimony_content"><?php the_field("home_testimony_second_content"); ?></p>
+			<div class="testimony_titles">
+				<p><?php the_field("home_testimony_second_name"); ?></p>
+				<p><?php the_field("home_testimony_second_job"); ?></p>
+			</div>
+			<div class="testimony_img">
+				<img src="<?php the_field("home_testimony_second_img"); ?>" alt="">
+			</div>
+		</div>
+		<a class="link_button" href="#">Après MMI ?</a>
 	</section>
 </div>
 
