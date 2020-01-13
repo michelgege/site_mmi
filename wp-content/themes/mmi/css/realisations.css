@@ -145,7 +145,7 @@ div.pop_up.visible
       div.pop_up>img
       {
             position: absolute;
-            right: 50px;
+            right: 3%;
             top: 50%;
             transform: translateY(-50%);
             z-index: 13;
@@ -169,6 +169,7 @@ div.pop_up.visible
                   background-color: #F5F5F5;
                   display: flex;
                   justify-content: space-evenly;
+                  flex-direction: initial;
                   position: absolute;
                   width: 80%;;
                   z-index: 14;
@@ -202,6 +203,10 @@ div.pop_up.visible
                   div.realisation a
                   {
                        margin-top: 20px;
+                  }
+                  div.realisation img
+                  {
+                      width: 100%;
                   }
 
                   div.pop_up div.content div.description >*
@@ -307,3 +312,117 @@ div#scene_fourth
             z-index: 6;
       }
       
+
+
+@media only screen and (max-width : 1440px)
+{
+
+      div.wrap
+      {
+            padding: 0 100px;
+      }
+      h2
+      {
+            font-size: 60px;
+      }
+      div.description h3.domain 
+      {
+            font-size: 45px;
+      }
+      div.description p.author_and_name 
+      {
+          font-size: 25px;
+      }
+      div.pop_up div.content
+      {
+            padding: 90px 30px;
+      }
+      div.pop_up>img
+      {
+            
+            right: 2%;
+            top: 3%;
+            transform: translateY(0);
+      }
+      div.pop_up div.content>div>div 
+      {
+            flex-direction: column;
+            align-items: flex-start;
+            
+      }
+            h3.domain,p.author_and_name
+            {
+                  margin-bottom: 15px;
+            } 
+      
+}
+
+@media only screen and (max-width : 1024px)
+{
+
+      p.intro
+      {
+            font-size: 14px;
+      }
+       
+      div.wrap
+      {
+            padding: 0 60px;
+      }
+      div.inner_wrap
+      {
+            padding: 0 30px;
+      }
+      div.column_container div.column:nth-of-type(3)
+      {
+            margin-left: 30px;
+      }
+      div.column_container div.column:nth-of-type(1)
+      {
+            margin-right: 30px;
+      }
+      div.column_container div.column div.img_container
+      {
+            margin-bottom: 30px;
+      }
+      div.pop_up div.content>div:first-of-type
+      {
+            max-width: 30%;
+      }
+
+     
+}
+@media only screen and (max-width : 960px)
+{
+      div.pop_up div.content
+      {
+          overflow: scroll;
+          flex-direction: column;
+      }
+      div.pop_up div.content div.description >* 
+      {
+            margin-bottom: 25px;
+      }
+      
+}
+
+@media only screen and (max-width : 700px)
+{
+
+     div.column_container
+     {
+          margin-bottom: 10px;
+     }
+}
+
+@media only screen and (max-width : 375px)
+{
+      div.wrap
+      {
+            padding: 0 15px;
+      }
+      div.inner_wrap
+      {
+            padding: 0 5px;
+      }
+}
