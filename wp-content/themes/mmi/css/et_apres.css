@@ -1,2 +1,66 @@
 
 /*# sourceMappingURL=et_apres.css.map */
+
+body
+{
+      font-family: 'Raleway', sans-serif;
+      background-color: #181818;
+}
+
+	h2
+	{
+	      font-size: 70px;
+	      font-weight: 300;
+	      margin-top: 150px;
+	      color:white;
+	}
+
+	    h2::after
+	    {
+	        display: block;
+	        background-color: rgba(38, 109, 43, 0.57);
+			content: "";
+			width: 35%;
+			height: 64px;
+			margin-top: -35px;
+			margin-left: 35px;
+	    }
+
+section#testimony
+{
+	color: white;
+	padding: 0 10%;
+}
+
+	section#testimony div.witness{
+		display: flex;
+		margin: 100px 0;
+	}
+
+		section#testimony div.witness>div{
+			margin: 0 50px;
+		}
+
+		section#testimony div.witness h3
+		{
+			font-weight: bold;
+		}
+
+		
+		section#testimony div.witness h4
+		{
+			margin: 20px 0;
+			background-color: rgba(38, 109, 43, 0.57);
+		}
+
+		section#testimony div.witness p
+		{
+			align-self: center;
+			width: 40%;
+		}
+
+
+section#job
+{
+
+}
