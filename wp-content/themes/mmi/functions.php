@@ -17,7 +17,7 @@
 		wp_register_style('international_responsive', get_template_directory_uri().'/css/international_responsive.css');
 		wp_register_style('lptsi', get_template_directory_uri().'/css/lptsi.css');
 		wp_register_style('realisations', get_template_directory_uri().'/css/realisations.css');
-		wp_register_style('reponsive_realisations', get_template_directory_uri().'/css/reponsive_realisations.css');
+		//wp_register_style('reponsive_realisations', get_template_directory_uri().'/css/reponsive_realisations.css');
 		
         // SCRIPT
         	//Parallax
@@ -62,7 +62,7 @@
 
 		else if (is_page('realisations')) {
 			wp_enqueue_style('realisations');
-			wp_enqueue_style('reponsive_realisations');
+			//wp_enqueue_style('reponsive_realisations');
 			wp_enqueue_script('realisations_js');
 		}
 	}
