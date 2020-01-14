@@ -417,8 +417,9 @@ div#scene_fourth
 {
      div.column_container
      {
-         /*flex-direction: column;*/
-         margin-bottom: 100px;
+
+         flex-direction: column;
+         margin-bottom:10px; 
      }
 }
 
