@@ -29,11 +29,7 @@ get_header();
 				<p class="country_content"data-country="Espagne">Espagne</p>
 				<p class="country_content"data-country="Etats-Unis">Etats-Unis</p>
 				<p class="country_content"data-country="Japon">Japon</p>
-				<p>"</p>
 			</div>	
-
-			<div class="gradient">
-			</div>
 		</div>
 
 		<div class="pop_up" data-country="Etats-Unis">

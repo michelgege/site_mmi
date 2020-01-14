@@ -138,6 +138,17 @@ margin-top: 80px;
 }
 
 @media only screen and (max-width : 1024px){
+
+	/*Carte interactive*/
+	div.map_container div.pop_up.active
+	{
+		padding: 30px 40px;
+	}
+
+
+
+
+
 div#wrap_text
 {
 	padding: 55px 60px;
@@ -323,8 +334,6 @@ margin-top: 80px;
 				border:1px solid black;
 				padding: 20px 30px;
 				display: block;
-				height: 100px;
-				overflow: hidden;
 
 			}
 
@@ -333,7 +342,6 @@ margin-top: 80px;
 				border:1px solid black;
 				padding: 20px 30px;
 				display: block;
-				overflow: hidden;
 				position: absolute;
 				left: 30px;
 				right: 30px;
@@ -382,15 +390,8 @@ margin-top: 80px;
 						text-align: center;
 						line-height: 26px;
 						z-index: 1;
-						overflow: scroll;
-						height: 73px;
 						display: block;
 					}
-						
-						div.list_content.active div.country p:last-of-type
-						{
-							color: white;
-						}
 
 
 					div.list_content div.country
