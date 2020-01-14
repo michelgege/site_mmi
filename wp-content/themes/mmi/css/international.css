@@ -88,10 +88,10 @@ body
 		position: relative;
 	}
 
-		svg
+		div.map_container svg
 		{
 			width: 75%;
-			margin-right: 65px;
+			z-index: 2;
 		}
 
 		.pins {
@@ -102,6 +102,13 @@ body
 
 		.pins.active{
 			fill: white;
+		}
+
+		div.map_container img.shadow
+		{
+			position: absolute;
+			z-index: 1;
+			width: 75%;
 		}
 
 		div.map_container div.pop_up
@@ -118,6 +125,7 @@ body
 			position: absolute;
 			right: 0;
 			display: block;
+			z-index: 3;
 		}
 
 			div.pop_up.active .cross

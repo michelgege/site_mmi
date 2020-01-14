@@ -2302,6 +2302,8 @@ get_header();
 		c0-2.7,2.1-4.8,4.8-4.8s4.8,2.1,4.8,4.8l0,0C924.1,259.1,922,261.2,919.3,261.2L919.3,261.2z"/>
 	</svg>
 
+	<img src="<?php echo get_template_directory_uri() ?>/img/international/map_shadow.svg" alt="ombre carte" class="shadow">
+
 
 	<div class="pop_up fade-in" data-id="1">
 		<img class="cross" src="http://localhost/site_mmi/wp-content/themes/mmi/img/international/cross.svg" alt="croix">
