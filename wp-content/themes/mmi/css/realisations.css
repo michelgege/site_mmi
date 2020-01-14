@@ -60,6 +60,8 @@ div.column_container
       div.column_container div.column
       {
             width: calc((100%/3));
+            position: relative;
+            z-index: 5;
       }
 
       div.column_container div.column:nth-of-type(1)
@@ -390,6 +392,11 @@ div#scene_fourth
             max-width: 30%;
       }
 
+      div.column_container
+      {
+            margin-bottom: 200px;    
+      }
+
      
 }
 @media only screen and (max-width : 960px)
@@ -399,19 +406,26 @@ div#scene_fourth
           overflow: scroll;
           flex-direction: column;
       }
-      div.pop_up div.content div.description >* 
+      div.pop_up div.content div.description > * 
       {
             margin-bottom: 25px;
       }
+
+        div.column_container
+     {
+         flex-direction: column;
+         margin-bottom:10px; 
+     }
       
 }
 
 @media only screen and (max-width : 700px)
 {
 
-     div.column_container
+     .column_container
      {
-          margin-bottom: 10px;
+         flex-direction: column;
+         margin-bottom:10px; 
      }
 }
 
