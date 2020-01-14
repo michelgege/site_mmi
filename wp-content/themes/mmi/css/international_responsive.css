@@ -259,6 +259,15 @@ margin-top: 80px;
 	padding-left: 115px;
 }
 
+	
+
+
+
+}
+
+@media only screen and (max-width : 740px){
+
+
 /*Carte interactive*/
 
 	div.wrap
@@ -304,6 +313,38 @@ margin-top: 80px;
 			{
 				border:1px solid black;
 				padding: 20px 30px;
+				display: block;
+				overflow: hidden;
+
+			}
+
+			div.list_content.active
+			{
+				border:1px solid black;
+				padding: 20px 30px;
+				display: block;
+				height: 100px;
+				overflow: hidden;
+
+			}
+
+			div.list_content.absolute
+			{
+				border:1px solid black;
+				padding: 20px 30px;
+				display: block;
+				overflow: hidden;
+				position: absolute;
+				left: 30px;
+				right: 30px;
+				background-color: white;
+				z-index: 6;
+
+			}
+
+			div.list_content::-webkit-scrollbar
+			{
+				display: none;
 			}
 
 				div.list_content div.list_header
@@ -312,6 +353,7 @@ margin-top: 80px;
 					justify-content: center;
 					position: relative;
 					align-items: center;
+					width: 100%;
 				}
 
 					div.list_content div.list_header img
@@ -320,13 +362,98 @@ margin-top: 80px;
 						right: 0;
 					}
 
-					div.list_content span
+					div.list_content.active span
 					{
 						background-color: black;
 						display: block;
 						height: 1px;
 						width: 107px;
+						margin: 15px auto;
+						color: white;
 					}
+
+					div.list_content span
+					{
+						display: none;
+					}
+
+					div.list_content.active div.country
+					{
+						text-align: center;
+						line-height: 26px;
+						z-index: 1;
+						overflow: scroll;
+						height: 73px;
+						display: block;
+					}
+						
+						div.list_content.active div.country p:last-of-type
+						{
+							color: white;
+						}
+
+
+					div.list_content div.country
+					{
+						display: none;
+					}
+
+					div.list_content.active div.gradient
+					{
+						display: block;
+						height:30px;
+						width: 100%;
+						position: sticky;
+						bottom: -20px;
+						background-image: linear-gradient(to top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+						z-index: 4;
+					}
+
+					div.list_container div.pop_up
+					{
+						display: none;
+					}
+
+					div.list_container div.pop_up.active
+					{
+						width: 100%;
+						margin-top:112px;
+						color: black;
+						position: relative;
+						cursor: pointer;
+						display: block;
+						margin-left: auto;
+						margin-right: auto;
+					}
+
+						div.list_container div.pop_up.active h4
+						{
+							color: white;
+						}
+
+						div.pop_up.active p:first-of-type
+						{
+							margin-bottom: 30px;
+						}
+
+						div.pop_up.active p:nth-of-type(2) {
+
+				    		margin-top: 0;
+				    		margin-bottom: 50px;
+				    	}
+
+				    	div.pop_up.active img.guillemet_1
+						{
+							bottom: -10%;
+							left: 74%;
+						}
+
+						div.pop_up.active img.guillemet_2
+						{
+							bottom:2%; 
+							right:87%;
+						}
+
 
 
 
@@ -339,17 +466,26 @@ margin-top: 80px;
 	{
 		display: none;
 	}
-
-	
-
-
-
 }
 
-
-
-
 @media only screen and (max-width : 375px){
+
+	/*Responsive carte*/
+
+		div.pop_up.active p:first-of-type
+		{
+			font-size: 12px;
+		}
+
+		div.pop_up.active img.guillemet_2
+		{
+			bottom:17%; 
+			right:64%;
+		}
+
+
+
+
 div#wrap_text
 {
 	padding: 15px 15px;

@@ -103,12 +103,12 @@ body
 			fill: white;
 		}
 
-		div.pop_up
+		div.map_container div.pop_up
 		{
 			display: none;
 		}
 
-		div.pop_up.active
+		div.map_container div.pop_up.active
 		{
 			background-color: #2C2B2B;
 			width: 280px;
