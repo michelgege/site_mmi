@@ -28,6 +28,8 @@ div.wrap_footer {
   div.wrap_footer div.right {
     width: calc(100% / 3);
     text-align: right; }
+  div.wrap_footer div.right img{
+    cursor: pointer; }
   div.wrap_footer div.right_bot {
     width: calc(100% / 3);
     text-align: right; }
