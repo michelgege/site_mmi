@@ -396,6 +396,47 @@ div#wrap_body {
     margin-left: 120px;
     padding-top: 110px; }
 
+.pop-up {
+  position: fixed;
+  bottom: 26%;
+  right: 0;
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: red;
+  visibility: visible;
+  display: block;
+  width: 900px;
+  height: 600px; }
+  .pop-up #title_pop {
+    margin-top: 200px;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    margin-right: auto;
+    margin-left: auto; }
+  .pop-up p#content {
+    margin-top: 30px;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+    font-size: 36px;
+    margin-right: auto;
+    margin-left: auto; }
+  .pop-up #cross {
+    margin-right: 50px;
+    right: 0;
+    position: absolute;
+    transform: scale(4);
+    margin-top: 70px; }
+  .pop-up #plane {
+    margin-left: 50px;
+    left: 0;
+    position: absolute;
+    transform: scale(3);
+    margin-top: 40px; }
+
 @media only screen and (max-width: 1536px) {
   div#wrap_body {
     background-color: #181818;

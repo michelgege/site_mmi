@@ -27,34 +27,34 @@ get_header();
 
 	<div id="scene" class="scene">
 		<div  class="layer" data-depth="0.10">
-			<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/pro_grey_square_1.svg" id="grey_square">
+			<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/pro_grey_square_1.svg" id="grey_square" alt="">
 		</div> 
 		<div  class="layer" data-depth="0.40">
-			<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/pro_white_triangle_1.svg" id="white_triangle">
+			<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/pro_white_triangle_1.svg" id="white_triangle" alt="">
 		</div> 
 		<div  class="layer" data-depth="0.90">
-			<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/pro_border_red_triangle_1.svg" id="border_red_triangle">
+			<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/pro_border_red_triangle_1.svg" id="border_red_triangle" alt="">
 		</div> 
 
 
 		<div  class="layer" data-depth="-.50">
-			<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/pro_red_triangle_2.svg" id="red_triangle">
+			<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/pro_red_triangle_2.svg" id="red_triangle" alt="">
 		</div> 
 		<div  class="layer" data-depth="0.20">
-			<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/pro_border_white_triangle_2.svg" id="border_white_triangle">
+			<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/pro_border_white_triangle_2.svg" id="border_white_triangle" alt="">
 		</div> 
 		<div  class="layer" data-depth="0.70">
-			<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/pro_grey_triangle_2.svg" id="grey_triangle">
+			<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/pro_grey_triangle_2.svg" id="grey_triangle" alt="">
 		</div>
 
 		<div  class="layer" data-depth="0.30">
-			<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/pro_red_square_3.svg" id="red_square">
+			<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/pro_red_square_3.svg" id="red_square" alt="">
 		</div> 
 		<div  class="layer" data-depth="-0.20">
-			<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/pro_white_triangle_3.svg" id="white_triangle_three">
+			<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/pro_white_triangle_3.svg" id="white_triangle_three" alt="">
 		</div> 
 		<div  class="layer" data-depth="0.60">
-			<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/pro_border_grey_triangle_3.svg" id="border_grey_triangle">
+			<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/pro_border_grey_triangle_3.svg" id="border_grey_triangle" alt=""> 
 		</div>
 
 
@@ -107,17 +107,17 @@ get_header();
 
 		<div class="testimony_block">
 			<div class="after">
-				<img src="<?php echo get_template_directory_uri() ?>/img//coin_pro/testimony_picture_1.jpg" id="testimony_picture">
+				<img src="<?php echo get_template_directory_uri() ?>/img//coin_pro/testimony_picture_1.jpg" id="testimony_picture" alt="">
 			</div>
 
 			<div class="column">
 				<h3 class="testimony_name"><?php the_field('pro_testimony_first_name'); ?></h3>
 				<p class="profession"><?php the_field('pro_testimony_first_job'); ?></p> 
-				<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/pro_shape.svg" id="pro_shape">
+				<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/pro_shape.svg" id="pro_shape" alt="">
 			</div>
 
 			<p class="testimony_comment"><?php the_field('pro_testimony_first_content'); ?></p>
-			<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/quote.svg" id="quote">
+			<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/quote.svg" id="quote" alt="">
 		</div>
 	</div>
 
@@ -125,17 +125,17 @@ get_header();
 
 		<div class="testimony_block_second">
 			<div class="after">
-				<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/testimony_picture_2.jpg" id="testimony_picture">
+				<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/testimony_picture_2.jpg" id="testimony_picture" alt="">
 			</div>
 
 			<div class="column">
 				<h3 class="testimony_name"><?php the_field('pro_testimony_second_name'); ?></h3>
 				<p class="profession"><?php the_field('pro_testimony_second_job'); ?></p> 
-				<img src="<?php echo get_template_directory_uri() ?>/img//coin_pro/pro_shape.svg" id="pro_shape">
+				<img src="<?php echo get_template_directory_uri() ?>/img//coin_pro/pro_shape.svg" id="pro_shape" alt="">
 			</div>
 
 			<p class="testimony_comment"><?php the_field('pro_testimony_second_content'); ?></p>
-			<img src="<?php echo get_template_directory_uri() ?>/img//coin_pro/quote.svg" id="quote">
+			<img src="<?php echo get_template_directory_uri() ?>/img//coin_pro/quote.svg" id="quote" alt="">
 		</div>
 	</div>
 
@@ -161,8 +161,16 @@ get_header();
 		</form>
 	</div>
 
+	<div class="pop-up">
+		<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/cross.svg" data-depth="" id="cross" alt="cross">
+		<h1 id="title_pop"> Merci pour ces renseignements ! </h1>
+		<p id="content"> Le formulaire te sera envoyé d'ici quelques jour. En attendant, n'hésite pas à consulter notre site ou à te rendre sur les réseaux sociaux. </p>
+		<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/plane.svg" data-depth="" id="plane" alt="plane">
+
+	</div>
 
 </div>
+
 
 <!-- <div id="scene_two">
 			<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/pro_border_white_triangle_4.svg" data-depth="-0.90" id="border__white_triangle_four">
@@ -171,9 +179,9 @@ get_header();
 </div> -->
 
 
-
-
 </section>
+
+
 
 
 <?php
