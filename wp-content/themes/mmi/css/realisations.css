@@ -390,6 +390,11 @@ div#scene_fourth
             max-width: 30%;
       }
 
+      div.column_container
+      {
+            margin-bottom: 30px;    
+      }
+
      
 }
 @media only screen and (max-width : 960px)
