@@ -271,6 +271,10 @@ div#after_content_purple
 	margin-left: auto;
 	margin-right: auto;
 }
+video[poster]
+{
+	object-fit: cover;
+}
 
 .video .button
 {
@@ -295,7 +299,7 @@ div#teachers
 {
 	display: flex;
 	width: 100%;
-	margin-top: 100px;
+	margin-bottom: 100px;
 }
 
 div.column_teacher
@@ -312,7 +316,18 @@ div.column_teacher
 	transform: translateX(-50%);
 }
 
-
+#after_picture:after
+{
+	content:"";
+		border: #9B3BB7 solid 3px;
+		text-shadow: 0 0 3px #9B3BB7;
+		display: block;
+		width: 188px;
+		height: 194px;
+		transform: rotate(-17deg);
+		margin-top: -194px;
+		margin-left: 10%;
+}
 
 
 
