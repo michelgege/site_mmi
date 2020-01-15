@@ -193,6 +193,7 @@ div.pop_up.visible
                   {
                        align-items :center;
                        margin-right: 50px;
+                       max-height: 75%;
                   }
 
                   div.pop_up div.content>div>div
@@ -290,13 +291,13 @@ div#scene_third
 }
       div#scene_third img.white_triangle_full
       {
-            top: 20px;
+         top: 20px;
       }
 
 div#scene_fourth
 {
       top: -400px;
-      left:0;
+      left:50px;
 }
 
       div#scene_fourth img.white_triangle_full
