@@ -13,18 +13,17 @@ body
 }
 
 
-h2.right_titlte
+h2.right_title
 {
 	font-size: 30px;
 	font-weight: 600;
-	text-align: left;
+	text-align: right;
 	color: #7A1497;
 	margin-bottom: 60px;
 }
 
 p.content
 {
-	font-family: Raleway, sans-serif;
 	font-size: 15px;
 	font-weight: 300;
 	text-align: left;
