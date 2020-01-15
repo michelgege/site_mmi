@@ -7,11 +7,6 @@
 <?php
 get_header();
 ?>
-
-<<<<<<< HEAD
-
-=======
->>>>>>> 5e3c6bc244666f7afed6eac86e35b24595cf095a
 <div id="wrap">
 
 	<div id="scene" class="scene">

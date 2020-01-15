@@ -27,7 +27,7 @@
 		</div>
 
 		<p class="intro">
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium dicta, distinctio aperiam quo, voluptate delectus ratione sapiente dignissimos ut itaque exercitationem dolores. Laudantium dolorem fuga repudiandae dignissimos, incidunt nam in.
+			Au cours des trois ans, les étudiants du BUT, vont être chargés de la conception et de la création de plusieurs réalisations que ce soit sur le domaine numérique ou artistique. Cette page regroupe ainsi quelques unes des réalisations de nos étudiants.
 		</p>
 		<div id="scene_two" class="scene">
 			<img data-depth="-1.20" class="white_triangle_full" src="<?php echo get_template_directory_uri() ?>/img/realisations/white_triangle_full.svg" alt="">
