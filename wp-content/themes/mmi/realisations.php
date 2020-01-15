@@ -45,7 +45,7 @@
 					<div class="overlay">
 						<div class="text_container">
 							<p class="title">
-							"lorem ipsum"
+								"lorem ipsum"
 							</p>
 
 							<p class="author">
@@ -266,13 +266,25 @@
 					<a><img src="<?php echo get_template_directory_uri() ?>/img/realisations/linkedin.png"/></a>
 				</div>
 			</div>
-			<p>Réalisé pour <a target="_blank" href="http://www.mairie-lamotteservolex.fr/">la Mairie de la Motte-Servolex</a></p>
+			<p class="mention">Réalisé pour <a target="_blank" href="http://www.mairie-lamotteservolex.fr/">la Mairie de la Motte-Servolex</a></p>
 
 			<p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci eius consectetur rem facilis, ad necessitatibus quia quaerat assumenda, at quisquam, labore alias ipsa suscipit? Enim exercitationem cupiditate nulla assumenda excepturi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Id repellat nemo aliquid placeat quis, exercitationem quas, perspiciatis fugiat deserunt labore dolore error voluptatem ipsa ut incidunt facilis soluta velit Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum ut nihil ad libero at quas error minus, aperiam odio suscipit impedit vero ullam vitae, iste ducimus. Distinctio ipsum porro aut.</p>
 
 		</div>
 	</div>
-	<img class="close_button" src="<?php echo get_template_directory_uri() ?>/img/realisations/close_button.svg"/>
+	<svg xmlns="http://www.w3.org/2000/svg" width="58" height="58" viewBox="0 0 58 58">
+  <g id="Groupe_61" data-name="Groupe 61" transform="translate(-1739 -434)">
+    <g id="Groupe_60" data-name="Groupe 60" transform="translate(-53.279 -0.785)">
+      <line id="Ligne_9" data-name="Ligne 9" x1="28.441" y2="28.441" transform="translate(1807.279 449.785)" fill="none" stroke="#fff" stroke-width="3"/>
+      <line id="Ligne_10" data-name="Ligne 10" x1="28.441" y2="28.441" transform="translate(1835.721 449.785) rotate(90)" fill="none" stroke="#fff" stroke-width="3"/>
+    </g>
+    <g id="Ellipse_11" data-name="Ellipse 11" transform="translate(1739 434)" fill="none" stroke="#fff" stroke-width="3">
+      <circle cx="29" cy="29" r="29" stroke="none"/>
+      <circle cx="29" cy="29" r="27.5" fill="none"/>
+    </g>
+  </g>
+</svg>
+
 </div>
 
 <?php

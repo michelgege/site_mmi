@@ -26,7 +26,7 @@ h2
       {
             display: block;
 		content: "";
-		width: 25%;
+		width: 320px;
 		height: 64px;
 		background-color: #7A034E ;
 		margin-top: -35px;
@@ -120,8 +120,7 @@ div.column_container
                   }
             
 
-
-
+/*________________________________________________popup _______________________________*/
 
 
 div.pop_up
@@ -144,11 +143,12 @@ div.pop_up.visible
       opacity: 1;
       z-index: 12;
 }
-      div.pop_up>img
+      div.pop_up>svg
       {
             position: absolute;
-            right: 3%;
+            right: 1%;
             top: 50%;
+            width: 4%;
             transform: translateY(-50%);
             z-index: 13;
       }
@@ -250,7 +250,7 @@ div.pop_up.visible
 
 
 
-                        /* triangle */
+/* ________________________triangle___________________ */
 
 
 div#scene, 
@@ -356,11 +356,39 @@ div#scene_fourth
             {
                   margin-bottom: 15px;
             } 
+
+       div#scene
+      {
+          margin-top: -20%;
+          left: 60%;
+
+      }
+      h2
+      {
+         margin-top: 180px;
+      }
+
       
 }
 
 @media only screen and (max-width : 1024px)
 {
+
+      h2
+      {
+         font-size: 50px;
+         margin-top: 150px;
+      }
+         h2::after 
+         {
+             display: block;
+             content: "";
+             width: 280px;
+             height: 44px;
+             background-color: #7A034E;
+             margin-top: -25px;
+             margin-left: 35px;
+         }
 
       p.intro
       {
@@ -369,7 +397,7 @@ div#scene_fourth
        
       div.wrap
       {
-            padding: 0 60px;
+            padding: 0 80px;
       }
       div.inner_wrap
       {
@@ -389,54 +417,217 @@ div#scene_fourth
       }
       div.pop_up div.content>div:first-of-type
       {
-            max-width: 30%;
+            max-width: 100%;
+            margin-right: 0;
       }
+      div.pop_up div.content
+      {
+         height: 90%;
+         width: 90%; 
+      }
+
+      div.content 
+      {
+         padding: 30px 30px;
+      }
+
+      div.pop_up div.content>div:last-of-type
+      {
+         max-width: 80%;
+      }
+
+         div.pop_up div.content>div:last-of-type>div
+         {
+            align-items: center;
+         }
+
 
       div.column_container
       {
             margin-bottom: 200px;    
       }
 
-     
-}
-@media only screen and (max-width : 960px)
-{
+      div.content div.description p.description,
+      div.content div.description p.mention
+      {
+         font-size: 20px;
+      }
+
+      div.pop_up>svg
+      {
+         position: absolute;
+          right: 7%;
+          top: 10%;
+          transform: translateY(-50%);
+          z-index: 14;
+          width: 8%;
+      }
+
+      div.pop_up>svg line
+      {
+          stroke : black;
+          opacity:0.8;
+      }
+
+      div.pop_up>svg #Ellipse_11
+      {
+        visibility: hidden;
+      }
+
       div.pop_up div.content
       {
-          overflow: scroll;
-          flex-direction: column;
+         overflow: scroll;
+         flex-direction: column;
+         justify-content: space-between;
       }
       div.pop_up div.content div.description > * 
       {
-            margin-bottom: 25px;
+         margin-bottom: 25px;
+      }
+      div#scene
+      {
+          margin-top: -20%;
+          left: 80%;
+      }
+      div.realisation
+      {
+         padding-bottom: 50px;
       }
 
-        div.column_container
+      div.description h3.domain 
+      {
+          font-size: 40px;
+      }
+
+      div.description p.author_and_name 
+      {
+          font-size: 20px;
+      }
+
+}
+@media only screen and (max-width : 960px)
+{
+
+      div.description p.author_and_name,
+      h3.domain
+      {
+          margin-bottom: 10px;
+      }
+
+      div.column_container
      {
          flex-direction: column;
-         margin-bottom:10px; 
+         margin-bottom:100px; 
      }
+
+      div.column_container div.column
+      {
+         width: 100%;
+      }
+
+      div.column_container div.column:nth-of-type(1),
+      div.column_container div.column:nth-of-type(3)
+      {
+         margin: 0;
+      }
+     div.column_container
+     {
+         flex-direction: column;
+     }
+     p.intro 
+      {
+         margin-top: 65px;
+      }
+      div.wrap
+      {
+         padding: 0 40px;
+      }
+
       
 }
 
 @media only screen and (max-width : 700px)
 {
 
-     .column_container
+      div.pop_up div.content>div:last-of-type
      {
-         flex-direction: column;
-         margin-bottom:10px; 
+      max-width: 95%;
+
      }
+
+      div.pop_up>svg
+      {   
+          right: 2%;
+          top: 4%;
+          width: 14%;
+          height: 640%;
+      }
+
+      div.scene,
+      div.scene_two,
+      div.scene_third
+      {
+         display: none;
+      }
+
+      h2::after 
+      {
+          display: block;
+          content: "";
+          width: 250px;
+          height: 40px;
+          background-color: #7A034E;
+          margin-top: -24px;
+          margin-left: 35px;
+      }
+      h2
+      {
+         margin-top: 100px;
+         font-size: 40px;
+      }
+      div.pop_up div.content div.description p.description,
+      div.pop_up div.content div.description p.mention
+      {
+         font-size: 15px;
+      }
+
+      div.wrap
+      {
+         padding: 0 30px;
+      }
+
+      h2::after 
+      {
+         width: 200px;
+         height: 35px;
+         margin-top: -18px;
+      }
+
+
+
+
+
 }
 
 @media only screen and (max-width : 375px)
 {
       div.wrap
       {
-            padding: 0 15px;
+         padding: 0 15px;
       }
       div.inner_wrap
       {
-            padding: 0 5px;
+         padding: 0 5px;
+      }
+
+      h2
+      {
+         margin-top: 80px;
+      }
+
+      p.intro 
+      {
+         margin-top: 45px;
+         margin-bottom: 50px;
       }
 }
