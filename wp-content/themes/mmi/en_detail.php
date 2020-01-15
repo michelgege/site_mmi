@@ -65,28 +65,8 @@ get_header();
 		</div>
 	</div>
 
-<<<<<<< HEAD
-	<section class="departement">
-		<h1>Le département</h1>
-		<div class="intro">
-			<p >Nous vous accueillons sur le site du Bourget du Lac dans des locaux équipés de matériel informatique et 
-	audiovisuel récent que les étudiants peuvent emprunter.</p>
-			<div class="video">
-				<div class="button">
-					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/playbutton.svg">
-				</div>
-				<video src="https://mmi.univ-smb.fr/site/wp-content/uploads/2016/02/Boucle3.mp4" poster="http://localhost/site_mmi/wp-content/themes/mmi/img/accueil/slider2_1.jpg">
-			</div>
-		</div>
-	</section>
-	<section>
-		
-	</section>
-</div>
-<?php
-get_footer();
-?>
-=======
+
+
 	<div id="after_content_purple">
 		<h2 class="right_title"> La spécialité de MMI Chambéry </h2>
 		<p class="content_right"> Notre objectif est de composer une promotion avec : </p>
