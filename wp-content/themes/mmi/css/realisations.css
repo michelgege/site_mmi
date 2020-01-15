@@ -598,9 +598,9 @@ div#scene_fourth
 
       h2::after 
       {
-         width: 200px;
+          width: 200px;
          height: 35px;
-         margin-top: -18px;
+          margin-top: -18px;
       }
 
 
