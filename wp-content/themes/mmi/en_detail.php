@@ -8,8 +8,7 @@
 	get_header();
 ?>
 
-<p>En détails
-</p>
+<p>En détails</p>
 
 <?php
 	get_footer();
