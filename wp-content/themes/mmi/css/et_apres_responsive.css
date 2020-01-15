@@ -11,10 +11,10 @@
 @media only screen and (max-width : 1368px)
 {
 
-		div#scene img
-		{
-			display: none;
-		}
+	div#scene
+	{
+		display: none;
+	}
 
 }
 
