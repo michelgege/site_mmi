@@ -157,13 +157,24 @@ p.content_center
 	margin-bottom: 35px;
 	width: 500px;
 }
+div#after_content_purple:after
+{
+	content: "";
+	display: block;
+	background: #491658;
+	width: 465px;
+	height: 125px;
+	margin-top: -275px;
+	margin-left: 150px;
+}
 
-<<<<<<< HEAD
+div#after_content_purple
+{
+	margin-bottom: 231px;
+}
+
 
 .departement .intro
-=======
-.intro
-
 {
     width: 1105px;
     height: 651px;
@@ -260,25 +271,5 @@ p.content_center
 	margin-left: auto;
 	margin-right: auto;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> ac6e191d74f035f85fc828343f4750b8be147d6b
-=======
->>>>>>> 76739b543ad1ad076e13ab1766d00a907195e88a
-div#after_content_purple:after
-{
-	content: "";
-	display: block;
-	background: #491658;
-	width: 465px;
-	height: 125px;
-	margin-top: -275px;
-	margin-left: 150px;
-}
-
-div#after_content_purple
-{
-	margin-bottom: 231px;
-}
 
