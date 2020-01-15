@@ -17,24 +17,6 @@ get_header();
 	<<<<<<< HEAD
 
 	<h2 class="sub_title"> A qui est destiné le BUT MMI ? </h2>
-
-
-	<section class="departement">
-		<h1>Le département</h1>
-		<div class="intro">
-			<p >Nous vous accueillons sur le site du Bourget du Lac dans des locaux équipés de matériel informatique et 
-			audiovisuel récent que les étudiants peuvent emprunter.</p>
-			<div class="video">
-				<div class="button">
-					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/playbutton.svg">
-				</div>
-				<video src="" poster="http://localhost/site_mmi/wp-content/themes/mmi/img/accueil/slider2_1.jpg">
-				</div>
-			</div>
-		</section>
-		<section>
-			
-		</section>
 		=======
 		<div id="destiny">
 			<h2 class="right_title"> A qui est destiné le BUT MMI ? </h2>
@@ -89,10 +71,6 @@ get_header();
 			<p class="content_right">Dans l’idéal le candidat au BUT MMI aura également une ouverture à la culture artistique et esthétique. </p>
 		</div>
 
-	</div>
-<<<<<<< HEAD
-=======
->>>>>>> 0b0180a39e50c63df275a547fa4e76d59dfde7db
 	<section class="departement">
 		<h1>Le département</h1>
 		<div class="intro">
@@ -102,26 +80,18 @@ get_header();
 				<div class="button">
 					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/playbutton.svg">
 				</div>
-				<video src="" poster="http://localhost/site_mmi/wp-content/themes/mmi/img/accueil/slider2_1.jpg">
+				<video src="https://mmi.univ-smb.fr/site/wp-content/uploads/2016/02/Boucle3.mp4" poster="http://localhost/site_mmi/wp-content/themes/mmi/img/accueil/slider2_1.jpg">
 			</div>
 		</div>
 	</section>
 	<section>
 		
 	</section>
-</div>
->>>>>>> ea829cfc3a0a504be9e2421dc2eb66d79f1f2ffa
-
-
-
-
-<<<<<<< HEAD
+	</div>
 	<?php
 	get_footer();
 	?>
-=======
 
 <?php
 get_footer();
 ?>
->>>>>>> ea829cfc3a0a504be9e2421dc2eb66d79f1f2ffa
