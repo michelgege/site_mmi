@@ -75,21 +75,21 @@ section.le_but
 		{
 			position: absolute;
 			left:296px;
-			top:254px;
+			top:1143px;
 		}
 
 		section.le_but img.checklist
 		{
 			position: absolute;
-			right:35px;
-			top:566px;
+			right:150px;
+			top:1400px;
 		}
 
 		section.le_but img.camera
 		{
 			position: absolute;
-			left:-81px;
-			top:728px;
+			left:40px;
+			top:1565px;
 		}
 
 
@@ -549,3 +549,28 @@ p.testimony
 }
 }
 
+
+@media only screen and (max-width : 1546px)
+{
+	section.le_but img.tablet
+		{
+			position: absolute;
+			left:296px;
+			top:1000px;
+		}
+
+		section.le_but img.checklist
+		{
+			position: absolute;
+			right:150px;
+			top:1400px;
+		}
+
+		section.le_but img.camera
+		{
+			position: absolute;
+			left:40px;
+			top:1450px;
+		}
+
+}
