@@ -13,6 +13,7 @@ get_header();
 <div id="wrap">
 
 
+<<<<<<< HEAD
 	<<<<<<< HEAD
 
 	<h2 class="sub_title"> A qui est destiné le BUT MMI ? </h2>
@@ -42,6 +43,21 @@ get_header();
 			<p class="content_right">-	50% de bacheliers généraux, avec des options scientifiques.</p>
 			<p class="content_right">Dans l’idéal le candidat au BUT MMI aura également une ouverture à la culture artistique et esthétique. </p>
 		</div>
+=======
+<<<<<<< HEAD
+
+<h2 class="sub_title"> A qui est destiné le BUT MMI ? </h2>
+
+
+=======
+	<div id="destiny">
+		<h2 class="right_title"> A qui est destiné le BUT MMI ? </h2>
+		<p class="content_right"> Notre objectif est de composer une promotion avec : </p>
+		<p class="content_right">-	50% de bacheliers technologiques, de préférence issus de la filière STI2D option SIN, avec un excellent dossier.</p>
+		<p class="content_right">-	50% de bacheliers généraux, avec des options scientifiques.</p>
+		<p class="content_right">Dans l’idéal le candidat au BUT MMI aura également une ouverture à la culture artistique et esthétique. </p>
+	</div>
+>>>>>>> ea829cfc3a0a504be9e2421dc2eb66d79f1f2ffa
 
 
 		<h2 class="left_title"> Les projets </h2>
@@ -74,10 +90,38 @@ get_header();
 		</div>
 
 	</div>
+<<<<<<< HEAD
+=======
+>>>>>>> 0b0180a39e50c63df275a547fa4e76d59dfde7db
+	<section class="departement">
+		<h1>Le département</h1>
+		<div class="intro">
+			<p >Nous vous accueillons sur le site du Bourget du Lac dans des locaux équipés de matériel informatique et 
+	audiovisuel récent que les étudiants peuvent emprunter.</p>
+			<div class="video">
+				<div class="button">
+					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/playbutton.svg">
+				</div>
+				<video src="" poster="http://localhost/site_mmi/wp-content/themes/mmi/img/accueil/slider2_1.jpg">
+			</div>
+		</div>
+	</section>
+	<section>
+		
+	</section>
+</div>
+>>>>>>> ea829cfc3a0a504be9e2421dc2eb66d79f1f2ffa
 
 
 
 
+<<<<<<< HEAD
 	<?php
 	get_footer();
 	?>
+=======
+
+<?php
+get_footer();
+?>
+>>>>>>> ea829cfc3a0a504be9e2421dc2eb66d79f1f2ffa
