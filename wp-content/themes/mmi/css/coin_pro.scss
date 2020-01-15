@@ -689,8 +689,66 @@ div#wrap_body
 	left: 0;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: red;
+	background: linear-gradient(0.50turn,#EE3D56, #8E4176, #18469D);
 	visibility: visible;
+	display: block;
+	width: 900px;
+	height:600px;
+
+	#title_pop
+	{
+
+		margin-top: 200px;
+		font-weight: 300;
+		color: white;
+		text-align: center;
+		font-size: 45px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	p#content
+	{
+		margin-top: 30px;
+		font-weight: 300;
+		color: white;
+		text-align: center;
+		font-size: 36px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	#cross
+	{
+		margin-right: 50px;
+		right: 0;
+		position: absolute;
+		transform: scale(4);
+		margin-top: 70px;
+	}
+
+	#plane
+	{
+		margin-left: 50px;
+		left: 0;
+		position: absolute;
+		transform: scale(3);
+		margin-top: 40px;
+	}
+
+
+}
+
+.pop-up.open
+{
+	position: fixed;
+	bottom: 26%;
+	right: 0;
+	left: 0;
+	margin-left: auto;
+	margin-right: auto;
+	background: linear-gradient(0.50turn,#EE3D56, #8E4176, #18469D);
+	visibility: hidden;
 	display: block;
 	width: 900px;
 	height:600px;

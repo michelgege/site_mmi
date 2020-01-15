@@ -214,6 +214,27 @@ section#department {
 			z-index: 5;
 		}
 
+		section#department #department_slider #department_border {
+			position: relative;
+			z-index: 10;
+		}
+
+			section#department #department_slider #department_border::after {
+				content: "";
+				display: block;
+				position: absolute;
+				top: -3px;
+				left: 0;
+				border: 3px solid var(--color-purple);
+				width: 120%;
+				height: 100%;
+				transform: rotate(4deg);
+			}
+
+			section#department #department_slider #department_border >img {
+				height: 300px;
+			}
+
 		section#department #department_slider .department_selected {
 			z-index: 10;
 		}
@@ -259,7 +280,7 @@ section#highlights {
 			content: "";
 			display: block;
 			position: absolute;
-			top: 0;
+			top: -3px;
 			left: 0;
 			width: 100%;
 			height: 100%;
@@ -298,24 +319,41 @@ section#international {
 		section#international #international_content #international_slider {
 			display: flex;
 			align-items: center;
-			width: 60%;
+			width: 70%;
+		}
+
+		section#international #international_content #international_slider .border {
 			position: relative;
 		}
 
-			section#international #international_content #international_slider .international_first {
-				display: flex;
-				height: 80%;
-			}
-
-			section#international #international_content #international_slider .international_second {
-				display: flex;
-				height: 60%;
-			}
-
-			section#international #international_content #international_slider #international_arrows{
-				display: flex;
+			section#international #international_content #international_slider .border::after {
+				content: "";
+				display: block;
 				position: absolute;
+				width: 100%;
+				height: 100%;
+				top: -3px;
+				left: 0;
+				border: 3px solid var(--color-cyan);
+				transform: rotate(4deg);
 			}
+
+		section#international #international_content #international_slider .border img {
+			height: 300px;
+		}
+
+		section#international #international_content #international_slider .international_first {
+
+		}
+
+		section#international #international_content #international_slider .international_second {
+			height: 200px;
+		}
+
+		section#international #international_content #international_slider #international_arrows{
+			display: flex;
+			position: absolute;
+		}
 
 		section#international #international_content p {
 			width: 20%;
@@ -335,37 +373,50 @@ section#testimony {
 		background-color: var(--color-green);
 	}
 
-	section#testimony .testimony_normal {
+	section#testimony .testimony_container {
 		display: flex;
 		margin-left: 30px;
+		position: relative;
+	}
+
+	section#testimony .normal {
 		margin-bottom: 100px;
 	}
 
-	section#testimony .testimony_reverse {
-		display: flex;
-		margin-left: 30px;
-	}
-
-		section#testimony .testimony_normal .testimony_titles {
+		section#testimony .normal .testimony_titles {
 			margin-left: 40px;
 		}
 
-		section#testimony .testimony_reverse .testimony_titles {
+		section#testimony .reverse .testimony_titles {
 			margin-right: 40px;
 		}
 
-			section#testimony .testimony_titles p:nth-of-type(1) {
+			section#testimony .testimony_container .testimony_titles p:nth-of-type(1) {
 				font-weight: var(--font-extra-bold);
 				font-size: 30px;
 			}
 
-			section#testimony .testimony_titles p:nth-of-type(2) {
+			section#testimony .testimony_container .testimony_titles p:nth-of-type(2) {
 				font-weight: var(--font-medium);
 				font-size: 28px;
 				color: var(--color-green);
 			}
 
-		section#testimony .testimony_content {
+			section#testimony .reverse .testimony_titles p {
+				text-align: right;
+			}
+
+			section#testimony .normal .testimony_titles img {
+				margin-left: 150px;
+				margin-top: 10px;
+			}
+
+			section#testimony .reverse .testimony_titles img {
+				margin-right: 150px;
+				margin-top: 10px;
+			}
+
+		section#testimony .testimony_container .testimony_content {
 			font-size: 18px;
 			text-align: center;
 			width: 40%;
@@ -373,35 +424,48 @@ section#testimony {
 			margin-top: 30px;
 		}
 
-		section#testimony .testimony_normal .testimony_content {
+		section#testimony .normal .testimony_content {
 			margin-left: auto;
 		}
 
-		section#testimony .testimony_reverse .testimony_content {
+		section#testimony .reverse .testimony_content {
 			margin-right: auto;
 		}
 
-		section#testimony .testimony_img {
+		section#testimony .testimony_container .testimony_img {
 			position: relative;
 		}
 
-			section#testimony .testimony_img:after {
+			section#testimony .testimony_container .testimony_img:after {
 				content: "";
 				display: block;
 				position: absolute;
-				top: 0;
+				top: -3px;
 				left: 0;
 				width: 100%;
 				height: 100%;
 				border: 3px solid var(--color-green);
 			}
 
-			section#testimony .testimony_normal .testimony_img:after {
+			section#testimony .normal .testimony_img:after {
 				transform: rotate(-15deg);
 			}
 
-			section#testimony .testimony_reverse .testimony_img:after {
+			section#testimony .reverse .testimony_img:after {
 				transform: rotate(15deg);
+			}
+
+			section#testimony .normal .testimony_quote {
+				position: absolute;
+				top: -40px;
+				right: -30px;
+			}
+
+			section#testimony .reverse .testimony_quote {
+				position: absolute;
+				top: -40px;
+				left: -30px;
+				transform: rotate(180deg);
 			}
 
 	section#testimony .link_button {

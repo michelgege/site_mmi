@@ -1,4 +1,4 @@
-<?php
+  <?php
 /**
  * Template Name: Et Après ?
  */
@@ -7,8 +7,6 @@
 <?php
 	get_header();
 ?>
-<!-- 
-<p>Et après</p> -->
 
 <section id="testimony">
 
@@ -77,10 +75,6 @@
 		<p>La licence professionnelle c'est : Haec igitur lex in amicitia sanciatur, ut neque rogemus res turpes nec faciamus rogati. Turpis enim excusatio est et minime accipienda cum in ceteris peccatis, tum si quis contra rem publicam se amici causa fecisse </p>
 
 	</div>
-
-</section>
-
-<section id="job">
 
 </section>
 
