@@ -56,7 +56,7 @@ get_header();
 		<p class="content_right">Dans l’idéal le candidat au BUT MMI aura également une ouverture à la culture artistique et esthétique. </p>
 	</div>
 
-</div>
+
 
 <section class="departement">
 	<h1>Le département</h1>
@@ -71,7 +71,7 @@ get_header();
 			</div>
 		</div>
 	</div>
-
+</div>
 
 
 
