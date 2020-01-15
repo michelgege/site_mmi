@@ -115,7 +115,7 @@ get_header();
 	<section>
 		
 	</section>
-</div>
+</div> 
 >>>>>>> ea829cfc3a0a504be9e2421dc2eb66d79f1f2ffa
 
 
