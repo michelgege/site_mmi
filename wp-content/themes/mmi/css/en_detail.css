@@ -33,6 +33,118 @@ body
 {
 	padding: 0px 240px 0px 185px;
 }
+section.le_but
+	{
+		position: relative;
+	}
+
+		section.le_but img.tablet
+		{
+			position: absolute;
+			left:96px;
+			top:254px;
+		}
+
+		section.le_but img.checklist
+		{
+			position: absolute;
+			right:35px;
+			top:566px;
+		}
+
+		section.le_but img.camera
+		{
+			position: absolute;
+			left:5px;
+			top:768px;
+		}
+
+
+			h1::after
+		    {
+		        display: block;
+				content: "";
+				width: 23%;
+				height: 64px;
+				background-color: #9B3BB7 ;
+				margin-top: -35px;
+				margin-left: 28px;
+				margin-bottom: 100px;
+		    }
+
+			p span
+			{
+				font-weight: 500;
+			}
+
+		p.competences_1
+		{
+			text-align: right;
+			width: 500px;
+			margin-right: 0;
+			margin-left: auto;
+			color: white;
+			font-weight: 300;
+			font-size: 18px;
+		}
+			
+			p.competences_1::after
+			{
+				display: block;
+				content: "";
+				width: 463px;
+				height: 95px;
+				background-color: #491658;
+				margin-top: -55px;
+				margin-left: -100px;
+				margin-bottom: 50px;
+			}
+
+		p.competences_2
+		{
+			width: 500px;
+			margin-bottom: 100px; 
+			color: white;
+			font-weight: 300;
+			font-size: 18px;
+		}
+
+
+		div.competences_deroulantes
+		{
+			color: white;
+
+		}
+
+			div.competences_deroulantes div.competence
+			{
+				width: 600px;
+				margin-left: auto;
+				margin-right: auto;
+
+			}
+
+				div.competences_deroulantes div.competence div.content
+				{
+					margin-left: 60px;
+					margin-top: 35px;
+					margin-bottom: 45px;
+					font-size: 15px;
+
+				}
+			
+				div.competences_deroulantes div.competence div.titre
+				{
+					display: flex;
+					align-items: center;
+				}
+
+					div.competences_deroulantes div.competence div.titre h3
+					{
+						font-weight: 500;
+						font-size: 18px;
+						margin-left: 21px;
+					}
 
 
 
