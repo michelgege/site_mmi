@@ -40,6 +40,10 @@
 			</div>
 		</div>
 		<a class="link_button" href="#">MMI en détails</a>
+		<div class="scene">
+			<img src="" alt="">
+			<img src="" alt="">
+		</div>
 	</section>
 
 	<!-- Section Stats -->

@@ -60,7 +60,7 @@ h2 {
 /*Section Skills*/
 
 section#skills {
-	
+	position: relative;
 }
 
 	section#skills h2:after{
@@ -131,6 +131,12 @@ section#skills {
 
 	section#skills .link_button {
 		background: linear-gradient(90deg, var(--color-red) 0%, #590909 100%);
+	}
+
+	section#skills .scene {
+		position: absolute;
+		top: 0;
+		left: 0;
 	}
 
 /*Section Stats*/
