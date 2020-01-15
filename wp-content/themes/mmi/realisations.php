@@ -41,7 +41,7 @@
 
 				<div class="img_container">
 
-					<img src="http://placehold.jp/100x120.jpg" alt="">
+					<img src="img/emigrant.jpg" alt="">
 					<div class="overlay">
 						<div class="text_container">
 							<p class="title">
@@ -56,7 +56,7 @@
 				</div>
 				<div class="img_container">
 
-					<img src="http://placehold.jp/150x120.jpg" alt="">
+					<img src="" alt="">
 					<div class="overlay">
 						<div class="text_container">
 							<p class="title">
@@ -71,7 +71,7 @@
 				</div>
 				<div class="img_container">
 
-					<img src="http://placehold.jp/100x100.jpg" alt="">
+					<img src="" alt="">
 					<div class="overlay">
 						<div class="text_container">
 							<p class="title">
@@ -86,7 +86,7 @@
 				</div>
 				<div class="img_container">
 
-					<img src="http://placehold.jp/80x50.jpg" alt="">
+					<img src="" alt="">
 					<div class="overlay">
 						<div class="text_container">
 							<p class="title">
@@ -106,7 +106,11 @@
 			<div class="column">
 				<div class="img_container">
 
-					<img src="http://placehold.jp/300x100.jpg" alt="">
+<<<<<<< HEAD
+					<img src="" alt="">
+=======
+					<img src="http://placehold.jp/300x300.jpg" alt="">
+>>>>>>> 27b56888964b7925e454ae5751332cd6e03e85ef
 					<div class="overlay">
 						<div class="text_container">
 							<p class="title">
@@ -250,7 +254,8 @@
 	</div>
 	<div class="content">
 		<div class="realisation">
-			<img src="http://placehold.jp/300x300.jpg" alt="">
+			<img src="img/emigrant.jpg" alt="">
+
 			<a>Voir la realisation</a>
 		</div>
 
