@@ -11,11 +11,11 @@
 <p>En détails</p>
 
 <div id="wrap">
-</div>
+
 
 
 <h2 class="sub_title"> A qui est destiné le BUT MMI ? </h2>
-
+</div>
 
 
 <?php
