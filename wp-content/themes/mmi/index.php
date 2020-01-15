@@ -79,9 +79,11 @@
 	<section id="department">
 		<h2>le département</h2>
 		<div id="department_slider">
-			<img src="<?php echo get_template_directory_uri() ?>/img/accueil/slider1_1.jpg" alt="">
-			<img src="<?php echo get_template_directory_uri() ?>/img/accueil/slider1_3.jpg" alt="">
-			<img src="<?php echo get_template_directory_uri() ?>/img/accueil/slider1_2.jpg" alt="">
+			<div id="department_border">
+				<img class="department_selected" src="<?php echo get_template_directory_uri() ?>/img/accueil/slider1_1.jpg" alt="">
+			</div>
+			<img class="department_next" src="<?php echo get_template_directory_uri() ?>/img/accueil/slider1_3.jpg" alt="">
+			<img class="department_prev" src="<?php echo get_template_directory_uri() ?>/img/accueil/slider1_2.jpg" alt="">
 		</div>
 		<div id="department_arrows">
 			
@@ -107,7 +109,9 @@
 		<div id="international_content">
 			<div id="international_slider">
 				<img class="international_second" src="<?php echo get_template_directory_uri() ?>/img/accueil/slider2_2.jpg" alt="">
-				<img class="international_first" src="<?php echo get_template_directory_uri() ?>/img/accueil/slider2_1.jpg" alt="">
+				<div class="international_first border">
+					<img class="international_first" src="<?php echo get_template_directory_uri() ?>/img/accueil/slider2_1.jpg" alt="">
+				</div>
 				<div id="international_arrows">
 					<img src="" alt="">
 					<img src="" alt="">
@@ -122,21 +126,25 @@
 
 	<section id="testimony">
 		<h2>les témoignages</h2>
-		<div class="testimony_normal">
+		<div class="testimony_container normal">
+			<img class="testimony_quote" src="<?php echo get_template_directory_uri() ?>/img/quote.svg" alt="">
 			<div class="testimony_img">
 				<img src="<?php the_field("home_testimony_first_img"); ?>" alt="">
 			</div>
 			<div class="testimony_titles">
 				<p><?php the_field("home_testimony_first_name"); ?></p>
 				<p><?php the_field("home_testimony_first_job"); ?></p>
+				<img src="<?php echo get_template_directory_uri() ?>/img/accueil/testimony_line_normal.svg" alt="">
 			</div>
 			<p class="testimony_content"><?php the_field("home_testimony_first_content"); ?></p>
 		</div>
-		<div class="testimony_reverse">
+		<div class="testimony_container reverse">
+			<img class="testimony_quote" src="<?php echo get_template_directory_uri() ?>/img/quote.svg" alt="">
 			<p class="testimony_content"><?php the_field("home_testimony_second_content"); ?></p>
 			<div class="testimony_titles">
 				<p><?php the_field("home_testimony_second_name"); ?></p>
 				<p><?php the_field("home_testimony_second_job"); ?></p>
+				<img src="<?php echo get_template_directory_uri() ?>/img/accueil/testimony_line_reverse.svg" alt="">
 			</div>
 			<div class="testimony_img">
 				<img src="<?php the_field("home_testimony_second_img"); ?>" alt="">
