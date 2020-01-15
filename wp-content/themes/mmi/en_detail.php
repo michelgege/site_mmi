@@ -105,6 +105,93 @@ get_header();
 				<p class="testimony"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut quis nostrud exercitation ullamco laboris nisi ut  . </p>
 			</div>  	    
 		</div>
+		<div id="teachers">
+			<div class="column_teacher">
+				<div id="after_picture">
+				<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/testimony_picture_1.jpg" id="team_picture" alt="">
+				</div>
+				<h3 class="name"> Sandra <span class="uppercase"> marechal </span> </h3>
+				<h3 class="profesion"> Lorem Ipsum </h3>
+				<p class="testimony"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut quis nostrud exercitation ullamco laboris nisi ut  . </p>
+			</div>
+			<div class="column_teacher">
+				<div id="after_picture">
+				<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/testimony_picture_1.jpg" id="team_picture" alt="">
+				</div>
+				<h3 class="name"> Sandra <span class="uppercase"> marechal </span> </h3>
+				<h3 class="profesion"> Lorem Ipsum </h3>
+				<p class="testimony"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut quis nostrud exercitation ullamco laboris nisi ut  . </p>
+			</div>   
+			<div class="column_teacher">
+				<div id="after_picture">
+				<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/testimony_picture_1.jpg" id="team_picture" alt="">
+				</div>
+				<h3 class="name"> Sandra <span class="uppercase"> marechal </span> </h3>
+				<h3 class="profesion"> Lorem Ipsum </h3>
+				<p class="testimony"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut quis nostrud exercitation ullamco laboris nisi ut  . </p>
+			</div>   
+			<div class="column_teacher">
+				<div id="after_picture">
+				<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/testimony_picture_1.jpg" id="team_picture" alt="">
+				</div>
+				<h3 class="name"> Sandra <span class="uppercase"> marechal </span> </h3>
+				<h3 class="profesion"> Lorem Ipsum </h3>
+				<p class="testimony"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut quis nostrud exercitation ullamco laboris nisi ut  . </p>
+			</div>  	    
+		</div>
+		<div id="teachers">
+			<div class="column_teacher">
+				<div id="after_picture">
+				<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/testimony_picture_1.jpg" id="team_picture" alt="">
+				</div>
+				<h3 class="name"> Sandra <span class="uppercase"> marechal </span> </h3>
+				<h3 class="profesion"> Lorem Ipsum </h3>
+				<p class="testimony"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut quis nostrud exercitation ullamco laboris nisi ut  . </p>
+			</div>
+			<div class="column_teacher">
+				<div id="after_picture">
+				<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/testimony_picture_1.jpg" id="team_picture" alt="">
+				</div>
+				<h3 class="name"> Sandra <span class="uppercase"> marechal </span> </h3>
+				<h3 class="profesion"> Lorem Ipsum </h3>
+				<p class="testimony"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut quis nostrud exercitation ullamco laboris nisi ut  . </p>
+			</div>   
+			<div class="column_teacher">
+				<div id="after_picture">
+				<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/testimony_picture_1.jpg" id="team_picture" alt="">
+				</div>
+				<h3 class="name"> Sandra <span class="uppercase"> marechal </span> </h3>
+				<h3 class="profesion"> Lorem Ipsum </h3>
+				<p class="testimony"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut quis nostrud exercitation ullamco laboris nisi ut  . </p>
+			</div>   
+			<div class="column_teacher">
+				<div id="after_picture">
+				<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/testimony_picture_1.jpg" id="team_picture" alt="">
+				</div>
+				<h3 class="name"> Sandra <span class="uppercase"> marechal </span> </h3>
+				<h3 class="profesion"> Lorem Ipsum </h3>
+				<p class="testimony"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut quis nostrud exercitation ullamco laboris nisi ut  . </p>
+			</div>  	    
+		</div>
+		<div id="teachers_centered">
+			<div class="column_teacher">
+				<div id="after_picture_center">
+				<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/testimony_picture_1.jpg" id="team_picture" alt="">
+				</div>
+				<h3 class="name"> Sandra <span class="uppercase"> marechal </span> </h3>
+				<h3 class="profesion"> Lorem Ipsum </h3>
+				<p class="testimony"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut quis nostrud exercitation ullamco laboris nisi ut  . </p>
+			</div>
+			<div class="column_teacher">
+				<div id="after_picture_center">
+				<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/testimony_picture_1.jpg" id="team_picture" alt="">
+				</div>
+				<h3 class="name"> Sandra <span class="uppercase"> marechal </span> </h3>
+				<h3 class="profesion"> Lorem Ipsum </h3>
+				<p class="testimony"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut quis nostrud exercitation ullamco laboris nisi ut  . </p>
+			</div>   
+		</div>
+
 	</section>
 </div>
 

@@ -164,7 +164,7 @@ div#after_content_purple:after
 	background: #491658;
 	width: 465px;
 	height: 125px;
-	margin-top: - 75px;
+	margin-top: -75px;
 	margin-left: 150px;
 }
 
@@ -302,6 +302,13 @@ div#teachers
 	margin-bottom: 100px;
 }
 
+div#teachers_centered
+{
+	display: flex;
+	width: 100%;
+	margin-bottom: 100px;
+	justify-content: center;
+}
 div.column_teacher
 {
 	flex-direction: column;
@@ -327,6 +334,19 @@ div.column_teacher
 		transform: rotate(-17deg);
 		margin-top: -194px;
 		margin-left: 10%;
+}
+
+#after_picture_center:after
+{
+	content:"";
+		border: #9B3BB7 solid 3px;
+		text-shadow: 0 0 3px #9B3BB7;
+		display: block;
+		width: 188px;
+		height: 194px;
+		transform: rotate(-17deg);
+		margin-top: -194px;
+		margin-left: 15%;
 }
 
 
