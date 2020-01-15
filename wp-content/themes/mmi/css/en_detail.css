@@ -33,6 +33,118 @@ body
 {
 	padding: 0px 240px 0px 185px;
 }
+section.le_but
+	{
+		position: relative;
+	}
+
+		section.le_but img.tablet
+		{
+			position: absolute;
+			left:96px;
+			top:254px;
+		}
+
+		section.le_but img.checklist
+		{
+			position: absolute;
+			right:35px;
+			top:566px;
+		}
+
+		section.le_but img.camera
+		{
+			position: absolute;
+			left:5px;
+			top:768px;
+		}
+
+
+			h1::after
+		    {
+		        display: block;
+				content: "";
+				width: 23%;
+				height: 64px;
+				background-color: #9B3BB7 ;
+				margin-top: -35px;
+				margin-left: 28px;
+				margin-bottom: 100px;
+		    }
+
+			p span
+			{
+				font-weight: 500;
+			}
+
+		p.competences_1
+		{
+			text-align: right;
+			width: 500px;
+			margin-right: 0;
+			margin-left: auto;
+			color: white;
+			font-weight: 300;
+			font-size: 18px;
+		}
+			
+			p.competences_1::after
+			{
+				display: block;
+				content: "";
+				width: 463px;
+				height: 95px;
+				background-color: #491658;
+				margin-top: -55px;
+				margin-left: -100px;
+				margin-bottom: 50px;
+			}
+
+		p.competences_2
+		{
+			width: 500px;
+			margin-bottom: 100px; 
+			color: white;
+			font-weight: 300;
+			font-size: 18px;
+		}
+
+
+		div.competences_deroulantes
+		{
+			color: white;
+
+		}
+
+			div.competences_deroulantes div.competence
+			{
+				width: 600px;
+				margin-left: auto;
+				margin-right: auto;
+
+			}
+
+				div.competences_deroulantes div.competence div.content
+				{
+					margin-left: 60px;
+					margin-top: 35px;
+					margin-bottom: 45px;
+					font-size: 15px;
+
+				}
+			
+				div.competences_deroulantes div.competence div.titre
+				{
+					display: flex;
+					align-items: center;
+				}
+
+					div.competences_deroulantes div.competence div.titre h3
+					{
+						font-weight: 500;
+						font-size: 18px;
+						margin-left: 21px;
+					}
 
 
 
@@ -164,7 +276,7 @@ div#after_content_purple:after
 	background: #491658;
 	width: 465px;
 	height: 125px;
-	margin-top: - 75px;
+	margin-top: -75px;
 	margin-left: 150px;
 }
 
@@ -271,6 +383,10 @@ div#after_content_purple
 	margin-left: auto;
 	margin-right: auto;
 }
+video[poster]
+{
+	object-fit: cover;
+}
 
 .video .button
 {
@@ -295,9 +411,16 @@ div#teachers
 {
 	display: flex;
 	width: 100%;
-	margin-top: 100px;
+	margin-bottom: 100px;
 }
 
+div#teachers_centered
+{
+	display: flex;
+	width: 100%;
+	margin-bottom: 100px;
+	justify-content: center;
+}
 div.column_teacher
 {
 	flex-direction: column;
@@ -312,7 +435,31 @@ div.column_teacher
 	transform: translateX(-50%);
 }
 
+#after_picture:after
+{
+	content:"";
+		border: #9B3BB7 solid 3px;
+		text-shadow: 0 0 3px #9B3BB7;
+		display: block;
+		width: 188px;
+		height: 194px;
+		transform: rotate(-17deg);
+		margin-top: -194px;
+		margin-left: 10%;
+}
 
+#after_picture_center:after
+{
+	content:"";
+		border: #9B3BB7 solid 3px;
+		text-shadow: 0 0 3px #9B3BB7;
+		display: block;
+		width: 188px;
+		height: 194px;
+		transform: rotate(-17deg);
+		margin-top: -194px;
+		margin-left: 15%;
+}
 
 
 
