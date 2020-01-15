@@ -158,9 +158,15 @@ p.content_center
 	width: 500px;
 }
 
+<<<<<<< HEAD
 
 .departement .intro
+=======
+.intro
+>>>>>>> 76739b543ad1ad076e13ab1766d00a907195e88a
 {
+    width: 1105px;
+    height: 651px;
 	width: 1105px;
 	height: 651px;
 	margin-left: auto;
@@ -168,8 +174,55 @@ p.content_center
 
 }
 
-.departement .intro p
+.intro p
 {
+	width: 100%;
+    font-family: Raleway, sans-serif;
+    font-size: 23px;
+    font-weight: 300;
+    color: white;
+    margin-left: 50%;
+	transform: translateX(-50%);
+
+}
+	
+	.video{
+		position: relative;
+		width: 730px;
+		height: 454px;
+		margin-top: 112px;
+		margin-left: 50%;
+		transform: translateX(-50%);
+
+	}
+		.video video
+		{
+			width: 730px;
+			height: 454px;
+		    margin-left: auto;
+		    margin-right: auto;
+		}
+
+	    .video .button
+	    {	
+	    	cursor: pointer;
+	    	position: absolute;
+	    	top: 50%;
+	    	left: 50%;
+	    	width: 170px ;
+	    	height: 170px ;
+	    	border-radius: 50%;
+	    	opacity: 64%;
+	    	background-color: black;
+	    	transform: translateX(-50%) translateY(-50%);
+	    }
+
+	    .video .button img
+	    {
+		    margin-left: auto;
+		    margin-right: auto;
+	    }
+=======
 	font-family: Raleway, sans-serif;
 	font-size: 23px;
 	font-weight: 300;
@@ -212,7 +265,12 @@ p.content_center
 	margin-left: auto;
 	margin-right: auto;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> ac6e191d74f035f85fc828343f4750b8be147d6b
+=======
+>>>>>>> 76739b543ad1ad076e13ab1766d00a907195e88a
 div#after_content_purple:after
 {
 	content: "";
