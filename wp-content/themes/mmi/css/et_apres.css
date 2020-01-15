@@ -65,16 +65,11 @@ section#testimony
 			width: 40%;
 		}
 
-		div#scene, 
-		div#scene_two
-		{
-	    	position: absolute;
-		}
-
 		div#scene
 		{
 		    left: 55%;
 		    top: 5%;
+		    position: absolute;
 		}
 
 			div#scene img.side_green_triangle
