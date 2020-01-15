@@ -12,69 +12,35 @@
 
 	<h2>Les Témoignages</h2>
 
-	<div class="witness">
+	<?php while( have_rows('after_testimony') ): the_row(); 
 
-		<img src="<?php echo get_template_directory_uri() ?>/img/et_apres/testimony.jpg" alt="photo de profil">
+		// vars
+		$image = get_sub_field('after_testimony_img');
+		$name = get_sub_field('after_testimony_name');
+		$job = get_sub_field('after_testimony_job');
+		$company = get_sub_field('after_testimony_company');
+		$city = get_sub_field('after_testimony_city');
+		$content = get_sub_field('after_testimony_content');
 
-		<div>
-
-			<h3>Catherine BELCOUR</h3>
-			<h4>Responsable marketing et communication</h4>
-			<p>Clean Car, à Chambéry</p>
-
-		</div>
-
-		<p>La licence professionnelle c'est : Haec igitur lex in amicitia sanciatur, ut neque rogemus res turpes nec faciamus rogati. Turpis enim excusatio est et minime accipienda cum in ceteris peccatis, tum si quis contra rem publicam se amici causa fecisse </p>
-
-	</div>
+	?>	
 
 	<div class="witness">
 
-		<img src="<?php echo get_template_directory_uri() ?>/img/et_apres/testimony.jpg" alt="photo de profil">
+		<img src="<?php echo $image; ?>" alt="photo de profil">
 
 		<div>
 
-			<h3>Catherine BELCOUR</h3>
-			<h4>Responsable marketing et communication</h4>
-			<p>Clean Car, à Chambéry</p>
+			<h3><?php echo $name; ?></h3>
+			<h4><?php echo $job; ?></h4>
+			<p><?php echo $company; ?>, à <?php echo $city; ?></p>
 
 		</div>
 
-		<p>La licence professionnelle c'est : Haec igitur lex in amicitia sanciatur, ut neque rogemus res turpes nec faciamus rogati. Turpis enim excusatio est et minime accipienda cum in ceteris peccatis, tum si quis contra rem publicam se amici causa fecisse </p>
+		<p><?php echo $content; ?></p>
 
 	</div>
 
-	<div class="witness">
-
-		<img src="<?php echo get_template_directory_uri() ?>/img/et_apres/testimony.jpg" alt="photo de profil">
-
-		<div>
-
-			<h3>Catherine BELCOUR</h3>
-			<h4>Responsable marketing et communication</h4>
-			<p>Clean Car, à Chambéry</p>
-
-		</div>
-
-		<p>La licence professionnelle c'est : Haec igitur lex in amicitia sanciatur, ut neque rogemus res turpes nec faciamus rogati. Turpis enim excusatio est et minime accipienda cum in ceteris peccatis, tum si quis contra rem publicam se amici causa fecisse </p>
-
-	</div>
-
-	<div class="witness">
-
-		<img src="<?php echo get_template_directory_uri() ?>/img/et_apres/testimony.jpg" alt="photo de profil">
-
-		<div>
-
-			<h3>Catherine BELCOUR</h3>
-			<h4>Responsable marketing et communication</h4>
-			<p>Clean Car, à Chambéry</p>
-
-		</div>
-
-		<p>La licence professionnelle c'est : Haec igitur lex in amicitia sanciatur, ut neque rogemus res turpes nec faciamus rogati. Turpis enim excusatio est et minime accipienda cum in ceteris peccatis, tum si quis contra rem publicam se amici causa fecisse </p>
-
-	</div>
+	<?php endwhile; ?>
 
 </section>
 

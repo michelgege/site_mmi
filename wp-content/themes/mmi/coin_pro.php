@@ -107,7 +107,7 @@ get_header();
 
 		<div class="testimony_block">
 			<div class="after">
-				<img src="<?php echo get_template_directory_uri() ?>/img//coin_pro/testimony_picture_1.jpg" id="testimony_picture" alt="">
+				<img src="<?php the_field("pro_testimony_first_img"); ?>" id="testimony_picture" alt="">
 			</div>
 
 			<div class="column">
@@ -125,7 +125,7 @@ get_header();
 
 		<div class="testimony_block_second">
 			<div class="after">
-				<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/testimony_picture_2.jpg" id="testimony_picture" alt="">
+				<img src="<?php the_field("pro_testimony_second_img"); ?>" id="testimony_picture" alt="">
 			</div>
 
 			<div class="column">
