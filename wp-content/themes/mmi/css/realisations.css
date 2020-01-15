@@ -56,6 +56,7 @@ div.column_container
       display: flex;
       width: 100%;   
       margin-bottom: 300px; 
+      line-height: 0;
 }
       div.column_container div.column
       {
@@ -178,7 +179,7 @@ div.pop_up.visible
                   top: 50%;
                   transform: translate(-50%, -50%);
                   left: 50%;
-                  padding: 100px 0;
+                  padding: 100px 50px;
             }
 
                   div.pop_up div.content>div
@@ -297,7 +298,7 @@ div#scene_third
 div#scene_fourth
 {
       top: -400px;
-      left:50px;
+      left:0;
 }
 
       div#scene_fourth img.white_triangle_full
@@ -603,10 +604,6 @@ div#scene_fourth
          height: 35px;
           margin-top: -18px;
       }
-
-
-
-
 
 }
 

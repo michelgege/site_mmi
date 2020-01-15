@@ -250,26 +250,25 @@
 	</div>
 	<div class="content">
 		<div class="realisation">
-			<img src="<?php echo get_template_directory_uri() ?>img/emigrant.jpg" alt="">
+			<img src="<?php echo get_template_directory_uri() ?>/img/realisations/rea/filmframmi.jpg" alt="">
 
 			<a href="#">Voir la realisation</a>
 		</div>
 
 		<div class="description">
 			<div>
-				<h3 class="domain">Graphisme</h3>
-				<p class="date">2008</p>
+				<h3 class="domain">Vidéo</h3>
+				<p class="date">2017-2018</p>
 			</div>
 			<div>
-				<p class="author_and_name">"Lorem Ipsum" par <span class="author_bold">John Doe</span></p>
+				<p class="author_and_name">"À proximité" par <span class="author_bold">Marie Raison</span></p>
 				<div>
-					<a><img src="<?php echo get_template_directory_uri() ?>/img/realisations/pinterest.png"/></a>
 					<a><img src="<?php echo get_template_directory_uri() ?>/img/realisations/linkedin.png"/></a>
 				</div>
 			</div>
-			<p class="mention">Réalisé pour <a target="_blank" href="http://www.mairie-lamotteservolex.fr/">la Mairie de la Motte-Servolex</a></p>
+			<p class="mention">Réalisé pour <a target="_blank" href="http://www.mairie-lamotteservolex.fr/">les FRAMMIS</a></p>
 
-			<p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci eius consectetur rem facilis, ad necessitatibus quia quaerat assumenda, at quisquam, labore alias ipsa suscipit? Enim exercitationem cupiditate nulla assumenda excepturi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Id repellat nemo aliquid placeat quis, exercitationem quas, perspiciatis fugiat deserunt labore dolore error voluptatem ipsa ut incidunt facilis soluta velit Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum ut nihil ad libero at quas error minus, aperiam odio suscipit impedit vero ullam vitae, iste ducimus. Distinctio ipsum porro aut.</p>
+			<p class="description">Gagnant du prix de la meilleure réalisation “À proximité” de Marie Raison est un court-métrage traitant de l’amour au travers de deux jeunes de Chambéry qui discutent par message pendant plusieurs jour apres s’etre matches. Au fur et à mesure on sent plusieurs rythmes s'accélérer aussi bien la musique que le montage ou encore la relation des deux protagonistes par la quantité de messages et la familiarité qui s’en dégage. Tout ca pour mener à une fin efficace et tout en douceur.</p>
 
 		</div>
 	</div>
