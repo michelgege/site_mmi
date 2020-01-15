@@ -1,7 +1,29 @@
+h1
+	{
+		font-size: 70px;
+		color: white;
+		font-weight: 300;
+		font-family: 'Raleway', sans-serif;
+	}
+
+		h1::after
+	    {
+	        display: block;
+			content: "";
+			width: 575px;
+			height: 64px;
+			background-color: #9B3BB7;
+			margin-top: -35px;
+			margin-left: 28px;
+			opacity: 0.8;
+			position: absolute;
+			z-index: -1;
+	    }
 
 body
 {
 	background-color: #181818;
+	font-family: Raleway, sans-serif;
 }
 
 
@@ -20,7 +42,6 @@ div#destiny
 
 h2.right_title
 {
-	font-family: Raleway, sans-serif;
 	font-size: 30px;
 	font-weight: 600;
 	text-align: left;
@@ -31,7 +52,6 @@ h2.right_title
 
 p.content_right
 {
-	font-family: Raleway, sans-serif;
 	font-size: 15px;
 	font-weight: 300;
 	text-align: left;
@@ -40,22 +60,11 @@ p.content_right
 	margin-left: 55px;
 }
 
-p.content_right:nth-last-of-type(1)
-{
-	font-family: Raleway, sans-serif;
-	font-size: 15px;
-	font-weight: 300;
-	text-align: left;
-	color: white;
-	width: 552px;
-	margin-left: 55px;
-	margin-bottom: 200px;
-}
+
 
 
 h2.left_title
 {
-	font-family: Raleway, sans-serif;
 	font-size: 30px;
 	font-weight: 600;
 	text-align: right;
@@ -65,7 +74,7 @@ h2.left_title
 
 p.content_left
 {
-	font-family: Raleway, sans-serif;
+
 	font-size: 15px;
 	font-weight: 300;
 	text-align: right;
@@ -84,7 +93,7 @@ p.content_left
 
 h2.year
 {
-	font-family: Raleway, sans-serif;
+
 	font-size: 30px;
 	font-weight: 600;
 	text-align: left;
@@ -93,7 +102,7 @@ h2.year
 
 #number_one:after
 {
-	font-family: Raleway, sans-serif;
+
 	font-size: 150px;
 	font-weight: 800;
 	content: "1";
@@ -108,7 +117,7 @@ h2.year
 
 #number_two:after
 {
-	font-family: Raleway, sans-serif;
+
 	font-size: 150px;
 	font-weight: 800;
 	content: "2";
@@ -124,7 +133,7 @@ h2.year
 
 #number_three:after
 {
-	font-family: Raleway, sans-serif;
+
 	font-size: 150px;
 	font-weight: 800;
 	content: "3";
@@ -136,18 +145,8 @@ h2.year
 	color:#9B3BB7;
 }
 
-
-
-
-
-
-
-
-
-
 p.content_center
 {
-	font-family: Raleway, sans-serif;
 	font-size: 15px;
 	font-weight: 300;
 	text-align: left;
@@ -164,7 +163,7 @@ div#after_content_purple:after
 	background: #491658;
 	width: 465px;
 	height: 125px;
-	margin-top: -275px;
+	margin-top: - 75px;
 	margin-left: 150px;
 }
 
@@ -188,7 +187,6 @@ div#after_content_purple
 .intro p
 {
 	width: 100%;
-    font-family: Raleway, sans-serif;
     font-size: 23px;
     font-weight: 300;
     color: white;
@@ -272,4 +270,63 @@ div#after_content_purple
 	margin-right: auto;
 }
 
+div#teachers
+{
+	display: flex;
+	width: 100%;
+	margin-top: 100px;
+}
+
+div.column_teacher
+{
+	flex-direction: column;
+	width: 300px;
+	margin-right: 57.5px;
+	margin-left: 57.5px;
+}
+
+#team_picture
+{
+	margin-left: 50%;
+	transform: translateX(-50%);
+}
+
+
+
+
+
+h3.name
+{
+	font-size: 30px;
+	text-align: center;
+	color: white;
+	font-weight: 600;
+	margin-bottom: 25px;
+	margin-top: 30px;
+}
+
+span.uppercase
+{
+	text-transform: uppercase;
+}
+
+h3.profesion
+{
+	font-size: 28px;
+	text-align: center;
+	color: white;
+	font-weight: 500;
+	color:#9B3BB7;
+	margin-bottom: 25px;
+}
+
+p.testimony
+{
+	font-size: 15px;
+	text-align: center;
+	color: white;
+	font-weight: 300;
+	color:white
+}
+}
 
