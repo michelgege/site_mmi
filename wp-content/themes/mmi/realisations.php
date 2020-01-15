@@ -41,7 +41,7 @@
 
 				<div class="img_container">
 
-					<img src="img/emigrant.jpg" alt="">
+					<img src="<?php echo get_template_directory_uri() ?>/img/realisations/rea/filmframmi.jpg" alt="">
 					<div class="overlay">
 						<div class="text_container">
 							<p class="title">
@@ -56,7 +56,7 @@
 				</div>
 				<div class="img_container">
 
-					<img src="" alt="">
+					<img src="<?php echo get_template_directory_uri() ?>/img/realisations/rea/emigrant.jpg" alt="">
 					<div class="overlay">
 						<div class="text_container">
 							<p class="title">
@@ -71,7 +71,7 @@
 				</div>
 				<div class="img_container">
 
-					<img src="" alt="">
+					<img src="<?php echo get_template_directory_uri() ?>/img/realisations/rea/.jpg" alt="">
 					<div class="overlay">
 						<div class="text_container">
 							<p class="title">
@@ -86,7 +86,7 @@
 				</div>
 				<div class="img_container">
 
-					<img src="" alt="">
+					<img src="<?php echo get_template_directory_uri() ?>/img/realisations/rea/.jpg" alt="">
 					<div class="overlay">
 						<div class="text_container">
 							<p class="title">
@@ -106,11 +106,7 @@
 			<div class="column">
 				<div class="img_container">
 
-<<<<<<< HEAD
-					<img src="" alt="">
-=======
-					<img src="http://placehold.jp/300x300.jpg" alt="">
->>>>>>> 27b56888964b7925e454ae5751332cd6e03e85ef
+					<img src="<?php echo get_template_directory_uri() ?>/img/realisations/rea/lifi.jpg" alt="">
 					<div class="overlay">
 						<div class="text_container">
 							<p class="title">
@@ -173,7 +169,7 @@
 			<div class="column">
 				<div class="img_container">
 
-					<img src="http://placehold.jp/70x100.jpg" alt="">
+					<img src="<?php echo get_template_directory_uri() ?>/img/realisations/rea/myrelingues.jpg" alt="">
 					<div class="overlay">
 						<div class="text_container">
 							<p class="title">
@@ -203,7 +199,7 @@
 				</div>
 				<div class="img_container">
 
-					<img src="http://placehold.jp/140x100.jpg" alt="">
+					<img src="<?php echo get_template_directory_uri() ?>/img/realisations/rea/charte_neon.jpg" alt="">
 					<div class="overlay">
 						<div class="text_container">
 							<p class="title">
@@ -254,9 +250,9 @@
 	</div>
 	<div class="content">
 		<div class="realisation">
-			<img src="img/emigrant.jpg" alt="">
+			<img src="<?php echo get_template_directory_uri() ?>img/emigrant.jpg" alt="">
 
-			<a>Voir la realisation</a>
+			<a href="#">Voir la realisation</a>
 		</div>
 
 		<div class="description">
