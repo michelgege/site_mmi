@@ -1,2 +1,32 @@
 
-/*# sourceMappingURL=en_detail.css.map */
+body
+{
+	background-color: #181818;
+	font-family: Raleway, sans-serif;
+}
+
+
+
+#wrap
+{
+	padding: 0px 240px 0px 185px;
+}
+
+
+h2.right_title
+{
+	font-size: 30px;
+	font-weight: 600;
+	text-align: right;
+	color: #7A1497;
+	margin-bottom: 60px;
+}
+
+p.content
+{
+	font-size: 15px;
+	font-weight: 300;
+	text-align: left;
+	color: white;
+	width: 772px;
+}
