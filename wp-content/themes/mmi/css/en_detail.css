@@ -59,13 +59,11 @@ margin-top: 80px;
 
 
 
-<<<<<<< HEAD
 #wrap
 {
 	padding: 200px 240px 0px 185px;
 }
-=======
->>>>>>> 5e3c6bc244666f7afed6eac86e35b24595cf095a
+
 section.le_but
 	{
 		position: relative;
@@ -75,35 +73,25 @@ section.le_but
 		{
 
 			left:296px;
-<<<<<<< HEAD
 			top:1354px;
-=======
-			top:1143px;
->>>>>>> 07463ed7d3b0e4baa8e3d8e91061eb268212eb1e
+
 		}
 
 		img.checklist
 		{
 			right: 335px;
-			top: 1500px;
+			top: 600px;
 			position: absolute;
-<<<<<<< HEAD
-=======
-			right:150px;
-			top:1400px;
->>>>>>> 07463ed7d3b0e4baa8e3d8e91061eb268212eb1e
+
+
 		}
 
 		img.camera
 		{
 			position: absolute;
-<<<<<<< HEAD
-			left: 251px;
-			top: 1678px;
-=======
 			left:40px;
-			top:1565px;
->>>>>>> 07463ed7d3b0e4baa8e3d8e91061eb268212eb1e
+			top:765px;
+
 		}
 
 
