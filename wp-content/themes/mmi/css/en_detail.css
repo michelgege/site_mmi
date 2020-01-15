@@ -158,7 +158,12 @@ p.content_center
 	width: 500px;
 }
 
+<<<<<<< HEAD
+
+.departement .intro
+=======
 .intro
+
 {
     width: 1105px;
     height: 651px;
@@ -217,13 +222,8 @@ p.content_center
 		    margin-left: auto;
 		    margin-right: auto;
 	    }
-=======
-	font-family: Raleway, sans-serif;
-	font-size: 23px;
-	font-weight: 300;
-	color: white;
 
-}
+
 
 .video{
 	position: relative;
@@ -260,8 +260,12 @@ p.content_center
 	margin-left: auto;
 	margin-right: auto;
 }
+<<<<<<< HEAD
+
+=======
 >>>>>>> ac6e191d74f035f85fc828343f4750b8be147d6b
 =======
+>>>>>>> 76739b543ad1ad076e13ab1766d00a907195e88a
 div#after_content_purple:after
 {
 	content: "";
