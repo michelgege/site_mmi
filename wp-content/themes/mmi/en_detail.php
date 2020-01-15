@@ -9,7 +9,7 @@
 ?>
 
 <div id="wrap">
-
+ 
 <section class="le_but">
 	<h1>Le BUT</h1>
 
