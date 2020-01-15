@@ -25,6 +25,7 @@
 	  	wp_enqueue_script('parallax_header', get_template_directory_uri().'/js/parallax_header.js', array('jquery','parallax_libs'), false, true);
 
 	  		//Scripts enqueued
+		wp_register_script('en_detail_js', get_template_directory_uri().'/js/en_detail.js', array('jquery','parallax_libs'), false, true);
 		wp_register_script('coin_pro_js', get_template_directory_uri().'/js/coin_pro.js', array('jquery','parallax_libs'), false, true);
 		wp_register_script('realisations_js', get_template_directory_uri().'/js/realisations.js', array('jquery','parallax_libs'), false, true);
 		wp_register_script('index_js', get_template_directory_uri().'/js/index.js', array('jquery','parallax_libs'), false, true);
@@ -57,6 +58,7 @@
 		}
 
 		else if (is_page('mmi-en-detail')) {
+			wp_enqueue_script('en_detail_js');
 			wp_enqueue_style('en_detail');
 		}
 
