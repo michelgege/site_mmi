@@ -50,7 +50,8 @@ section#testimony
 
 		section#testimony div.witness img
 		{
-			
+			width: 200px;
+			height: 200px;
 		}
 		
 		section#testimony div.witness h4

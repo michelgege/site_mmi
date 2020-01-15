@@ -429,6 +429,7 @@ section#testimony {
 			width: 40%;
 			line-height: 20px;
 			margin-top: 30px;
+			line-height: 25px;
 		}
 
 		section#testimony .normal .testimony_content {
@@ -441,6 +442,8 @@ section#testimony {
 
 		section#testimony .testimony_container .testimony_img {
 			position: relative;
+			height: 200px;
+			width: 200px;
 		}
 
 			section#testimony .testimony_container .testimony_img:after {
@@ -460,6 +463,11 @@ section#testimony {
 
 			section#testimony .reverse .testimony_img:after {
 				transform: rotate(15deg);
+			}
+
+			section#testimony .testimony_container .testimony_img >img {
+				width: 200px;
+				height: 200px;
 			}
 
 			section#testimony .normal .testimony_quote {
