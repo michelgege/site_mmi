@@ -91,7 +91,7 @@ h2.year
 	color: white;
 }
 
-#number_one:after
+#number_one:before
 {
 	font-family: Raleway, sans-serif;
 	font-size: 150px;
@@ -99,7 +99,7 @@ h2.year
     content: "1";
 }
 
-#number_two:after
+#number_two:before
 {
 	font-family: Raleway, sans-serif;
 	font-size: 150px;
@@ -108,7 +108,7 @@ h2.year
 }
 
 
-#number_three:after
+#number_three:before
 {
 	font-family: Raleway, sans-serif;
 	font-size: 150px;
@@ -207,4 +207,4 @@ div#after_content_purple
 {
 margin-bottom: 231px;
 }
->>>>>>> 0b0180a39e50c63df275a547fa4e76d59dfde7db
+
