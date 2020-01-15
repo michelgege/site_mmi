@@ -11,7 +11,7 @@ body
 	{
 	      font-size: 70px;
 	      font-weight: 300;
-	      margin-top: 150px;
+	      margin-top: 120px;
 	      color:white;
 	}
 
@@ -30,11 +30,12 @@ section#testimony
 {
 	color: white;
 	padding: 0 10%;
+	position: relative;
 }
 
 	section#testimony div.witness{
 		display: flex;
-		margin: 100px 0;
+		margin: 100px 100px;
 	}
 
 		section#testimony div.witness>div{
@@ -63,3 +64,28 @@ section#testimony
 			align-self: center;
 			width: 40%;
 		}
+
+		div#scene
+		{
+		    left: 55%;
+		    top: 5%;
+		    position: absolute;
+		}
+
+			div#scene img.side_green_triangle
+      		{
+            	margin-left: 425%;
+            	margin-top: 400%;
+      		}
+
+      		div#scene img.empty_top_triangle
+      		{
+            	margin-top: -30%;
+            	margin-left: -30%;
+      		}
+
+      		div#scene img.green_top_triangle
+      		{
+            	margin-top: 40%;
+            	margin-left: 30%;
+      		}

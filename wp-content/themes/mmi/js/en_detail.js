@@ -12,3 +12,17 @@ jQuery('body').on('click', ".video", function() {
 		is_play = false;
 	};
 });
+
+
+function competences_deroulantes(){
+
+	jQuery('div.titre').click(function(){
+
+		var id=jQuery(this).attr("data-id");
+
+		jQuery('div.content[data-id= "'+id+'"]').toggleClass('active');
+
+	})
+
+}
+competences_deroulantes();

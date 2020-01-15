@@ -8,11 +8,112 @@
 get_header();
 ?>
 
-<p>En détails</p>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5e3c6bc244666f7afed6eac86e35b24595cf095a
 <div id="wrap">
 
+	<div id="scene" class="scene">
+		<div  class="layer" data-depth="0.10">
+			<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/top_triangle_purple.svg" id="top_triangle_purple" alt="top_triangle_purple">
+		</div> 
+		<div  class="layer" data-depth="0.40">
+			<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/top_triangle_white.svg" id="top_triangle_white" alt="top_triangle_white">
+		</div> 
+	</div>
+
+	<section class="le_but">
+	<h1>Le BUT</h1>
+	<img class="tablet" src="<?php echo get_template_directory_uri() ?>/img/en_detail/tablet.svg" alt="tablette graphique">
+	<h2 class="left_title">Les compétences</h2>
+	<p class="competences_1">Le <span>Bachelor Universitaire de Technologie</span> (BUT) « Métiers du Multimédia et de l’Internet » (MMI) se déroule en <span>3 ans</span>, découpés en <span>6 semestres</span>, sur un volume total de <span>2000 heures de cours</span> en présence d’un enseignant. A cela s’ajoutent 600 heures de projet réparties sur les 3 années.</p>
+
+	<p class="competences_2">Chaque étudiant doit valider 5 blocs de compétences pour l’obtention du BUT MMI découpés de la manière suivante :</p>
+
+	<img class="checklist" src="<?php echo get_template_directory_uri() ?>/img/en_detail/checklist.svg" alt="checklist">
+	<img class="camera" src="<?php echo get_template_directory_uri() ?>/img/en_detail/camera.svg" alt="camera">
+
+	<div class="competences_deroulantes">
+		<div class="competence">
+			<div class="titre" data-id="1">
+				<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/plus.svg" alt="plus">
+				<h3>Savoir et être capable de produire du contenu multimédia</h3>
+			</div>
+			<div class="content" data-id="1">
+				<p>- en respectant les contraintes techniques du milieu professionnel en vigueur</p>
+				<p>- en considérant les normes de numérisation et leur impact</p>
+				<p>- en sachant choisir et utiliser le matériel et logiciels adéquats</p>
+				<p>- en faisant preuve d'invention et de créativité dans l'utilisation des outils</p>
+				<p>- en mettant en œuvre les fondamentaux des langages plastiques et filmiques</p>
+			</div>
+		</div>
+
+		<div class="competence">
+			<div class="titre" data-id="2">
+				<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/plus.svg" alt="plus">
+				<h3>Savoir et être capable de programmer pour le web</h3>
+			</div>
+			<div class="content" data-id="2">
+				<p>- en respectant les contraintes techniques du milieu professionnel en vigueur</p>
+				<p>- en considérant les normes de numérisation et leur impact</p>
+				<p>- en sachant choisir et utiliser le matériel et logiciels adéquats</p>
+				<p>- en faisant preuve d'invention et de créativité dans l'utilisation des outils</p>
+				<p>- en mettant en œuvre les fondamentaux des langages plastiques et filmiques</p>
+			</div>
+			
+		</div>
+
+		<div class="competence">
+			<div class="titre" data-id="3">
+				<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/plus.svg" alt="plus">
+				<h3>Savoir et être capable de mettre en place et administrer des systèmes d'information</h3>
+			</div>
+			<div class="content" data-id="3">
+				<p>- en respectant les contraintes techniques du milieu professionnel en vigueur</p>
+				<p>- en considérant les normes de numérisation et leur impact</p>
+				<p>- en sachant choisir et utiliser le matériel et logiciels adéquats</p>
+				<p>- en faisant preuve d'invention et de créativité dans l'utilisation des outils</p>
+				<p>- en mettant en œuvre les fondamentaux des langages plastiques et filmiques</p>
+			</div>
+		</div>
+
+		<div class="competence">
+			<div class="titre" data-id="4">
+				<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/plus.svg" alt="plus">
+				<h3>Savoir et être capable de gérer un projet numérique</h3>
+			</div>
+			<div class="content" data-id="4">
+				<p>- en respectant les contraintes techniques du milieu professionnel en vigueur</p>
+				<p>- en considérant les normes de numérisation et leur impact</p>
+				<p>- en sachant choisir et utiliser le matériel et logiciels adéquats</p>
+				<p>- en faisant preuve d'invention et de créativité dans l'utilisation des outils</p>
+				<p>- en mettant en œuvre les fondamentaux des langages plastiques et filmiques</p>
+			</div>
+		</div>
+
+		<div class="competence">
+			<div class="titre" data-id="5">
+				<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/plus.svg" alt="plus">
+				<h3>Savoir et être capable d'élaborer et rédiger des contenus </h3>
+			</div>
+			<div class="content" data-id="5">
+				<p>- en respectant les contraintes techniques du milieu professionnel en vigueur</p>
+				<p>- en considérant les normes de numérisation et leur impact</p>
+				<p>- en sachant choisir et utiliser le matériel et logiciels adéquats</p>
+				<p>- en faisant preuve d'invention et de créativité dans l'utilisation des outils</p>
+				<p>- en mettant en œuvre les fondamentaux des langages plastiques et filmiques</p>
+			</div>
+		</div>
+		
+		
+		
+	</div>
+
+</section>
+
 	<div id="destiny">
+		<img class="code" src="<?php echo get_template_directory_uri() ?>/img/en_detail/code.svg" alt="code">
 		<h2 class="right_title"> A qui est destiné le BUT MMI ? </h2>
 		<p class="content_right"> Notre objectif est de composer une promotion avec : </p>
 		<p class="content_right">-	50% de bacheliers technologiques, de préférence issus de la filière STI2D option SIN, avec un excellent dossier.</p>
@@ -61,7 +162,7 @@ get_header();
 			<p >Nous vous accueillons sur le site du Bourget du Lac dans des locaux équipés de matériel informatique et 
 			audiovisuel récent que les étudiants peuvent emprunter.</p>
 			<div class="video">
-				<video src="https://mmi.univ-smb.fr/site/wp-content/uploads/2016/02/Boucle3.mp4" poster="http://localhost/site_mmi/wp-content/themes/mmi/img/accueil/slider2_1.jpg"></video>
+				<video src="https://mmi.univ-smb.fr/site/wp-content/uploads/2016/02/Boucle3.mp4" poster="http://localhost/site_mmi/wp-content/themes/mmi/img/accueil/slider2_1.jpg" loop></video>
 				<div class="button">
 					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/playbutton.svg">
 				</div>
