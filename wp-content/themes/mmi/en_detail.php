@@ -14,7 +14,7 @@ get_header();
 <<<<<<< HEAD
  
 <section class="le_but">
-	<h1>Le BUT</h1>
+	<h1>Le BUT</h1> 
 =======
 
 >>>>>>> 28a581f3f1b84b92c026446d659f36601dc0db06
