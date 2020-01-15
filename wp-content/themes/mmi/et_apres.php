@@ -44,21 +44,21 @@
 
 	?>	
 
-	<div class="witness">
+		<div class="witness">
 
-		<img src="<?php echo $image; ?>" alt="photo de profil">
+			<img src="<?php echo $image; ?>" alt="photo de profil">
 
-		<div>
+			<div>
 
-			<h3><?php echo $name; ?></h3>
-			<h4><?php echo $job; ?></h4>
-			<p><?php echo $company; ?>, à <?php echo $city; ?></p>
+				<h3><?php echo $name; ?></h3>
+				<h4><?php echo $job; ?></h4>
+				<p><?php echo $company; ?>, à <?php echo $city; ?></p>
+
+			</div>
+
+			<p><?php echo $content; ?></p>
 
 		</div>
-
-		<p><?php echo $content; ?></p>
-
-	</div>
 
 	<?php endwhile; ?>
 

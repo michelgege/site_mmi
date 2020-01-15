@@ -86,8 +86,9 @@
 			<div id="department_border">
 				<img class="department_selected" src="<?php echo get_template_directory_uri() ?>/img/accueil/slider1_1.jpg" alt="">
 			</div>
-			<img class="department_next" src="<?php echo get_template_directory_uri() ?>/img/accueil/slider1_3.jpg" alt="">
-			<img class="department_prev" src="<?php echo get_template_directory_uri() ?>/img/accueil/slider1_2.jpg" alt="">
+			<img class="department_next" src="<?php echo get_template_directory_uri() ?>/img/accueil/slider1_2.jpg" alt="">	
+			<img class="department_prev" src="<?php echo get_template_directory_uri() ?>/img/accueil/slider1_3.jpg" alt="">
+			
 		</div>
 		<div id="department_arrows">
 			
