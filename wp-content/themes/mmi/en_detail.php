@@ -328,7 +328,7 @@ get_header();
 			</div>   
 			<div class="column_teacher">
 				<div id="after_picture">
-					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/Froelish.jpg" id="team_picture" alt="">
+					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/Froelich.jpg" id="team_picture" alt="">
 				</div>
 				<h3 class="name"> Pierre Froelich </h3>
 				<h3 class="profesion"> Lorem Ipsum </h3>
@@ -343,16 +343,18 @@ get_header();
 				<h3 class="name"> Sandra <span class="uppercase"> marechal </span> </h3>
 				<h3 class="profesion"> Lorem Ipsum </h3>
 				<p class="testimony"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut quis nostrud exercitation ullamco laboris nisi ut  . </p>
-=======
-					<img src="<?php echo $image; ?>" id="team_picture" alt="">
+=======		</div>
+		</div>
+	</section>
+				<!-- 	<img src="<?php echo $image; ?>" id="team_picture" alt="">
 				</div>
 				<h3 class="name"><?php echo $name; ?></h3>
 				<h3 class="profesion"><?php echo $job; ?></h3>
 				<p class="testimony"><?php echo $testimony; ?></p>
->>>>>>> a0407219c89505921ae4cdd1a0464f3f89e61105
-			</div>
+>>>>>>> a0407219c89505921ae4cdd1a0464f3f89e61105 -->
 			
-			<?php endwhile; ?>
+			
+			<?php endwhile; ?>  -->
 
 		</div>
 
