@@ -160,8 +160,11 @@ p.content_center
 
 .intro
 {
+<<<<<<< HEAD
     width: 1105px;
     height: 651px;
+=======
+>>>>>>> 416a3cb2353919e063ec2cf109a7ba5e6914df99
 	width: 1105px;
 	height: 651px;
 	margin-left: auto;
@@ -171,6 +174,7 @@ p.content_center
 
 .intro p
 {
+<<<<<<< HEAD
 	width: 100%;
     font-family: Raleway, sans-serif;
     font-size: 23px;
@@ -218,6 +222,8 @@ p.content_center
 		    margin-right: auto;
 	    }
 =======
+=======
+>>>>>>> 416a3cb2353919e063ec2cf109a7ba5e6914df99
 	font-family: Raleway, sans-serif;
 	font-size: 23px;
 	font-weight: 300;
@@ -260,7 +266,6 @@ p.content_center
 	margin-left: auto;
 	margin-right: auto;
 }
->>>>>>> ac6e191d74f035f85fc828343f4750b8be147d6b
 =======
 div#after_content_purple:after
 {
