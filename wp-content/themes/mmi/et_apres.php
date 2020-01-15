@@ -12,15 +12,15 @@
 
 	<div id="scene" class="scene">
 
-		<div data-depth="-0.80">
+		<div data-depth="-1.80">
 			<img class="empty_top_triangle" src="<?php echo get_template_directory_uri() ?>/img/et_apres/empty_top_triangle" alt=""> 
 		</div>
 
-		<div data-depth="1.50">
+		<div data-depth="2.50">
 			<img class="green_top_triangle" src="<?php echo get_template_directory_uri() ?>/img/et_apres/green_top_triangle" alt="">
 		</div>
 
-		<div data-depth="-0.25">
+		<div data-depth="-2.25">
 			<img class="grey_square" src="<?php echo get_template_directory_uri() ?>/img/et_apres/grey_square" alt="">
 		</div>
 
