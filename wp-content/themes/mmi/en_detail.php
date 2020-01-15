@@ -10,8 +10,11 @@
 
 <p>En détails</p>
 
+<div id="wrap">
+</div>
 
-AOPKO1PJOJOJAJO
+
+<h2 class="sub_title"> A qui est destiné le BUT MMI ? </h2>
 
 
 
