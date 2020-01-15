@@ -2309,11 +2309,11 @@ get_header();
 		<img class="cross" src="http://localhost/site_mmi/wp-content/themes/mmi/img/international/cross.svg" alt="croix">
 		<div class="header">
 			<div class="img_after">
-				<img src="http://localhost/site_mmi/wp-content/themes/mmi/img/international/testimony_picture_2.jpg">
+				<img src="<?php echo get_template_directory_uri() ?>/img/international/mathilde.png">
 			</div>
 			<div class="infos">
-				<h3>Jean PAT</h3>
-				<h4>DUETI Destination</h4>
+				<h3>Mathilde Chassignol</h3>
+				<h4>Matane</h4>
 				<p>Métier</p>
 			</div>
 		</div>
