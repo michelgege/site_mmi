@@ -14,7 +14,7 @@
 	<h1>Le BUT</h1>
 
 	<h2 class="right_title">Les compétences</h2>
-	<p>Le Bachelor Universitaire de Technologie (BUT) « Métiers du Multimédia et de l’Internet » (MMI) se déroule en 3 ans, découpés en 6 semestres, sur un volume total de 2000 heures de cours en présence d’un enseignant. A cela s’ajoutent 600 heures de projet réparties sur les 3 années.</p>
+	<p class="competences">Le <span>Bachelor Universitaire de Technologie</span> (BUT) « Métiers du Multimédia et de l’Internet » (MMI) se déroule en <span>3 ans</span>, découpés en <span>6 semestres</span>, sur un volume total de <span>2000 heures de cours</span> en présence d’un enseignant. A cela s’ajoutent 600 heures de projet réparties sur les 3 années.</p>
 
 	<p>Chaque étudiant doit valider 5 blocs de compétences pour l’obtention du BUT MMI découpés de la manière suivante :</p>
 
