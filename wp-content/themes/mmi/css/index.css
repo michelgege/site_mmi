@@ -218,6 +218,15 @@ section#department {
 			z-index: 10;
 		}
 
+			section#department #department_slider .department_selected:after {
+				content: "";
+				display: block;
+				position: absolute;
+				top: 0;
+				left: 0;
+				border: 3px solid var(--color-purple);
+			}
+
 		section#department #department_slider .department_prev {
 			opacity: 0.5;
 			transform: translateX(-60%) scale(0.8);

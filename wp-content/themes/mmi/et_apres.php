@@ -7,8 +7,6 @@
 <?php
 	get_header();
 ?>
-<!-- 
-<p>Et après</p> -->
 
 <section id="testimony">
 
