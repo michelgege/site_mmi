@@ -24,93 +24,93 @@ get_header();
 	</div>
 
 	<section class="le_but">
-	<h1>Le BUT</h1>
-	<img class="tablet" src="<?php echo get_template_directory_uri() ?>/img/en_detail/tablet.svg" alt="tablette graphique">
-	<h2 class="left_title">Les compétences</h2>
-	<p class="competences_1">Le <span>Bachelor Universitaire de Technologie</span> (BUT) « Métiers du Multimédia et de l’Internet » (MMI) se déroule en <span>3 ans</span>, découpés en <span>6 semestres</span>, sur un volume total de <span>2000 heures de cours</span> en présence d’un enseignant. A cela s’ajoutent 600 heures de projet réparties sur les 3 années.</p>
+		<h1>Le BUT</h1>
+		<img class="tablet" src="<?php echo get_template_directory_uri() ?>/img/en_detail/tablet.svg" alt="tablette graphique">
+		<h2 class="left_title">Les compétences</h2>
+		<p class="competences_1">Le <span>Bachelor Universitaire de Technologie</span> (BUT) « Métiers du Multimédia et de l’Internet » (MMI) se déroule en <span>3 ans</span>, découpés en <span>6 semestres</span>, sur un volume total de <span>2000 heures de cours</span> en présence d’un enseignant. A cela s’ajoutent 600 heures de projet réparties sur les 3 années.</p>
 
-	<p class="competences_2">Chaque étudiant doit valider 5 blocs de compétences pour l’obtention du BUT MMI découpés de la manière suivante :</p>
+		<p class="competences_2">Chaque étudiant doit valider 5 blocs de compétences pour l’obtention du BUT MMI découpés de la manière suivante :</p>
 
-	<img class="checklist" src="<?php echo get_template_directory_uri() ?>/img/en_detail/checklist.svg" alt="checklist">
-	<img class="camera" src="<?php echo get_template_directory_uri() ?>/img/en_detail/camera.svg" alt="camera">
+		<img class="checklist" src="<?php echo get_template_directory_uri() ?>/img/en_detail/checklist.svg" alt="checklist">
+		<img class="camera" src="<?php echo get_template_directory_uri() ?>/img/en_detail/camera.svg" alt="camera">
 
-	<div class="competences_deroulantes">
-		<div class="competence">
-			<div class="titre" data-id="1">
-				<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/plus.svg" alt="plus">
-				<h3>Savoir et être capable de produire du contenu multimédia</h3>
+		<div class="competences_deroulantes">
+			<div class="competence">
+				<div class="titre" data-id="1">
+					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/plus.svg" alt="plus">
+					<h3>Savoir et être capable de produire du contenu multimédia</h3>
+				</div>
+				<div class="content" data-id="1">
+					<p>- en respectant les contraintes techniques du milieu professionnel en vigueur</p>
+					<p>- en considérant les normes de numérisation et leur impact</p>
+					<p>- en sachant choisir et utiliser le matériel et logiciels adéquats</p>
+					<p>- en faisant preuve d'invention et de créativité dans l'utilisation des outils</p>
+					<p>- en mettant en œuvre les fondamentaux des langages plastiques et filmiques</p>
+				</div>
 			</div>
-			<div class="content" data-id="1">
-				<p>- en respectant les contraintes techniques du milieu professionnel en vigueur</p>
-				<p>- en considérant les normes de numérisation et leur impact</p>
-				<p>- en sachant choisir et utiliser le matériel et logiciels adéquats</p>
-				<p>- en faisant preuve d'invention et de créativité dans l'utilisation des outils</p>
-				<p>- en mettant en œuvre les fondamentaux des langages plastiques et filmiques</p>
+
+			<div class="competence">
+				<div class="titre" data-id="2">
+					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/plus.svg" alt="plus">
+					<h3>Savoir et être capable de programmer pour le web</h3>
+				</div>
+				<div class="content" data-id="2">
+					<p>- en respectant les contraintes techniques du milieu professionnel en vigueur</p>
+					<p>- en considérant les normes de numérisation et leur impact</p>
+					<p>- en sachant choisir et utiliser le matériel et logiciels adéquats</p>
+					<p>- en faisant preuve d'invention et de créativité dans l'utilisation des outils</p>
+					<p>- en mettant en œuvre les fondamentaux des langages plastiques et filmiques</p>
+				</div>
+
 			</div>
+
+			<div class="competence">
+				<div class="titre" data-id="3">
+					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/plus.svg" alt="plus">
+					<h3>Savoir et être capable de mettre en place et administrer des systèmes d'information</h3>
+				</div>
+				<div class="content" data-id="3">
+					<p>- en respectant les contraintes techniques du milieu professionnel en vigueur</p>
+					<p>- en considérant les normes de numérisation et leur impact</p>
+					<p>- en sachant choisir et utiliser le matériel et logiciels adéquats</p>
+					<p>- en faisant preuve d'invention et de créativité dans l'utilisation des outils</p>
+					<p>- en mettant en œuvre les fondamentaux des langages plastiques et filmiques</p>
+				</div>
+			</div>
+
+			<div class="competence">
+				<div class="titre" data-id="4">
+					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/plus.svg" alt="plus">
+					<h3>Savoir et être capable de gérer un projet numérique</h3>
+				</div>
+				<div class="content" data-id="4">
+					<p>- en respectant les contraintes techniques du milieu professionnel en vigueur</p>
+					<p>- en considérant les normes de numérisation et leur impact</p>
+					<p>- en sachant choisir et utiliser le matériel et logiciels adéquats</p>
+					<p>- en faisant preuve d'invention et de créativité dans l'utilisation des outils</p>
+					<p>- en mettant en œuvre les fondamentaux des langages plastiques et filmiques</p>
+				</div>
+			</div>
+
+			<div class="competence">
+				<div class="titre" data-id="5">
+					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/plus.svg" alt="plus">
+					<h3>Savoir et être capable d'élaborer et rédiger des contenus </h3>
+				</div>
+				<div class="content" data-id="5">
+					<p>- en respectant les contraintes techniques du milieu professionnel en vigueur</p>
+					<p>- en considérant les normes de numérisation et leur impact</p>
+					<p>- en sachant choisir et utiliser le matériel et logiciels adéquats</p>
+					<p>- en faisant preuve d'invention et de créativité dans l'utilisation des outils</p>
+					<p>- en mettant en œuvre les fondamentaux des langages plastiques et filmiques</p>
+				</div>
+			</div>
+
+
+
 		</div>
 
-		<div class="competence">
-			<div class="titre" data-id="2">
-				<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/plus.svg" alt="plus">
-				<h3>Savoir et être capable de programmer pour le web</h3>
-			</div>
-			<div class="content" data-id="2">
-				<p>- en respectant les contraintes techniques du milieu professionnel en vigueur</p>
-				<p>- en considérant les normes de numérisation et leur impact</p>
-				<p>- en sachant choisir et utiliser le matériel et logiciels adéquats</p>
-				<p>- en faisant preuve d'invention et de créativité dans l'utilisation des outils</p>
-				<p>- en mettant en œuvre les fondamentaux des langages plastiques et filmiques</p>
-			</div>
-			
-		</div>
-
-		<div class="competence">
-			<div class="titre" data-id="3">
-				<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/plus.svg" alt="plus">
-				<h3>Savoir et être capable de mettre en place et administrer des systèmes d'information</h3>
-			</div>
-			<div class="content" data-id="3">
-				<p>- en respectant les contraintes techniques du milieu professionnel en vigueur</p>
-				<p>- en considérant les normes de numérisation et leur impact</p>
-				<p>- en sachant choisir et utiliser le matériel et logiciels adéquats</p>
-				<p>- en faisant preuve d'invention et de créativité dans l'utilisation des outils</p>
-				<p>- en mettant en œuvre les fondamentaux des langages plastiques et filmiques</p>
-			</div>
-		</div>
-
-		<div class="competence">
-			<div class="titre" data-id="4">
-				<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/plus.svg" alt="plus">
-				<h3>Savoir et être capable de gérer un projet numérique</h3>
-			</div>
-			<div class="content" data-id="4">
-				<p>- en respectant les contraintes techniques du milieu professionnel en vigueur</p>
-				<p>- en considérant les normes de numérisation et leur impact</p>
-				<p>- en sachant choisir et utiliser le matériel et logiciels adéquats</p>
-				<p>- en faisant preuve d'invention et de créativité dans l'utilisation des outils</p>
-				<p>- en mettant en œuvre les fondamentaux des langages plastiques et filmiques</p>
-			</div>
-		</div>
-
-		<div class="competence">
-			<div class="titre" data-id="5">
-				<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/plus.svg" alt="plus">
-				<h3>Savoir et être capable d'élaborer et rédiger des contenus </h3>
-			</div>
-			<div class="content" data-id="5">
-				<p>- en respectant les contraintes techniques du milieu professionnel en vigueur</p>
-				<p>- en considérant les normes de numérisation et leur impact</p>
-				<p>- en sachant choisir et utiliser le matériel et logiciels adéquats</p>
-				<p>- en faisant preuve d'invention et de créativité dans l'utilisation des outils</p>
-				<p>- en mettant en œuvre les fondamentaux des langages plastiques et filmiques</p>
-			</div>
-		</div>
-		
-		
-		
-	</div>
-
-</section>
+	</section>
 
 	<div id="destiny">
 		<img class="code" src="<?php echo get_template_directory_uri() ?>/img/en_detail/code.svg" alt="code">
@@ -129,6 +129,18 @@ get_header();
 		peuvent présenter des réalisations de qualité pour leur devenir professionnel (stage, 
 	alternance ou emploi).</p>
 
+
+
+	<div id="scene" class="scene">
+		<div  class="layer" data-depth="0.10">
+			<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/mid_triangle_white.svg" id="mid_triangle_white" alt="mid_triangle_white">
+		</div> 
+		<div  class="layer" data-depth="0.40">
+			<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/mid_triangle_border_purple.svg" id="mid_triangle_border_purple" alt="mid_triangle_border_purple">
+		</div> 
+	</div>
+
+
 	<div id="wrap_year">
 		<div id="number_one">
 			<h2 class="year"> Première année </h2>
@@ -144,6 +156,17 @@ get_header();
 		</div>
 	</div>
 
+	<div id="scene" class="scene">
+		<div  class="layer" data-depth="0.10">
+			<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/mid_triangle_border_white.svg" id="mid_triangle_border_white" alt="mid_triangle_border_white">
+		</div> 
+		<div  class="layer" data-depth="0.40">
+			<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/medium_mid_triangle_white.svg" id="medium_mid_triangle_white" alt="medium_mid_triangle_white">
+		</div> 
+		<div  class="layer" data-depth="0.80">
+			<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/small_mid_triangle_white.svg" id="small_mid_triangle_white" alt="small_mid_triangle_white">
+		</div> 
+	</div>
 
 
 	<div id="after_content_purple">
@@ -170,12 +193,37 @@ get_header();
 		</div>
 	</section>
 
+
+	<div id="scene" class="scene"> 
+		<div  class="layer" data-depth="0.20">
+			<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/bottom_triangle_border_grey.svg" id="bottom_triangle_border_grey" alt="bottom_triangle_border_grey">
+		</div> 
+		<div  class="layer" data-depth="0.30">
+			<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/bottom_triangle_white.svg" id="bottom_triangle_white" alt="bottom_triangle_white">
+		</div> 
+		<div  class="layer" data-depth="0.10">
+			<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/bottom_square_purple.svg" id="bottom_square_purple" alt="bottom_square_purple">
+		</div>
+	</div>
+
+
+<div id="scene" class="scene"> 
+<div  class="layer" data-depth="0.30">
+			<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/bottom_triangle_purple.svg" id="bottom_triangle_purple" alt="bottom_triangle_purple">
+		</div> 
+		<div  class="layer" data-depth="0.60">
+			<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/bottom_rectangle_grey.svg" id="bottom_rectangle_grey" alt="bottom_rectangle_grey">
+		</div>
+		<div  class="layer" data-depth="0.40">
+			<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/bottom_triangle_border_purple.svg" id="bottom_triangle_border_purple" alt="bottom_triangle_border_purple">
+		</div> 
+	</div>
 	<section id="teams">
 		<h1> L'equipe </h1>
 		<div id="teachers">
 			<div class="column_teacher">
 				<div id="after_picture">
-				<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/testimony_picture_1.jpg" id="team_picture" alt="">
+					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/testimony_picture_1.jpg" id="team_picture" alt="">
 				</div>
 				<h3 class="name"> Sandra <span class="uppercase"> marechal </span> </h3>
 				<h3 class="profesion"> Lorem Ipsum </h3>
@@ -183,7 +231,7 @@ get_header();
 			</div>
 			<div class="column_teacher">
 				<div id="after_picture">
-				<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/testimony_picture_1.jpg" id="team_picture" alt="">
+					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/testimony_picture_1.jpg" id="team_picture" alt="">
 				</div>
 				<h3 class="name"> Sandra <span class="uppercase"> marechal </span> </h3>
 				<h3 class="profesion"> Lorem Ipsum </h3>
@@ -191,7 +239,7 @@ get_header();
 			</div>   
 			<div class="column_teacher">
 				<div id="after_picture">
-				<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/testimony_picture_1.jpg" id="team_picture" alt="">
+					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/testimony_picture_1.jpg" id="team_picture" alt="">
 				</div>
 				<h3 class="name"> Sandra <span class="uppercase"> marechal </span> </h3>
 				<h3 class="profesion"> Lorem Ipsum </h3>
@@ -199,7 +247,7 @@ get_header();
 			</div>   
 			<div class="column_teacher">
 				<div id="after_picture">
-				<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/testimony_picture_1.jpg" id="team_picture" alt="">
+					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/testimony_picture_1.jpg" id="team_picture" alt="">
 				</div>
 				<h3 class="name"> Sandra <span class="uppercase"> marechal </span> </h3>
 				<h3 class="profesion"> Lorem Ipsum </h3>
@@ -209,7 +257,7 @@ get_header();
 		<div id="teachers">
 			<div class="column_teacher">
 				<div id="after_picture">
-				<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/testimony_picture_1.jpg" id="team_picture" alt="">
+					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/testimony_picture_1.jpg" id="team_picture" alt="">
 				</div>
 				<h3 class="name"> Sandra <span class="uppercase"> marechal </span> </h3>
 				<h3 class="profesion"> Lorem Ipsum </h3>
@@ -217,7 +265,7 @@ get_header();
 			</div>
 			<div class="column_teacher">
 				<div id="after_picture">
-				<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/testimony_picture_1.jpg" id="team_picture" alt="">
+					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/testimony_picture_1.jpg" id="team_picture" alt="">
 				</div>
 				<h3 class="name"> Sandra <span class="uppercase"> marechal </span> </h3>
 				<h3 class="profesion"> Lorem Ipsum </h3>
@@ -225,7 +273,7 @@ get_header();
 			</div>   
 			<div class="column_teacher">
 				<div id="after_picture">
-				<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/testimony_picture_1.jpg" id="team_picture" alt="">
+					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/testimony_picture_1.jpg" id="team_picture" alt="">
 				</div>
 				<h3 class="name"> Sandra <span class="uppercase"> marechal </span> </h3>
 				<h3 class="profesion"> Lorem Ipsum </h3>
@@ -233,7 +281,7 @@ get_header();
 			</div>   
 			<div class="column_teacher">
 				<div id="after_picture">
-				<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/testimony_picture_1.jpg" id="team_picture" alt="">
+					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/testimony_picture_1.jpg" id="team_picture" alt="">
 				</div>
 				<h3 class="name"> Sandra <span class="uppercase"> marechal </span> </h3>
 				<h3 class="profesion"> Lorem Ipsum </h3>
@@ -243,7 +291,7 @@ get_header();
 		<div id="teachers">
 			<div class="column_teacher">
 				<div id="after_picture">
-				<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/testimony_picture_1.jpg" id="team_picture" alt="">
+					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/testimony_picture_1.jpg" id="team_picture" alt="">
 				</div>
 				<h3 class="name"> Sandra <span class="uppercase"> marechal </span> </h3>
 				<h3 class="profesion"> Lorem Ipsum </h3>
@@ -251,7 +299,7 @@ get_header();
 			</div>
 			<div class="column_teacher">
 				<div id="after_picture">
-				<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/testimony_picture_1.jpg" id="team_picture" alt="">
+					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/testimony_picture_1.jpg" id="team_picture" alt="">
 				</div>
 				<h3 class="name"> Sandra <span class="uppercase"> marechal </span> </h3>
 				<h3 class="profesion"> Lorem Ipsum </h3>
@@ -259,7 +307,7 @@ get_header();
 			</div>   
 			<div class="column_teacher">
 				<div id="after_picture">
-				<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/testimony_picture_1.jpg" id="team_picture" alt="">
+					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/testimony_picture_1.jpg" id="team_picture" alt="">
 				</div>
 				<h3 class="name"> Sandra <span class="uppercase"> marechal </span> </h3>
 				<h3 class="profesion"> Lorem Ipsum </h3>
@@ -267,7 +315,7 @@ get_header();
 			</div>   
 			<div class="column_teacher">
 				<div id="after_picture">
-				<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/testimony_picture_1.jpg" id="team_picture" alt="">
+					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/testimony_picture_1.jpg" id="team_picture" alt="">
 				</div>
 				<h3 class="name"> Sandra <span class="uppercase"> marechal </span> </h3>
 				<h3 class="profesion"> Lorem Ipsum </h3>
@@ -277,7 +325,7 @@ get_header();
 		<div id="teachers_centered">
 			<div class="column_teacher">
 				<div id="after_picture_center">
-				<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/testimony_picture_1.jpg" id="team_picture" alt="">
+					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/testimony_picture_1.jpg" id="team_picture" alt="">
 				</div>
 				<h3 class="name"> Sandra <span class="uppercase"> marechal </span> </h3>
 				<h3 class="profesion"> Lorem Ipsum </h3>
@@ -285,7 +333,7 @@ get_header();
 			</div>
 			<div class="column_teacher">
 				<div id="after_picture_center">
-				<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/testimony_picture_1.jpg" id="team_picture" alt="">
+					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/testimony_picture_1.jpg" id="team_picture" alt="">
 				</div>
 				<h3 class="name"> Sandra <span class="uppercase"> marechal </span> </h3>
 				<h3 class="profesion"> Lorem Ipsum </h3>
@@ -297,9 +345,9 @@ get_header();
 </div>
 
 
- 
 
-	<?php
-	get_footer();
-	?>
+
+<?php
+get_footer();
+?>
 

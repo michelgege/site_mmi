@@ -59,37 +59,39 @@ margin-top: 80px;
 
 
 
-<<<<<<< HEAD
 #wrap
 {
 	padding: 200px 240px 0px 185px;
 }
-=======
->>>>>>> 5e3c6bc244666f7afed6eac86e35b24595cf095a
+
 section.le_but
 	{
 		position: relative;
 	}
 
-		section.le_but img.tablet
+		img.tablet
 		{
-			position: absolute;
+
 			left:296px;
-			top:254px;
+			top:1354px;
+
 		}
 
-		section.le_but img.checklist
+		img.checklist
 		{
+			right: 335px;
+			top: 600px;
 			position: absolute;
-			right:35px;
-			top:566px;
+
+
 		}
 
-		section.le_but img.camera
+		img.camera
 		{
 			position: absolute;
-			left:-81px;
-			top:728px;
+			left:40px;
+			top:765px;
+
 		}
 
 
@@ -234,6 +236,7 @@ h2.left_title
 	text-align: right;
 	color: #7A1497;
 	margin-bottom: 60px;
+	width: 800px;
 }
 
 p.content_left
@@ -248,6 +251,24 @@ p.content_left
 	margin-left: auto;
 	margin-bottom: 100px;
 }
+
+#mid_triangle_white
+{
+margin-top: 60px;
+margin-left: 150px;
+}
+
+#mid_triangle_border_purple
+{
+margin-top: 140px;
+margin-left: 150px;
+}
+
+
+
+
+
+
 
 
 #wrap_year
@@ -334,6 +355,36 @@ div#after_content_purple:after
 div#after_content_purple
 {
 	margin-bottom: 231px;
+}
+
+
+#mid_triangle_border_white
+{
+	margin-left: 1325px;
+}
+
+#medium_mid_triangle_white
+{
+	margin-left: 1275px;
+	margin-top: 50px;
+}
+
+
+#small_mid_triangle_white
+{
+	margin-left: 1400px;
+	margin-top: 100px;
+}
+
+
+
+
+
+
+
+section.departement
+{
+	margin-bottom: 200px;
 }
 
 
@@ -458,6 +509,47 @@ video[poster]
 	margin-right: auto;
 }
 
+
+#bottom_square_purple
+{
+	margin-left: 1325px;
+}
+
+#bottom_triangle_border_grey
+{
+	margin-left: 1280px;
+	margin-top: -70px;
+}
+
+
+#bottom_triangle_white
+{
+	margin-left: 1250px;
+	margin-top: 10px;
+}
+
+/*cinquieme scene*/
+
+#bottom_triangle_purple
+{
+	margin-left: 1075px;
+	margin-top: 320px;
+}
+
+#bottom_rectangle_grey
+{
+	margin-left: 320px;
+	margin-top: 1000px;
+}
+
+
+#bottom_triangle_border_purple
+{
+	margin-left: 700px;
+	margin-top: 1800px;
+}
+
+
 div#teachers
 {
 	display: flex;
@@ -549,3 +641,28 @@ p.testimony
 }
 }
 
+
+@media only screen and (max-width : 1546px)
+{
+	section.le_but img.tablet
+		{
+			position: absolute;
+			left:296px;
+			top:1000px;
+		}
+
+		section.le_but img.checklist
+		{
+			position: absolute;
+			right:150px;
+			top:1400px;
+		}
+
+		section.le_but img.camera
+		{
+			position: absolute;
+			left:40px;
+			top:1450px;
+		}
+
+}
