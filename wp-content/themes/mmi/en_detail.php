@@ -14,8 +14,25 @@ get_header();
 
 	
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+	<<<<<<< HEAD
+
+	<h2 class="sub_title"> A qui est destiné le BUT MMI ? </h2>
+		=======
+		<div id="destiny">
+			<h2 class="right_title"> A qui est destiné le BUT MMI ? </h2>
+			<p class="content_right"> Notre objectif est de composer une promotion avec : </p>
+			<p class="content_right">-	50% de bacheliers technologiques, de préférence issus de la filière STI2D option SIN, avec un excellent dossier.</p>
+			<p class="content_right">-	50% de bacheliers généraux, avec des options scientifiques.</p>
+			<p class="content_right">Dans l’idéal le candidat au BUT MMI aura également une ouverture à la culture artistique et esthétique. </p>
+		</div>
+=======
+<<<<<<< HEAD
+=======
 
 
+>>>>>>> 7da9107c4efc4b039650cc9689e440a8d975205a
 
 	<div id="destiny">
 		<h2 class="right_title"> A qui est destiné le BUT MMI ? </h2>
@@ -48,6 +65,32 @@ get_header();
 		</div>
 	</div>
 
+<<<<<<< HEAD
+	<section class="departement">
+		<h1>Le département</h1>
+		<div class="intro">
+			<p >Nous vous accueillons sur le site du Bourget du Lac dans des locaux équipés de matériel informatique et 
+	audiovisuel récent que les étudiants peuvent emprunter.</p>
+			<div class="video">
+				<div class="button">
+					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/playbutton.svg">
+				</div>
+				<video src="https://mmi.univ-smb.fr/site/wp-content/uploads/2016/02/Boucle3.mp4" poster="http://localhost/site_mmi/wp-content/themes/mmi/img/accueil/slider2_1.jpg">
+			</div>
+		</div>
+	</section>
+	<section>
+		
+	</section>
+	</div>
+	<?php
+	get_footer();
+	?>
+
+<?php
+get_footer();
+?>
+=======
 	<div id="after_content_purple">
 		<h2 class="right_title"> La spécialité de MMI Chambéry </h2>
 		<p class="content_right"> Notre objectif est de composer une promotion avec : </p>
@@ -82,3 +125,4 @@ get_header();
 	?>
 	=======
 
+>>>>>>> 7da9107c4efc4b039650cc9689e440a8d975205a
