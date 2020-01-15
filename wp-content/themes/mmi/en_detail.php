@@ -235,7 +235,7 @@ get_header();
 			<div class="column_teacher">
 				<div id="after_picture">
 <<<<<<< HEAD
-					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/testimony_picture_1.jpg" id="team_picture" alt="">
+					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/Houzet.jpg" id="team_picture" alt="">
 				</div>
 				<h3 class="name"> Grégory <!-- <span class="uppercase"> --> Houzet <!-- </span> --> </h3>
 				<h3 class="profesion"> Chef du département </h3>
@@ -243,7 +243,7 @@ get_header();
 			</div>
 			<div class="column_teacher">
 				<div id="after_picture">
-					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/testimony_picture_1.jpg" id="team_picture" alt="">
+					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/Kredens.jpg" id="team_picture" alt="">
 				</div>
 				<h3 class="name"> Elodie Kredens </h3>
 				<h3 class="profesion"> Directrice des études MMI1 </h3>
@@ -251,7 +251,7 @@ get_header();
 			</div>   
 			<div class="column_teacher">
 				<div id="after_picture">
-					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/testimony_picture_1.jpg" id="team_picture" alt="">
+					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/Colombel.jpg" id="team_picture" alt="">
 				</div>
 				<h3 class="name"> Virginie Colombel </h3>
 				<h3 class="profesion"> Directrice des études MMI2 </h3>
@@ -259,7 +259,7 @@ get_header();
 			</div>   
 			<div class="column_teacher">
 				<div id="after_picture">
-					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/testimony_picture_1.jpg" id="team_picture" alt="">
+					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/Helies.jpg" id="team_picture" alt="">
 				</div>
 				<h3 class="name"> Serge Helies </h3>
 				<h3 class="profesion"> Responsable de la LP TSI </h3>
@@ -269,7 +269,7 @@ get_header();
 		<div id="teachers">
 			<div class="column_teacher">
 				<div id="after_picture">
-					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/testimony_picture_1.jpg" id="team_picture" alt="">
+					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/Piranda.jpg" id="team_picture" alt="">
 				</div>
 				<h3 class="name"> François Piranda </h3>
 				<h3 class="profesion"> Responsable des projets tutorésm </h3>
@@ -277,7 +277,7 @@ get_header();
 			</div>
 			<div class="column_teacher">
 				<div id="after_picture">
-					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/testimony_picture_1.jpg" id="team_picture" alt="">
+					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/Bernier.jpg" id="team_picture" alt="">
 				</div>
 				<h3 class="name"> Maxime Bernier </h3>
 				<h3 class="profesion"> Responsable des relations
@@ -286,7 +286,7 @@ get_header();
 			</div>   
 			<div class="column_teacher">
 				<div id="after_picture">
-					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/testimony_picture_1.jpg" id="team_picture" alt="">
+					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/Wright.jpg" id="team_picture" alt="">
 				</div>
 				<h3 class="name"> Antony Wright </h3>
 				<h3 class="profesion"> Responsable des stages </h3>
@@ -294,7 +294,7 @@ get_header();
 			</div>   
 			<div class="column_teacher">
 				<div id="after_picture">
-					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/testimony_picture_1.jpg" id="team_picture" alt="">
+					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/Courtin.jpg" id="team_picture" alt="">
 				</div>
 				<h3 class="name"> Christophe Courtin </h3>
 				<h3 class="profesion"> Lorem Ipsum </h3>
@@ -304,7 +304,7 @@ get_header();
 		<div id="teachers">
 			<div class="column_teacher">
 				<div id="after_picture">
-					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/testimony_picture_1.jpg" id="team_picture" alt="">
+					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/Carron.jpg" id="team_picture" alt="">
 				</div>
 				<h3 class="name"> Thibault Carron </h3>
 				<h3 class="profesion"> Lorem Ipsum </h3>
@@ -312,7 +312,7 @@ get_header();
 			</div>
 			<div class="column_teacher">
 				<div id="after_picture">
-					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/testimony_picture_1.jpg" id="team_picture" alt="">
+					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/Mangeot.jpg" id="team_picture" alt="">
 				</div>
 				<h3 class="name"> Mathieu Mangeot </h3>
 				<h3 class="profesion"> Lorem Ipsum </h3>
@@ -320,7 +320,7 @@ get_header();
 			</div>   
 			<div class="column_teacher">
 				<div id="after_picture">
-					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/testimony_picture_1.jpg" id="team_picture" alt="">
+					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/Gomez.jpg" id="team_picture" alt="">
 				</div>
 				<h3 class="name"> Claude Gomez </h3>
 				<h3 class="profesion"> Lorem Ipsum </h3>
@@ -328,7 +328,7 @@ get_header();
 			</div>   
 			<div class="column_teacher">
 				<div id="after_picture">
-					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/testimony_picture_1.jpg" id="team_picture" alt="">
+					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/Froelish.jpg" id="team_picture" alt="">
 				</div>
 				<h3 class="name"> Pierre Froelich </h3>
 				<h3 class="profesion"> Lorem Ipsum </h3>
