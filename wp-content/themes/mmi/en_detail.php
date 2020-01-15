@@ -8,9 +8,17 @@
 get_header();
 ?>
 
-<p>En détails</p>
 
 <div id="wrap">
+
+	<div id="scene" class="scene">
+		<div  class="layer" data-depth="0.10">
+			<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/top_triangle_purple.svg" id="top_triangle_purple" alt="top_triangle_purple">
+		</div> 
+		<div  class="layer" data-depth="0.40">
+			<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/top_triangle_white.svg" id="top_triangle_white" alt="top_triangle_white">
+		</div> 
+	</div>
 
 	<section class="le_but">
 	<h1>Le BUT</h1>
@@ -102,6 +110,7 @@ get_header();
 </section>
 
 	<div id="destiny">
+		<img class="code" src="<?php echo get_template_directory_uri() ?>/img/en_detail/code.svg" alt="code">
 		<h2 class="right_title"> A qui est destiné le BUT MMI ? </h2>
 		<p class="content_right"> Notre objectif est de composer une promotion avec : </p>
 		<p class="content_right">-	50% de bacheliers technologiques, de préférence issus de la filière STI2D option SIN, avec un excellent dossier.</p>

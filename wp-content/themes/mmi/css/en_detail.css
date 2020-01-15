@@ -28,10 +28,28 @@ body
 }
 
 
+#scene,.scene
+{
+	position: absolute;
+}
+
+#top_triangle_purple
+{
+margin-left: 1100px;
+margin-top: 80px;
+}
+
+#top_triangle_white
+{
+	margin-left: 1150px;
+	margin-top: 50px;
+}
+
+
 
 #wrap
 {
-	padding: 0px 240px 0px 185px;
+	padding: 200px 240px 0px 185px;
 }
 section.le_but
 	{
@@ -41,7 +59,7 @@ section.le_but
 		section.le_but img.tablet
 		{
 			position: absolute;
-			left:96px;
+			left:296px;
 			top:254px;
 		}
 
@@ -151,6 +169,14 @@ section.le_but
 div#destiny
 {
 	margin-bottom: 135px;
+}
+
+
+.code 
+{
+	position: absolute;
+	right: 550px;
+	margin-top: 100px;
 }
 
 h2.right_title
