@@ -7,5 +7,8 @@ jQuery('body').on('click', ".video", function() {
         jQuery('.button').addClass("active");
 		player_video.play();
 		is_play = true;
+	} else {
+		player_video.pause();
+		is_play = false;
 	};
 });
