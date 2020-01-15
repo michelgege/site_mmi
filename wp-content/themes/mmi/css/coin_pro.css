@@ -404,7 +404,7 @@ div#wrap_body {
   margin-left: auto;
   margin-right: auto;
   background: linear-gradient(0.5turn, #EE3D56, #8E4176, #18469D);
-  visibility: visible;
+  visibility: hidden;
   display: block;
   width: 900px;
   height: 600px; }
