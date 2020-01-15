@@ -45,11 +45,11 @@
 					<div class="overlay">
 						<div class="text_container">
 							<p class="title">
-								"lorem ipsum"
+								"À proximité"
 							</p>
 
 							<p class="author">
-								John Doe
+								Marie RAISON
 							</p>
 						</div>
 					</div>
@@ -60,11 +60,11 @@
 					<div class="overlay">
 						<div class="text_container">
 							<p class="title">
-							"lorem ipsum"
+							"Affiche E-Migrant"
 							</p>
 
 							<p class="author">
-								John Doe
+								Artur Gauthier
 							</p>
 						</div>
 					</div>
@@ -110,18 +110,18 @@
 					<div class="overlay">
 						<div class="text_container">
 							<p class="title">
-							"lorem ipsum"
+							"Qu'est-ce que le Lifi ?"
 							</p>
 
 							<p class="author">
-								John Doe
+								Mathis EXERTIER & Gabriel DA COSTA
 							</p>
 						</div>
 					</div>
 				</div>
 				<div class="img_container">
 
-					<img src="http://placehold.jp/90x50.jpg" alt="">
+					<img src="<?php echo get_template_directory_uri() ?>/img/realisations/rea/Frammi.jpg" alt="">
 					<div class="overlay">
 						<div class="text_container">
 							<p class="title">
@@ -140,11 +140,11 @@
 					<div class="overlay">
 						<div class="text_container">
 							<p class="title">
-							"lorem ipsum"
+							"Site FRAMMI"
 							</p>
 
 							<p class="author">
-								John Doe
+								Emma REYMOND & Thomas GUIGNON
 							</p>
 						</div>
 					</div>
@@ -173,26 +173,26 @@
 					<div class="overlay">
 						<div class="text_container">
 							<p class="title">
-							"lorem ipsum"
+							"Myrelingues"
 							</p>
 
 							<p class="author">
-								John Doe
+								Antoine REVET
 							</p>
 						</div>
 					</div>
 				</div>
 				<div class="img_container">
 
-					<img src="http://placehold.jp/180x110.jpg" alt="">
+					<img src="<?php echo get_template_directory_uri() ?>/img/realisations/rea/pokedex.jpg" alt="">
 					<div class="overlay">
 						<div class="text_container">
 							<p class="title">
-							"lorem ipsum"
+							"Pokedex"
 							</p>
 
 							<p class="author">
-								John Doe
+								Juliette BOIS
 							</p>
 						</div>
 					</div>
@@ -203,11 +203,11 @@
 					<div class="overlay">
 						<div class="text_container">
 							<p class="title">
-							"lorem ipsum"
+							"Charte Graphique Agence Néon"
 							</p>
 
 							<p class="author">
-								John Doe
+								Carla REY GAUREZ
 							</p>
 						</div>
 					</div>
