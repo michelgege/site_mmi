@@ -2314,11 +2314,11 @@ get_header();
 			<div class="infos">
 				<h3>Mathilde Chassignol</h3>
 				<h4>Matane, Québec, CANADA</h4>
-				<p>Métier</p>
+				<p>TIM - Technique d’intégration multimédia</p>
 			</div>
 		</div>
 		<h3>Expérience</h3>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+		<p>Les matières étudiées correspondent  avec celles vu en MMI</p>
 		<p>À part la partie audiovisuelle qui est mise de côté, les matières étudiées correspondent  avec celles vu en MMI. On ne rentre en revanche pas dans les détails, hormis pour la communication qui est plutôt approfondie. Ce S4 m’aura beaucoup apporté par la découverte d’un nouveau système de travail, et m’aura apporté de la débrouillardise</p>
 		<img class="guillemet_1" src="http://localhost/site_mmi/wp-content/themes/mmi/img/international/quote.svg" alt="guillemet ouvert">
 		<img class="guillemet_2" src="http://localhost/site_mmi/wp-content/themes/mmi/img/international/quote.svg" alt="guillemet fermé">
