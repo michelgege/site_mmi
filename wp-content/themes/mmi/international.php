@@ -2313,13 +2313,13 @@ get_header();
 			</div>
 			<div class="infos">
 				<h3>Mathilde Chassignol</h3>
-				<h4>Matane</h4>
+				<h4>Matane, Québec, CANADA</h4>
 				<p>Métier</p>
 			</div>
 		</div>
 		<h3>Expérience</h3>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-		<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+		<p>À part la partie audiovisuelle qui est mise de côté, les matières étudiées correspondent  avec celles vu en MMI. On ne rentre en revanche pas dans les détails, hormis pour la communication qui est plutôt approfondie. Ce S4 m’aura beaucoup apporté par la découverte d’un nouveau système de travail, et m’aura apporté de la débrouillardise</p>
 		<img class="guillemet_1" src="http://localhost/site_mmi/wp-content/themes/mmi/img/international/quote.svg" alt="guillemet ouvert">
 		<img class="guillemet_2" src="http://localhost/site_mmi/wp-content/themes/mmi/img/international/quote.svg" alt="guillemet fermé">
 
@@ -2333,14 +2333,19 @@ get_header();
 				<img src="http://localhost/site_mmi/wp-content/themes/mmi/img/international/testimony_picture_1.jpg">
 			</div>
 			<div class="infos">
-				<h3>Mylène PAT</h3>
-				<h4>DUETI Destination</h4>
-				<p>Métier</p>
+				<h3>Chloé Charvoz</h3>
+				<h4>Gatineau, CANADA</h4>
+				<p>Art et Design option Design Graphique</p>
 			</div>
 		</div>
 		<h3>Expérience</h3>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-		<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+		<p>C'est super enrichissant !</p>
+		<p>Par rapport à l’enseignement en MMI on étudie beaucoup plus le print. Il y’a aussi une part beaucoup plus technique (comment cela se passe en imprimerie…). J’ai aussi eu accès à une partie plus “dessin”..
+
+			Les  mentalités ne sont pas du tout les même qu'en France, ils sont très accueillants et naturellement avenants. Niveau climat c'était aussi très différent, là où j'étais (à Gatineau, le côté québécois d'Ottawa pour faire simple) on est descendu jusqu'aux -35°C, du coup il a fallu s'adapter ! Ce qui est sympa c'est d'essayer de s'immerger le plus possible dans la vie du pays histoire de vraiment vivre cette année (ou semestre) à fond.
+
+			Le fait de partir si loin c'est une expérience en soit. Vu que je me suis retrouvée vraiment loin de mes parents c'était un peu comme si j'étais plongée dans la "vraie vie" où je dois tout gérer toute seule, du coup en revenant j'avais l'impression d'être plus "adulte" et autonome qu'avant ! Ce qui est chouette aussi c'est qu'on découvre à la fois notre domaine mais à la façon d'un autre pays (parce que oui ça change un peu), on découvre aussi le pays en lui même. J'ai pu voir des supers endroits et aussi en apprendre un peu plus sur la culture des autochtones amérindiens au Québec. Et bien sûr on rencontre aussi beaucoup de personnes, parfois très différentes de nous, et c'est super enrichissant !
+		</p>
 		<img class="guillemet_1" src="http://localhost/site_mmi/wp-content/themes/mmi/img/international/quote.svg" alt="guillemet ouvert">
 		<img class="guillemet_2" src="http://localhost/site_mmi/wp-content/themes/mmi/img/international/quote.svg" alt="guillemet fermé">
 	</div>
