@@ -222,15 +222,6 @@ get_header();
 		<h1> L'equipe </h1>
 		<div id="teachers">
 
-			<?php while( have_rows('detail_team') ): the_row(); 
-
-				// vars
-				$image = get_sub_field('detail_team_img');
-				$name = get_sub_field('detail_team_name');
-				$job = get_sub_field('detail_team_job');
-				$testimony = get_sub_field('detail_team_testimony');
-
-			?>
 
 			<div class="column_teacher">
 				<div id="after_picture">
@@ -346,15 +337,10 @@ get_header();
 =======		</div>
 		</div>
 	</section>
-				<!-- 	<img src="<?php echo $image; ?>" id="team_picture" alt="">
-				</div>
-				<h3 class="name"><?php echo $name; ?></h3>
-				<h3 class="profesion"><?php echo $job; ?></h3>
-				<p class="testimony"><?php echo $testimony; ?></p>
->>>>>>> a0407219c89505921ae4cdd1a0464f3f89e61105 -->
+
 			
 			
-			<?php endwhile; ?>  -->
+	
 
 		</div>
 
