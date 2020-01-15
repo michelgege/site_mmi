@@ -106,7 +106,11 @@
 			<div class="column">
 				<div class="img_container">
 
+<<<<<<< HEAD
 					<img src="" alt="">
+=======
+					<img src="http://placehold.jp/300x300.jpg" alt="">
+>>>>>>> 27b56888964b7925e454ae5751332cd6e03e85ef
 					<div class="overlay">
 						<div class="text_container">
 							<p class="title">
@@ -251,6 +255,7 @@
 	<div class="content">
 		<div class="realisation">
 			<img src="img/emigrant.jpg" alt="">
+
 			<a>Voir la realisation</a>
 		</div>
 
