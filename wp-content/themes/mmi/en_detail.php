@@ -82,11 +82,7 @@ get_header();
 	<section>
 		
 	</section>
-	</div>
-	<?php
-	get_footer();
-	?>
-
+</div>
 <?php
 get_footer();
 ?>
