@@ -225,33 +225,33 @@ get_header();
 				<div id="after_picture">
 					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/testimony_picture_1.jpg" id="team_picture" alt="">
 				</div>
-				<h3 class="name"> Sandra <span class="uppercase"> marechal </span> </h3>
-				<h3 class="profesion"> Lorem Ipsum </h3>
-				<p class="testimony"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut quis nostrud exercitation ullamco laboris nisi ut  . </p>
+				<h3 class="name"> Grégory <!-- <span class="uppercase"> --> Houzet <!-- </span> --> </h3>
+				<h3 class="profesion"> Chef du département </h3>
+				<p class="testimony"> Maître de conférences, chercheur au laboratoire IMEP-LAHC, enseigne la culture scientifique et l’électronique embarquée / IoT au S4 spécialité informatique. </p>
 			</div>
 			<div class="column_teacher">
 				<div id="after_picture">
 					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/testimony_picture_1.jpg" id="team_picture" alt="">
 				</div>
-				<h3 class="name"> Sandra <span class="uppercase"> marechal </span> </h3>
-				<h3 class="profesion"> Lorem Ipsum </h3>
-				<p class="testimony"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut quis nostrud exercitation ullamco laboris nisi ut  . </p>
+				<h3 class="name"> Elodie Kredens </h3>
+				<h3 class="profesion"> Directrice des études MMI1 </h3>
+				<p class="testimony"> Maîtresse de conférences, chercheuse au laboratoire LLSETI, enseigne les théories de l’information et de la communication, introduction au marketing et initiation à la méthodologie de recherche au S4 spécialité communication. </p>
 			</div>   
 			<div class="column_teacher">
 				<div id="after_picture">
 					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/testimony_picture_1.jpg" id="team_picture" alt="">
 				</div>
-				<h3 class="name"> Sandra <span class="uppercase"> marechal </span> </h3>
-				<h3 class="profesion"> Lorem Ipsum </h3>
-				<p class="testimony"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut quis nostrud exercitation ullamco laboris nisi ut  . </p>
+				<h3 class="name"> Virginie Colombel </h3>
+				<h3 class="profesion"> Directrice des études MMI2 </h3>
+				<p class="testimony"> Certifiée de lettres modernes, enseigne l’expression écrite et orale, l’écriture pour le Web, la gestion de projet et le projet personnel professionnel.. </p>
 			</div>   
 			<div class="column_teacher">
 				<div id="after_picture">
 					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/testimony_picture_1.jpg" id="team_picture" alt="">
 				</div>
-				<h3 class="name"> Sandra <span class="uppercase"> marechal </span> </h3>
-				<h3 class="profesion"> Lorem Ipsum </h3>
-				<p class="testimony"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut quis nostrud exercitation ullamco laboris nisi ut  . </p>
+				<h3 class="name"> Serge Helies </h3>
+				<h3 class="profesion"> Responsable de la LP TSI </h3>
+				<p class="testimony">Agrégé d’Arts Plastiques, enseigne les arts numériques, l’infographie et la culture numérique. Il est directeur de la salle d’exposition La Conciergerie, à La-Motte-Servolex. </p>
 			</div>  	    
 		</div>
 		<div id="teachers">
@@ -259,33 +259,34 @@ get_header();
 				<div id="after_picture">
 					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/testimony_picture_1.jpg" id="team_picture" alt="">
 				</div>
-				<h3 class="name"> Sandra <span class="uppercase"> marechal </span> </h3>
-				<h3 class="profesion"> Lorem Ipsum </h3>
-				<p class="testimony"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut quis nostrud exercitation ullamco laboris nisi ut  . </p>
+				<h3 class="name"> François Piranda </h3>
+				<h3 class="profesion"> Responsable des projets tutorésm </h3>
+				<p class="testimony"> Agrégé d’Arts Plastiques, artiste, enseigne l’analyse filmique et l’audiovisuel. Animateur-Formateur sur les questions de gouvernance partagée à l’Université du Nous. </p>
 			</div>
 			<div class="column_teacher">
 				<div id="after_picture">
 					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/testimony_picture_1.jpg" id="team_picture" alt="">
 				</div>
-				<h3 class="name"> Sandra <span class="uppercase"> marechal </span> </h3>
-				<h3 class="profesion"> Lorem Ipsum </h3>
-				<p class="testimony"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut quis nostrud exercitation ullamco laboris nisi ut  . </p>
+				<h3 class="name"> Maxime Bernier </h3>
+				<h3 class="profesion"> Responsable des relations
+ internationales </h3>
+				<p class="testimony"> Maître de conférences, chercheur au laboratoire IMEP-LAHC, enseigne la culture scientifique et responsable des relations internationales dans le DUT. </p>
 			</div>   
 			<div class="column_teacher">
 				<div id="after_picture">
 					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/testimony_picture_1.jpg" id="team_picture" alt="">
 				</div>
-				<h3 class="name"> Sandra <span class="uppercase"> marechal </span> </h3>
-				<h3 class="profesion"> Lorem Ipsum </h3>
-				<p class="testimony"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut quis nostrud exercitation ullamco laboris nisi ut  . </p>
+				<h3 class="name"> Antony Wright </h3>
+				<h3 class="profesion"> Responsable des stages </h3>
+				<p class="testimony"> Certifié d’Anglais, enseigne l’anglais et responsable des stages dans le DUT. </p>
 			</div>   
 			<div class="column_teacher">
 				<div id="after_picture">
 					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/testimony_picture_1.jpg" id="team_picture" alt="">
 				</div>
-				<h3 class="name"> Sandra <span class="uppercase"> marechal </span> </h3>
+				<h3 class="name"> Christophe Courtin </h3>
 				<h3 class="profesion"> Lorem Ipsum </h3>
-				<p class="testimony"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut quis nostrud exercitation ullamco laboris nisi ut  . </p>
+				<p class="testimony"> Maître de conférences, chercheur au laboratoire SYMME enseigne les bases de données, le javascript, le réseau et les systèmes interactifs de communication au S4 spécialité informatique.. </p>
 			</div>  	    
 		</div>
 		<div id="teachers">
@@ -293,33 +294,33 @@ get_header();
 				<div id="after_picture">
 					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/testimony_picture_1.jpg" id="team_picture" alt="">
 				</div>
-				<h3 class="name"> Sandra <span class="uppercase"> marechal </span> </h3>
+				<h3 class="name"> Thibault Carron </h3>
 				<h3 class="profesion"> Lorem Ipsum </h3>
-				<p class="testimony"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut quis nostrud exercitation ullamco laboris nisi ut  . </p>
+				<p class="testimony"> Maître de conférences, chercheur au laboratoire LIP6, enseigne l’algorithmique, l’intégration web, java, services sur réseaux et l’infographie 3D au S4 spécialité informatique. </p>
 			</div>
 			<div class="column_teacher">
 				<div id="after_picture">
 					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/testimony_picture_1.jpg" id="team_picture" alt="">
 				</div>
-				<h3 class="name"> Sandra <span class="uppercase"> marechal </span> </h3>
+				<h3 class="name"> Mathieu Mangeot </h3>
 				<h3 class="profesion"> Lorem Ipsum </h3>
-				<p class="testimony"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut quis nostrud exercitation ullamco laboris nisi ut  . </p>
+				<p class="testimony"> Enseignant-chercheur au laboratoire LIG, équipe GETALP, enseigne les technologies web (HTML, PHP) et l’algorithmique. </p>
 			</div>   
 			<div class="column_teacher">
 				<div id="after_picture">
 					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/testimony_picture_1.jpg" id="team_picture" alt="">
 				</div>
-				<h3 class="name"> Sandra <span class="uppercase"> marechal </span> </h3>
+				<h3 class="name"> Claude Gomez </h3>
 				<h3 class="profesion"> Lorem Ipsum </h3>
-				<p class="testimony"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut quis nostrud exercitation ullamco laboris nisi ut  . </p>
+				<p class="testimony"> Musicien professionnel et professeur associé à notre département, il enseigne la musique assistée par ordinateur et le son. Il est responsable des relations avec les lycées. </p>
 			</div>   
 			<div class="column_teacher">
 				<div id="after_picture">
 					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/testimony_picture_1.jpg" id="team_picture" alt="">
 				</div>
-				<h3 class="name"> Sandra <span class="uppercase"> marechal </span> </h3>
+				<h3 class="name"> Pierre Froelich </h3>
 				<h3 class="profesion"> Lorem Ipsum </h3>
-				<p class="testimony"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut quis nostrud exercitation ullamco laboris nisi ut  . </p>
+				<p class="testimony"> Technicien multimédia du département, il s’occupe de la gestion du prêt du matériel, du bon fonctionnement des salles en réseau. Il assiste les enseignants dans certains TP. </p>
 			</div>  	    
 		</div>
 		<div id="teachers_centered">
