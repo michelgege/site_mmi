@@ -1,4 +1,15 @@
-h1
+body
+{
+	background-color: #181818;
+	font-family: Raleway, sans-serif;
+}
+
+#wrap
+{
+	padding: 0px 240px 0px 185px;
+}
+
+	h1
 	{
 		font-size: 70px;
 		color: white;
@@ -21,18 +32,40 @@ h1
 			z-index: -1;
 	    }
 
-body
+	h2.left_title
+	{
+		margin-right: 0;
+		margin-left: auto;
+	}
+
+
+
+#scene,.scene
 {
-	background-color: #181818;
-	font-family: Raleway, sans-serif;
+	position: absolute;
+}
+
+#top_triangle_purple
+{
+margin-left: 1100px;
+margin-top: 80px;
+}
+
+#top_triangle_white
+{
+	margin-left: 1150px;
+	margin-top: 50px;
 }
 
 
 
+<<<<<<< HEAD
 #wrap
 {
-	padding: 0px 240px 0px 185px;
+	padding: 200px 240px 0px 185px;
 }
+=======
+>>>>>>> 5e3c6bc244666f7afed6eac86e35b24595cf095a
 section.le_but
 	{
 		position: relative;
@@ -41,7 +74,7 @@ section.le_but
 		section.le_but img.tablet
 		{
 			position: absolute;
-			left:96px;
+			left:296px;
 			top:254px;
 		}
 
@@ -55,8 +88,8 @@ section.le_but
 		section.le_but img.camera
 		{
 			position: absolute;
-			left:5px;
-			top:768px;
+			left:-81px;
+			top:728px;
 		}
 
 
@@ -104,6 +137,7 @@ section.le_but
 		{
 			width: 500px;
 			margin-bottom: 100px; 
+			margin-left: 50px;
 			color: white;
 			font-weight: 300;
 			font-size: 18px;
@@ -113,23 +147,31 @@ section.le_but
 		div.competences_deroulantes
 		{
 			color: white;
+			margin-bottom: 130px;
 
 		}
 
 			div.competences_deroulantes div.competence
 			{
-				width: 600px;
+				width: 750px;
 				margin-left: auto;
 				margin-right: auto;
+				margin-bottom: 45px;
 
 			}
 
 				div.competences_deroulantes div.competence div.content
 				{
+					display: none;
+
+				}
+
+				div.competences_deroulantes div.competence div.content.active
+				{
 					margin-left: 60px;
 					margin-top: 35px;
-					margin-bottom: 45px;
 					font-size: 15px;
+					display: block;
 
 				}
 			
@@ -137,6 +179,7 @@ section.le_but
 				{
 					display: flex;
 					align-items: center;
+					cursor: pointer;
 				}
 
 					div.competences_deroulantes div.competence div.titre h3
@@ -151,6 +194,14 @@ section.le_but
 div#destiny
 {
 	margin-bottom: 135px;
+}
+
+
+.code 
+{
+	position: absolute;
+	right: 550px;
+	margin-top: 100px;
 }
 
 h2.right_title
