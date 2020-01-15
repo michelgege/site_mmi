@@ -237,7 +237,7 @@ div#after_content_purple
 	    	opacity: 64%;
 	    	background-color: black;
 	    	transform: translateX(-50%) translateY(-50%);
-	    	transition-duration: 0.7s;
+	    	transition-duration: 0.5s;
 	    }
 
 	    .video .button.active
