@@ -1,3 +1,129 @@
+@media only screen and (max-width : 1536px){
+div#wrap_text
+{
+	padding: 110px 120px;
+
+}
+
+
+h3#title_second
+{
+	font-family: 'Raleway', sans-serif;
+	font-size: 60px;
+	color: white;
+	width: 100%;
+	text-align: right;
+}
+
+
+img#sub_title
+{
+position: absolute;
+margin-right: auto;
+margin-left: auto;
+right: 125px;				
+}
+
+h4.section_title
+{
+	font-family: 'Raleway', sans-serif;
+	font-size: 29px;
+	color: white;
+	width: 100%;
+	text-align: left;
+	font-weight: 600;
+	padding-top: 122px;
+}
+
+p.complement
+{
+
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+	width: 517px;
+	color: white;
+	padding-top: 30px;
+	line-height: 1.2;
+}
+
+div.paragraph_list
+{
+	display: flex;
+}
+
+ul
+{
+	padding-top: 30px;	
+	padding-left: 140px;
+}
+
+li#choice
+{
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+	color: white;
+	font-weight: 300;
+	list-style: square;	
+	padding-bottom: 15px;
+	padding-left: 40px;
+}
+
+span#bold
+{
+	font-weight: bold;
+}
+
+img#paragraph_line
+{
+margin-top: 80px;
+}
+
+#top_blue_triangle
+{
+	padding-top: 150px;
+	padding-left: 250px;
+}
+
+#mid_border_blue_triangle
+{
+	padding-top: 450px;
+	padding-left: 175px;
+}
+
+#mid_grey_triangle
+{
+	padding-top: 470px;
+	padding-left: 225px;
+}
+
+#mid_white_triangle
+{
+	padding-top: 590px;
+	padding-left: 535px;
+}
+
+#mid_blue_triangle
+{
+	padding-top: 650px;
+	padding-left: 535px;
+}
+
+#bottom_border_white_triangle
+{
+	padding-top: 1120px;
+	padding-left: 155px;
+}
+
+#bottom_blue_square
+{
+	padding-top: 1120px;
+	padding-left: 115px;
+}
+}
+
+
+
+
 @media only screen and (max-width : 1440px){
 div#wrap_text
 {
@@ -124,6 +250,11 @@ margin-top: 80px;
 
 @media only screen and (max-width : 1368px){
 
+	div.wrap
+	{
+		padding: 0 15px;
+	}
+
 #bottom_border_white_triangle
 {
 	padding-top: 1150px;
@@ -138,6 +269,24 @@ margin-top: 80px;
 }
 
 @media only screen and (max-width : 1024px){
+
+	/*Carte interactive*/
+
+	
+
+	div.map_container div.pop_up.active
+	{
+		padding: 30px 40px;
+	}
+
+	div.pop_up.active p:nth-of-type(2) {
+    	margin-top: 36px;
+	}
+
+
+
+
+
 div#wrap_text
 {
 	padding: 55px 60px;
@@ -265,15 +414,77 @@ margin-top: 80px;
 
 }
 
+@media only screen and (max-width : 900px){
+
+div.wrap h2
+{
+	font-size: 60px;
+}
+
+	div.wrap h2::after
+	{
+		width: 38%;
+	}
+
+		div.map_container div.pop_up.active .header
+		{
+			line-height: 18px;
+		}
+
+				div.pop_up.active .header .img_after::after
+				{
+					margin-bottom: -128px;
+				}
+	
+				div.map_container div.pop_up.active .header .infos h3
+				{
+					font-size: 17px;
+				}
+
+				div.map_container div.pop_up.active .header .infos h4
+				{
+					font-size: 17px;
+				}
+
+		div.map_container div.pop_up.active h3
+		{
+			font-size: 20px;
+		}
+
+		div.map_container div.pop_up.active p
+		{
+			font-size: 12px;
+		}
+
+		div.map_container div.pop_up.active p:first-of-type
+		{
+			margin-bottom: 30px;
+		}
+
+		div.map_container div.pop_up.active p:nth-of-type(2) {
+
+			margin-top: 0;
+		}
+
+		div.map_container div.pop_up.active img.guillemet_1
+		{
+			bottom: 56px;
+			left:41px;
+		}
+
+		div.map_container div.pop_up.active img.guillemet_2
+		{
+			bottom:2px; 
+			right:43px;
+		}
+	}
+
 @media only screen and (max-width : 740px){
 
 
 /*Carte interactive*/
 
-	div.wrap
-	{
-		padding: 0 15px;
-	}
+	
 
 	div.wrap h2
 	{
@@ -323,8 +534,6 @@ margin-top: 80px;
 				border:1px solid black;
 				padding: 20px 30px;
 				display: block;
-				height: 100px;
-				overflow: hidden;
 
 			}
 
@@ -333,7 +542,6 @@ margin-top: 80px;
 				border:1px solid black;
 				padding: 20px 30px;
 				display: block;
-				overflow: hidden;
 				position: absolute;
 				left: 30px;
 				right: 30px;
@@ -382,15 +590,8 @@ margin-top: 80px;
 						text-align: center;
 						line-height: 26px;
 						z-index: 1;
-						overflow: scroll;
-						height: 73px;
 						display: block;
 					}
-						
-						div.list_content.active div.country p:last-of-type
-						{
-							color: white;
-						}
 
 
 					div.list_content div.country

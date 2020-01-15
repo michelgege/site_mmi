@@ -29,11 +29,7 @@ get_header();
 				<p class="country_content"data-country="Espagne">Espagne</p>
 				<p class="country_content"data-country="Etats-Unis">Etats-Unis</p>
 				<p class="country_content"data-country="Japon">Japon</p>
-				<p>"</p>
 			</div>	
-
-			<div class="gradient">
-			</div>
 		</div>
 
 		<div class="pop_up" data-country="Etats-Unis">
@@ -2305,6 +2301,8 @@ get_header();
 		s13.4-15,13.4-24.9c0-7.4-5.9-13.4-13.3-13.4C919.4,243,919.3,243,919.3,243z M919.3,261.2c-2.6,0-4.8-2.1-4.8-4.8
 		c0-2.7,2.1-4.8,4.8-4.8s4.8,2.1,4.8,4.8l0,0C924.1,259.1,922,261.2,919.3,261.2L919.3,261.2z"/>
 	</svg>
+
+	<img src="<?php echo get_template_directory_uri() ?>/img/international/map_shadow.svg" alt="ombre carte" class="shadow">
 
 
 	<div class="pop_up fade-in" data-id="1">
