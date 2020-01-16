@@ -84,7 +84,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="img_container">
+				<!-- <div class="img_container">
 
 					<img src="<?php echo get_template_directory_uri() ?>/img/realisations/rea/.jpg" alt="">
 					<div class="overlay">
@@ -98,7 +98,7 @@
 							</p>
 						</div>
 					</div>
-				</div>
+				</div> -->
 			
 				
 			</div>
@@ -123,21 +123,6 @@
 					<div class="overlay">
 						<div class="text_container">
 							<p class="title">
-							"lorem ipsum"
-							</p>
-
-							<p class="author">
-								John Doe
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="img_container">
-
-					<img src="http://placehold.jp/100x80.jpg" alt="">
-					<div class="overlay">
-						<div class="text_container">
-							<p class="title">
 							"Site FRAMMI"
 							</p>
 
@@ -146,10 +131,10 @@
 							</p>
 						</div>
 					</div>
-				</div>
+				</div>>
 				<div class="img_container">
 
-					<img src="http://placehold.jp/100x120.jpg" alt="">
+					<img src="<?php echo get_template_directory_uri() ?>/img/realisations/rea/blog.jpg" alt="">
 					<div class="overlay">
 						<div class="text_container">
 							<p class="title">
@@ -212,7 +197,7 @@
 				</div>
 				<div class="img_container">
 
-					<img src="http://placehold.jp/120x80.jpg" alt="">
+					<img src="<?php echo get_template_directory_uri() ?>/img/realisations/rea/syrius.jpg" alt="">
 					<div class="overlay">
 						<div class="text_container">
 							<p class="title">
