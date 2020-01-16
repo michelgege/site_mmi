@@ -71,7 +71,7 @@
 				</div>
 				<div class="img_container">
 
-					<img src="<?php echo get_template_directory_uri() ?>/img/realisations/rea/.jpg" alt="">
+					<img src="<?php echo get_template_directory_uri() ?>/img/realisations/rea/semainedelentreprise.png" alt="">
 					<div class="overlay">
 						<div class="text_container">
 							<p class="title">
@@ -113,9 +113,7 @@
 							"Qu'est-ce que le Lifi ?"
 							</p>
 
-							<p class="author">
-								Mathis EXERTIER & Gabriel DA COSTA
-							</p>
+							<p class="author">Mathis EXERTIER & Gabriel DA COSTA</p>
 						</div>
 					</div>
 				</div>
