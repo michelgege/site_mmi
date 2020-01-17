@@ -206,10 +206,10 @@ get_header();
 <div  class="layer" data-depth="0.30">
 			<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/bottom_triangle_purple.svg" id="bottom_triangle_purple" alt="bottom_triangle_purple">
 		</div> 
-		<div  class="layer" data-depth="0.60">
+		<div  class="layer" data-depth="0.20">
 			<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/bottom_rectangle_grey.svg" id="bottom_rectangle_grey" alt="bottom_rectangle_grey">
 		</div>
-		<div  class="layer" data-depth="0.40">
+		<div  class="layer" data-depth="0.10">
 			<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/bottom_triangle_border_purple.svg" id="bottom_triangle_border_purple" alt="bottom_triangle_border_purple">
 		</div> 
 	</div>
