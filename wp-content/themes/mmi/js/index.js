@@ -1,67 +1,92 @@
 jQuery(document).ready(function(){
-	// function department_slider() {
-	// 	jQuery("#department_slider >img:first-of-type").addClass('department_selected');
-	// 	jQuery("#department_slider >img:nth-of-type(2)").addClass('department_next');
-	// 	jQuery("#department_slider >img:last-of-type").addClass('department_prev');
-	// 	jQuery("#department_slider >img").each(function(i) {
-	// 		jQuery("#department_slider >img:nth-of-type("+(i+1)+")").attr('position',i+1);
+	function department_border() {
+		jQuery('.department_selected').after('<span class=\"line top\"></span>');
+		jQuery('.department_selected').after('<span class=\"line right\"></span>');
+		jQuery('.department_selected').after('<span class=\"line bottom\"></span>');
+		jQuery('.department_selected').after('<span class=\"line left\"></span>');
+		jQuery('.department_selected').after('<span class=\"border\"></span>');
+
+		
+	}
+	department_border();
+
+	function department_slider() {
+		jQuery("#department_slider >img:first-of-type").addClass('department_selected');
+		jQuery("#department_slider >img:nth-of-type(2)").addClass('department_next');
+		jQuery("#department_slider >img:last-of-type").addClass('department_prev');
+		jQuery("#department_slider >img").each(function(i) {
+			jQuery("#department_slider >img:nth-of-type("+(i+1)+")").attr('position',i+1);
 			
-	// 	});
-	// 	// Next
-	// 	jQuery("body").on('click', '.department_next', function() {
-	// 		var position_last = jQuery("#department_slider >img").size();
-	// 		next_position(this, position_last);
-	// 		change_class(position_last);
-	// 	});
+		});
+		// Next
+		jQuery("body").on('click', '.department_next', function() {
+			//Class active
+			jQuery("#department_slider").removeClass('active');
+			jQuery("#department_slider .line").removeClass('hide');
+			jQuery("#department_slider .border").removeClass('active');
 
-	// 	jQuery("body").on('click', '.department_prev', function() {
-	// 		var position_last = jQuery("#department_slider >img").size();
-	// 		prev_position(this, position_last);
-	// 		change_class(position_last);
-	// 	});
-	// 	// Prev
-	// 	// jQuery(".department_prev").click(function() {
+			next_position(this);
+			change_class();
+		});
 
-	// 	// });
+		jQuery("body").on('click', '.department_prev', function() {
+			//Class active
+			jQuery("#department_slider").removeClass('active');
+			jQuery("#department_slider .line").removeClass('hide');
+			jQuery("#department_slider .border").removeClass('active');
 
-	// 	function next_position(slide, last) {
-	// 		var ref_position = jQuery(slide).attr('position');
+			prev_position(this);
+			change_class();
+		});
+
+		function next_position(slide) {
+			//Get the position of the slide
+			var ref_position = jQuery(slide).attr('position');
 			
-	// 		jQuery("#department_slider >img[position=\""+last+"\"").attr('position', last-1);
+			//Change the position of the next slide
+			jQuery("#department_slider >img[position=\"3\"").attr('position', 2);
 
-	// 		if (jQuery("#department_slider >img[position="+(ref_position-1)+"]").attr('position') == 1) {
-	// 			jQuery("#department_slider >img[position="+(ref_position-1)+"]").attr('position', last);
-	// 		}
-
-	// 		else {
-	// 			jQuery("#department_slider >img[position="+(ref_position-1)+"]").attr('position', ref_position-1);
-	// 		}
-
-	// 		jQuery(slide).attr('position', ref_position-1)
-	// 	}
-
-	// 	function prev_position(slide, last) {
-	// 		var ref_position = jQuery(slide).attr('position');
+			//Change the position of the last slide
+			jQuery("#department_slider >img[position=\"1\"]").attr('position', 3);
 			
-	// 		jQuery("#department_slider >img[position=\""+last+"\"").attr('position', last+1);
+			//Change the position of the slide
+			jQuery(slide).attr('position', 1)
+		}
 
-	// 		if (jQuery("#department_slider >img[position="+(ref_position+1)+"]").attr('position') == 1) {
-	// 			jQuery("#department_slider >img[position="+(ref_position+1)+"]").attr('position', last);
-	// 		}
+		function prev_position(slide) {
+			//Get the position of the slide
+			var ref_position = jQuery(slide).attr('position');
+			
+			//Change the position of the next slide
+			jQuery("#department_slider >img[position=\"2\"").attr('position', 3);
+			
+			//Change the position of the last slide
+			jQuery("#department_slider >img[position=\"1\"").attr('position', 2);
+			
+			//Change the position of the slide
+			jQuery(slide).attr('position', 1)
+		}
 
-	// 		else {
-	// 			jQuery("#department_slider >img[position="+(ref_position+1)+"]").attr('position', ref_position+1);
-	// 		}
+		function change_class() {
+			jQuery("#department_slider >img").removeClass();
+			jQuery("#department_slider >img[position=\"1\"]").addClass('department_selected');
+			jQuery("#department_slider >img[position=\"2\"]").addClass('department_next');
+			jQuery("#department_slider >img[position=\"3\"]").addClass('department_prev');
 
-	// 		jQuery(slide).attr('position', ref_position+1)
-	// 	}
+			jQuery("#department_slider >img").on('transitionend webkitTransitionEnd oTransitionEnd', function () {
+			    //Class active
+				jQuery("#department_slider").addClass('active');
+				jQuery("#department_slider .line.left").on('transitionend webkitTransitionEnd oTransitionEnd', function () {
+					jQuery("#department_slider .line").addClass('hide');
+					jQuery("#department_slider .border").addClass('active');
+				});
+			});
+			
+		}
+		//Set the animation
+		jQuery("#department_slider .border").addClass('active');
+	}
+	department_slider();
 
-	// 	function change_class(last) {
-	// 		jQuery("#department_slider >img").removeClass();
-	// 		jQuery("#department_slider >img[position=\"1\"]").addClass('department_selected');
-	// 		jQuery("#department_slider >img[position=\"2\"]").addClass('department_next');
-	// 		jQuery("#department_slider >img[position="+last+"]").addClass('department_prev');
-	// 	}
-	// }
-	// department_slider();
+	
 })
