@@ -175,7 +175,7 @@ get_header();
 
 
 	<section class="departement">
-		<h1>Le département</h1>
+		<h1 id="dep">Le département</h1>
 		<div class="intro">
 			<p >Nous vous accueillons sur le site du Bourget du Lac dans des locaux équipés de matériel informatique et 
 			audiovisuel récent que les étudiants peuvent emprunter.</p>
