@@ -175,7 +175,7 @@ get_header();
 
 
 	<section class="departement">
-		<h1>Le département</h1>
+		<h1 id="dep">Le département</h1>
 		<div class="intro">
 			<p >Nous vous accueillons sur le site du Bourget du Lac dans des locaux équipés de matériel informatique et 
 			audiovisuel récent que les étudiants peuvent emprunter.</p>
@@ -206,10 +206,10 @@ get_header();
 <div  class="layer" data-depth="0.30">
 			<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/bottom_triangle_purple.svg" id="bottom_triangle_purple" alt="bottom_triangle_purple">
 		</div> 
-		<div  class="layer" data-depth="0.60">
+		<div  class="layer" data-depth="0.20">
 			<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/bottom_rectangle_grey.svg" id="bottom_rectangle_grey" alt="bottom_rectangle_grey">
 		</div>
-		<div  class="layer" data-depth="0.40">
+		<div  class="layer" data-depth="0.10">
 			<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/bottom_triangle_border_purple.svg" id="bottom_triangle_border_purple" alt="bottom_triangle_border_purple">
 		</div> 
 	</div>
@@ -220,7 +220,7 @@ get_header();
 
 			<div class="column_teacher">
 				<div id="after_picture">
-<<<<<<< HEAD
+
 					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/Houzet.jpg" id="team_picture" alt="">
 				</div>
 				<h3 class="name"> Grégory <!-- <span class="uppercase"> --> Houzet <!-- </span> --> </h3>
@@ -329,7 +329,7 @@ get_header();
 				<h3 class="name"> Sandra <span class="uppercase"> marechal </span> </h3>
 				<h3 class="profesion"> Lorem Ipsum </h3>
 				<p class="testimony"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut quis nostrud exercitation ullamco laboris nisi ut  . </p>
-=======		</div>
+	</div>
 		</div>
 	</section>
 
