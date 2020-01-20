@@ -9,6 +9,11 @@
 ?>
 
 <div class="wrap">
+	<?php
+	$array = get_field('works_column_first');
+	var_dump($array);
+	$i =0;
+	?>
 	
 	<h2>Réalisations</h2>
 
@@ -38,6 +43,78 @@
 		<div class="column_container">
 
 			<div class="column">
+				<?php 
+
+			
+					// foreach ($array as &$value) 
+					// {
+					// 	 echo 
+					// 	 "
+					// 		<div class='img_container'>
+
+					// 		<img src='".get_template_directory_uri() . $value['image']['works_column_first_img']['filename']."'alt=''>
+
+					// 		<div class='overlay'>
+
+					// 			<div class='text_container'>
+
+					// 				<p class='title'>
+					// 					".$value['nom']."
+					// 				</p>
+
+					// 				<p class='author'>
+									
+					// 				</p>
+					// 			</div>
+					// 		</div>
+					// 	</div>
+
+					// 	 "; 
+					//
+
+
+					     
+					
+					
+				?>
+
+<?php
+
+// check if the repeater field has rows of data
+if( have_rows('works_column_first') ):
+
+ 	// loop through the rows of data
+    while ( have_rows('works_column_first') ) : the_row();
+
+        // display a sub field value
+        the_sub_field('nom');
+
+    endwhile;
+
+else :
+
+    // no rows found
+
+endif;
+
+?>
+
+				<div class="img_container">
+
+					<img src="<?php echo the_sub_field('image') ?> "alt="">
+					<div class="overlay">
+						<div class="text_container">
+							<p class="title">
+								"À proximité"
+							</p>
+
+							<p class="author">
+							
+							</p>
+						</div>
+					</div>
+				</div>
+				
 
 				<div class="img_container">
 
@@ -84,21 +161,7 @@
 						</div>
 					</div>
 				</div>
-				<!-- <div class="img_container">
-
-					<img src="<?php echo get_template_directory_uri() ?>/img/realisations/rea/.jpg" alt="">
-					<div class="overlay">
-						<div class="text_container">
-							<p class="title">
-							"lorem ipsum"
-							</p>
-
-							<p class="author">
-								John Doe
-							</p>
-						</div>
-					</div>
-				</div> -->
+			
 			
 				
 			</div>
