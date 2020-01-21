@@ -146,7 +146,7 @@ get_header();
 	<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/form_shape.svg" id="form_shape">
 
 	<div id="wrap_form">
-		<form method="post" action="pop-up.php">
+		<form method="post" action="../post-form">
 			<div id="form_flex">
 				<input type="text" placeholder="Nom" id="name" name="nom" required>
 				<input type="text" placeholder="Prénom" id="surname" name="prenom" required>

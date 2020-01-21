@@ -23,7 +23,7 @@
 		wp_register_style('lptsi', get_template_directory_uri().'/css/lptsi.css');
 		wp_register_style('realisations', get_template_directory_uri().'/css/realisations.css');
 		wp_register_style('responsive_realisations', get_template_directory_uri().'/css/responsive_realisations.css');
-		wp_register_style('pop-up', get_template_directory_uri().'/css/pop-up.css');
+		wp_register_style('post-form', get_template_directory_uri().'/css/post-form.css');
 
 
 		
@@ -41,7 +41,7 @@
 		wp_register_script('realisations_js', get_template_directory_uri().'/js/realisations.js', array('jquery','parallax_libs'), false, true);
 		wp_register_script('index_js', get_template_directory_uri().'/js/index.js', array('jquery','parallax_libs'), false, true);
 		wp_register_script('international_js', get_template_directory_uri().'/js/international.js', array('jquery','parallax_libs'), false, true);
-		wp_register_script('pop-up_js', get_template_directory_uri().'/js/pop-up.js', array('jquery','parallax_libs'), false, true);
+		wp_register_script('post-form_js', get_template_directory_uri().'/js/post-form.js', array('jquery','parallax_libs'), false, true);
 		
 		//Load Styles enqueued
 		if (is_page('Accueil')) {
@@ -50,9 +50,9 @@
 			wp_enqueue_script('index_js');
 		}
 
-		else if (is_page('pop-up')) {
-			wp_enqueue_style('pop-up');
-			wp_enqueue_script('pop-up_js');
+		else if (is_page('post-form')) {
+			wp_enqueue_style('post-form');
+			wp_enqueue_script('post-form_js');
 		}
 
 		else if (is_page('coin-pro')) {
