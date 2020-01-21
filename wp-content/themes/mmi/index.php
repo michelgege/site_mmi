@@ -41,8 +41,8 @@
 		</div>
 		<a class="link_button" href="#">MMI en détails</a>
 		<div class="scene">
-			<img src="" alt="">
-			<img src="" alt="">
+			<img data-depth="1.3" src="<?php echo get_template_directory_uri() ?>/img/accueil/skills_triangle_first.svg" alt="">
+			<img data-depth="0.6" src="<?php echo get_template_directory_uri() ?>/img/accueil/skills_triangle_second.svg" alt="">
 		</div>
 	</section>
 
@@ -76,22 +76,39 @@
 				<p><?php the_field('home_fourth_desc'); ?></p>
 			</div>
 		</div>
+		<div class="scene" id="stats_scene_1">
+			<img data-depth="0.4" src="<?php echo get_template_directory_uri() ?>/img/accueil/stats_triangle_1.svg" alt="">	
+		</div>
+		<div class="scene" id="stats_scene_2">
+			<img data-depth="0.7" src="<?php echo get_template_directory_uri() ?>/img/accueil/stats_triangle_2.svg" alt="">
+			<img data-depth="1.2" src="<?php echo get_template_directory_uri() ?>/img/accueil/stats_triangle_3.svg" alt="">
+		</div>
+		<div class="scene" id="stats_scene_3">
+			<img data-depth="1" src="<?php echo get_template_directory_uri() ?>/img/accueil/stats_triangle_4.svg" alt="">
+			<img data-depth="0.5" src="<?php echo get_template_directory_uri() ?>/img/accueil/stats_triangle_5.svg" alt="">
+		</div>
 	</section>
 
 	<!-- Section Department -->
 
 	<section id="department">
 		<h2>le département</h2>
-		<div id="department_slider">
-			<img class="department_selected" src="<?php echo get_template_directory_uri() ?>/img/accueil/slider1_1.jpg" alt="">
-			<img class="department_next" src="<?php echo get_template_directory_uri() ?>/img/accueil/slider1_2.jpg" alt="">	
-			<img class="department_prev" src="<?php echo get_template_directory_uri() ?>/img/accueil/slider1_3.jpg" alt="">
-			
-		</div>
-		<div id="department_arrows">
-			
+		<div class="main-carousel" data-flickity>
+  			<div class="carousel-cell"><img src="<?php echo get_template_directory_uri() ?>/img/accueil/slider1_1.jpg" alt=""></div>
+  			<div class="carousel-cell"><img src="<?php echo get_template_directory_uri() ?>/img/accueil/slider1_2.jpg" alt=""></div>
+  			<div class="carousel-cell"><img src="<?php echo get_template_directory_uri() ?>/img/accueil/slider1_3.jpg" alt=""></div>
+  			<div class="carousel-cell"><img src="<?php echo get_template_directory_uri() ?>/img/accueil/slider1_3.jpg" alt=""></div>
+  			<div class="carousel-cell"><img src="<?php echo get_template_directory_uri() ?>/img/accueil/slider1_3.jpg" alt=""></div>
 		</div>
 		<a class="link_button" href="#">Voir la vidéo <span class="bold">360°</span></a>
+		<div class="scene" id="department_scene_1">
+			<img data-depth="0.5" src="<?php echo get_template_directory_uri() ?>/img/accueil/department_triangle_1.svg" alt="">
+			<img data-depth="1.4" src="<?php echo get_template_directory_uri() ?>/img/accueil/department_triangle_2.svg" alt="">
+		</div>
+		<div class="scene" id="department_scene_2">
+			<img data-depth="0.3" src="<?php echo get_template_directory_uri() ?>/img/accueil/department_triangle_3.svg" alt="">
+			<img data-depth="0.8" src="<?php echo get_template_directory_uri() ?>/img/accueil/department_triangle_4.svg" alt="">
+		</div>
 	</section>
 
 	<!-- Section Highlights -->
@@ -102,6 +119,18 @@
 			<?php the_field('home_highlights_video'); ?>
 		</div>
 		<a class="link_button" href="#">Voir les réalisations</a>
+		<div class="scene" id="highlights_scene_1">
+			<img data-depth="0.2" src="<?php echo get_template_directory_uri() ?>/img/accueil/highlights_triangle_1.svg" alt="">
+			<img data-depth="0.5" src="<?php echo get_template_directory_uri() ?>/img/accueil/highlights_triangle_2.svg" alt="">
+			<img data-depth="0.9" src="<?php echo get_template_directory_uri() ?>/img/accueil/highlights_triangle_3.svg" alt="">
+		</div>
+		<div class="scene" id="highlights_scene_2">
+			<img data-depth="0.7" src="<?php echo get_template_directory_uri() ?>/img/accueil/highlights_triangle_4.svg" alt="">
+			<img data-depth="0.3" src="<?php echo get_template_directory_uri() ?>/img/accueil/highlights_triangle_5.svg" alt="">
+		</div>
+		<div class="scene" id="highlights_scene_3">
+			<img data-depth="1.2" src="<?php echo get_template_directory_uri() ?>/img/accueil/highlights_triangle_6.svg" alt="">
+		</div>
 	</section>
 
 	<!-- Section International -->
@@ -123,6 +152,14 @@
 			<p><?php the_field('home_international_content')?></p>
 		</div>
 		<a class="link_button" href="#">En savoir plus</a>
+		<div class="scene" id="international_scene_1">
+			<img data-depth="0.4" src="<?php echo get_template_directory_uri() ?>/img/accueil/international_triangle_1.svg" alt="">
+			<img data-depth="1.1" src="<?php echo get_template_directory_uri() ?>/img/accueil/international_triangle_2.svg" alt="">
+		</div>
+		<div class="scene" id="international_scene_2">
+			<img data-depth="0.7" src="<?php echo get_template_directory_uri() ?>/img/accueil/international_triangle_3.svg" alt="">
+			<img data-depth="0.3" src="<?php echo get_template_directory_uri() ?>/img/accueil/international_triangle_4.svg" alt="">
+		</div>
 	</section>
 
 	<!-- Section Testimony -->
