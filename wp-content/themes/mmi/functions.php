@@ -7,6 +7,9 @@
 		wp_enqueue_style('footer', get_template_directory_uri().'/css/footer.css');
 		wp_enqueue_style('raleway', 'https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800&display=swap');
 
+		//Flickity
+		wp_enqueue_style('flickity', 'https://unpkg.com/flickity@2/dist/flickity.min.css');
+
 		//Styles enqueued
 		wp_register_style('index', get_template_directory_uri().'/css/index.css');
 		wp_register_style('header_index', get_template_directory_uri().'/css/header_index.css');
@@ -20,6 +23,8 @@
 		wp_register_style('lptsi', get_template_directory_uri().'/css/lptsi.css');
 		wp_register_style('realisations', get_template_directory_uri().'/css/realisations.css');
 		wp_register_style('responsive_realisations', get_template_directory_uri().'/css/responsive_realisations.css');
+		wp_register_style('post-form', get_template_directory_uri().'/css/post-form.css');
+
 
 		
         // SCRIPT
@@ -27,12 +32,16 @@
 	  	wp_enqueue_script('parallax_libs', 'https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js', array(), false, true);
 	  	wp_enqueue_script('parallax_header', get_template_directory_uri().'/js/parallax_header.js', array('jquery','parallax_libs'), false, true);
 
+	  		//Flickity
+	  	wp_enqueue_script('flickity_js', 'https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js', array('jquery','parallax_libs'), false, true);
+
 	  		//Scripts enqueued
 		wp_register_script('en_detail_js', get_template_directory_uri().'/js/en_detail.js', array('jquery','parallax_libs'), false, true);
 		wp_register_script('coin_pro_js', get_template_directory_uri().'/js/coin_pro.js', array('jquery','parallax_libs'), false, true);
 		wp_register_script('realisations_js', get_template_directory_uri().'/js/realisations.js', array('jquery','parallax_libs'), false, true);
 		wp_register_script('index_js', get_template_directory_uri().'/js/index.js', array('jquery','parallax_libs'), false, true);
 		wp_register_script('international_js', get_template_directory_uri().'/js/international.js', array('jquery','parallax_libs'), false, true);
+		wp_register_script('post-form_js', get_template_directory_uri().'/js/post-form.js', array('jquery','parallax_libs'), false, true);
 		
 		//Load Styles enqueued
 		if (is_page('Accueil')) {
@@ -41,8 +50,9 @@
 			wp_enqueue_script('index_js');
 		}
 
-		else if (is_page('lptsi')) {
-			wp_enqueue_style('lptsi');
+		else if (is_page('post-form')) {
+			wp_enqueue_style('post-form');
+			wp_enqueue_script('post-form_js');
 		}
 
 		else if (is_page('coin-pro')) {

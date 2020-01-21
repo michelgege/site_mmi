@@ -55,7 +55,7 @@
 
 				<h3><?php echo $name; ?></h3>
 				<h4><?php echo $job; ?></h4>
-				<p><?php echo $company; ?>, à <?php echo $city; ?></p>
+				<p><?php echo $company; ?>, <?php echo $city; ?></p>
 
 			</div>
 
