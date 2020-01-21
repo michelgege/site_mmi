@@ -395,7 +395,7 @@
 						<h3 class="domain"><?php echo $category; ?></h3>
 						<p class="date"><?php echo $year; ?></p>
 					</div>
-					<div>
+					<div class="author_and_name">
 						<p class="author_and_name"><?php echo $name; ?> par <span class="author_bold"><?php echo $author; ?></span></p>
 
 						<?php if ($linkedin) : ?>
