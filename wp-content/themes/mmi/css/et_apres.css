@@ -65,7 +65,7 @@ section#testimony
 		section#testimony div.witness>p
 		{
 			align-self: center;
-			width: 40%;
+			max-width: 40%;
 		}
 
 		div#scene
@@ -97,8 +97,12 @@ section#testimony
 .img_container
 {
 	overflow: hidden;
-	width: 200px;
-	height: 200px;
+	justify-content: center;
+    align-items: center;
+	min-width: 200px;
+	min-height: 200px;
+	max-width: 200px;
+	max-height: 200px;
 }
 
 
@@ -106,4 +110,6 @@ section#testimony
 {
 	object-fit: cover;
 	width: 100%;
+	height: 100%;
+
 }
