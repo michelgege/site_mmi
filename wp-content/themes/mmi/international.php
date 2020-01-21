@@ -1,4 +1,4 @@
-<?php
+ class="conflict"<?php
 /**
 * Template Name: International
 */
@@ -2402,7 +2402,7 @@ get_header();
 	<h4 class="second_section_title"> Stage </h4>
 	<div class="paragraph_list">
 		<p class="complement"><?php the_field('international_internship_content'); ?></p>
-		<ul>
+		<ul class="conflict">
 			<li id="choice">Y réfléchir en septembre (2ème année)</li>
 			<li id="choice">Rencontre responsable RI Octobre</li>
 			<li id="choice">Chercher des boites internationales</li>
@@ -2413,7 +2413,7 @@ get_header();
 	<h4 class="second_section_title"> Semestre </h4>
 	<div class="paragraph_list">
 		<p class="complement"><?php the_field('international_semester_content'); ?></p>
-		<ul>
+		<ul class="conflict">
 			<li id="choice"> Morbi sollicitudin in felis a viverra.</li>
 			<li id="choice">Morbi sollicitudin in felis a viverra.</li>
 			<li id="choice"><span id="bold">Morbi</span> sollicitudin in felis a viverra. </li>
@@ -2425,7 +2425,7 @@ get_header();
 	<h4 class="second_section_title"> Comment partir ? </h4>
 	<div class="paragraph_list">
 		<p class="complement"><?php the_field('international_howtogo_content'); ?></p>
-		<ul>
+		<ul class="conflict">
 			<li id="choice">Y réfléchir en septembre (2ème année)</li>
 			<li id="choice">Rencontre responsable RI Octobre</li>
 			<li id="choice">Chercher des boites internationales</li>
