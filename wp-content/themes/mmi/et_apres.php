@@ -46,7 +46,10 @@
 
 		<div class="witness">
 
-			<img src="<?php echo $image; ?>" alt="photo de profil">
+			<div class="img_container">
+				<img src="<?php echo $image; ?>" alt="photo de profil">
+			</div>
+
 
 			<div>
 

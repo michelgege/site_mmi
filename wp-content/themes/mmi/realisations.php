@@ -9,11 +9,6 @@
 ?>
 
 <div class="wrap">
-	<?php
-	$array = get_field('works_column_first');
-	var_dump($array);
-	$i =0;
-	?>
 	
 	<h2>Réalisations</h2>
 
@@ -43,79 +38,54 @@
 		<div class="column_container">
 
 			<div class="column">
-				<?php 
 
-			
-					// foreach ($array as &$value) 
-					// {
-					// 	 echo 
-					// 	 "
-					// 		<div class='img_container'>
-
-					// 		<img src='".get_template_directory_uri() . $value['image']['works_column_first_img']['filename']."'alt=''>
-
-					// 		<div class='overlay'>
-
-					// 			<div class='text_container'>
-
-					// 				<p class='title'>
-					// 					".$value['nom']."
-					// 				</p>
-
-					// 				<p class='author'>
-									
-					// 				</p>
-					// 			</div>
-					// 		</div>
-					// 	</div>
-
-					// 	 "; 
-					//
+<?php if( have_rows('works_column_first') ): ?>
 
 
-					     
-					
-					
-				?>
+	<?php while( have_rows('works_column_first') ): the_row(); 
 
-<?php
+		// vars
+		$image = get_sub_field('image');
+		$name = get_sub_field('nom');
+		$author = get_sub_field('auteur');
+		?>
 
-// check if the repeater field has rows of data
-if( have_rows('works_column_first') ):
+		<div class="img_container">
 
- 	// loop through the rows of data
-    while ( have_rows('works_column_first') ) : the_row();
+			<img src="<?php echo $image; ?>" alt="" />
 
-        // display a sub field value
-        the_sub_field('nom');
+			<div class="overlay" data-name="<?php echo $name; ?>">
 
-    endwhile;
+				<div class="text_container">
 
-else :
+					<?php if( $name ): ?>
 
-    // no rows found
+						<p class="title">
+							<?php echo $name; ?>
+						</p>
+						
+					<?php endif; ?>
 
-endif;
 
-?>
+					<?php if( $author ): ?>
 
-				<div class="img_container">
+						<p class="author">
+							<?php echo $author; ?>
+						</p>
+						
+					<?php endif; ?>
 
-					<img src="<?php echo the_sub_field('image') ?> "alt="">
-					<div class="overlay">
-						<div class="text_container">
-							<p class="title">
-								"À proximité"
-							</p>
 
-							<p class="author">
-							
-							</p>
-						</div>
-					</div>
 				</div>
-				
 
+			</div>
+
+		</div>
+
+	<?php endwhile; ?>
+
+<?php endif; ?>
+				
 				<div class="img_container">
 
 					<img src="<?php echo get_template_directory_uri() ?>/img/realisations/rea/filmframmi.jpg" alt="">
@@ -167,6 +137,56 @@ endif;
 			</div>
 			
 			<div class="column">
+
+				<?php if( have_rows('works_column_second') ): ?>
+
+
+					<?php while( have_rows('works_column_second') ): the_row(); 
+
+						// vars
+						$image = get_sub_field('image');
+						$name = get_sub_field('nom');
+						$author = get_sub_field('auteur');
+						?>
+
+						<div class="img_container">
+
+							<img src="<?php echo $image; ?>" alt="" />
+
+							<div class="overlay" data-name="<?php echo $name; ?>">
+
+								<div class="text_container">
+
+									<?php if( $name ): ?>
+
+										<p class="title">
+											<?php echo $name; ?>
+										</p>
+										
+									<?php endif; ?>
+
+
+									<?php if( $author ): ?>
+
+										<p class="author">
+											<?php echo $author; ?>
+										</p>
+										
+									<?php endif; ?>
+
+
+								</div>
+
+							</div>
+
+						</div>
+
+					<?php endwhile; ?>
+
+				<?php endif; ?>
+
+
+
 				<div class="img_container">
 
 					<img src="<?php echo get_template_directory_uri() ?>/img/realisations/rea/lifi.jpg" alt="">
@@ -212,7 +232,58 @@ endif;
 				</div>
 				
 			</div>
+
+
+
+
 			<div class="column">
+
+				<?php if( have_rows('works_column_third') ): ?>
+
+
+					<?php while( have_rows('works_column_third') ): the_row(); 
+
+						// vars
+						$image = get_sub_field('image');
+						$name = get_sub_field('nom');
+						$author = get_sub_field('auteur');
+						?>
+
+						<div class="img_container">
+
+							<img src="<?php echo $image; ?>" alt="" />
+
+							<div class="overlay" data-name="<?php echo $name; ?>">
+
+								<div class="text_container">
+
+									<?php if( $name ): ?>
+
+										<p class="title">
+											<?php echo $name; ?>
+										</p>
+										
+									<?php endif; ?>
+
+
+									<?php if( $author ): ?>
+
+										<p class="author">
+											<?php echo $author; ?>
+										</p>
+										
+									<?php endif; ?>
+
+
+								</div>
+
+							</div>
+
+						</div>
+
+					<?php endwhile; ?>
+
+				<?php endif; ?>
 				<div class="img_container">
 
 					<img src="<?php echo get_template_directory_uri() ?>/img/realisations/rea/myrelingues.jpg" alt="">
@@ -290,48 +361,228 @@ endif;
 	<img data-depth="-0.10"class="pink_square_full" src="<?php echo get_template_directory_uri() ?>/img/realisations/pink_square_full.svg" alt="">
 </div>
 
-<div class="pop_up">
-	
-	<div class="background">
-	</div>
-	<div class="content">
-		<div class="realisation">
-			<img src="<?php echo get_template_directory_uri() ?>/img/realisations/rea/filmframmi.jpg" alt="">
 
-			<a href="#">Voir la realisation</a>
-		</div>
 
-		<div class="description">
-			<div>
-				<h3 class="domain">Vidéo</h3>
-				<p class="date">2017-2018</p>
+<?php if( have_rows('works_column_first') ): ?>
+
+
+	<?php while( have_rows('works_column_first') ): the_row(); 
+
+		// vars
+		$image = get_sub_field('image');
+		$name = get_sub_field('nom');
+		$author = get_sub_field('auteur');
+		$linkedin = get_sub_field('auteur_linkedin');
+		$category = get_sub_field('categorie');
+		$year = get_sub_field('annee');
+		$description = get_sub_field('description');
+		$context = get_sub_field('contexte');
+		$link = get_sub_field('lien_realisation');
+	?>
+		<div class="pop_up" data-name="<?php echo $name; ?>">
+			
+			<div class="background">
 			</div>
-			<div>
-				<p class="author_and_name">"À proximité" par <span class="author_bold">Marie Raison</span></p>
-				<div>
-					<a><img src="<?php echo get_template_directory_uri() ?>/img/realisations/linkedin.png"/></a>
+			<div class="content">
+				<div class="realisation">
+					<img src="<?php echo $image; ?>" alt="">
+
+					<a href="<?php echo $link; ?>">Voir la realisation</a>
+				</div>
+
+				<div class="description">
+					<div>
+						<h3 class="domain"><?php echo $category; ?></h3>
+						<p class="date"><?php echo $year; ?></p>
+					</div>
+					<div>
+						<p class="author_and_name"><?php echo $name; ?> par <span class="author_bold"><?php echo $author; ?></span></p>
+
+						<?php if ($linkedin) : ?>
+
+							<div>
+								<a href=" <?php echo $linkedin; ?>"><img src="<?php echo get_template_directory_uri() ?>/img/realisations/linkedin.png"/></a>
+							</div>
+
+						<?php endif; ?>
+
+					</div>
+
+
+
+					<?php the_sub_field('contexte') ?>
+
+					<?php the_sub_field('description') ?>
+
 				</div>
 			</div>
-			<p class="mention">Réalisé pour <a target="_blank" href="http://www.mairie-lamotteservolex.fr/">les FRAMMIS</a></p>
-
-			<p class="description">Gagnant du prix de la meilleure réalisation “À proximité” de Marie Raison est un court-métrage traitant de l’amour au travers de deux jeunes de Chambéry qui discutent par message pendant plusieurs jour apres s’etre matches. Au fur et à mesure on sent plusieurs rythmes s'accélérer aussi bien la musique que le montage ou encore la relation des deux protagonistes par la quantité de messages et la familiarité qui s’en dégage. Tout ca pour mener à une fin efficace et tout en douceur.</p>
+			<svg xmlns="http://www.w3.org/2000/svg" width="58" height="58" viewBox="0 0 58 58">
+		  <g id="Groupe_61" data-name="Groupe 61" transform="translate(-1739 -434)">
+		    <g id="Groupe_60" data-name="Groupe 60" transform="translate(-53.279 -0.785)">
+		      <line id="Ligne_9" data-name="Ligne 9" x1="28.441" y2="28.441" transform="translate(1807.279 449.785)" fill="none" stroke="#fff" stroke-width="3"/>
+		      <line id="Ligne_10" data-name="Ligne 10" x1="28.441" y2="28.441" transform="translate(1835.721 449.785) rotate(90)" fill="none" stroke="#fff" stroke-width="3"/>
+		    </g>
+		    <g id="Ellipse_11" data-name="Ellipse 11" transform="translate(1739 434)" fill="none" stroke="#fff" stroke-width="3">
+		      <circle cx="29" cy="29" r="29" stroke="none"/>
+		      <circle cx="29" cy="29" r="27.5" fill="none"/>
+		    </g>
+		  </g>
+		</svg>
 
 		</div>
-	</div>
-	<svg xmlns="http://www.w3.org/2000/svg" width="58" height="58" viewBox="0 0 58 58">
-  <g id="Groupe_61" data-name="Groupe 61" transform="translate(-1739 -434)">
-    <g id="Groupe_60" data-name="Groupe 60" transform="translate(-53.279 -0.785)">
-      <line id="Ligne_9" data-name="Ligne 9" x1="28.441" y2="28.441" transform="translate(1807.279 449.785)" fill="none" stroke="#fff" stroke-width="3"/>
-      <line id="Ligne_10" data-name="Ligne 10" x1="28.441" y2="28.441" transform="translate(1835.721 449.785) rotate(90)" fill="none" stroke="#fff" stroke-width="3"/>
-    </g>
-    <g id="Ellipse_11" data-name="Ellipse 11" transform="translate(1739 434)" fill="none" stroke="#fff" stroke-width="3">
-      <circle cx="29" cy="29" r="29" stroke="none"/>
-      <circle cx="29" cy="29" r="27.5" fill="none"/>
-    </g>
-  </g>
-</svg>
 
-</div>
+	<?php endwhile; ?>
+
+<?php endif; ?>
+
+
+
+<?php if( have_rows('works_column_second') ): ?>
+
+
+	<?php while( have_rows('works_column_second') ): the_row(); 
+
+		// vars
+		$image = get_sub_field('image');
+		$name = get_sub_field('nom');
+		$author = get_sub_field('auteur');
+		$linkedin = get_sub_field('auteur_linkedin');
+		$category = get_sub_field('categorie');
+		$year = get_sub_field('annee');
+		$description = get_sub_field('description');
+		$context = get_sub_field('contexte');
+		$link = get_sub_field('lien_realisation');
+	?>
+		<div class="pop_up" data-name="<?php echo $name; ?>">
+			
+			<div class="background">
+			</div>
+			<div class="content">
+				<div class="realisation">
+					<img src="<?php echo $image; ?>" alt="">
+
+					<a href="<?php echo $link; ?>">Voir la realisation</a>
+				</div>
+
+				<div class="description">
+					<div>
+						<h3 class="domain"><?php echo $category; ?></h3>
+						<p class="date"><?php echo $year; ?></p>
+					</div>
+					<div>
+						<p class="author_and_name"><?php echo $name; ?> par <span class="author_bold"><?php echo $author; ?></span></p>
+
+						<?php if ($linkedin) : ?>
+
+							<div>
+								<a href=" <?php echo $linkedin; ?>"><img src="<?php echo get_template_directory_uri() ?>/img/realisations/linkedin.png"/></a>
+							</div>
+
+						<?php endif; ?>
+
+					</div>
+
+
+
+					<p class="mention"> <?php the_sub_field('context') ?> </a></p>
+
+					<p class="description"> <?php the_sub_field('description') ?></p>
+
+				</div>
+			</div>
+			<svg xmlns="http://www.w3.org/2000/svg" width="58" height="58" viewBox="0 0 58 58">
+		  <g id="Groupe_61" data-name="Groupe 61" transform="translate(-1739 -434)">
+		    <g id="Groupe_60" data-name="Groupe 60" transform="translate(-53.279 -0.785)">
+		      <line id="Ligne_9" data-name="Ligne 9" x1="28.441" y2="28.441" transform="translate(1807.279 449.785)" fill="none" stroke="#fff" stroke-width="3"/>
+		      <line id="Ligne_10" data-name="Ligne 10" x1="28.441" y2="28.441" transform="translate(1835.721 449.785) rotate(90)" fill="none" stroke="#fff" stroke-width="3"/>
+		    </g>
+		    <g id="Ellipse_11" data-name="Ellipse 11" transform="translate(1739 434)" fill="none" stroke="#fff" stroke-width="3">
+		      <circle cx="29" cy="29" r="29" stroke="none"/>
+		      <circle cx="29" cy="29" r="27.5" fill="none"/>
+		    </g>
+		  </g>
+		</svg>
+
+		</div>
+
+	<?php endwhile; ?>
+
+<?php endif; ?>
+
+<?php if( have_rows('works_column_third') ): ?>
+
+
+	<?php while( have_rows('works_column_third') ): the_row(); 
+
+		// vars
+		$image = get_sub_field('image');
+		$name = get_sub_field('nom');
+		$author = get_sub_field('auteur');
+		$linkedin = get_sub_field('auteur_linkedin');
+		$category = get_sub_field('categorie');
+		$year = get_sub_field('annee');
+		$description = get_sub_field('description');
+		$context = get_sub_field('contexte');
+		$link = get_sub_field('lien_realisation');
+	?>
+		<div class="pop_up" data-name="<?php echo $name; ?>">
+			<?php var_dump($name);?>
+			
+			<div class="background">
+			</div>
+			<div class="content">
+				<div class="realisation">
+					<img src="<?php echo $image; ?>" alt="">
+
+					<a href="<?php echo $link; ?>">Voir la realisation</a>
+				</div>
+
+				<div class="description">
+					<div>
+						<h3 class="domain"><?php echo $category; ?></h3>
+						<p class="date"><?php echo $year; ?></p>
+					</div>
+					<div>
+						<p class="author_and_name"><?php echo $name; ?> par <span class="author_bold"><?php echo $author; ?></span></p>
+
+						<?php if ($linkedin) : ?>
+
+							<div>
+								<a href=" <?php echo $linkedin; ?>"><img src="<?php echo get_template_directory_uri() ?>/img/realisations/linkedin.png"/></a>
+							</div>
+
+						<?php endif; ?>
+
+					</div>
+
+
+
+					<p class="mention"> <?php the_sub_field('context') ?> </a></p>
+
+					<p class="description"> <?php the_sub_field('description') ?></p>
+
+				</div>
+			</div>
+			<svg xmlns="http://www.w3.org/2000/svg" width="58" height="58" viewBox="0 0 58 58">
+		  <g id="Groupe_61" data-name="Groupe 61" transform="translate(-1739 -434)">
+		    <g id="Groupe_60" data-name="Groupe 60" transform="translate(-53.279 -0.785)">
+		      <line id="Ligne_9" data-name="Ligne 9" x1="28.441" y2="28.441" transform="translate(1807.279 449.785)" fill="none" stroke="#fff" stroke-width="3"/>
+		      <line id="Ligne_10" data-name="Ligne 10" x1="28.441" y2="28.441" transform="translate(1835.721 449.785) rotate(90)" fill="none" stroke="#fff" stroke-width="3"/>
+		    </g>
+		    <g id="Ellipse_11" data-name="Ellipse 11" transform="translate(1739 434)" fill="none" stroke="#fff" stroke-width="3">
+		      <circle cx="29" cy="29" r="29" stroke="none"/>
+		      <circle cx="29" cy="29" r="27.5" fill="none"/>
+		    </g>
+		  </g>
+		</svg>
+
+		</div>
+
+	<?php endwhile; ?>
+
+<?php endif; ?>
+
+
 
 <?php
 	get_footer();

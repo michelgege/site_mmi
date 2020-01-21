@@ -38,7 +38,9 @@ section#testimony
 		margin: 100px 100px;
 	}
 
-		section#testimony div.witness>div{
+		section#testimony div.witness div.img_container,
+		section#testimony div.witness div.img_container + div
+		{
 			margin: 0 50px;
 		}
 
@@ -49,9 +51,9 @@ section#testimony
 		}
 
 		section#testimony div.witness img
-		{
+		{/*
 			width: 200px;
-			height: 200px;
+			height: 200px;*/
 		}
 		
 		section#testimony div.witness h4
@@ -90,3 +92,18 @@ section#testimony
             	margin-top: 40%;
             	margin-left: 30%;
       		}
+
+
+.img_container
+{
+	overflow: hidden;
+	width: 200px;
+	height: 200px;
+}
+
+
+.img_container img 
+{
+	object-fit: cover;
+	width: 100%;
+}

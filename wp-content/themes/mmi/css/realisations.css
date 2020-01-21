@@ -56,7 +56,7 @@ div.column_container
       display: flex;
       width: 100%;   
       margin-bottom: 300px; 
-      line-height: 0;
+      /*line-height: 0;*/
 }
       div.column_container div.column
       {
@@ -123,6 +123,11 @@ div.column_container
 
 /*________________________________________________popup _______________________________*/
 
+
+strong
+{
+    font-weight: 700;
+}
 
 div.pop_up
 {
@@ -207,6 +212,7 @@ div.pop_up.visible
                   div.realisation a
                   {
                        margin-top: 20px;
+                       text-decoration:underline;
                   }
                   div.realisation img
                   {
@@ -317,7 +323,14 @@ div#scene_fourth
       }
       
 
+@media only screen and (max-width : 1536px)
+{
 
+  div.pop_up div.content div.description >* {
+      margin-bottom: 24px;
+    }
+
+}
 @media only screen and (max-width : 1440px)
 {
 
@@ -350,9 +363,7 @@ div#scene_fourth
       }
       div.pop_up div.content>div>div 
       {
-            flex-direction: column;
-            align-items: flex-start;
-            
+             flex-wrap: wrap;
       }
             h3.domain,p.author_and_name
             {
@@ -391,6 +402,14 @@ div#scene_fourth
              margin-top: -25px;
              margin-left: 35px;
          }
+
+          div.pop_up div.content>div>div 
+      {
+             flex-wrap: wrap;
+            flex-direction: column;
+            align-items: flex-start;
+            
+      }
 
       p.intro
       {
