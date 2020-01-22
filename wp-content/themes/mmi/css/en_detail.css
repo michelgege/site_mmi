@@ -555,21 +555,15 @@ div#teachers
 	display: flex;
 	width: 100%;
 	margin-bottom: 100px;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
 
-div#teachers_centered
-{
-	display: flex;
-	width: 100%;
-	margin-bottom: 100px;
-	justify-content: center;
-}
 div.column_teacher
 {
 	flex-direction: column;
 	width: 300px;
-	margin-right: 57.5px;
-	margin-left: 57.5px;
+	margin-bottom: 100px;
 }
 
 #team_picture
@@ -582,27 +576,27 @@ div.column_teacher
 #after_picture:after
 {
 	content:"";
-		border: #9B3BB7 solid 3px;
-		text-shadow: 0 0 3px #9B3BB7;
-		display: block;
-		width: 188px;
-		height: 194px;
-		transform: rotate(-17deg);
-		margin-top: -194px;
-		margin-left: 10%;
+	border: #9B3BB7 solid 3px;
+	text-shadow: 0 0 3px #9B3BB7;
+	display: block;
+	width: 188px;
+	height: 194px;
+	transform: rotate(-17deg);
+	margin-top: -194px;
+	margin-left: 10%;
 }
 
 #after_picture_center:after
 {
 	content:"";
-		border: #9B3BB7 solid 3px;
-		text-shadow: 0 0 3px #9B3BB7;
-		display: block;
-		width: 188px;
-		height: 194px;
-		transform: rotate(-17deg);
-		margin-top: -194px;
-		margin-left: 15%;
+	border: #9B3BB7 solid 3px;
+	text-shadow: 0 0 3px #9B3BB7;
+	display: block;
+	width: 188px;
+	height: 194px;
+	transform: rotate(-17deg);
+	margin-top: -194px;
+	margin-left: 15%;
 }
 
 

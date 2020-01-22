@@ -6,10 +6,6 @@ jQuery('img#cross').click(function() {
 
 });
 
-jQuery('').click(function() {
-	jQuery('.pop-up.open').removeClass('open');
-});
-
 setInterval(function() {
 	
 	var div = document.querySelector("#counter");

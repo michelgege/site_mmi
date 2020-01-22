@@ -51,7 +51,7 @@
 		display: flex;
 	}
 
-	ul
+	ul.conflict
 	{
 		padding-top: 30px;	
 		padding-left: 140px;
@@ -177,7 +177,7 @@
 		display: flex;
 	}
 
-	ul
+	ul.conflict
 	{
 		padding-top: 30px;	
 		padding-left: 140px;
@@ -333,7 +333,7 @@
 		display: flex;
 	}
 
-	ul
+	ul.conflict
 	{
 		padding-top: 30px;	
 		padding-left: 70px;
@@ -732,7 +732,7 @@ div.paragraph_list
 	flex-wrap: wrap;
 }
 
-ul
+ul.conflict
 {
 	padding-top: 30px;
 	padding-left: 15px;	

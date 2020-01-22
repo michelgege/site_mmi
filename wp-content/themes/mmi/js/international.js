@@ -6,6 +6,7 @@ jQuery(document).ready(function() {
 
 		var id=jQuery(this).attr("data-id");
 		jQuery('.pop_up[data-id= "'+id+'"]').addClass('active');
+		jQuery('.pop_up').not('.pop_up[data-id= "'+id+'"]').removeClass('active');
 	})
 
 
