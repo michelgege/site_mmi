@@ -100,6 +100,10 @@
   			<div class="carousel-cell"><img src="<?php echo get_template_directory_uri() ?>/img/accueil/slider1_3.jpg" alt=""></div>
   			<div class="carousel-cell"><img src="<?php echo get_template_directory_uri() ?>/img/accueil/slider1_3.jpg" alt=""></div>
 		</div>
+		<div id="department_slider_arrows">
+			<img id="test_slider" src="<?php echo get_template_directory_uri() ?>/img/accueil/slider_1_arrow_left.svg" alt="">
+			<img id="test_slider_2" src="<?php echo get_template_directory_uri() ?>/img/accueil/slider_1_arrow_right.svg" alt="">
+		</div>
 		<a class="link_button" href="#">Voir la vidéo <span class="bold">360°</span></a>
 		<div class="scene" id="department_scene_1">
 			<img data-depth="0.5" src="<?php echo get_template_directory_uri() ?>/img/accueil/department_triangle_1.svg" alt="">
@@ -139,15 +143,16 @@
 		<h2>l'international</h2>
 		<p>Vous souhaitez partir à l'étranger pour un stage, un S4 ou un DUETI ?</p>
 		<div id="international_content">
-			<div id="international_slider">
-				<img class="international_second" src="<?php echo get_template_directory_uri() ?>/img/accueil/slider2_2.jpg" alt="">
-				<div class="international_first border">
-					<img class="international_first" src="<?php echo get_template_directory_uri() ?>/img/accueil/slider2_1.jpg" alt="">
-				</div>
-				<div id="international_arrows">
-					<img src="" alt="">
-					<img src="" alt="">
-				</div>
+			<div class="main-carousel" data-flickity>
+	  			<div class="carousel-cell"><img src="<?php echo get_template_directory_uri() ?>/img/accueil/slider2_1.jpg" alt=""></div>
+	  			<div class="carousel-cell"><img src="<?php echo get_template_directory_uri() ?>/img/accueil/slider2_2.jpg" alt=""></div>
+	  			<div class="carousel-cell"><img src="<?php echo get_template_directory_uri() ?>/img/accueil/slider2_1.jpg" alt=""></div>
+	  			<div class="carousel-cell"><img src="<?php echo get_template_directory_uri() ?>/img/accueil/slider2_2.jpg" alt=""></div>
+	  			<div class="carousel-cell"><img src="<?php echo get_template_directory_uri() ?>/img/accueil/slider2_1.jpg" alt=""></div>
+			</div>
+			<div id="international_slider_arrows">
+				<img id="test_slider" src="<?php echo get_template_directory_uri() ?>/img/accueil/slider_1_arrow_left.svg" alt="">
+				<img id="test_slider_2" src="<?php echo get_template_directory_uri() ?>/img/accueil/slider_1_arrow_right.svg" alt="">
 			</div>
 			<p><?php the_field('home_international_content')?></p>
 		</div>
@@ -193,6 +198,16 @@
 		<a class="link_button" href="#">Après MMI ?</a>
 	</section>
 </div>
+
+<style>
+	section#department .main-carousel .flickity-prev-next-button.previous {
+		background-image: url("<?php echo get_template_directory_uri() ?>/img/accueil/slider_1_arrow_left.svg");
+	}
+
+	section#department .main-carousel .flickity-prev-next-button.next {
+		background-image: url("<?php echo get_template_directory_uri() ?>/img/accueil/slider_1_arrow_right.svg");
+	}
+</style>
 
 <?php
 	get_footer();
