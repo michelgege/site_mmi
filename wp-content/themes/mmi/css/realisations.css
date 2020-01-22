@@ -56,7 +56,7 @@ div.column_container
       display: flex;
       width: 100%;   
       margin-bottom: 300px; 
-      line-height: 0;
+      /*line-height: 0;*/
 }
       div.column_container div.column
       {
@@ -119,10 +119,24 @@ div.column_container
                        margin-top: 30px;
                        font-size: 22px;
                   }
-            
+
+
+            h3.domain,
+            p.author_and_name,
+            p.date,
+            div.author_and_name img
+
+            {
+                  margin-bottom: 15px;
+            } 
 
 /*________________________________________________popup _______________________________*/
 
+
+strong
+{
+    font-weight: 700;
+}
 
 div.pop_up
 {
@@ -188,6 +202,7 @@ div.pop_up.visible
                        flex-direction: column;
                        align-self: center;
                        max-width: 50%;
+                       width: 50%;
                       
                   }
                   div.pop_up div.content>div:first-of-type
@@ -207,6 +222,7 @@ div.pop_up.visible
                   div.realisation a
                   {
                        margin-top: 20px;
+                       text-decoration:underline;
                   }
                   div.realisation img
                   {
@@ -241,9 +257,15 @@ div.pop_up.visible
                         {
                              font-size: 30px;
                         }
+
+                        div.author_and_name img 
+                        {
+                          margin-bottom: 15px;
+                        }
                         div.description p.author_and_name span.author_bold
                         {
                              font-weight: 800;
+                             margin-right: 20px;
                         }
                         div.pop_up div.content div.description p.description
                         {
@@ -317,7 +339,14 @@ div#scene_fourth
       }
       
 
+@media only screen and (max-width : 1536px)
+{
 
+  div.pop_up div.content div.description >* {
+      margin-bottom: 24px;
+    }
+
+}
 @media only screen and (max-width : 1440px)
 {
 
@@ -350,14 +379,9 @@ div#scene_fourth
       }
       div.pop_up div.content>div>div 
       {
-            flex-direction: column;
-            align-items: flex-start;
-            
+             flex-wrap: wrap;
       }
-            h3.domain,p.author_and_name
-            {
-                  margin-bottom: 15px;
-            } 
+
 
        div#scene
       {
@@ -391,6 +415,19 @@ div#scene_fourth
              margin-top: -25px;
              margin-left: 35px;
          }
+
+          div.pop_up div.content>div>div 
+      {
+             flex-wrap: wrap;
+            flex-direction: column;
+            align-items: flex-start;
+            
+      }
+
+      div.pop_up div.content>div.description
+      {
+        width: 100%;
+      }
 
       p.intro
       {
@@ -511,7 +548,8 @@ div#scene_fourth
 {
 
       div.description p.author_and_name,
-      h3.domain
+      h3.domain,
+      p.date
       {
           margin-bottom: 10px;
       }

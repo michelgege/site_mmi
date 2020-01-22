@@ -21,6 +21,23 @@
 @media only screen and (max-width : 1024px)
 {
 
+	section#testimony
+	{
+		padding: 0 50px;
+	}
+
+		section#testimony div.witness
+		{
+			flex-wrap: wrap;
+
+		}
+
+		section#testimony div.witness>p
+		{
+			width: 100%;
+			margin-top: 5%;
+		}
+
 }
 
 @media only screen and (max-width : 900px)

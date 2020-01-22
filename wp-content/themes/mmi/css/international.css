@@ -302,7 +302,7 @@ div.paragraph_list
 	display: flex;
 }
 
-ul
+ul.conflict
 {
 	padding-top: 35px;	
 	padding-left: 280px;
