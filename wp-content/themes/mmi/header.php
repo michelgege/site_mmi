@@ -7,6 +7,15 @@
 	<?php wp_head();?>
 </head>
 <body>
+	<div class="side_menu">
+		<div class="top">
+			<nav>
+				<?php wp_nav_menu();?>
+			</nav>
+			
+		</div>
+		
+	</div>
 	<header>
 		<span class="filter" style="background-color: <?php the_field('header_filter_color'); ?>;"></span>
 		<div id="menu">
@@ -39,6 +48,7 @@
 			<div data-depth="0.5"><img id="header_full_triangle_big" src="<?php echo get_template_directory_uri() ?>/img/header_shapes/header_shape5.svg" alt=""></div>
 			<div data-depth="0.4"><img id="header_full_triangle_medium" src="<?php echo get_template_directory_uri() ?>/img/header_shapes/header_shape6.svg" alt=""></div>
 			<div data-depth="0.3"><img id="header_empty_triangle_small" src="<?php echo get_template_directory_uri() ?>/img/header_shapes/header_shape7.svg" alt=""></div>
+			
 		</div>
 
 	</header>
