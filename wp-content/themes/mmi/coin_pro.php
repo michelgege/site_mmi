@@ -92,8 +92,6 @@ get_header();
 
 
 
-
-
 	<div id="event"> 
 		<h3 class="pro_subtitle"> L'évènement MMI Et Après </h3>
 
@@ -156,7 +154,7 @@ get_header();
 			<input type="text" placeholder="Description du projet (Durée, missions, compétences requises…)" id="skills_required" name="desc" required>
 
 			<div id="grey_pro">
-			<input type="submit" name="" value="Envoyer" class="button" id="form_button" name="submit" required> 
+			<input type="submit" name="submitpost" value="Envoyer" class="button" id="form_button" name="submit" required> 
 			</div>
 		</form>
 	</div>

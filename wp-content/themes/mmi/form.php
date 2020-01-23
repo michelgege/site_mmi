@@ -2,7 +2,6 @@
 
 $adresse = 'Location: https://mmi.univ-smb.fr/~kademn/RopeUp/html/post-form.php';
 
-  //Si le submit bouton est appuyé, vérifier si le coche du captcha existe
   if(isset($_POST['submitpost'])) {
 
     // echo 'Captcha Valide';
@@ -31,7 +30,7 @@ $adresse = 'Location: https://mmi.univ-smb.fr/~kademn/RopeUp/html/post-form.php'
 
         echo '<h1>Erreur</h1>';
 
-        }
+      }
 
     } else {
 
