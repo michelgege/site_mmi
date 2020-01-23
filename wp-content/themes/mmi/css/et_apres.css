@@ -3,16 +3,16 @@
 
 body
 {
-    font-family: 'Raleway', sans-serif;
-    background-color: #181818;
+      font-family: 'Raleway', sans-serif;
+      background-color: #181818;
 }
 
 	h2
 	{
-	    font-size: 70px;
-	    font-weight: 300;
-	    margin-top: 120px;
-	    color:white;
+	      font-size: 70px;
+	      font-weight: 300;
+	      margin-top: 120px;
+	      color:white;
 	}
 
 	    h2::after
@@ -20,7 +20,7 @@ body
 	        display: block;
 	        background-color: rgba(38, 109, 43, 0.57);
 			content: "";
-			width: 35%;
+			width: 45%;
 			height: 65px;
 			margin-top: -35px;
 			margin-left: 35px;
@@ -46,7 +46,6 @@ section#testimony
 		section#testimony div.witness div.img_container + div
 		{
 			margin: 0 50px;
-			width: 300px;
 		}
 
 		section#testimony div.witness h3
@@ -72,8 +71,6 @@ section#testimony
 			content: "";
 			display: block;
 			background-color: rgba(38, 109, 43, 0.57);
-			width: 100%;
-			height: auto;
 		}
 
 		section#testimony div.witness>p

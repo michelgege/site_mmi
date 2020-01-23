@@ -520,7 +520,7 @@ div#scene_fourth
       {
          overflow: scroll;
          flex-direction: column;
-         justify-content: space-evenly;
+         justify-content: space-between;
       }
       div.pop_up div.content div.description > * 
       {
