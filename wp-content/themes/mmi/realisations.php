@@ -519,6 +519,7 @@
 
 			// vars
 			$image = get_sub_field('image');
+			$gallery = get_sub_field('images_rea');
 			$name = get_sub_field('nom');
 			$author = get_sub_field('auteur');
 			$linkedin = get_sub_field('auteur_linkedin');
@@ -565,6 +566,7 @@
 						<p class="description"> <?php the_sub_field('description') ?></p>
 
 					</div>
+
 				</div>
 				<svg xmlns="http://www.w3.org/2000/svg" width="58" height="58" viewBox="0 0 58 58">
 			  <g id="Groupe_61" data-name="Groupe 61" transform="translate(-1739 -434)">

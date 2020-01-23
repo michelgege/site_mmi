@@ -100,7 +100,9 @@ div.column_container
                   text-align: center;
                   display: flex;
                   justify-content: center;
-                  
+                  user-select: none;
+                  cursor: pointer;
+                
             }
 
             div.overlay:hover
@@ -166,6 +168,7 @@ div.pop_up.visible
             width: 4%;
             transform: translateY(-50%);
             z-index: 13;
+            cursor: pointer;
       }
 
       div.pop_up div.background
