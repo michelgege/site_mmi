@@ -17,9 +17,13 @@ jQuery(document).ready(function ()
       			{
       				pop_array[i].classList.add('visible');
       				last_opened = pop_array[i];
+                              console.log(pop_array[i]);
       			}
       		}
+
+      
       });
+
       jQuery('svg').click(function ()
       {
             last_opened.classList.remove('visible');
