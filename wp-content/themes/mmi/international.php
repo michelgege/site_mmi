@@ -1,4 +1,4 @@
- class="conflict"<?php
+<?php
 /**
 * Template Name: International
 */

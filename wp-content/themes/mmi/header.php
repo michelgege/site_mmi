@@ -9,19 +9,31 @@
 <body>
 	<div class="side_menu">
 		<div class="top">
+			<img class ="cross" src="<?php echo get_template_directory_uri() ?>/img/cross.svg">
+		</div>
 			<nav>
 				<?php wp_nav_menu();?>
 			</nav>
-			
-		</div>
-		
+
+			<span class="line"></span>
+
+			<div class="social">
+				<a href=""><img src="<?php echo get_template_directory_uri() ?>/img/twitter.svg"  id="twitter" alt="Logo Twitter"></a>
+            	<a href=""><img src="<?php echo get_template_directory_uri() ?>/img/facebook.svg"  id="facebook"   alt="Logo Facebook"></a>
+              	<a href=""><img src="<?php echo get_template_directory_uri() ?>/img/instagram.svg" id="instagram"  alt="Logo Instagram"></a>
+			</div>
+
+
+			<span class="filter" style="background-color: <?php the_field('header_filter_color'); ?>;"></span>
 	</div>
+
 	<header>
 		<span class="filter" style="background-color: <?php the_field('header_filter_color'); ?>;"></span>
 		<div id="menu">
 			<a href="../"><img src="<?php echo get_template_directory_uri() ?>/img/mmi_normal.svg" alt="Logo MMI Chambéry"></a>
 			<nav>
 				<?php wp_nav_menu();?>
+				<img class="burger" src="<?php echo get_template_directory_uri() ?>/img/burger.svg" alt="">
 			</nav>
 		</div>
 		<h1><?php
@@ -55,6 +67,11 @@
 
 	<style>
 		header {
+			background-image: url("<?php the_field('header_background_image') ?>");
+		}
+
+		div.side_menu
+		{
 			background-image: url("<?php the_field('header_background_image') ?>");
 		}
 	</style>

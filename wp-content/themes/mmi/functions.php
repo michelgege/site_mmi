@@ -4,6 +4,8 @@
 		// Styles loaded
 		wp_enqueue_style('reset', get_template_directory_uri().'/css/libs/reset_css.css');
 		wp_enqueue_style('header', get_template_directory_uri().'/css/header.css');
+		wp_enqueue_style('header_responsive', get_template_directory_uri().'/css/header_responsive.css');
+
 		wp_enqueue_style('footer', get_template_directory_uri().'/css/footer.css');
 		wp_enqueue_style('raleway', 'https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800&display=swap');
 
@@ -13,7 +15,7 @@
 		//Styles enqueued
 		wp_register_style('index', get_template_directory_uri().'/css/index.css');
 		wp_register_style('header_index', get_template_directory_uri().'/css/header_index.css');
-		wp_register_style('header_responsive', get_template_directory_uri().'/css/header_responsive.css');
+
 		wp_register_style('coin_pro', get_template_directory_uri().'/css/coin_pro.css');
 		wp_register_style('en_detail', get_template_directory_uri().'/css/en_detail.css');
 		wp_register_style('responsive_en_details', get_template_directory_uri().'/css/responsive_en_details.css');
@@ -35,6 +37,7 @@
 	  	wp_enqueue_script('parallax_libs', 'https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js', array(), false, true);
 	  	wp_enqueue_script('parallax_header', get_template_directory_uri().'/js/parallax_header.js', array('jquery','parallax_libs'), false, true);
 
+
 	  		//Flickity
 	  	wp_enqueue_script('flickity_js', 'https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js', array('jquery','parallax_libs'), false, true);
 
@@ -46,11 +49,13 @@
 		wp_register_script('international_js', get_template_directory_uri().'/js/international.js', array('jquery','parallax_libs'), false, true);
 		wp_register_script('post-form_js', get_template_directory_uri().'/js/post-form.js', array('jquery','parallax_libs'), false, true);
 		
+
+		wp_enqueue_script('menu', get_template_directory_uri().'/js/header.js', array('jquery','parallax_libs'), false, true);
+
 		//Load Styles enqueued
 		if (is_page('Accueil')) {
 			wp_enqueue_style('index');
 			wp_enqueue_style('header_index');
-			wp_enqueue_style('header_responsive');
 			wp_enqueue_script('index_js');
 		}
 
