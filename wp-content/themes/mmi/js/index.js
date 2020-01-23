@@ -123,7 +123,6 @@ jQuery(document).ready(function($) {
 			jQuery('#department .main-carousel .is-selected').after('<span class=\"line bottom\"></span>');
 			jQuery('#department .main-carousel .is-selected').after('<span class=\"line left\"></span>');
 			jQuery('#department .main-carousel .is-selected').after('<span class=\"border\"></span>');
-			console.log('hello')
 		});
 	}
 	department_flickity();

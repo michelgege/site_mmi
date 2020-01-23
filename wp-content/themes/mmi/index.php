@@ -123,7 +123,7 @@
 		<div id="video">
 			<?php the_field('home_highlights_video'); ?>
 		</div>
-		<a class="link_button" href="#">Voir les réalisations</a>
+		<a class="link_button" href="realisations">Voir les réalisations</a>
 		<div class="scene" id="highlights_scene_1">
 			<img data-depth="0.2" src="<?php echo get_template_directory_uri() ?>/img/accueil/highlights_triangle_1.svg" alt="">
 			<img data-depth="0.5" src="<?php echo get_template_directory_uri() ?>/img/accueil/highlights_triangle_2.svg" alt="">
@@ -158,7 +158,7 @@
 			</div>
 			<p><?php the_field('home_international_content')?></p>
 		</div>
-		<a class="link_button" href="#">En savoir plus</a>
+		<a class="link_button" href="international">En savoir plus</a>
 		<div class="scene" id="international_scene_1">
 			<img data-depth="0.4" src="<?php echo get_template_directory_uri() ?>/img/accueil/international_triangle_1.svg" alt="">
 			<img data-depth="1.1" src="<?php echo get_template_directory_uri() ?>/img/accueil/international_triangle_2.svg" alt="">
@@ -197,7 +197,7 @@
 				<img src="<?php the_field("home_testimony_second_img"); ?>" alt="">
 			</div>
 		</div>
-		<a class="link_button" href="#">Après MMI ?</a>
+		<a class="link_button" href="et-apres">Après MMI ?</a>
 	</section>
 </div>
 

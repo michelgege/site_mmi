@@ -14,6 +14,7 @@
 
 		//Styles enqueued
 		wp_register_style('index', get_template_directory_uri().'/css/index.css');
+		wp_register_style('index_responsive', get_template_directory_uri().'/css/index_responsive.css');
 		wp_register_style('header_index', get_template_directory_uri().'/css/header_index.css');
 
 		wp_register_style('coin_pro', get_template_directory_uri().'/css/coin_pro.css');
@@ -55,6 +56,7 @@
 		//Load Styles enqueued
 		if (is_page('Accueil')) {
 			wp_enqueue_style('index');
+			wp_enqueue_style('index_responsive');
 			wp_enqueue_style('header_index');
 			wp_enqueue_script('index_js');
 		}
