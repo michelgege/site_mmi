@@ -51,6 +51,10 @@ div.wrap_footer {
 	{
 		width: calc(100% / 3);
 		text-align: right;
+
+		>img {
+			cursor: pointer;
+		}
 	}
 
 	div.right_bot
