@@ -138,10 +138,12 @@
 
 
 		<h2 id="form"> Contactez-nous </h2>
+
 		<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/form_shape.svg" id="form_shape">
 
 		<div id="wrap_form">
-			<form method="post" action="../form.php">
+
+			<form method="post" action="form.php">
 				<div id="form_flex">
 					<input type="text" placeholder="Nom" id="name" name="nom" required>
 					<input type="text" placeholder="Prénom" id="surname" name="prenom" required>
@@ -168,6 +170,7 @@
 				<input type="submit" name="" value="Envoyer" class="button" id="form_button" name="submit" required> 
 				</div>
 			</form>
+
 		</div>
 
 	</div>

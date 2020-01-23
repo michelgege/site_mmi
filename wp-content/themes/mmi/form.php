@@ -1,6 +1,6 @@
 <?php
 
-$adresse = 'Location: https://mmi.univ-smb.fr/~kademn/SiteMMI/www/post-form.php';
+$adresse = 'Location: https://mmi.univ-smb.fr/~kademn/SiteMMI/www/';
 
   //Si le submit bouton est appuyé
   if(isset($_POST['submitpost'])) {
@@ -18,7 +18,7 @@ $adresse = 'Location: https://mmi.univ-smb.fr/~kademn/SiteMMI/www/post-form.php'
       if ($retour) {
 
         echo '<h1>Votre message a bien été envoyé.</h1>';
-        header($adresse);
+        header($adresse.'/post-form.php');
 
       } else {
 
@@ -30,36 +30,36 @@ $adresse = 'Location: https://mmi.univ-smb.fr/~kademn/SiteMMI/www/post-form.php'
 
       if (empty($_POST['nom'])) {
 
-        $missnom = 'nom manquant';
-        header($adresse.'/?error='.$missnom);
+        $missnom = 'le nom est manquant';
+        header($adresse.'/error-form.php/?error='.$missnom);
 
       }
 
       if (empty($_POST['prenom'])) {
 
-          $misstel = 'prenom manquant';
-          header($adresse.'/?error='.$missprenom);
+          $misstel = 'le prenom est manquant';
+          header($adresse.'/error-form.php/?error='.$missprenom);
 
       }
 
       if (empty($_POST['mail'])) {
 
-          $missmail = 'mail manquant';
-          header($adresse.'/?error='.$missmail);
+          $missmail = 'le mail est manquant';
+          header($adresse.'/error-form.php/?error='.$missmail);
 
       }
 
       if (empty($_POST['desc'])) {
 
-          $missmsg = 'msg manquant';
-          header($adresse.'/?error='.$missmsg);
+          $missmsg = 'le message est manquant';
+          header($adresse.'/error-form.php/?error='.$missmsg);
 
       }
 
       if (empty($_POST['stage']) && empty($_POST['projet'])) {
 
-          $misscheck = 'stage ou projet manquant';
-          header($adresse.'/?error='.$misscheck);
+          $misscheck = 'le choix "stage" ou "projet" est manquant';
+          header($adresse.'/error-form.php/?error='.$misscheck);
 
       }
     } 
