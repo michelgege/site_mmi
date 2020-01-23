@@ -281,7 +281,7 @@ div#wrap_body {
     margin-left: -10px;
     padding-top: 60px; }
   div#wrap_body div#wrap_form {
-    padding: 0px 290px 0px 290px;
+    padding: 0px 227px 0px 227px;
     background-color: #181818;
     text-align: center; }
     div#wrap_body div#wrap_form div#form_flex {
@@ -305,9 +305,7 @@ div#wrap_body {
         height: 61px;
         background-color: #262626;
         opacity: 1;
-        width: 345px;
-        margin-right: auto;
-        margin-left: auto; }
+        width: 345px; }
       div#wrap_body div#wrap_form div#form_flex input#surname {
         font-family: 'Raleway', sans-serif;
         font-weight: 300;
@@ -328,7 +326,6 @@ div#wrap_body {
         background-color: #262626;
         opacity: 1;
         width: 345px;
-        margin-right: auto;
         margin-left: auto; }
     div#wrap_body div#wrap_form input#email {
       font-family: 'Raleway', sans-serif;
@@ -351,7 +348,7 @@ div#wrap_body {
       height: 61px;
       background-color: #262626;
       opacity: 1; }
-    div#wrap_body div#wrap_form input#skills_required {
+    div#wrap_body div#wrap_form textarea {
       font-family: 'Raleway', sans-serif;
       font-weight: 300;
       margin-top: 45px;
@@ -365,11 +362,52 @@ div#wrap_body {
       border: 0;
       border-top: 3px solid white;
       border-bottom: 3px solid white;
-      padding-left: 28px;
-      height: 355px;
-      width: 823px;
+      padding: 30px 28px;
+      height: 325px;
+      width: 793px;
       background-color: #262626;
-      opacity: 1; }
+      opacity: 1;
+      resize: none; }
+
+    div#wrap_body div#wrap_form div.checkbox_container {
+      display: flex;
+    }
+
+      div#wrap_body div#wrap_form label.checkbox {
+        display: flex;
+        color: white;
+        margin-top: 45px;
+        align-items: center;
+        font-size: 18px;
+        position: relative;
+        cursor: pointer;
+        padding-left: 35px;
+        margin-right: 50px;
+      }
+
+        div#wrap_body div#wrap_form label.checkbox input{
+          position: absolute;
+          opacity: 0;
+          cursor: pointer;
+          height: 0;
+          width: 0;
+        }
+
+        div#wrap_body div#wrap_form label.checkbox input ~ span.checkmark{
+          display: block;
+          position: absolute;
+          margin-right: 14px;
+          width: 18px;
+          height: 18px;
+          border: 1px solid white;
+          left: 0;
+          height: -1px;
+        }
+
+        div#wrap_body div#wrap_form label.checkbox input:checked ~ span.checkmark{
+          background-color: white;
+        }
+
     div#wrap_body div#wrap_form div#grey_pro {
       padding-bottom: 300px; }
       div#wrap_body div#wrap_form div#grey_pro input[type=submit].button {
