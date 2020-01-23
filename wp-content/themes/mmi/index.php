@@ -94,11 +94,12 @@
 	<section id="department">
 		<h2>le département</h2>
 		<div class="main-carousel" data-flickity>
-  			<div class="carousel-cell"><img src="<?php echo get_template_directory_uri() ?>/img/accueil/slider1_1.jpg" alt=""></div>
-  			<div class="carousel-cell"><img src="<?php echo get_template_directory_uri() ?>/img/accueil/slider1_2.jpg" alt=""></div>
-  			<div class="carousel-cell"><img src="<?php echo get_template_directory_uri() ?>/img/accueil/slider1_3.jpg" alt=""></div>
-  			<div class="carousel-cell"><img src="<?php echo get_template_directory_uri() ?>/img/accueil/slider1_3.jpg" alt=""></div>
-  			<div class="carousel-cell"><img src="<?php echo get_template_directory_uri() ?>/img/accueil/slider1_3.jpg" alt=""></div>
+			<?php 
+				$images = get_field('department_slider_gallery');
+			?>
+			<?php foreach( $images as $image ): ?>
+	            <div class="carousel-cell"><img src="<?php echo esc_url($image['url']); ?>" alt=""></div>
+	        <?php endforeach; ?>
 		</div>
 		<div id="department_slider_arrows">
 			<img id="test_slider" src="<?php echo get_template_directory_uri() ?>/img/accueil/slider_1_arrow_left.svg" alt="">
@@ -144,15 +145,16 @@
 		<p>Vous souhaitez partir à l'étranger pour un stage, un S4 ou un DUETI ?</p>
 		<div id="international_content">
 			<div class="main-carousel" data-flickity>
-	  			<div class="carousel-cell"><img src="<?php echo get_template_directory_uri() ?>/img/accueil/slider2_1.jpg" alt=""></div>
-	  			<div class="carousel-cell"><img src="<?php echo get_template_directory_uri() ?>/img/accueil/slider2_2.jpg" alt=""></div>
-	  			<div class="carousel-cell"><img src="<?php echo get_template_directory_uri() ?>/img/accueil/slider2_1.jpg" alt=""></div>
-	  			<div class="carousel-cell"><img src="<?php echo get_template_directory_uri() ?>/img/accueil/slider2_2.jpg" alt=""></div>
-	  			<div class="carousel-cell"><img src="<?php echo get_template_directory_uri() ?>/img/accueil/slider2_1.jpg" alt=""></div>
+	  			<?php 
+					$images = get_field('international_slider_gallery');
+				?>
+				<?php foreach( $images as $image ): ?>
+		            <div class="carousel-cell"><img src="<?php echo esc_url($image['url']); ?>" alt=""></div>
+		        <?php endforeach; ?>
 			</div>
 			<div id="international_slider_arrows">
-				<img id="test_slider" src="<?php echo get_template_directory_uri() ?>/img/accueil/slider_1_arrow_left.svg" alt="">
-				<img id="test_slider_2" src="<?php echo get_template_directory_uri() ?>/img/accueil/slider_1_arrow_right.svg" alt="">
+				<img src="<?php echo get_template_directory_uri() ?>/img/accueil/slider_1_arrow_left.svg" alt="">
+				<img src="<?php echo get_template_directory_uri() ?>/img/accueil/slider_1_arrow_right.svg" alt="">
 			</div>
 			<p><?php the_field('home_international_content')?></p>
 		</div>
