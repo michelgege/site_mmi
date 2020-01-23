@@ -10,7 +10,7 @@
 	<header>
 		<span class="filter" style="background-color: <?php the_field('header_filter_color'); ?>;"></span>
 		<div id="menu">
-			<a href="../"><img src="<?php echo get_template_directory_uri() ?>/img/mmi_normal.svg" alt="Logo MMI Chambéry"></a>
+			<a href="<?php echo get_home_url(); ?>"><img src="<?php echo get_template_directory_uri() ?>/img/mmi_normal.svg" alt="Logo MMI Chambéry"></a>
 			<nav>
 				<?php wp_nav_menu();?>
 			</nav>
@@ -28,6 +28,21 @@
 		?></h1>
 		<div id="scroll">
 			<img src="<?php echo get_template_directory_uri() ?>/img/scroll.svg" alt="Scroll">
+		</div>
+		<div id="header2">
+			<div id="social">
+				<a href="https://twitter.com/mmi_chambery" target="_blank"><img src="<?php the_field('header_twitter'); ?>" alt="Logo Twitter"></a>
+				<a href="https://www.facebook.com/mmichambery/" target="_blank"><img src="<?php the_field('header_facebook'); ?>" alt="Logo Facebook"></a>
+				<a href="https://www.instagram.com/mmichambery/" target="_blank"><img src="<?php the_field('header_instagram'); ?>" alt="Logo Instagram"></a>
+			</div>
+			<div id="menu2">
+				<img src="<?php echo get_template_directory_uri() ?>/img/header_shape.svg" alt="">
+				<ul>
+					<li><a href="https://mmi-interne.univ-savoie.fr/Portail/" target="_blank">MMI Interne</a></li>
+					<li><a href="https://mmi-pret.univ-savoie.fr/index.php" target="_blank">MMI Prêt</a></li>
+					<li><a href="https://ade6-usmb-ro.grenet.fr/direct/index.jsp?data=bd72d825015315fecf99b2ab1eb24a5f0412158042ec7880df46b7c8db8028847a856464e9e1a5bac86f839c03d7c55aedc5434d4a4b357ad7a78c3eabf336a2d756ba483954b0e3edf59b9627563685" target="_blank">Emploi du temps</a></li>
+				</ul>
+			</div>
 		</div>
 		
 		<!-- Parallax -->

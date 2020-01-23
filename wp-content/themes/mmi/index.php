@@ -5,7 +5,7 @@
 ?>
 
 <?php
-	get_header('index');
+	get_header();
 ?>
 
 <div class="wrap">
@@ -39,7 +39,7 @@
 				</div>
 			</div>
 		</div>
-		<a class="link_button" href="#">MMI en détails</a>
+		<a class="link_button" href="mmi-en-detail">MMI en détails</a>
 		<div class="scene">
 			<img data-depth="1.3" src="<?php echo get_template_directory_uri() ?>/img/accueil/skills_triangle_first.svg" alt="">
 			<img data-depth="0.6" src="<?php echo get_template_directory_uri() ?>/img/accueil/skills_triangle_second.svg" alt="">
