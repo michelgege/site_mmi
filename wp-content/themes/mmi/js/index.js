@@ -127,7 +127,46 @@ jQuery(document).ready(function($) {
 		});
 	}
 	department_flickity();
-})
+
+	function international_flickity() {
+		$('#international .main-carousel').flickity({
+	  		// options
+	  		cellAlign: 'center',
+	  		contain: true,
+	  		pageDots: false,
+	  		wrapAround: true,
+	  		draggable: false
+		});
+
+		var $carousel = $('#international .main-carousel').flickity();
+
+		// previous
+		$('#international_slider_arrows >img:nth-child(1)').on( 'click', function() {
+			$carousel.flickity('previous');
+		});
+
+		// next
+		$('#international_slider_arrows >img:nth-child(2)').on( 'click', function() {
+			$carousel.flickity('next');
+		});
+
+		//Click
+		$carousel.on( 'staticClick.flickity', function( event, pointer, cellElement, cellIndex ) {
+			if ( typeof cellIndex == 'number' ) {
+			  $carousel.flickity( 'selectCell', cellIndex );
+			}
+		});
+
+		$carousel.on( 'change.flickity', function( event, index ) {
+			jQuery('#international .main-carousel .is-selected').after('<span class=\"line top\"></span>');
+			jQuery('#international .main-carousel .is-selected').after('<span class=\"line right\"></span>');
+			jQuery('#international .main-carousel .is-selected').after('<span class=\"line bottom\"></span>');
+			jQuery('#international .main-carousel .is-selected').after('<span class=\"line left\"></span>');
+			jQuery('#international .main-carousel .is-selected').after('<span class=\"border\"></span>');
+		});
+	}
+	international_flickity();
+});
 
 Flickity.createMethods.push("_createPrevNextCells");
 
@@ -170,4 +209,3 @@ Flickity.prototype.setPrevNextCells = function() {
 		changeSlideClasses(this.nextSlide, "add", "is-next");
 	}
 };
-
