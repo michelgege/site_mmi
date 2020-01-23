@@ -1,0 +1,21 @@
+@media all and (max-width: 1500px) {
+	section#skills #skills_container #skills_content >div {
+		transform: scale(0.7);
+		margin-right: 50px;
+	}
+}
+
+@media all and (max-width: 1300px) {
+	section#skills #skills_container {
+		flex-direction: column;
+	}
+
+	section#skills #skills_container #skills_content {
+		margin-top: 50px;
+	}
+
+	section#skills #skills_container #skills_content >div {
+		transform: scale(1);
+		margin-right: 100px;
+	}
+}
