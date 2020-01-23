@@ -143,7 +143,7 @@
 
 		<div id="wrap_form">
 
-			<form method="post" action="form.php">
+			<form method="post" action="../form.php">
 				<div id="form_flex">
 					<input type="text" placeholder="Nom" id="name" name="nom" required>
 					<input type="text" placeholder="Prénom" id="surname" name="prenom" required>
@@ -167,7 +167,7 @@
 				
 
 				<div id="grey_pro">
-				<input type="submit" name="" value="Envoyer" class="button" id="form_button" name="submit" required> 
+				<input type="submit" name="submitpost" value="Envoyer" class="button" id="form_button" required> 
 				</div>
 			</form>
 
