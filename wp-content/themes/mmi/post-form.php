@@ -4,9 +4,7 @@
  */
 ?>
 
-<?php
-get_header();
-?>
+<?php get_header(); ?>
 
 	<div class="pop-up">
 		<h1 id="title_pop"> Merci pour ces renseignements ! </h1>
@@ -25,6 +23,4 @@ get_header();
 
 
 
-<?php
-get_footer();
-?>
+<?php get_footer(); ?>

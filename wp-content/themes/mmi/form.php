@@ -1,26 +1,19 @@
 <?php
 
-$adresse = 'Location: https://mmi.univ-smb.fr/~kademn/RopeUp/html/post-form.php';
+$adresse = 'Location: https://mmi.univ-smb.fr/~kademn/SiteMMI/www/post-form.php';
 
-  //Si le submit bouton est appuyé, vérifier si le coche du captcha existe
+  //Si le submit bouton est appuyé
   if(isset($_POST['submitpost'])) {
 
-    // echo 'Captcha Valide';
-    if (isset($_POST['nom']) && !empty($_POST['nom']) && isset($_POST['prenom']) && !empty($_POST['prenom']) && isset($_POST['desc']) && !empty($_POST['desc']) && isset($_POST['mail']) && !empty($_POST['mail'])))){
+    if (isset($_POST['nom']) && !empty($_POST['nom']) && isset($_POST['prenom']) && !empty($_POST['prenom']) && isset($_POST['desc']) && !empty($_POST['desc']) && isset($_POST['mail']) && !empty($_POST['mail']) && isset($_POST['projet'] && !empty($_POST['projet'] || isset($_POST['stage'] && !empty($_POST['stage'] ))))){
 
-    $recipient = 'domusaruon@gmail.com'; //à changer pour le mail
-
-    //limiter le nombre de caractères en 30 maximum par exemple
+      $recipient = 'domusaruon@gmail.com'; //à changer pour le mail de l'université
             
-    $sender = 'Expéditeur : '.$_POST['nom'].' '.$_POST['prenom'];
+      $sender = 'Expéditeur : '.$_POST['nom'].' '.$_POST['prenom'].' '.'From: '.$_POST['mail'];
 
-    //ne mettre que des chiffres dans ce champ
+      $desc = 'Description : '.$_POST['desc'];
 
-    $desc = 'Description : '.$_POST['desc'];
-
-    $header =  'From: '.$_POST['mail'];
-
-    $retour = mail($recipient, 'Envoi' , $sender .' '. $message .' '.$header);
+      $retour = mail($recipient, 'Envoi' , $sender .' '. $message);
                     
       if ($retour) {
 
@@ -60,6 +53,13 @@ $adresse = 'Location: https://mmi.univ-smb.fr/~kademn/RopeUp/html/post-form.php'
 
           $missmsg = 'msg manquant';
           header($adresse.'/?error='.$missmsg);
+
+      }
+
+      if (empty($_POST['stage']) && empty($_POST['projet'])) {
+
+          $misscheck = 'stage ou projet manquant';
+          header($adresse.'/?error='.$misscheck);
 
       }
     } 
