@@ -142,7 +142,7 @@ get_header();
 
 
 
-	<h2 id="form"> Vous aussi, proposez votre projet </h2>
+	<h2 id="form"> Contactez-nous </h2>
 	<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/form_shape.svg" id="form_shape">
 
 	<div id="wrap_form">
@@ -153,7 +153,22 @@ get_header();
 			</div>
 			<input type="email" placeholder="Email" id="email" name="mail" required>
 
-			<input type="text" placeholder="Description du projet (Durée, missions, compétences requises…)" id="skills_required" name="desc" required>
+<!-- 			<textarea placeholder="Description du projet (Durée, missions, compétences requises…)" id="skills_required" name="desc" required> -->
+			<textarea placeholder="Description du projet (Durée, missions, compétences requises…)" name="desc" id="" cols="30" rows="10" required>
+			</textarea>
+			
+			<div class="checkbox_container">
+				<label class="checkbox">Projet
+				  <input type="checkbox" id="projet" name="projet">
+				  <span class="checkmark"></span>
+				</label>
+				
+				<label class="checkbox">Stage
+				  <input type="checkbox" id="stage" name="stage">
+				  <span class="checkmark"></span>
+				</label>
+			</div>
+			
 
 			<div id="grey_pro">
 			<input type="submit" name="" value="Envoyer" class="button" id="form_button" name="submit" required> 
