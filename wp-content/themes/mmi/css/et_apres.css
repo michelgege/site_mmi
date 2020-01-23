@@ -4,7 +4,7 @@
 body
 {
       font-family: 'Raleway', sans-serif;
-      background-color: #181818;
+      background-color: #FFFFFF;
 }
 
 	h2
@@ -12,7 +12,7 @@ body
 	      font-size: 70px;
 	      font-weight: 300;
 	      margin-top: 120px;
-	      color:white;
+	      color:#B5B5B5;
 	}
 
 	    h2::after
@@ -28,7 +28,7 @@ body
 
 section#testimony
 {
-	color: white;
+	color: black;
 	padding: 0 10%;
 	position: relative;
 }
