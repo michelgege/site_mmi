@@ -30,7 +30,7 @@
 
 	</div>
 
-	<h2>Les témoignages</h2>
+	<h2>Témoignages</h2>
 
 	<?php while( have_rows('after_testimony') ): the_row(); 
 
@@ -46,17 +46,20 @@
 
 		<div class="witness">
 
-			<div class="img_container">
-				<img src="<?php echo $image; ?>" alt="photo de profil">
-			</div>
-
-
 			<div>
 
-				<h3><?php echo $name; ?></h3>
-				<h4><?php echo $job; ?></h4>
-				<p><?php echo $company; ?>, <?php echo $city; ?></p>
+				<div class="img_container">
+					<img src="<?php echo $image; ?>" alt="photo de profil">
+				</div>
 
+				<div>
+
+					<h3><?php echo $name; ?></h3>
+					<h4><?php echo $job; ?></h4>
+					<p><?php echo $company; ?>, <?php echo $city; ?></p>
+
+				</div>
+			
 			</div>
 
 			<p><?php echo $content; ?></p>

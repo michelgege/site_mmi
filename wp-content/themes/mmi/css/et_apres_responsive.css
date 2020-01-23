@@ -47,10 +47,55 @@
 
 @media only screen and (max-width : 740px)
 {
-
+	
 }
 
 @media only screen and (max-width : 375px)
 {
+	section#testimony
+	{
+		padding: 0 20px;
+	}
+
+		section#testimony h2
+		{
+			font-size: 40px;
+		}
+
+		section#testimony div.witness h3
+		{
+			font-weight: bold;
+			font-size: 16px;
+		}
+
+		section#testimony div.witness h4
+		{
+			font-size: 10px;
+			background-color: transparent;
+		}
+
+		section#testimony div.witness p
+		{
+			font-size: 10px;
+		}
+
+		section#testimony div.witness p
+		{
+			max-width: 100%;
+		}
+
+		section#testimony div.witness div.img_container
+		{
+			min-width: 100px;
+			min-height: 100px;
+			max-width: 100px;
+			max-height: 100px;
+		}
+
+		section#testimony div.witness div.img_container,
+		section#testimony div.witness div.img_container + div
+		{
+			margin: 0 0px;
+		}
 
 }

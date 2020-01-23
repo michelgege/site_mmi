@@ -88,7 +88,7 @@ jQuery(document).ready(function($) {
 	// }
 	// department_slider();
 
-	function flickity() {
+	function department_flickity() {
 		$('#department .main-carousel').flickity({
 	  		// options
 	  		cellAlign: 'center',
@@ -97,9 +97,76 @@ jQuery(document).ready(function($) {
 	  		wrapAround: true,
 	  		draggable: false
 		});
+
+		var $carousel = $('#department .main-carousel').flickity();
+
+		// previous
+		$('#department_slider_arrows >img:nth-child(1)').on( 'click', function() {
+			$carousel.flickity('previous');
+		});
+
+		// next
+		$('#department_slider_arrows >img:nth-child(2)').on( 'click', function() {
+			$carousel.flickity('next');
+		});
+
+		//Click
+		$carousel.on( 'staticClick.flickity', function( event, pointer, cellElement, cellIndex ) {
+			if ( typeof cellIndex == 'number' ) {
+			  $carousel.flickity( 'selectCell', cellIndex );
+			}
+		});
+
+		$carousel.on( 'change.flickity', function( event, index ) {
+			jQuery('#department .main-carousel .is-selected').after('<span class=\"line top\"></span>');
+			jQuery('#department .main-carousel .is-selected').after('<span class=\"line right\"></span>');
+			jQuery('#department .main-carousel .is-selected').after('<span class=\"line bottom\"></span>');
+			jQuery('#department .main-carousel .is-selected').after('<span class=\"line left\"></span>');
+			jQuery('#department .main-carousel .is-selected').after('<span class=\"border\"></span>');
+			console.log('hello')
+		});
 	}
-	flickity();
-})
+	department_flickity();
+
+	function international_flickity() {
+		$('#international .main-carousel').flickity({
+	  		// options
+	  		cellAlign: 'center',
+	  		contain: true,
+	  		pageDots: false,
+	  		wrapAround: true,
+	  		draggable: false
+		});
+
+		var $carousel = $('#international .main-carousel').flickity();
+
+		// previous
+		$('#international_slider_arrows >img:nth-child(1)').on( 'click', function() {
+			$carousel.flickity('previous');
+		});
+
+		// next
+		$('#international_slider_arrows >img:nth-child(2)').on( 'click', function() {
+			$carousel.flickity('next');
+		});
+
+		//Click
+		$carousel.on( 'staticClick.flickity', function( event, pointer, cellElement, cellIndex ) {
+			if ( typeof cellIndex == 'number' ) {
+			  $carousel.flickity( 'selectCell', cellIndex );
+			}
+		});
+
+		$carousel.on( 'change.flickity', function( event, index ) {
+			jQuery('#international .main-carousel .is-selected').after('<span class=\"line top\"></span>');
+			jQuery('#international .main-carousel .is-selected').after('<span class=\"line right\"></span>');
+			jQuery('#international .main-carousel .is-selected').after('<span class=\"line bottom\"></span>');
+			jQuery('#international .main-carousel .is-selected').after('<span class=\"line left\"></span>');
+			jQuery('#international .main-carousel .is-selected').after('<span class=\"border\"></span>');
+		});
+	}
+	international_flickity();
+});
 
 Flickity.createMethods.push("_createPrevNextCells");
 
@@ -120,13 +187,14 @@ Flickity.prototype.setPrevNextCells = function() {
   // remove classes
   changeSlideClasses(this.previousSlide, "remove", "is-previous");
   changeSlideClasses(this.nextSlide, "remove", "is-next");
+  changeSlideClasses(this.slides[(this.slides.length) - 1], "remove", "is-previous");
+  changeSlideClasses(this.slides[0], "remove", "is-next");
   // set slides
   this.previousSlide = this.slides[this.selectedIndex - 1];
   this.nextSlide = this.slides[this.selectedIndex + 1];
-  console.log(this.slide);
   // add classes
 	if (this.previousSlide == null) {
-		changeSlideClasses(this.slide, "add", "is-previous");
+		changeSlideClasses(this.slides[(this.slides.length) - 1], "add", "is-previous");
 	}
 
 	else {
@@ -134,14 +202,10 @@ Flickity.prototype.setPrevNextCells = function() {
 	}
 
 	if (this.nextSlide == null) {
-		changeSlideClasses(document.querySelector('#department .carousel-cell:first-of-type'), "add", "is-next");
+		changeSlideClasses(this.slides[0], "add", "is-next");
 	}
 
 	else {
 		changeSlideClasses(this.nextSlide, "add", "is-next");
 	}
- 	
-
-  
 };
-
