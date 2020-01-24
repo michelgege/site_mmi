@@ -1,4 +1,24 @@
-$bg-color: #181818;
+//---------------General css
+	//Colors
+	$bg-color: #181818;
+
+	:root {
+	/*Fonts*/
+	--font-light: 300;
+	--font-regular: 400;
+	--font-medium: 500;
+	--font-bold: 700;
+	--font-extra-bold: 800;
+
+	/*Colors*/
+	--color-red: #971212;
+	--color-pink: #BE1E83;
+	--color-purple: #A93DC8;
+	--color-light-blue: #2079D2;
+	--color-dark-blue: #382EC5;
+	--color-green: #399F41;
+	--color-cyan: #258DA2;
+}
 
 a {
 	text-decoration: none;
@@ -14,6 +34,11 @@ a {
 	background-color: $bg-color;
 }
 
+h2 {
+
+}
+
+//------------Header CSS
 header {
 	height: 100vh;
 	width: 100%;
