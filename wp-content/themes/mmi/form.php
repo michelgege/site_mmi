@@ -2,7 +2,6 @@
 
 $adresse = 'Location: http://localhost/site_mmi';
 
-
   //Si le submit bouton est appuyé
   if (isset($_POST['submitpost'])) {
 
