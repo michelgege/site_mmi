@@ -5,7 +5,7 @@ $adresse = 'Location: http://localhost/site_mmi';
   //Si le submit bouton est appuyé
   if (isset($_POST['submitpost'])) {
 
-    if (isset($_POST['nom']) && !empty($_POST['nom']) && isset($_POST['prenom']) && !empty($_POST['prenom']) && isset($_POST['desc']) && !empty($_POST['desc']) && isset($_POST['mail']) && !empty($_POST['mail']) && isset($_POST['projet'] && !empty($_POST['projet'] || isset($_POST['stage'] && !empty($_POST['stage'] ))))){
+    if (isset($_POST['nom']) && !empty($_POST['nom']) && isset($_POST['prenom']) && !empty($_POST['prenom']) && isset($_POST['desc']) && !empty($_POST['desc']) && isset($_POST['mail']) && !empty($_POST['mail']) && isset($_POST['projet']) && !empty($_POST['projet'])){
 
       if (!empty($_POST['stage'])) {
         $recipient = '' //mail du stage
