@@ -10,7 +10,6 @@
 
 	<div id="wrap_body">
 
-
 		<h2 class="pro_title"> Besoin de nous ? </h2>
 
 
@@ -67,7 +66,7 @@
 
 				<a href="realisations.php" id="rea"> <input type="button" class="button" href="realisations.php" value="Voir les realisations"> </a>
 			</div>
-
+			<a href="realisations" id="rea"> <input type="button" class="button" href="realisations" value="Voir les réalisations"> </a>
 		</div>
 
 
@@ -138,9 +137,11 @@
 
 
 		<h2 id="form"> Contactez-nous </h2>
+
 		<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/form_shape.svg" id="form_shape">
 
 		<div id="wrap_form">
+
 			<form method="post" action="../form.php">
 				<div id="form_flex">
 					<input type="text" placeholder="Nom" id="name" name="nom" required>
@@ -148,26 +149,27 @@
 				</div>
 				<input type="email" placeholder="Email" id="email" name="mail" required>
 
-				<textarea placeholder="Description du projet (Durée, missions, compétences requises…)" name="desc" id="" cols="30" rows="10" required>
+				<textarea placeholder="Description du projet (Durée, missions, compétences requises…)" name="desc" id="" required>
 				</textarea>
 				
 				<div class="checkbox_container">
 					<label class="checkbox">Projet
-					  <input type="checkbox" id="projet" name="projet">
+					  <input type="radio" id="projet" name="stageprojet" value="projet">
 					  <span class="checkmark"></span>
 					</label>
 					
 					<label class="checkbox">Stage
-					  <input type="checkbox" id="stage" name="stage">
+					  <input type="radio" id="stage" name="stageprojet" value="stage">
 					  <span class="checkmark"></span>
 					</label>
 				</div>
 				
 
 				<div id="grey_pro">
-				<input type="submit" name="" value="Envoyer" class="button" id="form_button" name="submit" required> 
+				<input type="submit" name="submitpost" value="Envoyer" class="button" id="form_button" required> 
 				</div>
 			</form>
+
 		</div>
 
 	</div>

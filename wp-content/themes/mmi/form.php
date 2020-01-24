@@ -1,14 +1,20 @@
 <?php
 
-$adresse = 'Location: https://mmi.univ-smb.fr/~kademn/SiteMMI/www/post-form.php';
+$adresse = 'Location: http://localhost/site_mmi';
 
   //Si le submit bouton est appuyé
-  if(isset($_POST['submitpost'])) {
+  if (isset($_POST['submitpost'])) {
 
-    if (isset($_POST['nom']) && !empty($_POST['nom']) && isset($_POST['prenom']) && !empty($_POST['prenom']) && isset($_POST['desc']) && !empty($_POST['desc']) && isset($_POST['mail']) && !empty($_POST['mail']) && isset($_POST['projet'] && !empty($_POST['projet'] || isset($_POST['stage'] && !empty($_POST['stage'] ))))){
+    if (isset($_POST['nom']) && !empty($_POST['nom']) && isset($_POST['prenom']) && !empty($_POST['prenom']) && isset($_POST['desc']) && !empty($_POST['desc']) && isset($_POST['mail']) && !empty($_POST['mail']) && isset($_POST['projet']) && !empty($_POST['projet'])){
 
-      $recipient = 'domusaruon@gmail.com'; //à changer pour le mail de l'université
-            
+      if (!empty($_POST['stage'])) {
+        $recipient = '' //mail du stage
+      } else if (!empty($_POST['projet'])) {
+        $recipient = '' //mail du projet
+      }
+
+      $recipient = 'domusaruon@gmail.com'; //à supprimer
+
       $sender = 'Expéditeur : '.$_POST['nom'].' '.$_POST['prenom'].' '.'From: '.$_POST['mail'];
 
       $desc = 'Description : '.$_POST['desc'];
@@ -18,7 +24,7 @@ $adresse = 'Location: https://mmi.univ-smb.fr/~kademn/SiteMMI/www/post-form.php'
       if ($retour) {
 
         echo '<h1>Votre message a bien été envoyé.</h1>';
-        header($adresse);
+        header($adresse.'/post-form');
 
       } else {
 
@@ -30,36 +36,36 @@ $adresse = 'Location: https://mmi.univ-smb.fr/~kademn/SiteMMI/www/post-form.php'
 
       if (empty($_POST['nom'])) {
 
-        $missnom = 'nom manquant';
-        header($adresse.'/?error='.$missnom);
+        $missnom = 'le nom est manquant';
+        header($adresse.'/error-form/?error='.$missnom);
 
       }
 
       if (empty($_POST['prenom'])) {
 
-          $misstel = 'prenom manquant';
-          header($adresse.'/?error='.$missprenom);
+          $misstel = 'le prenom est manquant';
+          header($adresse.'/error-form/?error='.$missprenom);
 
       }
 
       if (empty($_POST['mail'])) {
 
-          $missmail = 'mail manquant';
-          header($adresse.'/?error='.$missmail);
+          $missmail = 'le mail est manquant';
+          header($adresse.'/error-form/?error='.$missmail);
 
       }
 
       if (empty($_POST['desc'])) {
 
-          $missmsg = 'msg manquant';
-          header($adresse.'/?error='.$missmsg);
+          $missmsg = 'le message est manquant';
+          header($adresse.'/error-form/?error='.$missmsg);
 
       }
 
       if (empty($_POST['stage']) && empty($_POST['projet'])) {
 
-          $misscheck = 'stage ou projet manquant';
-          header($adresse.'/?error='.$misscheck);
+          $misscheck = 'le choix "stage" ou "projet" est manquant';
+          header($adresse.'/error-form/?error='.$misscheck);
 
       }
     } 

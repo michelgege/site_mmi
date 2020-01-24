@@ -2403,10 +2403,16 @@ get_header();
 	<div class="paragraph_list">
 		<p class="complement"><?php the_field('international_internship_content'); ?></p>
 		<ul class="conflict">
-			<li id="choice">Y réfléchir en septembre (2ème année)</li>
-			<li id="choice">Rencontre responsable RI Octobre</li>
-			<li id="choice">Chercher des boites internationales</li>
-			<li id="choice">Administration :<span id="bold"> dossiers Move On, dossier Pierre Ledoux </span></li>
+			<?php while( have_rows('international_intership_list') ): the_row(); 
+
+				// vars
+				$content = get_sub_field('international_intership_list_item');
+
+				?>
+
+				<li id="choice"><?php echo $content; ?></li>
+
+			<?php endwhile; ?>
 		</ul>
 	</div>
 
@@ -2414,9 +2420,16 @@ get_header();
 	<div class="paragraph_list">
 		<p class="complement"><?php the_field('international_semester_content'); ?></p>
 		<ul class="conflict">
-			<li id="choice"> Morbi sollicitudin in felis a viverra.</li>
-			<li id="choice">Morbi sollicitudin in felis a viverra.</li>
-			<li id="choice"><span id="bold">Morbi</span> sollicitudin in felis a viverra. </li>
+			<?php while( have_rows('international_semester_list') ): the_row(); 
+
+				// vars
+				$content = get_sub_field('international_semester_list_item');
+
+				?>
+
+				<li id="choice"><?php echo $content; ?></li>
+
+			<?php endwhile; ?>
 		</ul>
 	</div>
 
@@ -2426,10 +2439,16 @@ get_header();
 	<div class="paragraph_list">
 		<p class="complement"><?php the_field('international_howtogo_content'); ?></p>
 		<ul class="conflict">
-			<li id="choice">Y réfléchir en septembre (2ème année)</li>
-			<li id="choice">Rencontre responsable RI Octobre</li>
-			<li id="choice">Chercher des boites internationales</li>
-			<li id="choice">Administration :<span id="bold"> dossiers Move On, dossier Pierre Ledoux </span></li>
+			<?php while( have_rows('international_howtogo_list') ): the_row(); 
+
+				// vars
+				$content = get_sub_field('international_howtogo_list_item');
+
+				?>
+
+				<li id="choice"><?php echo $content; ?></li>
+
+			<?php endwhile; ?>
 		</ul>
 	</div>
 	<div id="space">

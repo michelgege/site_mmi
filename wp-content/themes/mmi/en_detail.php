@@ -7,7 +7,7 @@
 <?php
 get_header();
 ?>
-<div id="wrap">
+<div class="wrap_d">
 
 	<div id="scene" class="scene">
 		<div  class="layer" data-depth="0.10">
@@ -134,23 +134,24 @@ get_header();
 			<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/mid_triangle_border_purple.svg" id="mid_triangle_border_purple" alt="mid_triangle_border_purple">
 		</div> 
 	</div>
-
+</div>
 
 	<div id="wrap_year">
 		<div id="number_one">
-			<h2 class="year"> Première année </h2>
+			<h3 class="year"> Première année </h2>
 			<p class="content_center">Réalisation et mise en oeuvre d’une exposition multimédia : conception des oeuvres et des outils de communication relatifs à l’exposition. </p>
 		</div>
 		<div id="number_two">
-			<h2 class="year"> Deuxième année </h2>
+			<h3 class="year"> Deuxième année </h2>
 			<p class="content_center">Constitués en agences, les étudiants répondent à un besoin réel issu d’un client : création de sites web, conception de produits audiovisuels, stratégie de communication… </p>
 		</div>
 		<div id="number_three">
-			<h2 class="year"> Troisième année </h2>
+			<h3 class="year"> Troisième année </h2>
 			<p class="content_center">Stage en entreprise et possibilité d'alternance </p>
 		</div>
 	</div>
 
+<div class="wrap_d">
 	<div id="scene" class="scene">
 		<div  class="layer" data-depth="0.10">
 			<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/mid_triangle_border_white.svg" id="mid_triangle_border_white" alt="mid_triangle_border_white">
@@ -180,10 +181,7 @@ get_header();
 			<p >Nous vous accueillons sur le site du Bourget du Lac dans des locaux équipés de matériel informatique et 
 			audiovisuel récent que les étudiants peuvent emprunter.</p>
 			<div class="video">
-				<video src="https://mmi.univ-smb.fr/site/wp-content/uploads/2016/02/Boucle3.mp4" poster="http://localhost/site_mmi/wp-content/themes/mmi/img/accueil/slider2_1.jpg" loop></video>
-				<div class="button">
-					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/playbutton.svg">
-				</div>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/GiRjmLiyoe8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</div>
 		</div>
 	</section>
@@ -240,12 +238,12 @@ get_header();
 		</div>
 		
 	</section>
-
+</div>
 			
 			
 	
 
-		</div>
+
 
 	</section>
 </div>
