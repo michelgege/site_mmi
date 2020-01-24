@@ -116,15 +116,6 @@ jQuery(document).ready(function($) {
 			  $carousel.flickity( 'selectCell', cellIndex );
 			}
 		});
-
-		$carousel.on( 'change.flickity', function( event, index ) {
-			jQuery('#department .main-carousel .is-selected').after('<span class=\"line top\"></span>');
-			jQuery('#department .main-carousel .is-selected').after('<span class=\"line right\"></span>');
-			jQuery('#department .main-carousel .is-selected').after('<span class=\"line bottom\"></span>');
-			jQuery('#department .main-carousel .is-selected').after('<span class=\"line left\"></span>');
-			jQuery('#department .main-carousel .is-selected').after('<span class=\"border\"></span>');
-			console.log('hello')
-		});
 	}
 	department_flickity();
 
@@ -155,14 +146,6 @@ jQuery(document).ready(function($) {
 			if ( typeof cellIndex == 'number' ) {
 			  $carousel.flickity( 'selectCell', cellIndex );
 			}
-		});
-
-		$carousel.on( 'change.flickity', function( event, index ) {
-			jQuery('#international .main-carousel .is-selected').after('<span class=\"line top\"></span>');
-			jQuery('#international .main-carousel .is-selected').after('<span class=\"line right\"></span>');
-			jQuery('#international .main-carousel .is-selected').after('<span class=\"line bottom\"></span>');
-			jQuery('#international .main-carousel .is-selected').after('<span class=\"line left\"></span>');
-			jQuery('#international .main-carousel .is-selected').after('<span class=\"border\"></span>');
 		});
 	}
 	international_flickity();
