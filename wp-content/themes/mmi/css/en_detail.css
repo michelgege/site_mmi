@@ -4,34 +4,34 @@ body
 	font-family: Raleway, sans-serif;
 }
 
-	h1
-	{
-		font-size: 70px;
-		color: white;
-		font-weight: 300;
-		font-family: 'Raleway', sans-serif;
-		margin-bottom: 100px;
-	}
+h1
+{
+	font-size: 70px;
+	color: white;
+	font-weight: 300;
+	font-family: 'Raleway', sans-serif;
+	margin-bottom: 100px;
+}
 
-		h1::after
-	    {
-	        display: block;
-			content: "";
-			width: 31%;
-			height: 64px;
-			background-color: #9B3BB7;
-			margin-top: -35px;
-			margin-left: 28px;
-			opacity: 0.8;
-			position: absolute;
-			z-index: -1;
-	    }
+h1::after
+{
+	display: block;
+	content: "";
+	width: 31%;
+	height: 64px;
+	background-color: #9B3BB7;
+	margin-top: -35px;
+	margin-left: 28px;
+	opacity: 0.8;
+	position: absolute;
+	z-index: -1;
+}
 
-	h2.left_title
-	{
-		margin-right: 0;
-		margin-left: auto;
-	}
+h2.left_title
+{
+	margin-left: 0;
+	margin-left: auto;
+}
 
 
 
@@ -42,8 +42,8 @@ body
 
 #top_triangle_purple
 {
-margin-left: 1100px;
-margin-top: 80px;
+	margin-left: 1100px;
+	margin-top: 80px;
 }
 
 #top_triangle_white
@@ -54,137 +54,139 @@ margin-top: 80px;
 
 
 
-#wrap
+.wrap_d
 {
 	padding: 200px 240px 0px 185px;
+	background-position: center;
 }
 
 section.le_but
-	{
-		position: relative;
-	}
+{
+	position: relative;
+}
 
-		img.tablet
-		{
+img.tablet
+{
 
-			left:296px;
-			top:1354px;
+	left:296px;
+	top:354px;
+	position: absolute;
 
-		}
+}
 
-		img.checklist
-		{
-			right: 335px;
-			top: 600px;
-			position: absolute;
-
-
-		}
-
-		img.camera
-		{
-			position: absolute;
-			left:40px;
-			top:765px;
-
-		}
+img.checklist
+{
+	right: 335px;
+	top: 700px;
+	position: absolute;
 
 
-			h1::after
-		    {
-		        display: block;
-				content: "";
-				width: 23%;
-				height: 64px;
-				background-color: #9B3BB7 ;
-				margin-top: -35px;
-				margin-left: 28px;
-				margin-bottom: 100px;
-		    }
+}
 
-			p span
-			{
-				font-weight: 500;
-			}
+img.camera
+{
+	position: absolute;
+	left:40px;
+	top:965px;
 
-		p.competences_1
-		{
-			text-align: right;
-			width: 500px;
-			margin-right: 0;
-			margin-left: auto;
-			color: white;
-			font-weight: 300;
-			font-size: 18px;
-		}
-			
-			p.competences_1::after
-			{
-				display: block;
-				content: "";
-				width: 463px;
-				height: 95px;
-				background-color: #491658;
-				margin-top: -55px;
-				margin-left: -100px;
-				margin-bottom: 50px;
-			}
-
-		p.competences_2
-		{
-			width: 500px;
-			margin-bottom: 100px; 
-			margin-left: 50px;
-			color: white;
-			font-weight: 300;
-			font-size: 18px;
-		}
+}
 
 
-		div.competences_deroulantes
-		{
-			color: white;
-			margin-bottom: 130px;
+h1::after
+{
+	display: block;
+	content: "";
+	width: 23%;
+	height: 64px;
+	background-color: #9B3BB7 ;
+	margin-top: -35px;
+	margin-left: 28px;
+	margin-bottom: 100px;
+}
 
-		}
+p span
+{
+	font-weight: 500;
+}
 
-			div.competences_deroulantes div.competence
-			{
-				width: 750px;
-				margin-left: auto;
-				margin-right: auto;
-				margin-bottom: 45px;
+p.competences_1
+{
+	text-align: right;
+	width: 500px;
+	margin-right: 0;
+	margin-left: auto;
+	color: white;
+	font-weight: 300;
+	font-size: 18px;
+}
 
-			}
+p.competences_1::after
+{
+	display: block;
+	content: "";
+	width: 463px;
+	height: 95px;
+	background-color: #491658;
+	margin-top: -55px;
+	margin-left: -100px;
+	margin-bottom: 50px;
+}
 
-				div.competences_deroulantes div.competence div.content
-				{
-					display: none;
+p.competences_2
+{
+	width: 500px;
+	margin-bottom: 100px; 
+	margin-left: 50px;
+	color: white;
+	font-weight: 300;
+	font-size: 18px;
+}
 
-				}
 
-				div.competences_deroulantes div.competence div.content.active
-				{
-					margin-left: 60px;
-					margin-top: 35px;
-					font-size: 15px;
-					display: block;
+div.competences_deroulantes
+{
+	color: white;
+	margin-bottom: 130px;
 
-				}
-			
-				div.competences_deroulantes div.competence div.titre
-				{
-					display: flex;
-					align-items: center;
-					cursor: pointer;
-				}
+}
 
-					div.competences_deroulantes div.competence div.titre h3
-					{
-						font-weight: 500;
-						font-size: 18px;
-						margin-left: 21px;
-					}
+div.competences_deroulantes div.competence
+{
+	width: 750px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 45px;
+
+}
+
+div.competences_deroulantes div.competence div.content
+{
+	display: none;
+
+}
+
+div.competences_deroulantes div.competence div.content.active
+{
+	margin-left: 60px;
+	margin-top: 35px;
+	font-size: 15px;
+	display: block;
+
+}
+
+div.competences_deroulantes div.competence div.titre
+{
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+
+div.competences_deroulantes div.competence div.titre h3
+{
+	font-weight: 500;
+	font-size: 18px;
+	margin-left: 21px;
+}
 
 
 
@@ -231,7 +233,7 @@ h2.left_title
 	text-align: right;
 	color: #7A1497;
 	margin-bottom: 60px;
-	width: 800px;
+	width: 100%;
 }
 
 p.content_left
@@ -249,29 +251,23 @@ p.content_left
 
 #mid_triangle_white
 {
-margin-top: 60px;
-margin-left: 150px;
+	margin-top: 60px;
+	margin-left: 150px;
 }
 
 #mid_triangle_border_purple
 {
-margin-top: 140px;
-margin-left: 150px;
+	margin-top: 140px;
+	margin-left: 150px;
 }
-
-
-
-
-
-
 
 
 #wrap_year
 {
-	padding: 0px 450px 210px 505px;
+	padding: 0px 690px 210px 690px;
 }
 
-h2.year
+h3.year
 {
 
 	font-size: 30px;
@@ -371,22 +367,10 @@ div#after_content_purple
 	margin-top: 100px;
 }
 
-
-
-
-
-
-
-section.departement
-{
-	margin-bottom: 200px;
-}
-
-
 .departement .intro
 {
-    width: 1105px;
-    height: 651px;
+	width: 1105px;
+	height: 651px;
 	width: 1105px;
 	height: 651px;
 	margin-left: auto;
@@ -397,26 +381,26 @@ section.departement
 .intro p
 {
 	width: 100%;
-    font-size: 23px;
-    font-weight: 300;
-    color: white;
-    margin-left: 50%;
+	font-size: 23px;
+	font-weight: 300;
+	color: white;
+	margin-left: 50%;
 	transform: translateX(-50%);
 
 }
-	
-	.video
-	{
-		position: relative;
-	    cursor: pointer;
-		width: 730px;
-		height: 454px;
-		margin-top: 112px;
-		margin-left: 50%;
-		transform: translateX(-50%);
-		position: relative;
 
-	}
+.video
+{
+	position: relative;
+	cursor: pointer;
+	width: 730px;
+	height: 454px;
+	margin-top: 112px;
+	margin-left: 50%;
+	transform: translateX(-50%);
+	position: relative;
+
+}
 
 .video{
 	position: relative;
@@ -466,7 +450,10 @@ section.departement
 	margin-left: 700px;
 	margin-top: 1700px;
 }
-
+section#teams
+{
+	padding: 0px 0px;
+}
 
 div#teachers
 {
