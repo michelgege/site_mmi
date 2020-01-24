@@ -85,8 +85,9 @@
 
 		else if (is_page('mmi-en-detail')) {
 			wp_enqueue_script('en_detail_js');
-			wp_enqueue_style('responsive_en_details');
+			
 			wp_enqueue_style('en_detail');
+			wp_enqueue_style('responsive_en_details');
 		}
 
 		else if (is_page('realisations')) {

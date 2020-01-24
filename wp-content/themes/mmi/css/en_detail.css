@@ -367,6 +367,9 @@ div#after_content_purple
 	margin-top: 100px;
 }
 
+
+
+
 .departement .intro
 {
 	width: 1105px;
@@ -393,24 +396,15 @@ div#after_content_purple
 {
 	position: relative;
 	cursor: pointer;
-	width: 730px;
-	height: 454px;
 	margin-top: 112px;
-	margin-left: 50%;
-	transform: translateX(-50%);
-	position: relative;
+
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+text-align: center;
 
 }
 
-.video{
-	position: relative;
-	width: 730px;
-	height: 454px;
-	margin-top: 112px;
-	margin-left: 50%;
-	transform: translateX(-50%);
-
-}
 
 #bottom_square_purple
 {
@@ -450,9 +444,9 @@ div#after_content_purple
 	margin-left: 700px;
 	margin-top: 1700px;
 }
-section#teams
+section.departement
 {
-	padding: 0px 0px;
+	padding: 0px 0 0 0;
 }
 
 div#teachers
