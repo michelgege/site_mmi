@@ -32,6 +32,7 @@
 		<div id="menu">
 			<a href="<?php echo get_home_url(); ?>"><img src="<?php echo get_template_directory_uri() ?>/img/mmi_normal.svg" alt="Logo MMI Chambéry"></a>
 			<nav>
+				<img class ="burger" src="<?php echo get_template_directory_uri() ?>/img/burger.svg">
 				<?php wp_nav_menu();?>
 			</nav>
 		</div>

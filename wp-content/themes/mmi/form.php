@@ -1,31 +1,31 @@
 <?php
 
-$adresse = 'Location: https://mmi.univ-smb.fr/~kademn/RopeUp/html/post-form.php';
+$adresse = 'Location: http://localhost/site_mmi/';
 
-  //Si le submit bouton est appuyé, vérifier si le coche du captcha existe
-  if(isset($_POST['submitpost'])) {
 
-    // echo 'Captcha Valide';
-    if (isset($_POST['nom']) && !empty($_POST['nom']) && isset($_POST['prenom']) && !empty($_POST['prenom']) && isset($_POST['desc']) && !empty($_POST['desc']) && isset($_POST['mail']) && !empty($_POST['mail'])))){
+  //Si le submit bouton est appuyé
+  if (isset($_POST['submitpost'])) {
 
-    $recipient = 'domusaruon@gmail.com'; //à changer pour le mail
+    if (isset($_POST['nom']) && !empty($_POST['nom']) && isset($_POST['prenom']) && !empty($_POST['prenom']) && isset($_POST['desc']) && !empty($_POST['desc']) && isset($_POST['mail']) && !empty($_POST['mail']) && isset($_POST['projet'] && !empty($_POST['projet'] || isset($_POST['stage'] && !empty($_POST['stage'] ))))){
 
-    //limiter le nombre de caractères en 30 maximum par exemple
+      if (!empty($_POST['stage'])) {
+        $recipient = '' //mail du stage
+      } else if (!empty($_POST['projet'])) {
+        $recipient = '' //mail du projet
+      }
+
+      $recipient = 'domusaruon@gmail.com'; //à supprimer
             
-    $sender = 'Expéditeur : '.$_POST['nom'].' '.$_POST['prenom'];
+      $sender = 'Expéditeur : '.$_POST['nom'].' '.$_POST['prenom'].' '.'From: '.$_POST['mail'];
 
-    //ne mettre que des chiffres dans ce champ
+      $desc = 'Description : '.$_POST['desc'];
 
-    $desc = 'Description : '.$_POST['desc'];
-
-    $header =  'From: '.$_POST['mail'];
-
-    $retour = mail($recipient, 'Envoi' , $sender .' '. $message .' '.$header);
+      $retour = mail($recipient, 'Envoi' , $sender .' '. $message);
                     
       if ($retour) {
 
         echo '<h1>Votre message a bien été envoyé.</h1>';
-        header($adresse);
+        header($adresse.'/post-form');
 
       } else {
 
@@ -37,29 +37,36 @@ $adresse = 'Location: https://mmi.univ-smb.fr/~kademn/RopeUp/html/post-form.php'
 
       if (empty($_POST['nom'])) {
 
-        $missnom = 'nom manquant';
-        header($adresse.'/?error='.$missnom);
+        $missnom = 'le nom est manquant';
+        header($adresse.'/error-form/?error='.$missnom);
 
       }
 
       if (empty($_POST['prenom'])) {
 
-          $misstel = 'prenom manquant';
-          header($adresse.'/?error='.$missprenom);
+          $misstel = 'le prenom est manquant';
+          header($adresse.'/error-form/?error='.$missprenom);
 
       }
 
       if (empty($_POST['mail'])) {
 
-          $missmail = 'mail manquant';
-          header($adresse.'/?error='.$missmail);
+          $missmail = 'le mail est manquant';
+          header($adresse.'/error-form/?error='.$missmail);
 
       }
 
       if (empty($_POST['desc'])) {
 
-          $missmsg = 'msg manquant';
-          header($adresse.'/?error='.$missmsg);
+          $missmsg = 'le message est manquant';
+          header($adresse.'/error-form/?error='.$missmsg);
+
+      }
+
+      if (empty($_POST['stage']) && empty($_POST['projet'])) {
+
+          $misscheck = 'le choix "stage" ou "projet" est manquant';
+          header($adresse.'/error-form/?error='.$misscheck);
 
       }
     } 
