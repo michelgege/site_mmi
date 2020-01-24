@@ -51,6 +51,12 @@ div.inner_wrap
       margin-right: auto;
 }
 
+div.realisation 
+{
+  display: flex;
+  flex-direction: column;
+}
+
 div.column_container
 {
       display: flex;
@@ -123,14 +129,7 @@ div.column_container
                   }
 
 
-            h3.domain,
-            p.author_and_name,
-            p.date,
-            div.author_and_name img
-
-            {
-                  margin-bottom: 15px;
-            } 
+         
 
 /*________________________________________________popup _______________________________*/
 
@@ -188,32 +187,56 @@ div.pop_up.visible
             {
                   background-color: #F5F5F5;
                   display: flex;
-                  justify-content: space-evenly;
-                  flex-direction: initial;
+                  justify-content: flex-start;
+                  flex-direction: column;
                   position: absolute;
-                  width: 80%;;
+                  width: 80%;
+                  height: 100vh;
                   z-index: 14;
-                  top: 50%;
-                  transform: translate(-50%, -50%);
+                  top: 0;
+                  transform: translateX(-50%);
                   left: 50%;
                   padding: 100px 50px;
+                  overflow-y: scroll;
             }
+
+              div.pop_up div.content div.realisation
+              {
+                  margin-bottom: 100px;
+                  align-items: center;
+              }
+
+
 
                   div.pop_up div.content>div
                   {
                        display: flex;
                        flex-direction: column;
                        align-self: center;
-                       max-width: 50%;
-                       width: 50%;
+                       width: 70%;
                       
                   }
                   div.pop_up div.content>div:first-of-type
                   {
                        align-items :center;
-                       margin-right: 50px;
-                       max-height: 75%;
+                       display: flex;
+                       flex-direction: column;
                   }
+
+                    div.pop_up div.content div.description div
+                    {
+                      display: flex;
+                      justify-content: space-between;
+                      align-items: center;
+                    }
+
+                    div.pop_up div.author_and_name,
+                    div.pop_up div.author_and_name + div
+                    {
+                      flex-direction: row;
+                      align-items: center;
+                      width: 100%;
+                    }
 
                   div.pop_up div.content>div>div
                   {
@@ -221,15 +244,19 @@ div.pop_up.visible
                         align-items: center;
                         width: 100%;
                         justify-content: space-between;
+                        flex-direction: column;
                   }
                   div.realisation a
                   {
                        margin-top: 20px;
                        text-decoration:underline;
+                       margin-left: auto;
+                       margin-right: auto;
                   }
                   div.realisation img
                   {
                       width: 100%;
+                      margin-bottom: 10px;
                   }
 
                   div.pop_up div.content div.description >*
@@ -240,17 +267,15 @@ div.pop_up.visible
                         {
                              text-decoration: underline;
                         }
-                        div.description h3.domain
-                        {
-                             font-size: 50px;
-                        }
+                       
+
                         div.description p.date
                         {
                              font-size: 20px;
                         }
                         div.description h3.domain
                         {
-                             font-size: 50px;
+                             font-size: 25px;
                         }
                         div.description p.date
                         {
@@ -261,10 +286,6 @@ div.pop_up.visible
                              font-size: 30px;
                         }
 
-                        div.author_and_name img 
-                        {
-                          margin-bottom: 15px;
-                        }
                         div.description p.author_and_name span.author_bold
                         {
                              font-weight: 800;
@@ -276,6 +297,23 @@ div.pop_up.visible
                         }
 
 
+                        div.pop_up div.content div.gallery_container img
+                        {
+                          width: 100%;
+                          height: auto;
+                          margin-bottom: 10px;
+                        }
+
+/*div.author_and_name::after
+{
+  width: 80%;
+  height: 50px;
+  content: '';
+  display: block;
+  background-color: #7A034E;
+  position: absolute;
+}
+*/
 
 /* ________________________triangle___________________ */
 
@@ -361,11 +399,7 @@ div#scene_fourth
       {
             font-size: 60px;
       }
-      div.description h3.domain 
-      {
-            font-size: 45px;
-      }
-      div.description p.author_and_name 
+        div.description p.author_and_name 
       {
           font-size: 25px;
       }
@@ -515,13 +549,6 @@ div#scene_fourth
       {
         visibility: hidden;
       }
-
-      div.pop_up div.content
-      {
-         overflow: scroll;
-         flex-direction: column;
-         justify-content: space-evenly;
-      }
       div.pop_up div.content div.description > * 
       {
          margin-bottom: 25px;
@@ -536,14 +563,15 @@ div#scene_fourth
          padding-bottom: 50px;
       }
 
-      div.description h3.domain 
-      {
-          font-size: 40px;
-      }
 
       div.description p.author_and_name 
       {
           font-size: 20px;
+      }
+
+      div.pop_up div.content div.realisation
+      {
+        margin-bottom: 0;
       }
 
 }
@@ -644,6 +672,11 @@ div#scene_fourth
           width: 200px;
          height: 35px;
           margin-top: -18px;
+      }
+
+      div.pop_up div.content >div
+      {
+        width: 90%;
       }
 
 }

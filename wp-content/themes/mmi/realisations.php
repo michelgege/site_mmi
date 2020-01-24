@@ -368,12 +368,11 @@
 
 	<?php if( have_rows('works_column_first') ): ?>
 
-
 		<?php while( have_rows('works_column_first') ): the_row(); 
 
-			// vars
 			$image = get_sub_field('image');
-			$name = get_sub_field('nom');
+			$name = get_sub_field('nom'); 
+			$gallery = get_sub_field('images_rea');
 			$author = get_sub_field('auteur');
 			$linkedin = get_sub_field('auteur_linkedin');
 			$category = get_sub_field('categorie');
@@ -381,43 +380,68 @@
 			$description = get_sub_field('description');
 			$context = get_sub_field('contexte');
 			$link = get_sub_field('lien_realisation');
+
 		?>
 			<div class="pop_up" data-name="<?php echo $name; ?>">
 				
 				<div class="background">
 				</div>
+
+
 				<div class="content">
-					<div class="realisation">
-						<img src="<?php echo $image; ?>" alt="">
 
-						<a href="<?php echo $link; ?>">Voir la realisation</a>
-					</div>
+					<div>
+						
+						<div class="realisation">
+							<img src="<?php echo $image; ?>" alt="">
 
-					<div class="description">
-						<div>
-							<h3 class="domain"><?php echo $category; ?></h3>
-							<p class="date"><?php echo $year; ?></p>
-						</div>
-						<div class="author_and_name">
-							<p class="author_and_name"><?php echo $name; ?> par <span class="author_bold"><?php echo $author; ?></span></p>
-
-							<?php if ($linkedin) : ?>
-
-								<div>
-									<a href=" <?php echo $linkedin; ?>"><img src="<?php echo get_template_directory_uri() ?>/img/realisations/linkedin.png"/></a>
-								</div>
-
-							<?php endif; ?>
-
+							<a href="<?php echo $link; ?>">Voir la realisation</a>
 						</div>
 
+						<div class="description">
+							<div class="author_and_name">
+								<p class="author_and_name"><?php echo $name; ?> par <span class="author_bold"><?php echo $author; ?></span></p>
+
+								<?php if ($linkedin) : ?>
+
+									<div>
+										<a href=" <?php echo $linkedin; ?>"><img src="<?php echo get_template_directory_uri() ?>/img/realisations/linkedin.png"/></a>
+									</div>
+
+								<?php endif; ?>
+
+							</div>
+							<div>
+								<h3 class="domain"><?php echo $category; ?></h3>
+								<p class="date"><?php echo $year; ?></p>
+							</div>
 
 
-						<?php the_sub_field('contexte') ?>
 
-						<?php the_sub_field('description') ?>
+							<?php the_sub_field('contexte') ?>
 
+							<?php the_sub_field('description') ?>
+
+						</div>
 					</div>
+
+
+					<div class="gallery_container">
+
+						<?php foreach ($gallery as $image) : ?>
+
+							<img src="<?php echo $image['url']; ?>">
+						
+						<?php endforeach ?>
+						
+					</div>
+
+					
+
+		
+
+				
+
 				</div>
 				<svg xmlns="http://www.w3.org/2000/svg" width="58" height="58" viewBox="0 0 58 58">
 			  <g id="Groupe_61" data-name="Groupe 61" transform="translate(-1739 -434)">
@@ -527,10 +551,11 @@
 			$year = get_sub_field('annee');
 			$description = get_sub_field('description');
 			$context = get_sub_field('contexte');
-			$link = get_sub_field('lien_realisation');
+			$link = get_sub_field('lien_realisation');	
 		?>
+
 			<div class="pop_up" data-name="<?php echo $name; ?>">
-				<?php var_dump($name);?>
+				
 				
 				<div class="background">
 				</div>
@@ -563,9 +588,13 @@
 
 						<p class="mention"> <?php the_sub_field('context') ?> </a></p>
 
+						<?php var_dump($gallery); ?>
+
 						<p class="description"> <?php the_sub_field('description') ?></p>
 
 					</div>
+
+			
 
 				</div>
 				<svg xmlns="http://www.w3.org/2000/svg" width="58" height="58" viewBox="0 0 58 58">
