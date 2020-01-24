@@ -150,7 +150,7 @@
 				</div>
 				<input type="email" placeholder="Email" id="email" name="mail" required>
 
-				<textarea placeholder="Description du projet (Durée, missions, compétences requises…)" name="desc" id="" cols="30" rows="10" required>
+				<textarea placeholder="Description du projet (Durée, missions, compétences requises…)" name="desc" id="" required>
 				</textarea>
 				
 				<div class="checkbox_container">
