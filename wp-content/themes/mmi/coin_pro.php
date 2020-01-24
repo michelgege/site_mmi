@@ -64,9 +64,9 @@
 					<p class="pro_paragraph"><?php the_field('pro_content_skills'); ?></p>
 				</div>
 
-				<a href="realisations.php" id="rea"> <input type="button" class="button" href="realisations.php" value="Voir les realisations"> </a>
+				<a href="realisations" id="rea"> <input type="button" class="button" href="realisations" value="Voir les realisations"> </a>
 			</div>
-			<a href="realisations" id="rea"> <input type="button" class="button" href="realisations" value="Voir les réalisations"> </a>
+			
 		</div>
 
 
