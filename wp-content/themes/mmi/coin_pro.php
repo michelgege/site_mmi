@@ -155,12 +155,12 @@
 				
 				<div class="checkbox_container">
 					<label class="checkbox">Projet
-					  <input type="checkbox" id="projet" name="projet">
+					  <input type="radio" id="projet" name="stageprojet" value="projet">
 					  <span class="checkmark"></span>
 					</label>
 					
 					<label class="checkbox">Stage
-					  <input type="checkbox" id="stage" name="stage">
+					  <input type="radio" id="stage" name="stageprojet" value="stage">
 					  <span class="checkmark"></span>
 					</label>
 				</div>
