@@ -180,10 +180,7 @@ get_header();
 			<p >Nous vous accueillons sur le site du Bourget du Lac dans des locaux équipés de matériel informatique et 
 			audiovisuel récent que les étudiants peuvent emprunter.</p>
 			<div class="video">
-				<video src="https://mmi.univ-smb.fr/site/wp-content/uploads/2016/02/Boucle3.mp4" poster="http://localhost/site_mmi/wp-content/themes/mmi/img/accueil/slider2_1.jpg" loop></video>
-				<div class="button">
-					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/playbutton.svg">
-				</div>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/GiRjmLiyoe8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</div>
 		</div>
 	</section>

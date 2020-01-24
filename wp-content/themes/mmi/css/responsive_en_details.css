@@ -192,41 +192,6 @@ div.column_teacher
 	margin-left: 57.5px;
 }
 
-#team_picture
-{	width: 188px;
-	height: 194px;
-	margin-left: 50%;
-	transform: translateX(-50%);
-}
-
-#after_picture:after
-{
-	content:"";
-		border: #9B3BB7 solid 3px;
-		text-shadow: 0 0 3px #9B3BB7;
-		display: block;
-		width: 188px;
-		height: 194px;
-		transform: rotate(-17deg);
-		margin-top: -194px;
-		margin-left: 10%;
-}
-
-#after_picture_center:after
-{
-	content:"";
-		border: #9B3BB7 solid 3px;
-		text-shadow: 0 0 3px #9B3BB7;
-		display: block;
-		width: 188px;
-		height: 194px;
-		transform: rotate(-17deg);
-		margin-top: -194px;
-		margin-left: 15%;
-}
-
-
-
 h3.name
 {
 	font-size: 22px;
@@ -688,53 +653,6 @@ section.departement
 
 	}
 
-	.video:after
-	{
-		content: "";
-		border:
-		#7A1497 solid 2px;
-		display: block;
-		width: 730px;
-		height: 454px;
-		transform: rotate(4deg);
-		margin-top: -454px;
-	}
-		.video video
-		{
-			width: 730px;
-			height: 454px;
-		    margin-left: auto;
-		    margin-right: auto;
-		}
-
-	    .video .button
-	    {	
-	    	position: absolute;
-	    	top: 50%;
-	    	left: 50%;
-	    	width: 170px ;
-	    	height: 170px ;
-	    	border-radius: 50%;
-	    	opacity: 64%;
-	    	background-color: black;
-	    	transform: translateX(-50%) translateY(-50%);
-	    	transition-duration: 0.5s;
-	    }
-
-	    .video .button.active
-	    {	
-	    	opacity: 0%;
-	    	transition-duration: 0.7s;
-	    }
-
-	    .video .button img
-	    {
-		    margin-left: auto;
-		    margin-right: auto;
-	    }
-
-
-
 .video{
 	position: relative;
 	width: 730px;
@@ -837,41 +755,6 @@ div.column_teacher
 	margin-right: 57.5px;
 	margin-left: 57.5px;
 }
-
-#team_picture
-{	width: 188px;
-	height: 194px;
-	margin-left: 50%;
-	transform: translateX(-50%);
-}
-
-#after_picture:after
-{
-	content:"";
-		border: #9B3BB7 solid 3px;
-		text-shadow: 0 0 3px #9B3BB7;
-		display: block;
-		width: 188px;
-		height: 194px;
-		transform: rotate(-17deg);
-		margin-top: -194px;
-		margin-left: 4%;
-}
-
-#after_picture_center:after
-{
-	content:"";
-		border: #9B3BB7 solid 3px;
-		text-shadow: 0 0 3px #9B3BB7;
-		display: block;
-		width: 188px;
-		height: 194px;
-		transform: rotate(-17deg);
-		margin-top: -194px;
-		margin-left: 18%;
-}
-
-
 
 h3.name
 {
@@ -1334,53 +1217,6 @@ section.departement
 		transform: translateX(-50%);
 
 	}
-
-	.video:after
-	{
-		content: "";
-		border:
-		#7A1497 solid 2px;
-		display: block;
-		width: 730px;
-		height: 454px;
-		transform: rotate(4deg);
-		margin-top: -454px;
-	}
-		.video video
-		{
-			width: 730px;
-			height: 454px;
-		    margin-left: auto;
-		    margin-right: auto;
-		}
-
-	    .video .button
-	    {	
-	    	position: absolute;
-	    	top: 50%;
-	    	left: 50%;
-	    	width: 170px ;
-	    	height: 170px ;
-	    	border-radius: 50%;
-	    	opacity: 64%;
-	    	background-color: black;
-	    	transform: translateX(-50%) translateY(-50%);
-	    	transition-duration: 0.5s;
-	    }
-
-	    .video .button.active
-	    {	
-	    	opacity: 0%;
-	    	transition-duration: 0.7s;
-	    }
-
-	    .video .button img
-	    {
-		    margin-left: auto;
-		    margin-right: auto;
-	    }
-
-
 
 .video{
 	position: relative;
@@ -1929,52 +1765,6 @@ section.departement
 
 	}
 
-	.video:after
-	{
-		content: "";
-		border:#7A1497 solid 2px;
-		display: block;
-		width: 730px;
-		height: 454px;
-		transform: rotate(4deg);
-		margin-top: -454px;
-	}
-		.video video
-		{
-			width: 730px;
-			height: 454px;
-		    margin-left: auto;
-		    margin-right: auto;
-		}
-
-	    .video .button
-	    {	
-	    	position: absolute;
-	    	top: 50%;
-	    	left: 50%;
-	    	width: 170px ;
-	    	height: 170px ;
-	    	border-radius: 50%;
-	    	opacity: 64%;
-	    	background-color: black;
-	    	transform: translateX(-50%) translateY(-50%);
-	    	transition-duration: 0.5s;
-	    }
-
-	    .video .button.active
-	    {	
-	    	opacity: 0%;
-	    	transition-duration: 0.7s;
-	    }
-
-	    .video .button img
-	    {
-		    margin-left: auto;
-		    margin-right: auto;
-	    }
-
-
-
 .video{
 	position: relative;
 	width: 730px;
@@ -2082,39 +1872,6 @@ div.column_teacher
 	margin-right: 57.5px;
 	margin-left: 57.5px;
 	margin-bottom: 50px;
-}
-
-#team_picture
-{	width: 188px;
-	height: 194px;
-	margin-left: 50%;
-	transform: translateX(-50%);
-}
-
-#after_picture:after
-{
-	content:"";
-		border: #9B3BB7 solid 3px;
-		text-shadow: 0 0 3px #9B3BB7;
-		display: block;
-		width: 188px;
-		height: 194px;
-		transform: rotate(-17deg);
-		margin-top: -194px;
-		margin-left: 18%;
-}
-
-#after_picture_center:after
-{
-	content:"";
-		border: #9B3BB7 solid 3px;
-		text-shadow: 0 0 3px #9B3BB7;
-		display: block;
-		width: 188px;
-		height: 194px;
-		transform: rotate(-17deg);
-		margin-top: -194px;
-		margin-left: 18%;
 }
 }
 
@@ -2495,52 +2252,6 @@ section.departement
 
 	}
 
-	.video:after
-	{
-		content: "";
-		border:#7A1497 solid 2px;
-		display: block;
-		width: 730px;
-		height: 454px;
-		transform: rotate(4deg);
-		margin-top: -454px;
-	}
-		.video video
-		{
-			width: 730px;
-			height: 454px;
-		    margin-left: auto;
-		    margin-right: auto;
-		}
-
-	    .video .button
-	    {	
-	    	position: absolute;
-	    	top: 50%;
-	    	left: 50%;
-	    	width: 170px;
-	    	height: 170px;
-	    	border-radius: 50%;
-	    	opacity: 64%;
-	    	background-color: black;
-	    	transform: translateX(-50%) translateY(-50%);
-	    	transition-duration: 0.5s;
-	    }
-
-	    .video .button.active
-	    {	
-	    	opacity: 0%;
-	    	transition-duration: 0.7s;
-	    }
-
-	    .video .button img
-	    {
-		    margin-left: auto;
-		    margin-right: auto;
-	    }
-
-
-
 .video{
 	position: relative;
 	width: 730px;
@@ -2610,40 +2321,6 @@ div.column_teacher
 	margin-right: auto;
 	margin-bottom: 50px;
 }
-
-#team_picture
-{	width: 188px;
-	height: 194px;
-	margin-left: 50%;
-	transform: translateX(-50%);
-}
-
-#after_picture:after
-{
-	content:"";
-		border: #9B3BB7 solid 3px;
-		text-shadow: 0 0 3px #9B3BB7;
-		display: block;
-		width: 188px;
-		height: 194px;
-		transform: rotate(-17deg);
-		margin-top: -194px;
-		margin-left: 18%;
-}
-
-#after_picture_center:after
-{
-	content:"";
-		border: #9B3BB7 solid 3px;
-		text-shadow: 0 0 3px #9B3BB7;
-		display: block;
-		width: 188px;
-		height: 194px;
-		transform: rotate(-17deg);
-		margin-top: -194px;
-		margin-left: 14%;
-}
-
 }
 
 @media only screen and (max-width : 375px)
@@ -2996,52 +2673,6 @@ section.departement
 
 	}
 
-	.video:after
-	{
-		content: "";
-		border:#7A1497 solid 2px;
-		display: block;
-		width: 305px;
-		height: 190px;
-		transform: rotate(4deg);
-		margin-top: -194px;
-	}
-		.video video
-		{
-			width: 305px;
-			height: 190px;
-		    margin-left: auto;
-		    margin-right: auto;
-		}
-
-	    .video .button
-	    {	
-	    	position: absolute;
-	    	top: 50%;
-	    	left: 50%;
-	    	width: 170px;
-	    	height: 170px;
-	    	border-radius: 50%;
-	    	opacity: 64%;
-	    	background-color: black;
-	    	transform: translateX(-50%) translateY(-50%);
-	    	transition-duration: 0.5s;
-	    }
-
-	    .video .button.active
-	    {	
-	    	opacity: 0%;
-	    	transition-duration: 0.7s;
-	    }
-
-	    .video .button img
-	    {
-		    margin-left: auto;
-		    margin-right: auto;
-	    }
-
-
-
 .video{
 	position: relative;
 	width: 305px;
@@ -3112,36 +2743,4 @@ div.column_teacher
 	margin-bottom: 50px;
 }
 
-#team_picture
-{	width: 188px;
-	height: 194px;
-	margin-left: 50%;
-	transform: translateX(-50%);
-}
-
-#after_picture:after
-{
-	content:"";
-		border: #9B3BB7 solid 3px;
-		text-shadow: 0 0 3px #9B3BB7;
-		display: block;
-		width: 188px;
-		height: 194px;
-		transform: rotate(-17deg);
-		margin-top: -194px;
-		margin-left: 18%;
-}
-
-#after_picture_center:after
-{
-	content:"";
-		border: #9B3BB7 solid 3px;
-		text-shadow: 0 0 3px #9B3BB7;
-		display: block;
-		width: 188px;
-		height: 194px;
-		transform: rotate(-17deg);
-		margin-top: -194px;
-		margin-left: 18%;
-}
 }

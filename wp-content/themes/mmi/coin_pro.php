@@ -70,7 +70,7 @@ get_header();
 				<p class="pro_paragraph"><?php the_field('pro_content_skills'); ?></p>
 			</div>
 
-			<a href="realisations.php" id="rea"> <input type="button" class="button" href="realisations.php" value="Voir les realisations"> </a>
+			<a href="realisations.php" id="rea"> <input type="button" class="button" href="realisations.php" value="Voir les réalisations"> </a>
 		</div>
 
 	</div>
