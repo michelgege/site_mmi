@@ -4,6 +4,8 @@
  */
 ?>
 
+<?php get_header(); ?>
+
 <div class="pop-up">
 	<h1 id="title_pop"> Merci pour ces renseignements ! </h1>
 	<p id="content"> Le formulaire te sera envoyé d'ici quelques jours. En attendant, n'hésite pas à consulter notre site ou à te rendre sur les réseaux sociaux. </p>
@@ -16,3 +18,5 @@
     <a href="coin-pro#wrap_form" id="rea"> <input type="button" class="button" href="coin-pro#wrap_form" value="Retour"> </a>
 
 </div>
+
+<?php get_footer(); ?>
