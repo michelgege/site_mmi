@@ -64,9 +64,9 @@
 					<p class="pro_paragraph"><?php the_field('pro_content_skills'); ?></p>
 				</div>
 
-				<a href="realisations.php" id="rea"> <input type="button" class="button" href="realisations.php" value="Voir les realisations"> </a>
+				<a href="realisations" id="rea"> <input type="button" class="button" href="realisations" value="Voir les realisations"> </a>
 			</div>
-			<a href="realisations" id="rea"> <input type="button" class="button" href="realisations" value="Voir les réalisations"> </a>
+			
 		</div>
 
 
@@ -142,7 +142,7 @@
 
 		<div id="wrap_form">
 
-			<form method="post" action="../form.php">
+			<form method="post" action="<?php echo get_template_directory_uri() ?>/post-form.php">
 				<div id="form_flex">
 					<input type="text" placeholder="Nom" id="name" name="nom" required>
 					<input type="text" placeholder="Prénom" id="surname" name="prenom" required>
