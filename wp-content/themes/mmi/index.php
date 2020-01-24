@@ -13,7 +13,7 @@
 	<!-- Section Skills -->
 
 	<section id="skills">
-		<h2>les compétences</h2>
+		<h2>LES COMPÉTENCES</h2>
 		<div id="skills_container">
 			<p><?php the_field('home_content_skills'); ?></p>
 			<div id="skills_content">
@@ -49,7 +49,7 @@
 	<!-- Section Stats -->
 
 	<section id="stats">
-		<h2>mmi en chiffres</h2>
+		<h2>MMI EN CHIFFRES</h2>
 		<div id="stats_container">
 			<div class="stats_content">
 				<div>
@@ -92,7 +92,7 @@
 	<!-- Section Department -->
 
 	<section id="department">
-		<h2>le département</h2>
+		<h2>LE DÉPARTEMENT</h2>
 		<div class="main-carousel" data-flickity>
 			<?php 
 				$images = get_field('department_slider_gallery');
@@ -119,7 +119,7 @@
 	<!-- Section Highlights -->
 
 	<section id="highlights">
-		<h2>les temps forts</h2>
+		<h2>LES TEMPS FORTS</h2>
 		<div id="video">
 			<?php the_field('home_highlights_video'); ?>
 		</div>
@@ -141,7 +141,7 @@
 	<!-- Section International -->
 
 	<section id="international">
-		<h2>l'international</h2>
+		<h2>L'INTERNATIONAL</h2>
 		<p>Vous souhaitez partir à l'étranger pour un stage, un S4 ou un DUETI ?</p>
 		<div id="international_content">
 			<div class="main-carousel" data-flickity>
@@ -172,7 +172,7 @@
 	<!-- Section Testimony -->
 
 	<section id="testimony">
-		<h2>les témoignages</h2>
+		<h2>LES TÉMOIGNAGES</h2>
 		<div class="testimony_container normal">
 			<img class="testimony_quote" src="<?php echo get_template_directory_uri() ?>/img/quote.svg" alt="">
 			<div class="testimony_img">
