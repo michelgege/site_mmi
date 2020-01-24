@@ -1,4 +1,18 @@
 <?php
+
+	//mailing à enlever lors de la mise en ligne
+
+	function mailtrap($phpmailer) {
+	  $phpmailer->isSMTP();
+	  $phpmailer->Host = 'smtp.mailtrap.io';
+	  $phpmailer->SMTPAuth = true;
+	  $phpmailer->Port = 2525;
+	  $phpmailer->Username = '106efa166d4a3d';
+	  $phpmailer->Password = '627f84f3729098';
+	}
+
+	add_action('phpmailer_init', 'mailtrap');
+
 	//Styles and Scripts
 	function styles_scripts() {
 		// Styles loaded
@@ -24,7 +38,7 @@
 		wp_register_style('et_apres_responsive', get_template_directory_uri().'/css/et_apres_responsive.css');
 		wp_register_style('international', get_template_directory_uri().'/css/international.css');
 		wp_register_style('international_responsive', get_template_directory_uri().'/css/international_responsive.css');
-		wp_register_style('lptsi', get_template_directory_uri().'/css/lptsi.css');
+		// wp_register_style('lptsi', get_template_directory_uri().'/css/lptsi.css');
 		wp_register_style('realisations', get_template_directory_uri().'/css/realisations.css');
 		wp_register_style('responsive_realisations', get_template_directory_uri().'/css/responsive_realisations.css');
 		wp_register_style('post-form', get_template_directory_uri().'/css/post-form.css');
@@ -105,4 +119,6 @@
 	}
 
 	add_action('after_setup_theme','menu');
+
+
 ?>

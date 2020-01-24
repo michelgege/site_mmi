@@ -200,21 +200,22 @@ section#department {
 	}
 
 	/*Slider Flickity*/
-	section#department .carousel-cell {
-		overflow-y: visible;
+	section#department .flickity-viewport {
+		padding: 20px 0;
 	}
 
 	section#department .carousel-cell{
 		width: 50%;
 		opacity: 0;
 		z-index: 10;
-		transition-duration: 0.5s;
+		transition: transform 0.5s ease;
 	}
 
 	section#department .carousel-cell.is-selected {
 		transform: scale(1);
 		opacity: 1;
 		z-index: 15;
+		position: relative;
 	}
 
 	section#department .carousel-cell.is-next {
@@ -231,19 +232,6 @@ section#department {
 
 		section#department .carousel-cell >img{
 			width: 100%;
-		}
-
-		section#department .main-carousel .is-selected::after {
-			content: "";
-			display: block;
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			transform: translateX(-50%) translateY(-50%) rotate(4deg);
-			width: calc(100% - 6px);
-			height: calc(100% - 6px);
-			border: 3px solid var(--color-purple);
-			transition-duration: 1s;
 		}
 
 		section#department .flickity-prev-next-button {
@@ -265,10 +253,89 @@ section#department {
 				margin-right: 30px;
 			}
 
+	section#department .carousel-cell .border
+	{
+		position: absolute;
+		background-color: var(--color-purple);
+		transition: width 0.2s ease, height 0.2s ease;
+
+	}
+
+	section#department .carousel-cell >div {
+		height: 100%;
+		width: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		transform: rotate(0deg);
+		transition: transform 0.3s ease 0.8s;
+	}
+
+	section#department .carousel-cell.is-selected >div
+	{
+		transform: rotate(4deg);
+	}
+
+	section#department .carousel-cell .top
+	{
+		height: 3px;
+		width: 0%;
+		top: 0;
+		left: 0;
+	}
+
+	section#department .carousel-cell .left
+	{
+		height: 0%;
+		width: 3px;	
+		top: 0;
+		right: 0;
+		transition-delay: 0.2s;
+	}
+
+	section#department .carousel-cell .bottom
+	{
+		height: 3px;
+		width: 0%;
+		bottom: 0;
+		right: 0;
+		transition-delay: 0.4s;
+	}
+
+	section#department .carousel-cell .right
+	{
+		height: 0%;
+		width: 3px;
+		bottom: 0;
+		left: 0;
+		transition-delay: 0.6s;
+	}
+
+	section#department .carousel-cell.is-selected .top
+	{
+		width: 100%;
+	}
+
+	section#department .carousel-cell.is-selected .left
+	{
+		height: 100%;
+	}
+
+	section#department .carousel-cell.is-selected .bottom
+	{
+		width: 100%;
+	}
+
+	section#department .carousel-cell.is-selected .right
+	{
+		height: 100%;
+	}
+
 	section#department .link_button{
 		background: linear-gradient(90deg, var(--color-purple) 0%, #65107D 100%);
 	}
-
+	
+	/*Department Scene*/
 	section#department #department_scene_1 {
 		bottom: 20%;
 		left: 0;

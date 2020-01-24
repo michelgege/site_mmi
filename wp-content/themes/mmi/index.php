@@ -98,7 +98,15 @@
 				$images = get_field('department_slider_gallery');
 			?>
 			<?php foreach( $images as $image ): ?>
-	            <div class="carousel-cell"><img src="<?php echo esc_url($image['url']); ?>" alt=""></div>
+	            <div class="carousel-cell">
+	            	<img src="<?php echo esc_url($image['url']); ?>" alt="">
+	            	<div>
+	            		<span class="border top"></span>
+	            		<span class="border left"></span>
+	            		<span class="border bottom"></span>
+	            		<span class="border right"></span>
+	            	</div>
+	            </div>
 	        <?php endforeach; ?>
 		</div>
 		<div id="department_slider_arrows">

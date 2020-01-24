@@ -34,19 +34,19 @@ section#testimony div.witness
 			width: 300px;
 		}
 
-	section#testimony div.witness h3
-	{
-		font-weight: bold;
-		font-size: 30px;
-	}
-		
-	section#testimony div.witness h4
-	{
-		margin: 30px 0;
-		background-color: var(--color-dark-green);
-	}
+			section#testimony div.witness div:nth-child(2) h3
+			{
+				font-weight: bold;
+				font-size: 30px;
+			}
 
-	section#testimony div.witness>p
+			section#testimony div.witness div:nth-child(2) h4
+			{
+				margin: 30px 0;
+				background-color: var(--color-dark-green);
+			}
+
+	section#testimony div.witness >p
 	{
 		align-self: center;
 		max-width: 40%;

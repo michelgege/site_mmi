@@ -1,6 +1,6 @@
 <?php
 
-$adresse = 'Location: http://localhost/site_mmi';
+$adresse = 'Location: http://localhost/site_mmi/';
 
   //Si le submit bouton est appuyé
   if (isset($_POST['submitpost'])) {
@@ -24,7 +24,7 @@ $adresse = 'Location: http://localhost/site_mmi';
       if ($retour) {
 
         echo '<h1>Votre message a bien été envoyé.</h1>';
-        header($adresse.'/post-form');
+        header($adresse.'post-form');
 
       } else {
 
@@ -37,35 +37,35 @@ $adresse = 'Location: http://localhost/site_mmi';
       if (empty($_POST['nom'])) {
 
         $missnom = 'le nom est manquant';
-        header($adresse.'/error-form/?error='.$missnom);
+        header($adresse.'error-form/?error='.$missnom);
 
       }
 
       if (empty($_POST['prenom'])) {
 
           $misstel = 'le prenom est manquant';
-          header($adresse.'/error-form/?error='.$missprenom);
+          header($adresse.'error-form/?error='.$missprenom);
 
       }
 
       if (empty($_POST['mail'])) {
 
           $missmail = 'le mail est manquant';
-          header($adresse.'/error-form/?error='.$missmail);
+          header($adresse.'error-form/?error='.$missmail);
 
       }
 
       if (empty($_POST['desc'])) {
 
           $missmsg = 'le message est manquant';
-          header($adresse.'/error-form/?error='.$missmsg);
+          header($adresse.'error-form/?error='.$missmsg);
 
       }
 
       if (empty($_POST['stage']) && empty($_POST['projet'])) {
 
           $misscheck = 'le choix "stage" ou "projet" est manquant';
-          header($adresse.'/error-form/?error='.$misscheck);
+          header($adresse.'error-form/?error='.$misscheck);
 
       }
     } 
