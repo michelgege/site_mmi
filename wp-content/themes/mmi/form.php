@@ -1,6 +1,6 @@
 <?php
 
-$adresse = 'Location: http://localhost/site_mmi/';
+$adresse = 'Location: http://localhost/site_mmi';
 
 
   //Si le submit bouton est appuyé
@@ -15,7 +15,7 @@ $adresse = 'Location: http://localhost/site_mmi/';
       }
 
       $recipient = 'domusaruon@gmail.com'; //à supprimer
-            
+
       $sender = 'Expéditeur : '.$_POST['nom'].' '.$_POST['prenom'].' '.'From: '.$_POST['mail'];
 
       $desc = 'Description : '.$_POST['desc'];
