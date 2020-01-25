@@ -329,6 +329,11 @@ img#paragraph_line
 margin-top: 80px;
 }
 
+#top_border_white_triangle
+{
+	visibility: hidden;
+}
+
 #top_blue_triangle
 {
 	padding-top: 150px;
