@@ -136,21 +136,26 @@
 
 
 
-		<h2 id="form"> Contactez-nous </h2>
+		<h3 id="form"> Contactez-nous </h2>
 
 		<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/form_shape.svg" id="form_shape">
 
 		<div id="wrap_form">
 
 			<form method="post" action="<?php echo get_template_directory_uri() ?>/post-form.php">
-				<div id="form_flex">
+				<div class="form_flex">
 					<input type="text" placeholder="Nom" id="name" name="nom" required>
 					<input type="text" placeholder="Prénom" id="surname" name="prenom" required>
 				</div>
-				<input type="email" placeholder="Email" id="email" name="mail" required>
 
+				<div class="form_flex">
+				<input type="email" placeholder="Email" id="email" name="mail" required>
+				</div>
+
+				<div class="form_flex">
 				<textarea placeholder="Description du projet (Durée, missions, compétences requises…)" name="desc" id="" required>
 				</textarea>
+				</div>
 				
 				<div class="checkbox_container">
 					<label class="checkbox">Projet
@@ -173,13 +178,6 @@
 		</div>
 
 	</div>
-
-	<!-- <div id="scene_two">
-				<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/pro_border_white_triangle_4.svg" data-depth="-0.90" id="border__white_triangle_four">
-				<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/pro_white_triangle_big_4.svg" data-depth="0.70" id="white_triangle_four_big">
-				<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/pro_white_triangle_small_4.svg" data-depth="0.10" id="white_triangle_four_small">
-	</div> -->
-
 
 </section>
 

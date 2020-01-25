@@ -32,6 +32,7 @@
 		wp_register_style('header_index', get_template_directory_uri().'/css/header_index.css');
 
 		wp_register_style('coin_pro', get_template_directory_uri().'/css/coin_pro.css');
+		wp_register_style('responsive_coin_pro', get_template_directory_uri().'/css/responsive_coin_pro.css');
 		wp_register_style('en_detail', get_template_directory_uri().'/css/en_detail.css');
 		wp_register_style('responsive_en_details', get_template_directory_uri().'/css/responsive_en_details.css');
 		wp_register_style('et_apres', get_template_directory_uri().'/css/et_apres.css');
@@ -82,8 +83,9 @@
 		}
 
 		else if (is_page('coin-pro')) {
-			wp_enqueue_style('coin_pro');
 			wp_enqueue_script('coin_pro_js');
+			wp_enqueue_style('coin_pro');
+			wp_enqueue_style('responsive_coin_pro');
 		}
 
 		else if (is_page('et-apres')) {
