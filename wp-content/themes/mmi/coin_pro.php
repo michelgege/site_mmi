@@ -136,7 +136,7 @@
 
 
 
-		<h3 id="form"> Contactez-nous </h2>
+		<h3 id="form"> Contactez-nous </h3>
 
 		<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/form_shape.svg" id="form_shape">
 
@@ -178,6 +178,8 @@
 		</div>
 
 	</div>
+
+
 
 </section>
 
