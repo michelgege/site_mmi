@@ -10,7 +10,7 @@
 	<div class="side_menu">
 		<div class="top">
 			<img class ="cross" src="<?php echo get_template_directory_uri() ?>/img/cross.svg">
-		</div>
+		</div> 
 			<nav>
 				<?php wp_nav_menu();?>
 			</nav>
@@ -57,7 +57,7 @@
 				<a href="https://www.instagram.com/mmichambery/" target="_blank"><img src="<?php the_field('header_instagram'); ?>" alt="Logo Instagram"></a>
 			</div>
 			<div id="menu2">
-				<img src="<?php echo get_template_directory_uri() ?>/img/header_shape.svg" alt="">
+				<!-- <img src="<?php echo get_template_directory_uri() ?>/img/header_shape.svg" alt=""> -->
 				<ul>
 					<li><a href="https://mmi-interne.univ-savoie.fr/Portail/" target="_blank">MMI Interne</a></li>
 					<li><a href="https://mmi-pret.univ-savoie.fr/index.php" target="_blank">MMI Prêt</a></li>

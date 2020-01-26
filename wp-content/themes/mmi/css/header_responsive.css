@@ -77,6 +77,33 @@ img.cross
     width: 35px;
 }
 
+
+
+header #header2 #menu2 ul li a
+{
+	font-size: 17px;
+	margin-right: 30px;
+	margin-bottom: 0;
+	opacity: 0.7;
+}
+header #header2 #menu2 ul:last-child
+{
+	margin-right: 130px;	
+}
+
+
+header #header2 #menu2 ul 
+{
+	display: flex;
+	margin-right: ;
+}
+
+header #header2 
+{
+	align-items: flex-end;
+}
+
+
 @media all and (max-width: 1440px)
 {
 	header h1
@@ -103,9 +130,11 @@ img.cross
 
 	header nav a,
 	header nav ::after,
-	header .menu-principal-container
+	header .menu-principal-container,
+	div#menu2 img
 	{
 		display: none;
+		
 	}
 	img.burger
 	{
