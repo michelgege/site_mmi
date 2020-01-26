@@ -1,93 +1,4 @@
 jQuery(document).ready(function($) {
-	// function department_border() {
-	// 	jQuery('.department_selected').after('<span class=\"line top\"></span>');
-	// 	jQuery('.department_selected').after('<span class=\"line right\"></span>');
-	// 	jQuery('.department_selected').after('<span class=\"line bottom\"></span>');
-	// 	jQuery('.department_selected').after('<span class=\"line left\"></span>');
-	// 	jQuery('.department_selected').after('<span class=\"border\"></span>');
-
-		
-	// }
-	// department_border();
-
-	// function department_slider() {
-	// 	jQuery("#department_slider >img:first-of-type").addClass('department_selected');
-	// 	jQuery("#department_slider >img:nth-of-type(2)").addClass('department_next');
-	// 	jQuery("#department_slider >img:last-of-type").addClass('department_prev');
-	// 	jQuery("#department_slider >img").each(function(i) {
-	// 		jQuery("#department_slider >img:nth-of-type("+(i+1)+")").attr('position',i+1);
-			
-	// 	});
-	// 	// Next
-	// 	jQuery("body").on('click', '.department_next', function() {
-	// 		//Class active
-	// 		jQuery("#department_slider").removeClass('active');
-	// 		jQuery("#department_slider .line").removeClass('hide');
-	// 		jQuery("#department_slider .border").removeClass('active');
-
-	// 		next_position(this);
-	// 		change_class();
-	// 	});
-
-	// 	jQuery("body").on('click', '.department_prev', function() {
-	// 		//Class active
-	// 		jQuery("#department_slider").removeClass('active');
-	// 		jQuery("#department_slider .line").removeClass('hide');
-	// 		jQuery("#department_slider .border").removeClass('active');
-
-	// 		prev_position(this);
-	// 		change_class();
-	// 	});
-
-	// 	function next_position(slide) {
-	// 		//Get the position of the slide
-	// 		var ref_position = jQuery(slide).attr('position');
-			
-	// 		//Change the position of the next slide
-	// 		jQuery("#department_slider >img[position=\"3\"").attr('position', 2);
-
-	// 		//Change the position of the last slide
-	// 		jQuery("#department_slider >img[position=\"1\"]").attr('position', 3);
-			
-	// 		//Change the position of the slide
-	// 		jQuery(slide).attr('position', 1)
-	// 	}
-
-	// 	function prev_position(slide) {
-	// 		//Get the position of the slide
-	// 		var ref_position = jQuery(slide).attr('position');
-			
-	// 		//Change the position of the next slide
-	// 		jQuery("#department_slider >img[position=\"2\"").attr('position', 3);
-			
-	// 		//Change the position of the last slide
-	// 		jQuery("#department_slider >img[position=\"1\"").attr('position', 2);
-			
-	// 		//Change the position of the slide
-	// 		jQuery(slide).attr('position', 1)
-	// 	}
-
-	// 	function change_class() {
-	// 		jQuery("#department_slider >img").removeClass();
-	// 		jQuery("#department_slider >img[position=\"1\"]").addClass('department_selected');
-	// 		jQuery("#department_slider >img[position=\"2\"]").addClass('department_next');
-	// 		jQuery("#department_slider >img[position=\"3\"]").addClass('department_prev');
-
-	// 		jQuery("#department_slider >img").on('transitionend webkitTransitionEnd oTransitionEnd', function () {
-	// 		    //Class active
-	// 			jQuery("#department_slider").addClass('active');
-	// 			jQuery("#department_slider .line.left").on('transitionend webkitTransitionEnd oTransitionEnd', function () {
-	// 				jQuery("#department_slider .line").addClass('hide');
-	// 				jQuery("#department_slider .border").addClass('active');
-	// 			});
-	// 		});
-			
-	// 	}
-	// 	//Set the animation
-	// 	jQuery("#department_slider .border").addClass('active');
-	// }
-	// department_slider();
-
 	function department_flickity() {
 		$('#department .main-carousel').flickity({
 	  		// options
@@ -101,12 +12,12 @@ jQuery(document).ready(function($) {
 		var $carousel = $('#department .main-carousel').flickity();
 
 		// previous
-		$('#department_slider_arrows >img:nth-child(1)').on( 'click', function() {
+		$('#department .slider_arrows >img:nth-child(1)').on( 'click', function() {
 			$carousel.flickity('previous');
 		});
 
 		// next
-		$('#department_slider_arrows >img:nth-child(2)').on( 'click', function() {
+		$('#department .slider_arrows >img:nth-child(2)').on( 'click', function() {
 			$carousel.flickity('next');
 		});
 
@@ -132,12 +43,12 @@ jQuery(document).ready(function($) {
 		var $carousel = $('#international .main-carousel').flickity();
 
 		// previous
-		$('#international_slider_arrows >img:nth-child(1)').on( 'click', function() {
+		$('#international .slider_arrows >img:nth-child(1)').on( 'click', function() {
 			$carousel.flickity('previous');
 		});
 
 		// next
-		$('#international_slider_arrows >img:nth-child(2)').on( 'click', function() {
+		$('#international .slider_arrows >img:nth-child(2)').on( 'click', function() {
 			$carousel.flickity('next');
 		});
 

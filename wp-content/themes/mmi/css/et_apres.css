@@ -1,17 +1,14 @@
-h2::after
-{
+h2::after {
     background-color: var(--color-dark-green);
 }
 
 /*Section Testimony*/
-section#testimony div.witness
-{
+section#testimony div.witness {
 	display: flex;
 	margin: 100px 0;
 }
 
-	section#testimony div.witness .img_container
-	{
+	section#testimony div.witness .img_container {
 		overflow: hidden;
 		justify-content: center;
 	    align-items: center;
@@ -21,33 +18,28 @@ section#testimony div.witness
 		max-height: 200px;
 	}
 
-		section#testimony div.witness .img_container >img 
-		{
+		section#testimony div.witness .img_container >img {
 			object-fit: cover;
 			width: 100%;
 			height: 100%;
 		}
 
-		section#testimony div.witness div:nth-child(2)
-		{
+		section#testimony div.witness div:nth-child(2) {
 			margin: 0 50px;
 			width: 300px;
 		}
 
-			section#testimony div.witness div:nth-child(2) h3
-			{
+			section#testimony div.witness div:nth-child(2) h3 {
 				font-weight: bold;
 				font-size: 30px;
 			}
 
-			section#testimony div.witness div:nth-child(2) h4
-			{
+			section#testimony div.witness div:nth-child(2) h4 {
 				margin: 30px 0;
 				background-color: var(--color-dark-green);
 			}
 
-	section#testimony div.witness >p
-	{
+	section#testimony div.witness >p {
 		align-self: center;
 		max-width: 40%;
 		line-height: 120%; 
@@ -56,26 +48,22 @@ section#testimony div.witness
 	
 
 /*First Scene*/
-section#testimony div.scene
-{
+section#testimony div.scene {
     left: 55%;
     top: 5%;
 }
 
-section#testimony div.scene img:nth-child(1)
-{
-margin-top: -30%;
-margin-left: -30%;
+section#testimony div.scene img:nth-child(1) {
+	margin-top: -30%;
+	margin-left: -30%;
 }
 
-section#testimony div.scene img:nth-child(2)
-{
-margin-top: 40%;
-margin-left: 30%;
+section#testimony div.scene img:nth-child(2) {
+	margin-top: 40%;
+	margin-left: 30%;
 }
 
-section#testimony div.scene img:nth-child(4)
-{
-margin-left: 425%;
-margin-top: 400%;
+section#testimony div.scene img:nth-child(4) {
+	margin-left: 425%;
+	margin-top: 400%;
 }

@@ -102,14 +102,14 @@
 	            	<img src="<?php echo esc_url($image['url']); ?>" alt="">
 	            	<div>
 	            		<span class="border top"></span>
-	            		<span class="border left"></span>
-	            		<span class="border bottom"></span>
 	            		<span class="border right"></span>
+	            		<span class="border bottom"></span>
+	            		<span class="border left"></span>
 	            	</div>
 	            </div>
 	        <?php endforeach; ?>
 		</div>
-		<div id="department_slider_arrows">
+		<div class="slider_arrows">
 			<img id="test_slider" src="<?php echo get_template_directory_uri() ?>/img/accueil/slider_1_arrow_left.svg" alt="">
 			<img id="test_slider_2" src="<?php echo get_template_directory_uri() ?>/img/accueil/slider_1_arrow_right.svg" alt="">
 		</div>
@@ -157,10 +157,18 @@
 					$images = get_field('international_slider_gallery');
 				?>
 				<?php foreach( $images as $image ): ?>
-		            <div class="carousel-cell"><img src="<?php echo esc_url($image['url']); ?>" alt=""></div>
+		            <div class="carousel-cell">
+		            	<img src="<?php echo esc_url($image['url']); ?>" alt="">
+		            	<div>
+		            		<span class="border top"></span>
+		            		<span class="border right"></span>
+		            		<span class="border bottom"></span>
+		            		<span class="border left"></span>
+		            	</div>
+		            </div>
 		        <?php endforeach; ?>
 			</div>
-			<div id="international_slider_arrows">
+			<div class="slider_arrows">
 				<img src="<?php echo get_template_directory_uri() ?>/img/accueil/slider_1_arrow_left.svg" alt="">
 				<img src="<?php echo get_template_directory_uri() ?>/img/accueil/slider_1_arrow_right.svg" alt="">
 			</div>
