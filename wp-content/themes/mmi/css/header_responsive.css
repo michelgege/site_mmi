@@ -79,7 +79,8 @@ img.cross
 
 
 
-header #header2 #menu2 ul li a
+header #header2 #menu2 ul li a,
+header #second_header #second_menu ul li a
 {
 	font-size: 17px;
 	margin-right: 30px;
@@ -95,7 +96,11 @@ header #header2 #menu2 ul:last-child
 header #header2 #menu2 ul 
 {
 	display: flex;
-	margin-right: ;
+}
+
+header #second_header #second_menu ul li
+{
+	margin-bottom: 0;
 }
 
 header #header2 
