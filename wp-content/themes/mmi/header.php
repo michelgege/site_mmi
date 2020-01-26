@@ -7,10 +7,13 @@
 	<?php wp_head();?>
 </head>
 <body>
-	<div class="side_menu">
-		<div class="top">
-			<img class ="cross" src="<?php echo get_template_directory_uri() ?>/img/cross.svg">
-		</div> 
+	<header>
+		<!-- Side Menu -->
+		<div class="side_menu">
+			<div class="top">
+				<img class ="cross" src="<?php echo get_template_directory_uri() ?>/img/cross.svg">
+			</div>
+
 			<nav>
 				<?php wp_nav_menu();?>
 			</nav>
@@ -18,21 +21,24 @@
 			<span class="line"></span>
 
 			<div class="social">
-				<a href=""><img src="<?php echo get_template_directory_uri() ?>/img/twitter.svg"  id="twitter" alt="Logo Twitter"></a>
-            	<a href=""><img src="<?php echo get_template_directory_uri() ?>/img/facebook.svg"  id="facebook"   alt="Logo Facebook"></a>
-              	<a href=""><img src="<?php echo get_template_directory_uri() ?>/img/instagram.svg" id="instagram"  alt="Logo Instagram"></a>
+				<a href="https://twitter.com/mmi_chambery" target="_blank"><img src="<?php the_field('header_twitter'); ?>" alt="Logo Twitter"></a>
+				<a href="https://www.facebook.com/mmichambery/" target="_blank"><img src="<?php the_field('header_facebook'); ?>" alt="Logo Facebook"></a>
+				<a href="https://www.instagram.com/mmichambery/" target="_blank"><img src="<?php the_field('header_instagram'); ?>" alt="Logo Instagram"></a>
 			</div>
 
+			<ul id="side_links">
+				<li><a href="https://mmi-interne.univ-savoie.fr/Portail/" target="_blank">MMI Interne</a></li>
+				<li><a href="https://mmi-pret.univ-savoie.fr/index.php" target="_blank">MMI Prêt</a></li>
+				<li><a href="https://ade6-usmb-ro.grenet.fr/direct/index.jsp?data=bd72d825015315fecf99b2ab1eb24a5f0412158042ec7880df46b7c8db8028847a856464e9e1a5bac86f839c03d7c55aedc5434d4a4b357ad7a78c3eabf336a2d756ba483954b0e3edf59b9627563685" target="_blank">Emploi du temps</a></li>
+			</ul>
+		</div>
 
-			<span class="filter" style="background-color: <?php the_field('header_filter_color'); ?>;"></span>
-	</div>
-
-	<header>
+		<!-- Header -->
 		<span class="filter" style="background-color: <?php the_field('header_filter_color'); ?>;"></span>
 		<div id="menu">
 			<a href="<?php echo get_home_url(); ?>"><img src="<?php echo get_template_directory_uri() ?>/img/mmi_normal.svg" alt="Logo MMI Chambéry"></a>
+			<img class ="burger" src="<?php echo get_template_directory_uri() ?>/img/burger.svg">
 			<nav>
-				<img class ="burger" src="<?php echo get_template_directory_uri() ?>/img/burger.svg">
 				<?php wp_nav_menu();?>
 			</nav>
 		</div>
@@ -50,14 +56,14 @@
 		<div id="scroll">
 			<img src="<?php echo get_template_directory_uri() ?>/img/scroll.svg" alt="Scroll">
 		</div>
-		<div id="header2">
+		<div id="second_header">
 			<div id="social">
 				<a href="https://twitter.com/mmi_chambery" target="_blank"><img src="<?php the_field('header_twitter'); ?>" alt="Logo Twitter"></a>
 				<a href="https://www.facebook.com/mmichambery/" target="_blank"><img src="<?php the_field('header_facebook'); ?>" alt="Logo Facebook"></a>
 				<a href="https://www.instagram.com/mmichambery/" target="_blank"><img src="<?php the_field('header_instagram'); ?>" alt="Logo Instagram"></a>
 			</div>
-			<div id="menu2">
-				<!-- <img src="<?php echo get_template_directory_uri() ?>/img/header_shape.svg" alt=""> -->
+			<div id="second_menu">
+			
 				<ul>
 					<li><a href="https://mmi-interne.univ-savoie.fr/Portail/" target="_blank">MMI Interne</a></li>
 					<li><a href="https://mmi-pret.univ-savoie.fr/index.php" target="_blank">MMI Prêt</a></li>
@@ -82,11 +88,6 @@
 
 	<style>
 		header {
-			background-image: url("<?php the_field('header_background_image') ?>");
-		}
-
-		div.side_menu
-		{
 			background-image: url("<?php the_field('header_background_image') ?>");
 		}
 	</style>
