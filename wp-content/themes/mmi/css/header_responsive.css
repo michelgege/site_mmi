@@ -1,5 +1,9 @@
 @media all and (max-width: 1172px) {
-	header #menu nav .burger {
+	h1 {
+		margin-top: 20%;
+	}
+
+	header #menu .burger {
 		display: block;
 	}
 
@@ -12,105 +16,85 @@
 		justify-content: center;
 		align-items: center;
 	}
+
+	header #second_header {
+		display: none;
+	}
+
+	header .scene {
+		top: 15%;
+		left: 10%;
+	}
+
+/*
+		header .scene #header_empty_square_small {
+			margin-top: 350px;
+			margin-left: 200px;
+		}
+
+		
+
+		header .scene #header_full_triangle_small {
+			margin-top: 100px;
+			margin-left: 500px;
+		}
+
+		header .scene #header_full_triangle_medium {
+			margin-top: 410px;
+			margin-left: 250px;
+		}
+
+		
+
+		
+*/
 }
-/*@media all and (max-width: 1440px) {
-	header h1 {
-		margin-top: 15%;
-		margin-left: 120px;
+
+@media all and (max-width: 1000px) {
+	h1 {
+		margin-left: 100px;
 	}
 
-	header div#menu a img {
-		width: 75%;
-	}
-}*/
-
-/*@media all and (max-width: 1300px) {
-	header h1 {
-		margin-top: 20%;
+	h1::after {
+		width: 100%;
 	}
 
-	header > h1::after {
-		width: 11em;
+	header .scene #header_empty_square_medium {
+		display: none;
 	}
-}*/
+}
 
-/*@media all and (max-width: 1024px) {
-	header h1 {
-		margin-top: 20%;
-		margin-left: 90px;
-	}
-
-	header div.social {
-		width: 55%;
-	}
-
-	header span.line {
-		width: 40%;
-	}
-
-	header div.side_menu div.social {
-		width: 20%;
-	}
-}*/
-
-/*@media all and (max-width: 740px) {
-	header h1 {
-
-		font-size: 50px;
+@media all and (max-width: 733px) {
+	h1 {
+		margin-top: 30%;
 		margin-left: 50px;
 	}
 
-	header div.scene {
-		display: block;
-	    top: 50%;
-    	left: 2%;
+	#menu >a >img {
+		height: 80%;
 	}
 
-	header div.side_menu div.social {
-		width: 25%;
-	}
-}*/
-
-/*@media all and (max-width: 560px) {
-	header h1 {
-		font-size: 40px;
+	h1::after {
+		width: 150%;
 	}
 
-	header div#menu a img {
-		width: 80px;
+	header .scene #header_full_triangle_big {
+		margin-left: 100px;
+	}
+}
+
+@media all and (max-width: 500px) {
+	h1 {
+		
 	}
 
-	header div.side_menu div.social {
-		width: 30%;
-	}
-}*/
-
-/*@media all and (max-width: 425px) {
-	header div.side_menu div.social {
-		width: 40%;
-	}
-}*/
-
-/*@media all and (max-width: 375px) {
-	header h1 {
-		font-size: 35px;
-
+	h1::after {
+		width: 200%;
 	}
 
-	header #menu,
-	img.cross {
-    	padding: 50px 20px 0 20px
+	header #menu {
+		padding: 30px 40px 0 40px;
 	}
 
-	header div#menu a img {
-		width: 80px;
-	}
-
-	header > h1::after {
-		height: 40%;
-	}
-
-	header div.side_menu div.social {
-		width: 55%;
-	}
-}*/
+	
+}
