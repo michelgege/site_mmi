@@ -1,10 +1,5 @@
-
-/*# sourceMappingURL=international.css.map */
-
-
 body
 {
-      font-family: 'Raleway', sans-serif;
       background-color: #181818;
 }
 
@@ -259,7 +254,6 @@ div#wrap_text
 
 h3#title_second
 {
-	font-family: 'Raleway', sans-serif;
 	font-size: 70px;
 	color: white;
 	width: 100%;
@@ -277,7 +271,6 @@ right: 235px;
 
 h4.second_section_title
 {
-	font-family: 'Raleway', sans-serif;
 	font-size: 30px;
 	color: white;
 	width: 100%;
@@ -289,7 +282,6 @@ h4.second_section_title
 p.complement
 {
 
-	font-family: 'Raleway', sans-serif;
 	font-size: 15px;
 	width: 517px;
 	color: white;
@@ -310,7 +302,6 @@ ul.conflict
 
 li#choice
 {
-	font-family: 'Raleway', sans-serif;
 	font-size: 15px;
 	color: white;
 	font-weight: 300;

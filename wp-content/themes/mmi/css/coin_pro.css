@@ -3,7 +3,6 @@ div#wrap_body
  {
   background-color: #181818;
   padding: 0px 185px 0px 185px;
-  font-family: 'Raleway', sans-serif;
 }
 
 div#wrap_body h2.pro_title
@@ -115,7 +114,6 @@ div#wrap_body div#skills div#paragraph_button a#rea input[type=button].button
   font-size: 22px;
   border: none;
   font-weight: 300;
-  font-family: 'Raleway', sans-serif;
 }
 
 div#wrap_body div#projects
@@ -481,7 +479,6 @@ div#wrap_body div#wrap_form div.form_flex
 
 div#wrap_body div#wrap_form div.form_flex input#name
  {
-  font-family: 'Raleway', sans-serif;
   font-weight: 300;
   margin-top: 105px;
   font-size: 18px;
@@ -505,7 +502,6 @@ div#wrap_body div#wrap_form div.form_flex input#name
 
 div#wrap_body div#wrap_form div.form_flex input#surname
  {
-  font-family: 'Raleway', sans-serif;
   font-weight: 300;
   margin-top: 105px;
   font-size: 18px;
@@ -529,7 +525,6 @@ div#wrap_body div#wrap_form div.form_flex input#surname
 
 div#wrap_body div#wrap_form input#email
  {
-  font-family: 'Raleway', sans-serif;
   font-weight: 300;
   margin-top: 45px;
   font-size: 18px;
@@ -553,7 +548,6 @@ div#wrap_body div#wrap_form input#email
 
 div#wrap_body div#wrap_form textarea 
 {
-  font-family: 'Raleway', sans-serif;
   font-weight: 300;
   margin-top: 45px;
   font-size: 18px;
@@ -640,7 +634,6 @@ div#wrap_body div#wrap_form div#grey_pro input[type=submit].button
   font-size: 22px;
   border: none;
   font-weight: 300;
-  font-family: 'Raleway', sans-serif;
 }
 
 

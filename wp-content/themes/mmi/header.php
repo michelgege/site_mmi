@@ -7,10 +7,13 @@
 	<?php wp_head();?>
 </head>
 <body>
-	<div class="side_menu">
-		<div class="top">
-			<img class ="cross" src="<?php echo get_template_directory_uri() ?>/img/cross.svg">
-		</div>
+	<header>
+		<!-- Side Menu -->
+		<div class="side_menu">
+			<div class="top">
+				<img class ="cross" src="<?php echo get_template_directory_uri() ?>/img/cross.svg">
+			</div>
+
 			<nav>
 				<?php wp_nav_menu();?>
 			</nav>
@@ -18,21 +21,18 @@
 			<span class="line"></span>
 
 			<div class="social">
-				<a href=""><img src="<?php echo get_template_directory_uri() ?>/img/twitter.svg"  id="twitter" alt="Logo Twitter"></a>
-            	<a href=""><img src="<?php echo get_template_directory_uri() ?>/img/facebook.svg"  id="facebook"   alt="Logo Facebook"></a>
-              	<a href=""><img src="<?php echo get_template_directory_uri() ?>/img/instagram.svg" id="instagram"  alt="Logo Instagram"></a>
+				<a href="https://twitter.com/mmi_chambery" target="_blank"><img src="<?php the_field('header_twitter'); ?>" alt="Logo Twitter"></a>
+				<a href="https://www.facebook.com/mmichambery/" target="_blank"><img src="<?php the_field('header_facebook'); ?>" alt="Logo Facebook"></a>
+				<a href="https://www.instagram.com/mmichambery/" target="_blank"><img src="<?php the_field('header_instagram'); ?>" alt="Logo Instagram"></a>
 			</div>
+		</div>
 
-
-			<span class="filter" style="background-color: <?php the_field('header_filter_color'); ?>;"></span>
-	</div>
-
-	<header>
+		<!-- Header -->
 		<span class="filter" style="background-color: <?php the_field('header_filter_color'); ?>;"></span>
 		<div id="menu">
 			<a href="<?php echo get_home_url(); ?>"><img src="<?php echo get_template_directory_uri() ?>/img/mmi_normal.svg" alt="Logo MMI Chambéry"></a>
+			<img class ="burger" src="<?php echo get_template_directory_uri() ?>/img/burger.svg">
 			<nav>
-				<img class ="burger" src="<?php echo get_template_directory_uri() ?>/img/burger.svg">
 				<?php wp_nav_menu();?>
 			</nav>
 		</div>
@@ -82,11 +82,6 @@
 
 	<style>
 		header {
-			background-image: url("<?php the_field('header_background_image') ?>");
-		}
-
-		div.side_menu
-		{
 			background-image: url("<?php the_field('header_background_image') ?>");
 		}
 	</style>
