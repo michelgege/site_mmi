@@ -42,10 +42,7 @@ section#testimony div.witness {
 	section#testimony div.witness >p {
 		align-self: center;
 		max-width: 40%;
-		line-height: 120%; 
 	}
-
-	
 
 /*First Scene*/
 section#testimony div.scene {

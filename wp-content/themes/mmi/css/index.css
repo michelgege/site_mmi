@@ -408,7 +408,6 @@ section#international #international_content {
 		right: 0;
 		transform: translateY(-50%);
 		width: 25%;
-		line-height: 20px;
 	}
 
 	/*Slider Flickity*/
@@ -500,9 +499,7 @@ section#testimony .normal {
 		font-size: 17px;
 		text-align: center;
 		width: 40%;
-		line-height: 20px;
 		margin-top: 30px;
-		line-height: 25px;
 	}
 
 	section#testimony .normal .testimony_content {
