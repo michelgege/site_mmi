@@ -1,41 +1,6 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-/*# sourceMappingURL=international.css.map */
-
-
-body
-{
-      font-family: 'Raleway', sans-serif;
-=======
-body
-{
->>>>>>> parent of a1d718d... Update opti
-=======
-body
-{
->>>>>>> parent of a1d718d... Update opti
-      background-color: #181818;
+h2::after {
+	background-color: var(--color-light-blue) ;
 }
-
-	h2
-	{
-	      font-size: 70px;
-	      font-weight: 300;
-	      margin-top: 210px;
-	      color:white;
-	}
-
-	      h2::after
-	      {
-	        display: block;
-			content: "";
-			width: 35%;
-			height: 64px;
-			background-color: #2079D2 ;
-			margin-top: -35px;
-			margin-left: 35px;
-	      }
 
 	div.list_container
 	{
@@ -87,24 +52,7 @@ body
 			margin-left: -11px;
 			margin-top: 8px;
 		}
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-		
-
-
-=======
-
-		
-
-
->>>>>>> parent of a1d718d... Update opti
-=======
-
-		
-
-
->>>>>>> parent of a1d718d... Update opti
 	div.map_container
 	{
 		display: flex;
@@ -271,127 +219,54 @@ body
 
 
 
-
-
-
-div#wrap_text
-{
-	padding: 220px 241px;
-
-}
-
-
-h3#title_second
-{
-<<<<<<< HEAD
-<<<<<<< HEAD
-	font-family: 'Raleway', sans-serif;
-=======
->>>>>>> parent of a1d718d... Update opti
-=======
->>>>>>> parent of a1d718d... Update opti
+/*Section Steps*/
+section#steps h3 {
 	font-size: 70px;
-	color: white;
-	width: 100%;
 	text-align: right;
 }
 
-<<<<<<< HEAD
-
-img#sub_title
-{
-position: absolute;
-margin-right: auto;
-margin-left: auto;
-right: 235px;				
+section#steps >img {
+	position: absolute;
+	right: 0;
 }
 
-h4.second_section_title
-{
-<<<<<<< HEAD
-	font-family: 'Raleway', sans-serif;
-=======
->>>>>>> parent of a1d718d... Update opti
-	font-size: 30px;
-	color: white;
-	width: 100%;
-	text-align: left;
-	font-weight: 600;
-	padding-top: 122px;
+section#steps .container {
+	
 }
 
-p.complement
-{
+	section#steps .container h4 {
+		font-size: 30px;
+		font-weight: var(--font-semi-bold);
+		padding-top: 122px;
+	}
 
-<<<<<<< HEAD
-	font-family: 'Raleway', sans-serif;
-=======
->>>>>>> parent of a1d718d... Update opti
-=======
+	section#steps .container .content {
+		display: flex;
+		justify-content: space-between;
+		padding-top: 35px;
+	}
 
-img#sub_title
-{
-position: absolute;
-margin-right: auto;
-margin-left: auto;
-right: 235px;				
-}
+		section#steps .container .content >p {
+			font-size: 15px;
+			width: 40%;	
+		}
 
-h4.second_section_title
-{
-	font-size: 30px;
-	color: white;
-	width: 100%;
-	text-align: left;
-	font-weight: 600;
-	padding-top: 122px;
-}
+		section#steps .container .content >ul {	
+			width: 40%;
+		}
 
-p.complement
-{
+			section#steps .container .content >ul li {
+				font-size: 15px;
+				font-weight: var(--font-light);
+				list-style: square;	
+				padding-bottom: 15px;
+				padding-left: 40px;
+			}
 
->>>>>>> parent of a1d718d... Update opti
-	font-size: 15px;
-	width: 517px;
-	color: white;
-	padding-top: 35px;
-	line-height: 1.2;
-}
-
-div.paragraph_list
-{
-	display: flex;
-}
-
-ul.conflict
-{
-	padding-top: 35px;	
-	padding-left: 280px;
-}
-
-li#choice
-{
-<<<<<<< HEAD
-<<<<<<< HEAD
-	font-family: 'Raleway', sans-serif;
-=======
->>>>>>> parent of a1d718d... Update opti
-=======
->>>>>>> parent of a1d718d... Update opti
-	font-size: 15px;
-	color: white;
-	font-weight: 300;
-	list-style: square;	
-	padding-bottom: 15px;
-	padding-left: 40px;
-}
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 			section#steps .container .content >ul >li:last-of-type {
 				margin-bottom: 0;
 			}
+		
 /*Steps Scene*/
 section#steps >.scene {
 
@@ -406,74 +281,3 @@ section#steps .container:nth-of-type(2) >.scene {
 }
 
 section#steps .container:nth-of-type(3) >.scene {
-	
-=======
-span#bold
-{
-	font-weight: bold;
->>>>>>> parent of 405f361... Merge branch 'master' of https://github.com/michelgege/site_mmi
-}
-
-img#paragraph_line
-{
-margin-top: 80px;
-=======
-=======
->>>>>>> parent of a1d718d... Update opti
-span#bold
-{
-	font-weight: bold;
-}
-
-img#paragraph_line
-{
-margin-top: 80px;
-}
-
-#top_border_white_triangle
-{
-	visibility: hidden;
->>>>>>> parent of a1d718d... Update opti
-}
-
-#top_blue_triangle
-{
-	padding-top: 150px;
-	padding-left: 250px;
-}
-
-#mid_border_blue_triangle
-{
-	padding-top: 450px;
-	padding-left: 175px;
-}
-
-#mid_grey_triangle
-{
-	padding-top: 470px;
-	padding-left: 225px;
-}
-
-#mid_white_triangle
-{
-	padding-top: 590px;
-	padding-left: 535px;
-}
-
-#mid_blue_triangle
-{
-	padding-top: 650px;
-	padding-left: 535px;
-}
-
-#bottom_border_white_triangle
-{
-	padding-top: 1150px;
-	padding-left: 155px;
-}
-
-#bottom_blue_square
-{
-	padding-top: 1150px;
-	padding-left: 115px;
-}

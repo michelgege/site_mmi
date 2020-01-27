@@ -7,6 +7,7 @@
 	--font-light: 300;
 	--font-regular: 400;
 	--font-medium: 500;
+	--font-semi-bold: 600;
 	--font-bold: 700;
 	--font-extra-bold: 800;
 
@@ -28,9 +29,8 @@ a {
 
 body {
 	background-color: $bg-color;
-<<<<<<< HEAD
-=======
 	font-family: 'Raleway', sans-serif;
+	line-height: 20px;
 }
 
 h1 {
@@ -52,7 +52,6 @@ h1 {
 	   	top: 50%;
 	    background-color: rgba(255,255,255,0.4);
 	}
->>>>>>> parent of a1d718d... Update opti
 }
 
 h2 {

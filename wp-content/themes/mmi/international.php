@@ -9,6 +9,7 @@ get_header();
 ?>
 
 <div class="wrap">
+	<section id="map">
 
 	<h2>Destinations</h2>
 	
@@ -67,11 +68,6 @@ get_header();
 			<img class="guillemet_1" src="http://localhost/site_mmi/wp-content/themes/mmi/img/international/quote_black.svg" alt="guillemet ouvert">
 			<img class="guillemet_2" src="http://localhost/site_mmi/wp-content/themes/mmi/img/international/quote_black.svg" alt="guillemet fermé">
 		</div>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of a1d718d... Update opti
-
 	</div>
 
 	<div id="scene1" class="scene">
@@ -4586,13 +4582,9 @@ get_header();
 		<p>À part la partie audiovisuelle qui est mise de côté, les matières étudiées correspondent  avec celles vu en MMI. On ne rentre en revanche pas dans les détails, hormis pour la communication qui est plutôt approfondie. Ce S4 m’aura beaucoup apporté par la découverte d’un nouveau système de travail, et m’aura apporté de la débrouillardise</p>
 		<img class="guillemet_1" src="http://localhost/site_mmi/wp-content/themes/mmi/img/international/quote.svg" alt="guillemet ouvert">
 		<img class="guillemet_2" src="http://localhost/site_mmi/wp-content/themes/mmi/img/international/quote.svg" alt="guillemet fermé">
->>>>>>> parent of a1d718d... Update opti
-
 	<img src="<?php echo get_template_directory_uri() ?>/img/international/map_shadow.svg" alt="ombre carte" class="shadow">
 
 	</div>
-
-<<<<<<< HEAD
 	<div class="pop_up fade-in" data-id="1">
 		<img class="cross" src="http://localhost/site_mmi/wp-content/themes/mmi/img/international/cross.svg" alt="croix">
 		<div class="header">
@@ -4604,7 +4596,6 @@ get_header();
 				<h4>Matane, Québec, CANADA</h4>
 				<p>TIM - Technique d’intégration multimédia</p>
 			</div>
-=======
 	</div>
 
 	<div class="pop_up fade-in" data-id="2">
@@ -4634,27 +4625,11 @@ get_header();
 
 </div>
 </div>
-
-
-
-<div id="wrap_text">
-
-		<div id="scene" class="scene">
-		<div  class="layer" data-depth="0.10">
-			<img src="<?php echo get_template_directory_uri() ?>/img/international/top_border_white_triangle.svg" id="top_border_white_triangle">
-		</div> 
-		<div  class="layer" data-depth="0.40">
-			<img src="<?php echo get_template_directory_uri() ?>/img/international/top_triangle_blue.svg" id="top_blue_triangle">
->>>>>>> parent of a1d718d... Update opti
-		</div>
 		<h3>Expérience</h3>
 		<p>Les matières étudiées correspondent  avec celles vu en MMI</p>
 		<p>À part la partie audiovisuelle qui est mise de côté, les matières étudiées correspondent  avec celles vu en MMI. On ne rentre en revanche pas dans les détails, hormis pour la communication qui est plutôt approfondie. Ce S4 m’aura beaucoup apporté par la découverte d’un nouveau système de travail, et m’aura apporté de la débrouillardise</p>
 		<img class="guillemet_1" src="http://localhost/site_mmi/wp-content/themes/mmi/img/international/quote.svg" alt="guillemet ouvert">
 		<img class="guillemet_2" src="http://localhost/site_mmi/wp-content/themes/mmi/img/international/quote.svg" alt="guillemet fermé">
-
-<<<<<<< HEAD
-
 	</div>
 
 	<div class="pop_up fade-in" data-id="2">
@@ -4680,249 +4655,76 @@ get_header();
 		<img class="guillemet_1" src="http://localhost/site_mmi/wp-content/themes/mmi/img/international/quote.svg" alt="guillemet ouvert">
 		<img class="guillemet_2" src="http://localhost/site_mmi/wp-content/themes/mmi/img/international/quote.svg" alt="guillemet fermé">
 	</div>
+	</section>
 
-<<<<<<< HEAD
+
+
+
+
+
+
+
+
+	<!-- Section Steps -->
 	<section id="steps">
 		<h3>Les démarches</h3>
-		<img id="title_line" src="<?php echo get_template_directory_uri() ?>/img/international/testtest.svg"/>
-=======
+		<img src="<?php echo get_template_directory_uri() ?>/img/international/testtest.svg" id="sub_title"/>
+		<div class="container">
+			<h4>Stage</h4>
+			<div class="content">
+				<p><?php the_field('international_internship_content'); ?></p>
+				<ul>
+					<?php while( have_rows('international_intership_list') ): the_row(); 
 
-</div>
-</div>
+						// vars
+						$content = get_sub_field('international_intership_list_item');
 
+						?>
 
+						<li><?php echo $content; ?></li>
 
-<div id="wrap_text">
-
-		<div id="scene" class="scene">
-		<div  class="layer" data-depth="0.10">
-			<img src="<?php echo get_template_directory_uri() ?>/img/international/top_border_white_triangle.svg" id="top_border_white_triangle">
-		</div> 
-		<div  class="layer" data-depth="0.40">
-			<img src="<?php echo get_template_directory_uri() ?>/img/international/top_triangle_blue.svg" id="top_blue_triangle">
-		</div>
-
->>>>>>> parent of 405f361... Merge branch 'master' of https://github.com/michelgege/site_mmi
-
-
-
-		<div  class="layer" data-depth="0.10">
-			<img src="<?php echo get_template_directory_uri() ?>/img/international/mid_border_blue_triangle.svg" id="mid_border_blue_triangle">
-		</div> 
-		<div  class="layer" data-depth="0.50">
-			<img src="<?php echo get_template_directory_uri() ?>/img/international/mid_grey_triangle.svg" id="mid_grey_triangle">
-		</div> 
-
-
-
-		<div  class="layer" data-depth="-.20">
-			<img src="<?php echo get_template_directory_uri() ?>/img/international/mid_white_triangle.svg" id="mid_white_triangle">
-		</div> 
-		<div  class="layer" data-depth="0.70">
-			<img src="<?php echo get_template_directory_uri() ?>/img/international/mid_blue_triangle.svg" id="mid_blue_triangle">
-		</div>
-
-
-
-		<div  class="layer" data-depth="0.50">
-			<img src="<?php echo get_template_directory_uri() ?>/img/international/bottom_blue_square.svg" id="bottom_blue_square">	
-		</div> 
-		<div  class="layer" data-depth="0.20">
-			<img src="<?php echo get_template_directory_uri() ?>/img/international/bottom_border_white_triangle.svg" id="bottom_border_white_triangle">
-		</div> 
-
-	</div>
-
-	<h3 id="title_second"> Les démarches </h3>
-	<img src="<?php echo get_template_directory_uri() ?>/img/international/testtest.svg" id="sub_title"/>
-
-	<h4 class="second_section_title"> Stage </h4>
-	<div class="paragraph_list">
-		<p class="complement"><?php the_field('international_internship_content'); ?></p>
-		<ul class="conflict">
-			<?php while( have_rows('international_intership_list') ): the_row(); 
-
-=======
-
-
-
-		<div  class="layer" data-depth="0.10">
-			<img src="<?php echo get_template_directory_uri() ?>/img/international/mid_border_blue_triangle.svg" id="mid_border_blue_triangle">
-		</div> 
-		<div  class="layer" data-depth="0.50">
-			<img src="<?php echo get_template_directory_uri() ?>/img/international/mid_grey_triangle.svg" id="mid_grey_triangle">
-		</div> 
-
-
-
-		<div  class="layer" data-depth="-.20">
-			<img src="<?php echo get_template_directory_uri() ?>/img/international/mid_white_triangle.svg" id="mid_white_triangle">
-		</div> 
-		<div  class="layer" data-depth="0.70">
-			<img src="<?php echo get_template_directory_uri() ?>/img/international/mid_blue_triangle.svg" id="mid_blue_triangle">
-		</div>
-
-
-
-		<div  class="layer" data-depth="0.50">
-			<img src="<?php echo get_template_directory_uri() ?>/img/international/bottom_blue_square.svg" id="bottom_blue_square">	
-		</div> 
-		<div  class="layer" data-depth="0.20">
-			<img src="<?php echo get_template_directory_uri() ?>/img/international/bottom_border_white_triangle.svg" id="bottom_border_white_triangle">
-		</div> 
-
-	</div>
-
-	<h3 id="title_second"> Les démarches </h3>
-	<img src="<?php echo get_template_directory_uri() ?>/img/international/testtest.svg" id="sub_title"/>
-
-	<h4 class="second_section_title"> Stage </h4>
-	<div class="paragraph_list">
-		<p class="complement"><?php the_field('international_internship_content'); ?></p>
-		<ul class="conflict">
-			<?php while( have_rows('international_intership_list') ): the_row(); 
-
->>>>>>> parent of a1d718d... Update opti
-				// vars
-				$content = get_sub_field('international_intership_list_item');
-
-				?>
-<<<<<<< HEAD
-
-=======
-	<div class="pop_up fade-in" data-id="2">
-		<img class="cross" src="http://localhost/site_mmi/wp-content/themes/mmi/img/international/cross.svg" alt="croix">
-		<div class="header">
-			<div class="img_after">
-				<img src="http://localhost/site_mmi/wp-content/themes/mmi/img/international/testimony_picture_1.jpg">
-			</div>
-			<div class="infos">
-				<h3>Chloé Charvoz</h3>
-				<h4>Gatineau, CANADA</h4>
-				<p>Art et Design option Design Graphique</p>
+					<?php endwhile; ?>
+				</ul>
 			</div>
 		</div>
-		<h3>Expérience</h3>
-		<p>C'est super enrichissant !</p>
-		<p>Par rapport à l’enseignement en MMI on étudie beaucoup plus le print. Il y’a aussi une part beaucoup plus technique (comment cela se passe en imprimerie…). J’ai aussi eu accès à une partie plus “dessin”..
+		<div class="container">
+			<h4>Semestres</h4>
+			<div class="content">
+				<p><?php the_field('international_semester_content'); ?></p>
+				<ul>
+					<?php while( have_rows('international_semester_list') ): the_row(); 
 
-			Les  mentalités ne sont pas du tout les même qu'en France, ils sont très accueillants et naturellement avenants. Niveau climat c'était aussi très différent, là où j'étais (à Gatineau, le côté québécois d'Ottawa pour faire simple) on est descendu jusqu'aux -35°C, du coup il a fallu s'adapter ! Ce qui est sympa c'est d'essayer de s'immerger le plus possible dans la vie du pays histoire de vraiment vivre cette année (ou semestre) à fond.
+						// vars
+						$content = get_sub_field('international_semester_list_item');
 
-			Le fait de partir si loin c'est une expérience en soit. Vu que je me suis retrouvée vraiment loin de mes parents c'était un peu comme si j'étais plongée dans la "vraie vie" où je dois tout gérer toute seule, du coup en revenant j'avais l'impression d'être plus "adulte" et autonome qu'avant ! Ce qui est chouette aussi c'est qu'on découvre à la fois notre domaine mais à la façon d'un autre pays (parce que oui ça change un peu), on découvre aussi le pays en lui même. J'ai pu voir des supers endroits et aussi en apprendre un peu plus sur la culture des autochtones amérindiens au Québec. Et bien sûr on rencontre aussi beaucoup de personnes, parfois très différentes de nous, et c'est super enrichissant !
-		</p>
-		<img class="guillemet_1" src="http://localhost/site_mmi/wp-content/themes/mmi/img/international/quote.svg" alt="guillemet ouvert">
-		<img class="guillemet_2" src="http://localhost/site_mmi/wp-content/themes/mmi/img/international/quote.svg" alt="guillemet fermé">
-	</div>
+						?>
 
+						<li><?php echo $content; ?></li>
 
-</div>
-</div>
-
-
-
-<div id="wrap_text">
-
-		<div id="scene" class="scene">
-		<div  class="layer" data-depth="0.10">
-			<img src="<?php echo get_template_directory_uri() ?>/img/international/top_border_white_triangle.svg" id="top_border_white_triangle">
-		</div> 
-		<div  class="layer" data-depth="0.40">
-			<img src="<?php echo get_template_directory_uri() ?>/img/international/top_triangle_blue.svg" id="top_blue_triangle">
+					<?php endwhile; ?>
+				</ul>
+			</div>
 		</div>
+		<div class="container">
+			<h4>Comment partir ?</h4>
+			<div class="content">
+				<p><?php the_field('international_howtogo_content'); ?></p>
+				<ul>
+					<?php while( have_rows('international_howtogo_list') ): the_row(); 
 
+						// vars
+						$content = get_sub_field('international_howtogo_list_item');
 
+						?>
 
+						<li><?php echo $content; ?></li>
 
-		<div  class="layer" data-depth="0.10">
-			<img src="<?php echo get_template_directory_uri() ?>/img/international/mid_border_blue_triangle.svg" id="mid_border_blue_triangle">
-		</div> 
-		<div  class="layer" data-depth="0.50">
-			<img src="<?php echo get_template_directory_uri() ?>/img/international/mid_grey_triangle.svg" id="mid_grey_triangle">
-		</div> 
-
-
-
-		<div  class="layer" data-depth="-.20">
-			<img src="<?php echo get_template_directory_uri() ?>/img/international/mid_white_triangle.svg" id="mid_white_triangle">
-		</div> 
-		<div  class="layer" data-depth="0.70">
-			<img src="<?php echo get_template_directory_uri() ?>/img/international/mid_blue_triangle.svg" id="mid_blue_triangle">
+					<?php endwhile; ?>
+				</ul>
+			</div>
 		</div>
-
-
-
-		<div  class="layer" data-depth="0.50">
-			<img src="<?php echo get_template_directory_uri() ?>/img/international/bottom_blue_square.svg" id="bottom_blue_square">	
-		</div> 
-		<div  class="layer" data-depth="0.20">
-			<img src="<?php echo get_template_directory_uri() ?>/img/international/bottom_border_white_triangle.svg" id="bottom_border_white_triangle">
-		</div> 
-
-	</div>
-
-	<h3 id="title_second"> Les démarches </h3>
-	<img src="<?php echo get_template_directory_uri() ?>/img/international/testtest.svg" id="sub_title"/>
-
-	<h4 class="second_section_title"> Stage </h4>
-	<div class="paragraph_list">
-		<p class="complement"><?php the_field('international_internship_content'); ?></p>
-		<ul class="conflict">
-			<?php while( have_rows('international_intership_list') ): the_row(); 
-
-				// vars
-				$content = get_sub_field('international_intership_list_item');
-
-				?>
-
->>>>>>> parent of a1d718d... Update opti
-=======
-
->>>>>>> parent of a1d718d... Update opti
-				<li id="choice"><?php echo $content; ?></li>
-
-			<?php endwhile; ?>
-		</ul>
-	</div>
-
-	<h4 class="second_section_title"> Semestre </h4>
-	<div class="paragraph_list">
-		<p class="complement"><?php the_field('international_semester_content'); ?></p>
-		<ul class="conflict">
-			<?php while( have_rows('international_semester_list') ): the_row(); 
-
-				// vars
-				$content = get_sub_field('international_semester_list_item');
-
-				?>
-
-				<li id="choice"><?php echo $content; ?></li>
-
-			<?php endwhile; ?>
-		</ul>
-	</div>
-
-	<img src="<?php echo get_template_directory_uri() ?>/img/international/sub_title.svg" id="paragraph_line">
-
-	<h4 class="second_section_title"> Comment partir ? </h4>
-	<div class="paragraph_list">
-		<p class="complement"><?php the_field('international_howtogo_content'); ?></p>
-		<ul class="conflict">
-			<?php while( have_rows('international_howtogo_list') ): the_row(); 
-
-				// vars
-				$content = get_sub_field('international_howtogo_list_item');
-
-				?>
-
-				<li id="choice"><?php echo $content; ?></li>
-
-			<?php endwhile; ?>
-		</ul>
-	</div>
-	<div id="space">
-	</div>
+	</section>
 </div>
-
 
 <?php
 get_footer();
