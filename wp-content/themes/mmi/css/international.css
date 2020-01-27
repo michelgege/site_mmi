@@ -227,6 +227,22 @@ section#steps .container {
 			section#steps .container .content >ul >li:last-of-type {
 				margin-bottom: 0;
 			}
+/*Steps Scene*/
+section#steps >.scene {
+
+}
+
+section#steps .container:nth-of-type(1) >.scene {
+
+}
+
+section#steps .container:nth-of-type(2) >.scene {
+	
+}
+
+section#steps .container:nth-of-type(3) >.scene {
+	
+}
 
 /*#top_border_white_triangle {
 	visibility: hidden;
