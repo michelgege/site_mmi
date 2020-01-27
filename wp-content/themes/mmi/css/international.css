@@ -2,56 +2,33 @@ h2::after {
 	background-color: var(--color-light-blue) ;
 }
 
+section#map #map_container {
+	position: relative;
+}
+
+section#map #testimony_container {
+	position: absolute;
+}
+
+	section#map #testimony_container #testimony_content {
+		
+	}
+
+
+
+
+
+
+
+
+
+
+
 	div.list_container
 	{
 		display: none;
 	}
 
-	div#scene1,
-	div#scene2,
-	div#scene3
-	{
-		position: absolute;
-		width:30%;
-
-	}
-
-	div#scene1
-	{
-		top:154%;
-		left:8%;
-	}
-
-	div#scene2
-	{
-		top:190%;
-		left:21%;
-	}
-
-		div#scene2 img.mid_blue_triangle_map
-		{
-			margin-left: -75px;
-			margin-top: 146px;
-		}
-
-		div#scene2 img.mid_square_map
-		{
-			margin-left: -72px;
-			margin-top: 110px;
-		}
-
-	div#scene3
-	{
-		top:142%;
-		left:78%;
-		width:10%;
-	}
-
-		div#scene3 img.bottom_white_triangle_map
-		{
-			margin-left: -11px;
-			margin-top: 8px;
-		}
 
 	div.map_container
 	{
@@ -200,15 +177,6 @@ h2::after {
 		div.fade-in.active
 		{
 			animation: fade-in 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-		}
-
-		@keyframes fade-in {
-		  0% {
-		    opacity: 0;
-		  }
-		  100% {
-		    opacity: 1;
-		  }
 		}
 
 	
