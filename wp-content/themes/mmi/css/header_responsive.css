@@ -153,6 +153,9 @@ img.cross
 
 		
 */
+<<<<<<< HEAD
+>>>>>>> parent of a1d718d... Update opti
+=======
 >>>>>>> parent of a1d718d... Update opti
 }
 
@@ -176,10 +179,13 @@ img.cross
 		width: 40%;
 	}
 
+<<<<<<< HEAD
 	div.side_menu div.social
 	{
 		width: 20%;
 =======
+=======
+>>>>>>> parent of a1d718d... Update opti
 	header .scene #header_empty_square_medium {
 		display: none;
 >>>>>>> parent of a1d718d... Update opti
@@ -211,6 +217,7 @@ img.cross
 	}
 }
 
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 
@@ -258,6 +265,11 @@ img.cross
 	header .scene #header_full_triangle_big {
 		margin-left: 100px;
 	}
+=======
+	header .scene #header_full_triangle_big {
+		margin-left: 100px;
+	}
+>>>>>>> parent of a1d718d... Update opti
 }
 
 @media all and (max-width: 500px) {
@@ -276,6 +288,7 @@ img.cross
 	}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 	header > h1::after
 	{
 		height: 40%;
@@ -286,6 +299,10 @@ img.cross
 		width: 55%;
 	}
 }
+=======
+	
+}
+>>>>>>> parent of a1d718d... Update opti
 =======
 	
 }

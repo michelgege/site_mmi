@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 /*# sourceMappingURL=international.css.map */
 
@@ -6,6 +7,10 @@
 body
 {
       font-family: 'Raleway', sans-serif;
+=======
+body
+{
+>>>>>>> parent of a1d718d... Update opti
 =======
 body
 {
@@ -83,10 +88,17 @@ body
 			margin-top: 8px;
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 		
 
 
+=======
+
+		
+
+
+>>>>>>> parent of a1d718d... Update opti
 =======
 
 		
@@ -272,7 +284,10 @@ div#wrap_text
 h3#title_second
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
 	font-family: 'Raleway', sans-serif;
+=======
+>>>>>>> parent of a1d718d... Update opti
 =======
 >>>>>>> parent of a1d718d... Update opti
 	font-size: 70px;
@@ -281,6 +296,7 @@ h3#title_second
 	text-align: right;
 }
 
+<<<<<<< HEAD
 
 img#sub_title
 {
@@ -311,6 +327,30 @@ p.complement
 	font-family: 'Raleway', sans-serif;
 =======
 >>>>>>> parent of a1d718d... Update opti
+=======
+
+img#sub_title
+{
+position: absolute;
+margin-right: auto;
+margin-left: auto;
+right: 235px;				
+}
+
+h4.second_section_title
+{
+	font-size: 30px;
+	color: white;
+	width: 100%;
+	text-align: left;
+	font-weight: 600;
+	padding-top: 122px;
+}
+
+p.complement
+{
+
+>>>>>>> parent of a1d718d... Update opti
 	font-size: 15px;
 	width: 517px;
 	color: white;
@@ -332,7 +372,10 @@ ul.conflict
 li#choice
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
 	font-family: 'Raleway', sans-serif;
+=======
+>>>>>>> parent of a1d718d... Update opti
 =======
 >>>>>>> parent of a1d718d... Update opti
 	font-size: 15px;
@@ -343,6 +386,7 @@ li#choice
 	padding-left: 40px;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 			section#steps .container .content >ul >li:last-of-type {
@@ -374,6 +418,8 @@ img#paragraph_line
 {
 margin-top: 80px;
 =======
+=======
+>>>>>>> parent of a1d718d... Update opti
 span#bold
 {
 	font-weight: bold;
