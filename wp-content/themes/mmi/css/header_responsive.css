@@ -3,6 +3,10 @@
 		margin-top: 20%;
 	}
 
+	header h1::after {
+		width: 100%;
+	}
+
 	header #menu nav {
 		display: none;
 	}
@@ -20,9 +24,47 @@
 	}
 }
 
+@media all and (max-width: 1000px) {
+	header h1::after {
+		width: 150%;
+	}
+}
+
 @media all and (max-width: 740px) {
+	header h1 {
+		margin-left: 100px;
+	}
+
+	header h1::after {
+		width: 150%;
+	}
+
+	header #menu >a >img {
+		height: 80%;
+	}
+
 	.scene {
 		display: none;
+	}
+}
+
+@media all and (max-width: 600px) {
+	header h1 {
+		margin-left: 20px;
+		font-size: 40px;
+		margin-top: 30%;
+	}
+
+	header h1::after {
+		width: 200%;
+	}
+
+	header #menu >a >img {
+		height: 70%;
+	}
+
+	header #menu {
+		padding: 50px 40px 0 40px;
 	}
 }
 
