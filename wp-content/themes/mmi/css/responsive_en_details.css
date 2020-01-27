@@ -34,53 +34,6 @@
 		margin-left: auto;
 	}
 
-
-	#mid_triangle_border_white
-	{
-		margin-left: 1025px;
-	}
-
-	#medium_mid_triangle_white
-	{
-		margin-left: 975px;
-		margin-top: 50px;
-	}
-
-
-	#small_mid_triangle_white
-	{
-		margin-left: 1100px;
-		margin-top: 100px;
-	}
-
-	#bottom_square_purple
-	{
-		margin-left: 1025px;
-	}
-
-	#bottom_triangle_border_grey
-	{
-		margin-left: 980px;
-		margin-top: -70px;
-	}
-
-
-	#bottom_triangle_white
-	{
-		margin-left: 950px;
-		margin-top: 10px;
-	}
-
-	/*cinquieme scene*/
-
-	#bottom_triangle_purple
-	{
-		margin-left: 1075px;
-		margin-top: 620px;
-	}
-
-
-
 	div.column_teacher
 	{
 		margin-right: 57.5px;
@@ -141,62 +94,6 @@
 		margin-top: 100px;
 	}
 
-	
-
-	#mid_triangle_border_white
-	{
-		margin-left: 1325px;
-	}
-
-	#medium_mid_triangle_white
-	{
-		margin-left: 1275px;
-	}
-
-
-	#small_mid_triangle_white
-	{
-		margin-left: 1400px;
-		margin-top: 100px;
-	}
-
-	#bottom_square_purple
-	{
-		margin-left: 1325px;
-	}
-
-	#bottom_triangle_border_grey
-	{
-		margin-left: 1280px;
-		margin-top: -70px;
-	}
-
-
-	#bottom_triangle_white
-	{
-		margin-left: 1250px;
-		margin-top: 10px;
-	}
-
-	/*cinquieme scene*/
-
-	#bottom_triangle_purple
-	{
-		margin-top: 320px;
-	}
-
-	#bottom_rectangle_grey
-	{
-		margin-top: 1000px;
-	}
-
-
-	#bottom_triangle_border_purple
-	{
-		margin-left: 800px;
-		margin-top: 1800px;
-	}
-
 }
 
 @media only screen and (max-width : 1440px)
@@ -240,28 +137,6 @@
 		margin-right: 0;
 		margin-left: auto;
 	}
-
-
-
-	#scene,.scene
-	{
-		position: absolute;
-	}
-
-	#top_triangle_purple
-	{
-		margin-left: 1100px;
-		margin-top: 80px;
-	}
-
-	#top_triangle_white
-	{
-		margin-left: 1150px;
-		margin-top: 50px;
-	}
-
-
-
 
 	section.le_but
 	{
@@ -454,25 +329,6 @@
 		margin-bottom: 100px;
 	}
 
-	#mid_triangle_white
-	{
-		margin-top: 60px;
-		margin-left: 150px;
-	}
-
-	#mid_triangle_border_purple
-	{
-		margin-top: 140px;
-		margin-left: 150px;
-	}
-
-
-
-
-
-
-
-
 	#wrap_year
 	{
 		padding: 0px 410px 210px 410px;
@@ -561,31 +417,6 @@
 		margin-bottom: 231px;
 	}
 
-
-	#mid_triangle_border_white
-	{
-		margin-left: 1025px;
-	}
-
-	#medium_mid_triangle_white
-	{
-		margin-left: 975px;
-		margin-top: 50px;
-	}
-
-
-	#small_mid_triangle_white
-	{
-		margin-left: 1100px;
-		margin-top: 100px;
-	}
-
-
-
-
-
-
-
 	section.departement
 	{
 		margin-bottom: 200px;
@@ -666,47 +497,6 @@
 		margin-right: auto;
 	}
 
-
-	#bottom_square_purple
-	{
-		margin-left: 1025px;
-	}
-
-	#bottom_triangle_border_grey
-	{
-		margin-left: 980px;
-		margin-top: -70px;
-	}
-
-
-	#bottom_triangle_white
-	{
-		margin-left: 950px;
-		margin-top: 10px;
-	}
-
-	/*cinquieme scene*/
-
-	#bottom_triangle_purple
-	{
-		margin-left: 1075px;
-		margin-top: 620px;
-	}
-
-	#bottom_rectangle_grey
-	{
-		margin-left: 255px;
-		margin-top: 1000px;
-	}
-
-
-	#bottom_triangle_border_purple
-	{
-		margin-left: 800px;
-		margin-top: 1800px;
-	}
-
-
 	h3.name
 	{
 		font-size: 20px;
@@ -784,28 +574,6 @@
 		margin-right: 0;
 		margin-left: auto;
 	}
-
-
-
-	#scene,.scene
-	{
-		position: absolute;
-	}
-
-	#top_triangle_purple
-	{
-		margin-left: 1100px;
-		margin-top: 80px;
-	}
-
-	#top_triangle_white
-	{
-		margin-left: 1150px;
-		margin-top: 50px;
-	}
-
-
-
 
 	section.le_but
 	{
@@ -1000,25 +768,6 @@
 		margin-bottom: 100px;
 	}
 
-	#mid_triangle_white
-	{
-		margin-top: 60px;
-		margin-left: 150px;
-	}
-
-	#mid_triangle_border_purple
-	{
-		margin-top: 140px;
-		margin-left: 150px;
-	}
-
-
-
-
-
-
-
-
 	#wrap_year
 	{
 		padding: 0px 205px 105px 205px;
@@ -1108,31 +857,6 @@
 		margin-bottom: 231px;
 	}
 
-
-	#mid_triangle_border_white
-	{
-		margin-left: 1025px;
-	}
-
-	#medium_mid_triangle_white
-	{
-		margin-left: 975px;
-		margin-top: 50px;
-	}
-
-
-	#small_mid_triangle_white
-	{
-		margin-left: 1100px;
-		margin-top: 100px;
-	}
-
-
-
-
-
-
-
 	section.departement
 	{
 		margin-bottom: 100px;
@@ -1216,46 +940,6 @@
 	{
 		margin-left: auto;
 		margin-right: auto;
-	}
-
-
-	#bottom_square_purple
-	{
-		margin-left: 1025px;
-	}
-
-	#bottom_triangle_border_grey
-	{
-		margin-left: 980px;
-		margin-top: -70px;
-	}
-
-
-	#bottom_triangle_white
-	{
-		margin-left: 950px;
-		margin-top: 10px;
-	}
-
-	/*cinquieme scene*/
-
-	#bottom_triangle_purple
-	{
-		margin-left: 1075px;
-		margin-top: 620px;
-	}
-
-	#bottom_rectangle_grey
-	{
-		margin-left: 255px;
-		margin-top: 1000px;
-	}
-
-
-	#bottom_triangle_border_purple
-	{
-		margin-left: 800px;
-		margin-top: 1800px;
 	}
 
 	div#teachers
@@ -2150,5 +1834,4 @@
 		margin-right: auto;
 		margin-bottom: 50px;
 	}
-
 }

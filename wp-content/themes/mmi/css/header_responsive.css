@@ -14,6 +14,16 @@
 	header #second_header {
 		display: none;
 	}
+
+	header .scene >div #header_empty_square_medium, #header_empty_triangle_medium {
+		display: none;
+	}
+}
+
+@media all and (max-width: 740px) {
+	.scene {
+		display: none;
+	}
 }
 
 

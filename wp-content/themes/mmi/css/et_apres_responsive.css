@@ -11,10 +11,6 @@
 @media only screen and (max-width : 1368px)
 {
 
-	div#scene
-	{
-		display: none;
-	}
 
 		section#testimony div.witness div.img_container + div
 	{
