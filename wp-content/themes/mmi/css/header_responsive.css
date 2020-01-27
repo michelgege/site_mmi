@@ -127,99 +127,140 @@ header #header2
 		margin-top: 20%;
 	}
 
-	header #menu .burger {
-		display: block;
-	}
 
 	header nav a,
 	header nav ::after,
 	header .menu-principal-container,
-	div#menu2 img,
-	header #menu nav 
+	div#menu2 img
 	{
 		display: none;
+		
+	}
+	img.burger
+	{
+		display: block;
 	}
 
-	header .side_menu nav {
+	header nav
+	{
 		display: flex;
 		justify-content: center;
 		align-items: center;
 	}
 
-	header #second_header {
-		display: none;
+	header > h1::after
+	{
+		width: 11em;
 	}
 
-	header .scene {
-		top: 15%;
-		left: 10%;
-	}
 }
 
-@media all and (max-width: 1000px) {
-	h1 {
-		margin-left: 100px;
+
+@media all and (max-width: 1024px)
+{
+	header h1
+	{
+		margin-top: 20%;
+		margin-left: 90px;
 	}
 
-	h1::after {
-		width: 100%;
+	div.social
+	{
+		width: 55%;
 	}
 
-	header .scene >div #header_empty_square_medium, >div #header_empty_triangle_medium {
-		display: none;
+	span.line
+	{
+		width: 40%;
 	}
+
+	div.side_menu div.social
+	{
+		width: 20%;
+	}
+
+	
 }
 
-@media all and (max-width: 733px) {
-	h1 {
-		margin-top: 30%;
+
+
+@media all and (max-width: 740px)
+{
+	header h1
+	{
+
+		font-size: 50px;
 		margin-left: 50px;
 	}
-
-	#menu >a >img {
-		height: 80%;
+	header div.scene
+	{
+		display: block;
+	    top: 50%;
+    	left: 2%;
 	}
 
-	h1::after {
-		width: 150%;
+	div.side_menu div.social
+	{
+		width: 25%;
 	}
-
-	header .scene >div #header_full_triangle_big {
-		margin-left: 400px;
-	}
-
-	header .scene >div #header_empty_square_small {
-		margin-left: 100px;
-	}
-
-	header .scene >div #header_full_triangle_medium {
-		margin-left: 150px;
-	}
-
-	header .side_menu ul#side_links li {
-		margin-right: 20px;
-	}
-
-	header .side_menu ul#side_links li a {
-		font-size: 16px;
-	}
-
 }
 
-@media all and (max-width: 500px) {
-	h1::after {
-		width: 200%;
+
+
+
+@media all and (max-width: 560px)
+{
+	header h1
+	{
+		font-size: 40px;
 	}
 
-	header #menu {
-		padding: 30px 40px 0 40px;
+	div#menu a img 
+	{
+		width: 80px;
 	}
 
-	header .scene >div #header_empty_triangle_small {
-		margin-top: -70px;
+	div.side_menu div.social
+	{
+		width: 30%;
+	}
+}
+
+
+
+@media all and (max-width: 425px)
+{
+	div.side_menu div.social
+	{
+		width: 40%;
+	}
+}
+
+@media all and (max-width: 375px)
+{
+	header h1
+	{
+		font-size: 35px;
+
+	}
+	header #menu,
+	img.cross
+	{
+    	padding: 50px 20px 0 20px
 	}
 
-	header .scene >div >img {
-		transform: scale(0.5,0.5);
+	div#menu a img 
+	{
+		width: 80px;
+	}
+
+	header > h1::after
+	{
+		height: 40%;
+	}
+
+	div.side_menu div.social
+	{
+		width: 55%;
 	}
 }

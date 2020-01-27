@@ -1,17 +1,19 @@
 body
 {
 	background-color: #181818;
+	font-family: Raleway, sans-serif;
 }
 
-h2
+h1
 {
 	font-size: 70px;
 	color: white;
 	font-weight: 300;
+	font-family: 'Raleway', sans-serif;
 	margin-bottom: 100px;
 }
 
-h2::after
+h1::after
 {
 	display: block;
 	content: "";
@@ -25,7 +27,7 @@ h2::after
 	z-index: -1;
 }
 
-h3.left_title
+h2.left_title
 {
 	margin-left: 0;
 	margin-left: auto;
@@ -87,7 +89,20 @@ img.camera
 	left:40px;
 	top:965px;
 
-}3
+}
+
+
+h1::after
+{
+	display: block;
+	content: "";
+	width: 23%;
+	height: 64px;
+	background-color: #9B3BB7 ;
+	margin-top: -35px;
+	margin-left: 28px;
+	margin-bottom: 100px;
+}
 
 p span
 {
@@ -188,7 +203,7 @@ div#destiny
 	margin-top: 100px;
 }
 
-h3.right_title
+h2.right_title
 {
 	font-size: 30px;
 	font-weight: 600;
@@ -211,7 +226,7 @@ p.content_right
 
 
 
-h3.left_title
+h2.left_title
 {
 	font-size: 30px;
 	font-weight: 600;
@@ -352,9 +367,6 @@ div#after_content_purple
 	margin-top: 100px;
 }
 
-
-
-
 .departement .intro
 {
 	width: 1105px;
@@ -381,15 +393,24 @@ div#after_content_purple
 {
 	position: relative;
 	cursor: pointer;
+	width: 730px;
+	height: 454px;
 	margin-top: 112px;
-
-	margin-left: auto;
-	margin-right: auto;
-	width: 100%;
-text-align: center;
+	margin-left: 50%;
+	transform: translateX(-50%);
+	position: relative;
 
 }
 
+.video{
+	position: relative;
+	width: 730px;
+	height: 454px;
+	margin-top: 112px;
+	margin-left: 50%;
+	transform: translateX(-50%);
+
+}
 
 #bottom_square_purple
 {
@@ -429,9 +450,9 @@ text-align: center;
 	margin-left: 700px;
 	margin-top: 1700px;
 }
-section.departement
+section#teams
 {
-	padding: 0px 0 0 0;
+	padding: 0px 0px;
 }
 
 div#teachers

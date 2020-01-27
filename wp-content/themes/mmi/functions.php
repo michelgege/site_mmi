@@ -1,18 +1,4 @@
 <?php
-
-	//mailing à enlever lors de la mise en ligne
-
-	function mailtrap($phpmailer) {
-	  $phpmailer->isSMTP();
-	  $phpmailer->Host = 'smtp.mailtrap.io';
-	  $phpmailer->SMTPAuth = true;
-	  $phpmailer->Port = 2525;
-	  $phpmailer->Username = '106efa166d4a3d';
-	  $phpmailer->Password = '627f84f3729098';
-	}
-
-	add_action('phpmailer_init', 'mailtrap');
-
 	//Styles and Scripts
 	function styles_scripts() {
 		// Styles loaded
@@ -32,14 +18,13 @@
 		wp_register_style('header_index', get_template_directory_uri().'/css/header_index.css');
 
 		wp_register_style('coin_pro', get_template_directory_uri().'/css/coin_pro.css');
-		wp_register_style('responsive_coin_pro', get_template_directory_uri().'/css/responsive_coin_pro.css');
 		wp_register_style('en_detail', get_template_directory_uri().'/css/en_detail.css');
 		wp_register_style('responsive_en_details', get_template_directory_uri().'/css/responsive_en_details.css');
 		wp_register_style('et_apres', get_template_directory_uri().'/css/et_apres.css');
 		wp_register_style('et_apres_responsive', get_template_directory_uri().'/css/et_apres_responsive.css');
 		wp_register_style('international', get_template_directory_uri().'/css/international.css');
 		wp_register_style('international_responsive', get_template_directory_uri().'/css/international_responsive.css');
-		// wp_register_style('lptsi', get_template_directory_uri().'/css/lptsi.css');
+		wp_register_style('lptsi', get_template_directory_uri().'/css/lptsi.css');
 		wp_register_style('realisations', get_template_directory_uri().'/css/realisations.css');
 		wp_register_style('responsive_realisations', get_template_directory_uri().'/css/responsive_realisations.css');
 		wp_register_style('post-form', get_template_directory_uri().'/css/post-form.css');
@@ -83,9 +68,8 @@
 		}
 
 		else if (is_page('coin-pro')) {
-			wp_enqueue_script('coin_pro_js');
 			wp_enqueue_style('coin_pro');
-			wp_enqueue_style('responsive_coin_pro');
+			wp_enqueue_script('coin_pro_js');
 		}
 
 		else if (is_page('et-apres')) {
@@ -101,9 +85,8 @@
 
 		else if (is_page('mmi-en-detail')) {
 			wp_enqueue_script('en_detail_js');
-			
-			wp_enqueue_style('en_detail');
 			wp_enqueue_style('responsive_en_details');
+			wp_enqueue_style('en_detail');
 		}
 
 		else if (is_page('realisations')) {
@@ -121,6 +104,4 @@
 	}
 
 	add_action('after_setup_theme','menu');
-
-
 ?>

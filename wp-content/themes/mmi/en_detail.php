@@ -19,9 +19,9 @@ get_header();
 	</div>
 
 	<section class="le_but">
-		<h2>Le BUT</h2>
+		<h1>Le BUT</h1>
 		<img class="tablet" src="<?php echo get_template_directory_uri() ?>/img/en_detail/tablet.svg" alt="tablette graphique">
-		<h3 class="left_title">Les compétences</h3>
+		<h2 class="left_title">Les compétences</h2>
 		<p class="competences_1">Le <span>Bachelor Universitaire de Technologie</span> (BUT) « Métiers du Multimédia et de l’Internet » (MMI) se déroule en <span>3 ans</span>, découpés en <span>6 semestres</span>, sur un volume total de <span>2000 heures de cours</span> en présence d’un enseignant. A cela s’ajoutent 600 heures de projet réparties sur les 3 années.</p>
 
 		<p class="competences_2">Chaque étudiant doit valider 5 blocs de compétences pour l’obtention du BUT MMI découpés de la manière suivante :</p>
@@ -109,7 +109,7 @@ get_header();
 
 	<div id="destiny">
 		<img class="code" src="<?php echo get_template_directory_uri() ?>/img/en_detail/code.svg" alt="code">
-		<h3 class="right_title"> A qui est destiné le BUT MMI ? </h3>
+		<h2 class="right_title"> A qui est destiné le BUT MMI ? </h2>
 		<p class="content_right"> Notre objectif est de composer une promotion avec : </p>
 		<p class="content_right">-	50% de bacheliers technologiques, de préférence issus de la filière STI2D option SIN, avec un excellent dossier.</p>
 		<p class="content_right">-	50% de bacheliers généraux, avec des options scientifiques.</p>
@@ -118,7 +118,7 @@ get_header();
 
 
 
-	<h3 class="left_title"> Les projets </h3>
+	<h2 class="left_title"> Les projets </h2>
 	<p class="content_left">Les projets sont au coeur de la formation MMI. Ils permettent aux étudiants de mettre 
 		en application pratique des savoirs théoriques. Grâce aux projets tuteurés, les étudiants 
 		peuvent présenter des réalisations de qualité pour leur devenir professionnel (stage, 
@@ -138,15 +138,15 @@ get_header();
 
 	<div id="wrap_year">
 		<div id="number_one">
-			<h3 class="year"> Première année </h3>
+			<h3 class="year"> Première année </h2>
 			<p class="content_center">Réalisation et mise en oeuvre d’une exposition multimédia : conception des oeuvres et des outils de communication relatifs à l’exposition. </p>
 		</div>
 		<div id="number_two">
-			<h3 class="year"> Deuxième année </h3>
+			<h3 class="year"> Deuxième année </h2>
 			<p class="content_center">Constitués en agences, les étudiants répondent à un besoin réel issu d’un client : création de sites web, conception de produits audiovisuels, stratégie de communication… </p>
 		</div>
 		<div id="number_three">
-			<h3 class="year"> Troisième année </h3>
+			<h3 class="year"> Troisième année </h2>
 			<p class="content_center">Stage en entreprise et possibilité d'alternance </p>
 		</div>
 	</div>
@@ -166,7 +166,7 @@ get_header();
 
 
 	<div id="after_content_purple">
-		<h3 class="right_title"> La spécialité de MMI Chambéry </h3>
+		<h2 class="right_title"> La spécialité de MMI Chambéry </h2>
 		<p class="content_right"> Notre objectif est de composer une promotion avec : </p>
 		<p class="content_right">-	50% de bacheliers technologiques, de préférence issus de la filière STI2D option SIN, avec un excellent dossier.</p>
 		<p class="content_right">-	50% de bacheliers généraux, avec des options scientifiques.</p>
@@ -176,7 +176,7 @@ get_header();
 
 
 	<section class="departement">
-		<h2>Le département</h2>
+		<h1 id="dep">Le département</h1>
 		<div class="intro">
 			<p >Nous vous accueillons sur le site du Bourget du Lac dans des locaux équipés de matériel informatique et 
 			audiovisuel récent que les étudiants peuvent emprunter.</p>
@@ -212,7 +212,7 @@ get_header();
 		</div> 
 	</div>
 	<section id="teams">
-		<h2> L'equipe </h2>
+		<h1> L'equipe </h1>
 		<div id="teachers">
 
 			<?php while( have_rows('detail_team') ): the_row(); 

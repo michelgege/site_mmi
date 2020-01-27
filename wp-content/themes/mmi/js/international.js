@@ -1,41 +1,39 @@
-jQuery(document).ready(function($) {
-	function select_pins() {
-		$(".pins").click(function() {
+jQuery(document).ready(function() {
+	jQuery(".pins").click(function() {
 
-			$(this).addClass('active');
-			$(".pins").not(this).removeClass('active');
+		jQuery(this).addClass('active');
+		jQuery(".pins").not(this).removeClass('active');
 
-			var id=$(this).attr("data-id");
-			$('.pop_up[data-id= "'+id+'"]').addClass('active');
-			$('.pop_up').not('.pop_up[data-id= "'+id+'"]').removeClass('active');
-		})
+		var id=jQuery(this).attr("data-id");
+		jQuery('.pop_up[data-id= "'+id+'"]').addClass('active');
+		jQuery('.pop_up').not('.pop_up[data-id= "'+id+'"]').removeClass('active');
+	})
 
-		$(".cross").click(function() {
-			$(".pins").removeClass('active');
-			$(".pop_up").removeClass('active');
-		})
-	}
-	select_pins();
-	
+
+	jQuery(".cross").click(function() {
+
+		jQuery(".pins").removeClass('active');
+		jQuery(".pop_up").removeClass('active');
+	})
 
 	//responsive list
 
-	$(".list_header img").click(function() {
+	jQuery(".list_header img").click(function() {
 
-		$(".list_content").toggleClass('active');
+		jQuery(".list_content").toggleClass('active');
 	})
 
 	function selectCountry(){
 
-			$("p.country_content").click(function() {
+			jQuery("p.country_content").click(function() {
 
-				$('div.list_header p').text(jQuery(this).attr('data-country'));
-				$(".list_content").removeClass('active');
-				$(".list_content").addClass('absolute');
+				jQuery('div.list_header p').text(jQuery(this).attr('data-country'));
+				jQuery(".list_content").removeClass('active');
+				jQuery(".list_content").addClass('absolute');
 
-				var country=$(this).attr("data-country");
-				$('.pop_up[data-country= "'+country+'"]').addClass('active');
-				$(".pop_up").not('.pop_up[data-country= "'+country+'"]').removeClass('active');
+				var country=jQuery(this).attr("data-country");
+				jQuery('.pop_up[data-country= "'+country+'"]').addClass('active');
+				jQuery(".pop_up").not('.pop_up[data-country= "'+country+'"]').removeClass('active');
 		})
 	}
 	selectCountry();
