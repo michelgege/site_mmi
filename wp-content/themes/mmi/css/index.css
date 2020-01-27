@@ -298,10 +298,20 @@ section#highlights {
 		background-color: var(--color-dark-blue);
 	}
 
+<<<<<<< HEAD
 	section#highlights #video {
 		margin: 0 auto;
 		width: 700px;
 		position: relative;
+=======
+	section#international #international_content >p {
+		position: absolute;
+		top: 50%;
+		right: 0;
+		transform: translateY(-50%);
+		width: 25%;
+		line-height: 20px;
+>>>>>>> parent of a1d718d... Update opti
 	}
 
 		section#highlights #video::after {
@@ -404,6 +414,7 @@ section#international {
 			transform: scale(0.8) translateX(-100%);
 		}
 
+<<<<<<< HEAD
 		section#international .carousel-cell.is-previous {
 			transform: scale(0.8) translateX(30%);
 			opacity: 0.5;
@@ -448,6 +459,15 @@ section#international {
 
 	section#international .link_button {
 		background: linear-gradient(90deg, var(--color-cyan) 0%, #005F70 100%);
+=======
+	section#testimony .testimony_container .testimony_content {
+		font-size: 17px;
+		text-align: center;
+		width: 40%;
+		line-height: 20px;
+		margin-top: 30px;
+		line-height: 25px;
+>>>>>>> parent of a1d718d... Update opti
 	}
 
 	section#international #international_scene_1 {

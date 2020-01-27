@@ -28,6 +28,31 @@ a {
 
 body {
 	background-color: $bg-color;
+<<<<<<< HEAD
+=======
+	font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+	font-weight: 300;
+	font-size: 60px;
+	color: white;
+	margin-top: 10%;
+	margin-left: 160px;
+	width: 60%;
+	position: relative;
+
+	&::after {
+		content: "";
+		display: block;
+		position: absolute;
+		height: 50%;
+	    width: 75%;
+	    left: -160px;
+	   	top: 50%;
+	    background-color: rgba(255,255,255,0.4);
+	}
+>>>>>>> parent of a1d718d... Update opti
 }
 
 h2 {
@@ -235,40 +260,38 @@ header {
 		top: 10%;
 		left: 22%;
 
-		>div {
-			>img {
-				transform: scale(0.7,0.7);
-			}
+		>img {
+			transform: scale(0.7,0.7);
+		}
 
-			#header_empty_square_small {
-				margin-top: 350px;
-				margin-left: 200px;
-			}
+		#header_empty_square_small {
+			margin-top: 350px;
+			margin-left: 200px;
+		}
 
-			#header_empty_square_medium {
-				margin-top: 110px;
-				margin-left: 800px;
-			}
+		#header_empty_square_medium {
+			margin-top: 110px;
+			margin-left: 800px;
+		}
 
-			#header_full_triangle_small {
-				margin-top: 100px;
-				margin-left: 500px;
-			}
+		#header_full_triangle_small {
+			margin-top: 100px;
+			margin-left: 500px;
+		}
 
-			#header_full_triangle_medium {
-				margin-top: 410px;
-				margin-left: 250px;
-			}
+		#header_full_triangle_medium {
+			margin-top: 410px;
+			margin-left: 250px;
+		}
 
-			#header_full_triangle_big {
-				margin-top: 300px;
-				margin-left: 600px;
-			}
+		#header_full_triangle_big {
+			margin-top: 300px;
+			margin-left: 600px;
+		}
 
-			#header_empty_triangle_medium {
-				margin-top: 130px;
-				margin-left: 900px;
-			}
+		#header_empty_triangle_medium {
+			margin-top: 130px;
+			margin-left: 900px;
 		}
 	}
 }

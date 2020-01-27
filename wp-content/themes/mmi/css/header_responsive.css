@@ -124,6 +124,36 @@ img.cross
 		width: 11em;
 	}
 
+<<<<<<< HEAD
+=======
+	header .scene {
+		top: 15%;
+		left: 10%;
+	}
+
+/*
+		header .scene #header_empty_square_small {
+			margin-top: 350px;
+			margin-left: 200px;
+		}
+
+		
+
+		header .scene #header_full_triangle_small {
+			margin-top: 100px;
+			margin-left: 500px;
+		}
+
+		header .scene #header_full_triangle_medium {
+			margin-top: 410px;
+			margin-left: 250px;
+		}
+
+		
+
+		
+*/
+>>>>>>> parent of a1d718d... Update opti
 }
 
 
@@ -140,6 +170,7 @@ img.cross
 		width: 55%;
 	}
 
+<<<<<<< HEAD
 	span.line
 	{
 		width: 40%;
@@ -148,6 +179,10 @@ img.cross
 	div.side_menu div.social
 	{
 		width: 20%;
+=======
+	header .scene #header_empty_square_medium {
+		display: none;
+>>>>>>> parent of a1d718d... Update opti
 	}
 
 	
@@ -177,6 +212,7 @@ img.cross
 }
 
 
+<<<<<<< HEAD
 
 
 @media all and (max-width: 560px)
@@ -218,6 +254,20 @@ img.cross
 	img.cross
 	{
     	padding: 50px 20px 0 20px
+=======
+	header .scene #header_full_triangle_big {
+		margin-left: 100px;
+	}
+}
+
+@media all and (max-width: 500px) {
+	h1 {
+		
+	}
+
+	h1::after {
+		width: 200%;
+>>>>>>> parent of a1d718d... Update opti
 	}
 
 	div#menu a img 
@@ -225,6 +275,7 @@ img.cross
 		width: 80px;
 	}
 
+<<<<<<< HEAD
 	header > h1::after
 	{
 		height: 40%;
@@ -235,3 +286,7 @@ img.cross
 		width: 55%;
 	}
 }
+=======
+	
+}
+>>>>>>> parent of a1d718d... Update opti
