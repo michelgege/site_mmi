@@ -1,0 +1,152 @@
+@media all and (max-width: 1172px) {
+	header h1 {
+		margin-top: 20%;
+	}
+
+	header #menu nav {
+		display: none;
+	}
+
+	header #menu .burger {
+		display: block;
+	}
+
+	header #second_header {
+		display: none;
+	}
+}
+
+
+/*@media all and (max-width: 1024px)
+{
+	header h1
+	{
+		margin-top: 20%;
+		margin-left: 90px;
+	}
+
+	div.social
+	{
+		width: 55%;
+	}
+
+
+	span.line
+	{
+		width: 40%;
+	}
+
+
+	div.side_menu div.social
+	{
+		width: 20%;
+
+
+	header .scene #header_empty_square_medium {
+		display: none;
+
+	}
+
+	
+}
+
+
+
+@media all and (max-width: 740px)
+{
+	header h1
+	{
+
+		font-size: 50px;
+		margin-left: 50px;
+	}
+	header div.scene
+	{
+		display: block;
+	    top: 50%;
+    	left: 2%;
+	}
+
+	div.side_menu div.social
+	{
+		width: 25%;
+	}
+}
+
+
+
+@media all and (max-width: 560px)
+{
+	header h1
+	{
+		font-size: 40px;
+	}
+
+	div#menu a img 
+	{
+		width: 80px;
+	}
+
+	div.side_menu div.social
+	{
+		width: 30%;
+	}
+}
+
+
+
+@media all and (max-width: 425px)
+{
+	div.side_menu div.social
+	{
+		width: 40%;
+	}
+}
+
+@media all and (max-width: 375px)
+{
+	header h1
+	{
+		font-size: 35px;
+
+	}
+	header #menu,
+	img.cross
+	{
+    	padding: 50px 20px 0 20px
+
+	header .scene #header_full_triangle_big {
+		margin-left: 100px;
+	}
+
+	header .scene #header_full_triangle_big {
+		margin-left: 100px;
+	}
+
+}
+
+@media all and (max-width: 500px) {
+	h1 {
+		
+	}
+
+	h1::after {
+		width: 200%;
+
+	}
+
+	div#menu a img 
+	{
+		width: 80px;
+	}
+
+	header > h1::after
+	{
+		height: 40%;
+	}
+
+	div.side_menu div.social
+	{
+		width: 55%;
+	}
+}*/
