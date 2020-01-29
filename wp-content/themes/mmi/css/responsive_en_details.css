@@ -347,6 +347,7 @@
 	h2
 	{
 		font-size: 50px;
+		line-height: 1; 
 	}
 
 	#top_triangle_purple
@@ -488,6 +489,8 @@
 	.intro p
 	{
 		font-size: 20px;
+		width: 270px;
+		margin-left: 140px;
 	}
 
 	#bottom_square_purple
@@ -796,12 +799,19 @@
 	.intro p
 	{
 		font-size: 10px;
-		transform: translateX(-135%);
+		transform: translateX(-55%);
 	}
 
 	p.testimony
 	{
 		margin-left: auto;
 		margin-right: auto;
+	}
+
+	iframe
+	{
+		width: 300px;
+    	height: 200px;
+    	transform: translateX(-53%);
 	}
 }
