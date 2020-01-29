@@ -319,7 +319,7 @@ div#wrap_body div.testimony div.testimony_block p.testimony_comment
 div#wrap_body div.testimony div.testimony_block #quote
  {
   position: absolute;
-  top: 2350px;
+  top: 1850px;
   right: 290px;
 }
 
@@ -406,7 +406,7 @@ div#wrap_body div.testimony_second div.testimony_block_second #quote
  {
   position: absolute;
   transform: rotate(180deg);
-  top: 2875px;
+  top: 2375px;
   left: 250px;
 }
 
