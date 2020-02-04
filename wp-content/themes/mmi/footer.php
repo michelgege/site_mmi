@@ -33,7 +33,7 @@
         </h3>
 
         <div class="right_bot">
-            <img src="<?php echo get_template_directory_uri() ?>/img/mmi_footer.svg" alt="iut">
+            <img src="<?php echo get_template_directory_uri() ?>/img/mmi_footer.svg" id="mmi" alt="mmi">
         </div>
     </div>
 

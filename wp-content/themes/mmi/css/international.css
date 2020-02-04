@@ -1,30 +1,15 @@
-
-/*# sourceMappingURL=international.css.map */
-
-
 body
 {
       font-family: 'Raleway', sans-serif;
       background-color: #181818;
 }
 
-	h2
-	{
-	      font-size: 70px;
-	      font-weight: 300;
-	      margin-top: 210px;
-	      color:white;
+	section#map #testimony_container .testimony_content {
+		display: none;
 	}
 
-	      h2::after
-	      {
-	        display: block;
-			content: "";
-			width: 35%;
-			height: 64px;
+	      h2::after {
 			background-color: #2079D2 ;
-			margin-top: -35px;
-			margin-left: 35px;
 	      }
 
 	div.list_container
