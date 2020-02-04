@@ -2,15 +2,14 @@
 	//Styles and Scripts
 	function styles_scripts() {
 		// Styles loaded
+			//Libs
 		wp_enqueue_style('reset', get_template_directory_uri().'/css/libs/reset_css.css');
-		wp_enqueue_style('header', get_template_directory_uri().'/css/header.css');
-		wp_enqueue_style('header_responsive', get_template_directory_uri().'/css/header_responsive.css');
-
-		wp_enqueue_style('footer', get_template_directory_uri().'/css/footer.css');
+		wp_enqueue_style('flickity', get_template_directory_uri().'/css/libs/flickity.css');
 		wp_enqueue_style('raleway', 'https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800&display=swap');
 
-		//Flickity
-		wp_enqueue_style('flickity', 'https://unpkg.com/flickity@2/dist/flickity.min.css');
+		wp_enqueue_style('header', get_template_directory_uri().'/css/header.css');
+		wp_enqueue_style('header_responsive', get_template_directory_uri().'/css/header_responsive.css');
+		wp_enqueue_style('footer', get_template_directory_uri().'/css/footer.css');	
 
 		//Styles enqueued
 		wp_register_style('index', get_template_directory_uri().'/css/index.css');
@@ -30,17 +29,17 @@
 		wp_register_style('post-form', get_template_directory_uri().'/css/post-form.css');
 		wp_register_style('post-form_responsive', get_template_directory_uri().'/css/post-form_responsive.css');
 
-
-
 		
         // SCRIPT
         	//Parallax
-	  	wp_enqueue_script('parallax_libs', 'https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js', array(), false, true);
+	  	wp_enqueue_script('parallax_libs', 'https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js', array('jquery'), false, true);
+	  	//Flickity
+	  	wp_enqueue_script('flickity_js', 'https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js', array('jquery','parallax_libs'), false, true);
+
 	  	wp_enqueue_script('parallax_header', get_template_directory_uri().'/js/parallax_header.js', array('jquery','parallax_libs'), false, true);
 
 
-	  		//Flickity
-	  	wp_enqueue_script('flickity_js', 'https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js', array('jquery','parallax_libs'), false, true);
+	  		
 
 	  		//Scripts enqueued
 		wp_register_script('en_detail_js', get_template_directory_uri().'/js/en_detail.js', array('jquery','parallax_libs'), false, true);

@@ -16,7 +16,7 @@
 
 /*Carousels*/
 .flickity-viewport {
-	padding: 20px 0;
+	padding: 25px 0;
 }
 
 .flickity-prev-next-button {
@@ -423,11 +423,12 @@ section#international #international_content {
 	/*Slider Flickity*/
 	section#international .main-carousel {
 		width: 75%;
+		height: 500px;
 	}
 
 	section#international .slider_arrows {
 		position: absolute;
-		bottom: -30%;
+		bottom: 0;
 		left: 50%;
 		transform: translateX(-50%);
 	}

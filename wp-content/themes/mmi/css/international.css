@@ -10,8 +10,8 @@ section#map #testimony_container {
 	position: absolute;
 }
 
-	section#map #testimony_container #testimony_content {
-		
+	section#map #testimony_container .testimony_content {
+		display: none;
 	}
 
 
