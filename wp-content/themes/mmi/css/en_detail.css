@@ -168,7 +168,7 @@ div.competences_deroulantes div.competence div.titre
 	cursor: pointer;
 }
 
-div.competences_deroulantes div.competence div.titre h3
+div.competences_deroulantes div.competence div.titre h4
 {
 	font-weight: 500;
 	font-size: 18px;
