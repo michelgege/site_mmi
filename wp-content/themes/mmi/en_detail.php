@@ -19,7 +19,7 @@ get_header();
 	</div>
 
 	<section class="le_but">
-		<h2>Le BUT</h2>
+		<h2><?php the_field('detail_first_title'); ?></h2>
 		<img class="tablet" src="<?php echo get_template_directory_uri() ?>/img/en_detail/tablet.svg" alt="tablette graphique">
 		<h3 class="left_title">Les compétences</h3>
 		<p class="competences_1">Le <span>Bachelor Universitaire de Technologie</span> (BUT) « Métiers du Multimédia et de l’Internet » (MMI) se déroule en <span>3 ans</span>, découpés en <span>6 semestres</span>, sur un volume total de <span>2000 heures de cours</span> en présence d’un enseignant. A cela s’ajoutent 600 heures de projet réparties sur les 3 années.</p>
@@ -172,7 +172,7 @@ get_header();
 
 
 	<section class="departement">
-		<h2>Le département</h2>
+		<h2><?php the_field('detail_second_title'); ?></h2>
 		<div class="intro">
 			<p >Nous vous accueillons sur le site du Bourget du Lac dans des locaux équipés de matériel informatique et 
 			audiovisuel récent que les étudiants peuvent emprunter.</p>
@@ -208,7 +208,7 @@ get_header();
 		</div> 
 	</div>
 	<section id="teams">
-		<h2> L'equipe </h2>
+		<h2><?php the_field('detail_third_title'); ?></h2>
 		<div id="teachers">
 
 			<?php while( have_rows('detail_team') ): the_row(); 
