@@ -35,7 +35,7 @@
         	//Parallax
 	  	wp_enqueue_script('parallax_libs', 'https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js', array('jquery'), false, true);
 	  	//Flickity
-	  	wp_enqueue_script('flickity_js', 'https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js', array('jquery','parallax_libs'), false, true);
+	  	wp_enqueue_script('flickity_js', get_template_directory_uri().'/js/libs/flickity.js', array('jquery','parallax_libs'), false, true);
 
 	  	wp_enqueue_script('parallax_header', get_template_directory_uri().'/js/parallax_header.js', array('jquery','parallax_libs'), false, true);
 
