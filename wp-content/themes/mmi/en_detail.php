@@ -50,11 +50,10 @@ get_header();
 					<h3>Savoir et être capable de programmer pour le web</h3>
 				</div>
 				<div class="content" data-id="2">
-					<p>- en respectant les contraintes techniques du milieu professionnel en vigueur</p>
-					<p>- en considérant les normes de numérisation et leur impact</p>
-					<p>- en sachant choisir et utiliser le matériel et logiciels adéquats</p>
-					<p>- en faisant preuve d'invention et de créativité dans l'utilisation des outils</p>
-					<p>- en mettant en œuvre les fondamentaux des langages plastiques et filmiques</p>
+					<p>- en étant capable de s'adapter aux différentes technologies</p>
+					<p>- en produisant en mettant en œuvre des algorithmes répondant aux problématiques</p>
+					<p>- en respectant les normes et standards du web</p>
+					<p>- en adaptant la présentation du contenu au support et aux utilisateurs</p>
 				</div>
 
 			</div>
@@ -65,11 +64,10 @@ get_header();
 					<h3>Savoir et être capable de mettre en place et administrer des systèmes d'information</h3>
 				</div>
 				<div class="content" data-id="3">
-					<p>- en respectant les contraintes techniques du milieu professionnel en vigueur</p>
-					<p>- en considérant les normes de numérisation et leur impact</p>
-					<p>- en sachant choisir et utiliser le matériel et logiciels adéquats</p>
-					<p>- en faisant preuve d'invention et de créativité dans l'utilisation des outils</p>
-					<p>- en mettant en œuvre les fondamentaux des langages plastiques et filmiques</p>
+					<p>- en s'appuyant sur des modèles existants</p>
+					<p>- en respectant les contraintes de légalité et de sécurité</p>
+					<p>- en utilisant des logiciels et outils de gestion de base de données</p>
+					<p>- en gérant et mettant en œuvre une configuration matérielle et logicielle locale ou en réseau</p>
 				</div>
 			</div>
 
@@ -79,11 +77,10 @@ get_header();
 					<h3>Savoir et être capable de gérer un projet numérique</h3>
 				</div>
 				<div class="content" data-id="4">
-					<p>- en respectant les contraintes techniques du milieu professionnel en vigueur</p>
-					<p>- en considérant les normes de numérisation et leur impact</p>
-					<p>- en sachant choisir et utiliser le matériel et logiciels adéquats</p>
-					<p>- en faisant preuve d'invention et de créativité dans l'utilisation des outils</p>
-					<p>- en mettant en œuvre les fondamentaux des langages plastiques et filmiques</p>
+					<p>- en concevant et préparant la mise en œuvre du projet</p>
+					<p>- en réceptionnant la demande</p>
+					<p>- en ayant une stratégie d'organisation du travail</p>
+					<p>- en développant une communication adaptée à la conduite du projet</p>
 				</div>
 			</div>
 
@@ -93,11 +90,10 @@ get_header();
 					<h3>Savoir et être capable d'élaborer et rédiger des contenus </h3>
 				</div>
 				<div class="content" data-id="5">
-					<p>- en respectant les contraintes techniques du milieu professionnel en vigueur</p>
-					<p>- en considérant les normes de numérisation et leur impact</p>
-					<p>- en sachant choisir et utiliser le matériel et logiciels adéquats</p>
-					<p>- en faisant preuve d'invention et de créativité dans l'utilisation des outils</p>
-					<p>- en mettant en œuvre les fondamentaux des langages plastiques et filmiques</p>
+					<p>- en déterminant les enjeux, les cibles et les objectifs de communication adéquats</p>
+					<p>- en mobilisant les univers de sens pertinents</p>
+					<p>- en concevant des contenus adaptés à des supports divers et variés</p>
+					<p>- en respectant une stratégie de communication</p>
 				</div>
 			</div>
 
