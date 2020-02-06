@@ -87,7 +87,7 @@ get_header();
 			<div class="competence">
 				<div class="titre" data-id="5">
 					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/plus.svg" alt="plus">
-					<h4><?php the_field('detail_title_competence_5'); ?></h>
+					<h4><?php the_field('detail_title_competence_5'); ?></h4>
 				</div>
 				<div class="content" data-id="5">
 					<p>- <?php the_field('detail_develop_competence_5.1'); ?></p>
