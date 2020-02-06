@@ -2223,6 +2223,8 @@ get_header();
 			<?php while( have_rows('international_map') ): the_row(); 
 
 				// vars
+				$id = get_sub_field('international_map_testimony_id');
+				$image = get_sub_field('international_map_testimony_img');
 				$name = get_sub_field('international_map_testimony_name');
 				$city = get_sub_field('international_map_testimony_city');
 				$country = get_sub_field('international_map_testimony_country');
@@ -2232,11 +2234,11 @@ get_header();
 
 				?>
 
-				<div class="testimony_content" data-id="2">
+				<div class="testimony_content" data-id="<?php echo $id; ?>">
 				<img class="cross" src="http://localhost/site_mmi/wp-content/themes/mmi/img/international/cross.svg" alt="croix">
 				<div class="content_head">
 					<div class="img_after">
-						<img src="http://localhost/site_mmi/wp-content/themes/mmi/img/international/testimony_picture_1.jpg">
+						<img src="<?php echo $image; ?>">
 					</div>
 					<div class="infos">
 						<h4><?php echo $name; ?></h4>
@@ -2263,35 +2265,6 @@ get_header();
 			</div>
 
 		<?php endif; ?>
-
-		<!-- <div id="testimony_container">
-			<div class="testimony_content" data-id="2">
-				<img class="cross" src="http://localhost/site_mmi/wp-content/themes/mmi/img/international/cross.svg" alt="croix">
-				<div class="content_head">
-					<div class="img_after">
-						<img src="http://localhost/site_mmi/wp-content/themes/mmi/img/international/testimony_picture_1.jpg">
-					</div>
-					<div class="infos">
-						<h4>Chloé Charvoz</h4>
-						<p>Gatineau, CANADA</p>
-						<p>Art et Design option Design Graphique</p>
-					</div>
-				</div>
-				<h3>Expérience</h3>
-				<p class="text_quote">C'est super enrichissant !</p>
-				<div class="testimony">
-					<p>Par rapport à l’enseignement en MMI on étudie beaucoup plus le print. Il y’a aussi une part beaucoup plus technique (comment cela se passe en imprimerie…). J’ai aussi eu accès à une partie plus “dessin”..
-
-					Les  mentalités ne sont pas du tout les même qu'en France, ils sont très accueillants et naturellement avenants. Niveau climat c'était aussi très différent, là où j'étais (à Gatineau, le côté québécois d'Ottawa pour faire simple) on est descendu jusqu'aux -35°C, du coup il a fallu s'adapter ! Ce qui est sympa c'est d'essayer de s'immerger le plus possible dans la vie du pays histoire de vraiment vivre cette année (ou semestre) à fond.
-
-					Le fait de partir si loin c'est une expérience en soit. Vu que je me suis retrouvée vraiment loin de mes parents c'était un peu comme si j'étais plongée dans la "vraie vie" où je dois tout gérer toute seule, du coup en revenant j'avais l'impression d'être plus "adulte" et autonome qu'avant ! Ce qui est chouette aussi c'est qu'on découvre à la fois notre domaine mais à la façon d'un autre pays (parce que oui ça change un peu), on découvre aussi le pays en lui même. J'ai pu voir des supers endroits et aussi en apprendre un peu plus sur la culture des autochtones amérindiens au Québec. Et bien sûr on rencontre aussi beaucoup de personnes, parfois très différentes de nous, et c'est super enrichissant !</p>
-					
-					<img class="quote first" src="<?php echo get_template_directory_uri() ?>/img/international/quote_first.svg" alt="guillemet ouvert">
-					<img class="quote second" src="<?php echo get_template_directory_uri() ?>/img/international/quote_second.svg" alt="guillemet fermé">
-				</div>
-				
-			</div>
-		</div> -->
 	
 		<!--Responsive-->
 		<!-- <div class="list_container">

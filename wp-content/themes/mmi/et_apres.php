@@ -37,7 +37,7 @@
 				<div>
 					<h3><?php echo $name; ?></h3>
 					<h4><?php echo $job; ?></h4>
-					<p><?php echo $company; ?>, <?php echo $city; ?></p>
+					<p>à <?php echo $company; ?>, <?php echo $city; ?></p>
 				</div>
 				<p><?php echo $content; ?></p>
 			</div>
