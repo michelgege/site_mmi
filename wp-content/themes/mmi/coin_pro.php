@@ -109,6 +109,28 @@
 
 	<section id="form">
 		<h3>Vous aussi, proposer votre projet</h3>
+		<form method="post" action="<?php echo get_template_directory_uri() ?>/post-form.php">
+			<input type="text" placeholder="Nom" name="nom" required>
+			<input type="text" placeholder="Prénom" name="prenom" required>
+
+			<input type="email" placeholder="Email" name="mail" required>
+
+			<textarea placeholder="Description du projet (Durée, missions, compétences requises…)" name="desc" required></textarea>
+
+			<div class="checkbox_container">
+				<label>Projet
+				  <input type="radio" name="stageprojet" value="projet">
+				  <span></span>
+				</label>
+				
+				<label>Stage
+				  <input type="radio" name="stageprojet" value="stage">
+				  <span></span>
+				</label>
+			</div>
+
+			<input type="submit" name="submitpost" value="Envoyer" class="button" id="form_button" required> 
+		</form>
 	</section>
 
 
@@ -117,43 +139,20 @@
 
 
 
-
-
-
-		<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/form_shape.svg" id="form_shape">
-
 		<div id="wrap_form">
 
 			<form method="post" action="<?php echo get_template_directory_uri() ?>/post-form.php">
-				<div class="form_flex">
-					<input type="text" placeholder="Nom" id="name" name="nom" required>
-					<input type="text" placeholder="Prénom" id="surname" name="prenom" required>
-				</div>
-
-				<div class="form_flex">
-				<input type="email" placeholder="Email" id="email" name="mail" required>
-				</div>
-
-				<div class="form_flex">
-				<textarea placeholder="Description du projet (Durée, missions, compétences requises…)" name="desc" id="" required>
-				</textarea>
-				</div>
 				
-				<div class="checkbox_container">
-					<label class="checkbox">Projet
-					  <input type="radio" id="projet" name="stageprojet" value="projet">
-					  <span class="checkmark"></span>
-					</label>
-					
-					<label class="checkbox">Stage
-					  <input type="radio" id="stage" name="stageprojet" value="stage">
-					  <span class="checkmark"></span>
-					</label>
-				</div>
+
+				
+
+				
+				
+				
 				
 
 				<div id="grey_pro">
-				<input type="submit" name="submitpost" value="Envoyer" class="button" id="form_button" required> 
+				
 				</div>
 			</form>
 

@@ -230,58 +230,100 @@ section#form h3 {
   font-weight: var(--font-thin);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-div#wrap_body div.after::after
- {
-  content: "";
-  border: #971212 solid 3px;
-  display: block;
-  width: 188px;
-  height: 194px;
-  transform: rotate(-17deg);
-  margin-top: -194px;
-  box-shadow: 0px 0px 15px 3px #971212;
+section#form form {
+  margin-top: 120px;
+  width: 50%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
+  section#form form input[type=text], section#form form input[type=email], section#form form textarea {
+    background-color: #262626;
+    font-size: 18px;
+    outline: none;
+    border: 0;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    color: white;
+    padding-left: 28px;
+    font-weight: var(--font-light);
+  }
 
-div#wrap_body #form_shape
- {
-  margin-top: -40px;
-}
+  section#form form input[type=text] {
+    height: 60px;
+    width: 40%;
+    margin-bottom: 45px;
+  }
+
+  section#form form input[type=email] {
+    width: 100%;
+    height: 60px;
+    margin-bottom: 45px;
+  }
+
+  section#form form textarea {
+    height: 325px;
+    width: 100%;
+    resize: none;
+    padding-top: 30px;
+  }
+
+  section#form .checkbox_container {
+    display: flex;
+    margin-top: 45px;
+  }
+
+  section#form .checkbox_container label {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    position: relative;
+    cursor: pointer;
+    padding-left: 35px;
+    margin-right: 50px;
+  }
+
+    section#form .checkbox_container label input {
+      position: absolute;
+      opacity: 0;
+      cursor: pointer;
+      height: 0;
+      width: 0;
+    }
+
+    section#form .checkbox_container label span {
+      display: block;
+      position: absolute;
+      margin-right: 14px;
+      width: 18px;
+      height: 18px;
+      border: 1px solid white;
+      left: 0;
+    }
+
+    section#form .checkbox_container label input:checked~span {
+      background-color: white;
+    }
+
+  section#form input[type=submit] {
+    display: block;
+    background: linear-gradient(90deg, var(--color-red) 0%, var(--color-dark-red) 100%);
+    margin-top: 100px;
+    font-size: 22px;
+    border: none;
+    color: white;
+    padding: 25px 80px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+  }
+
+
+
+
 
 /*div#wrap_body #red_square,
 div#wrap_body #white_triangle_three,
@@ -307,174 +349,3 @@ div#wrap_body #border_grey_triangle
   margin-left: -10px;
   padding-top: 60px;
 }*/
-
-div#wrap_body div#wrap_form
- {
-  padding: 0px 220px 0px 220px;
-  background-color: #181818;
-  text-align: center;
-}
-
-div#wrap_body div#wrap_form div.form_flex
- {
-  display: flex;
-}
-
-div#wrap_body div#wrap_form div.form_flex input#name
- {
-  font-weight: 300;
-  margin-top: 105px;
-  font-size: 18px;
-  text-align: left;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.07;
-  letter-spacing: normal;
-  color: white;
-  outline: none;
-  border: 0;
-  border-top: 3px solid white;
-  border-bottom: 3px solid white;
-  padding-left: 28px;
-  height: 61px;
-  background-color: #262626;
-  opacity: 1;
-  width: 45%;
-  margin-right: auto;
-}
-
-div#wrap_body div#wrap_form div.form_flex input#surname
- {
-  font-weight: 300;
-  margin-top: 105px;
-  font-size: 18px;
-  text-align: left;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.07;
-  letter-spacing: normal;
-  color: white;
-  outline: none;
-  border: 0;
-  border-top: 3px solid white;
-  border-bottom: 3px solid white;
-  padding-left: 28px;
-  height: 61px;
-  background-color: #262626;
-  opacity: 1;
-  width: 45%;
-  margin-left: auto;
-}
-
-div#wrap_body div#wrap_form input#email
- {
-  font-weight: 300;
-  margin-top: 45px;
-  font-size: 18px;
-  text-align: left;
-  font-weight: 300;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.07;
-  letter-spacing: normal;
-  color: white;
-  outline: none;
-  border: 0;
-  border-top: 3px solid white;
-  border-bottom: 3px solid white;
-  padding-left: 28px;
-  width: 100%;
-  height: 61px;
-  background-color: #262626;
-  opacity: 1;
-}
-
-div#wrap_body div#wrap_form textarea 
-{
-  font-weight: 300;
-  margin-top: 45px;
-  font-size: 18px;
-  text-align: left;
-  font-weight: 300;
-  font-style: normal;
-  letter-spacing: normal;
-  color: white;
-  outline: none;
-  border: 0;
-  border-top: 3px solid white;
-  border-bottom: 3px solid white;
-  padding: 30px 28px;
-  height: 325px;
-  width: 100%;
-  background-color: #262626;
-  opacity: 1;
-  resize: none;
-}
-
-div#wrap_body div#wrap_form div.checkbox_container
- {
-  display: flex;
-}
-
-div#wrap_body div#wrap_form label.checkbox
- {
-  display: flex;
-  color: white;
-  margin-top: 45px;
-  align-items: center;
-  font-size: 18px;
-  position: relative;
-  cursor: pointer;
-  padding-left: 35px;
-  margin-right: 50px;
-}
-
-div#wrap_body div#wrap_form label.checkbox input
- {
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
-  height: 0;
-  width: 0;
-}
-
-div#wrap_body div#wrap_form label.checkbox input~span.checkmark
- {
-  display: block;
-  position: absolute;
-  margin-right: 14px;
-  width: 18px;
-  height: 18px;
-  border: 1px solid white;
-  left: 0;
-}
-
-div#wrap_body div#wrap_form label.checkbox input:checked~span.checkmark
- {
-  background-color: white;
-}
-
-div#wrap_body div#wrap_form div#grey_pro
- {
-  padding-bottom: 300px;
-}
-
-div#wrap_body div#wrap_form div#grey_pro input[type=submit].button
- {
-  display: block;
-  height: 76px;
-  width: 281px;
-  background: linear-gradient(to right, #971212, #590909);
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 100px;
-  width: 281px;
-  height: 74px;
-  text-align: center;
-  line-height: 74px;
-  font-weight: 300;
-  color: white;
-  font-size: 22px;
-  border: none;
-  font-weight: 300;
-}
