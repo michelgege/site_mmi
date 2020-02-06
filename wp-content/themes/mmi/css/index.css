@@ -5,13 +5,8 @@
 	padding: 25px 65px;
 	display: inline-block;
 	margin-top: 150px;
-	color: white;
 	margin-left: 50%;
 	transform: translateX(-50%);
-}
-
-.scene {
-	position: absolute;
 }
 
 /*Carousels*/
@@ -475,41 +470,48 @@ section#testimony .testimony_container {
 	display: flex;
 	margin-left: 30px;
 	position: relative;
-}
-
-section#testimony .normal {
 	margin-bottom: 100px;
 }
 
-	section#testimony .normal .testimony_titles {
+	section#testimony .testimony_container:last-of-type {
+		margin-bottom: 0;
+	}
+
+section#testimony .testimony_container:nth-child(odd) {
+	flex-direction: row-reverse;
+}
+
+	section#testimony .testimony_container:nth-child(even) .testimony_titles {
 		margin-left: 40px;
 	}
 
-	section#testimony .reverse .testimony_titles {
+	section#testimony .testimony_container:nth-child(odd) .testimony_titles {
 		margin-right: 40px;
 	}
 
 		section#testimony .testimony_container .testimony_titles p:nth-of-type(1) {
 			font-weight: var(--font-extra-bold);
 			font-size: 30px;
+			margin-bottom: 15px;
 		}
 
 		section#testimony .testimony_container .testimony_titles p:nth-of-type(2) {
 			font-weight: var(--font-medium);
 			font-size: 28px;
 			color: var(--color-green);
+			line-height: 1.1em;
 		}
 
-		section#testimony .reverse .testimony_titles p {
+		section#testimony .testimony_container:nth-child(odd) .testimony_titles p {
 			text-align: right;
 		}
 
-		section#testimony .normal .testimony_titles img {
+		section#testimony .testimony_container:nth-child(even) .testimony_titles img {
 			margin-left: 150px;
 			margin-top: 10px;
 		}
 
-		section#testimony .reverse .testimony_titles img {
+		section#testimony .testimony_container:nth-child(odd) .testimony_titles img {
 			margin-right: 150px;
 			margin-top: 10px;
 		}
@@ -518,16 +520,15 @@ section#testimony .normal {
 		font-size: 17px;
 		text-align: center;
 		width: 40%;
-		line-height: 20px;
 		margin-top: 30px;
 		line-height: 25px;
 	}
 
-	section#testimony .normal .testimony_content {
+	section#testimony .testimony_container:nth-child(even) .testimony_content {
 		margin-left: auto;
 	}
 
-	section#testimony .reverse .testimony_content {
+	section#testimony .testimony_container:nth-child(even) .testimony_content {
 		margin-right: auto;
 	}
 
@@ -548,26 +549,27 @@ section#testimony .normal {
 			border: 3px solid var(--color-green);
 		}
 
-		section#testimony .normal .testimony_img:after {
+		section#testimony .testimony_container:nth-child(even) .testimony_img:after {
 			transform: rotate(-15deg);
 		}
 
-		section#testimony .reverse .testimony_img:after {
+		section#testimony .testimony_container:nth-child(odd) .testimony_img:after {
 			transform: rotate(15deg);
 		}
 
 		section#testimony .testimony_container .testimony_img >img {
 			width: 200px;
 			height: 200px;
+			object-fit: cover;
 		}
 
-		section#testimony .normal .testimony_quote {
+		section#testimony .testimony_container:nth-child(even) .testimony_quote {
 			position: absolute;
 			top: -40px;
 			right: -30px;
 		}
 
-		section#testimony .reverse .testimony_quote {
+		section#testimony .testimony_container:nth-child(odd) .testimony_quote {
 			position: absolute;
 			top: -40px;
 			left: -30px;

@@ -1,38 +1,70 @@
-div#wrap_body
- {
-  background-color: #181818;
-  padding: 0px 185px 0px 185px;
-  font-family: 'Raleway', sans-serif;
+h2::after {
+  background-color: var(--color-dark-red);
 }
 
-div#wrap_body h2.pro_title
- {
-  font-weight: 300;
-  color: white;
-  text-align: left;
-  font-size: 70px;
-  margin-left: -55px;
-}
-
-div#wrap_body h2.pro_title::after
- {
-  background-color: #590909;
-}
-
-div#wrap_body div#company
- {
-  padding-top: 111px;
-}
-
-div#wrap_body div#company h4.text
- {
-  font-weight: 600;
-  color: white;
+/*Section Need_us*/
+section#need_us #company {
+  font-weight: var(--font-semi-bold);
   text-align: right;
   font-size: 18px;
 }
 
-div#wrap_body .scene
+section#need_us .need_us_content {
+  margin-top: 100px;
+}
+
+  section#need_us .need_us_content p {
+    width: 50%;
+    display: inline-block;
+  }
+
+  section#need_us .need_us_content:first-of-type >div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  section#need_us .need_us_content:first-of-type .link_button {
+    background: linear-gradient(90deg, var(--color-red) 0%, var(--color-dark-red) 100%);
+    font-weight: var(--font-light);
+    font-size: 22px;
+    padding: 25px 40px;
+  }
+
+  section#need_us .need_us_content h3 {
+    font-weight: var(--font-semi-bold);
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+
+section#need_us .need_us_content:nth-of-type(2) h3, section#need_us .need_us_content:nth-of-type(3) h3 {
+  position: relative;
+}
+
+section#need_us .need_us_content:nth-of-type(2) h3::after, section#need_us .need_us_content:nth-of-type(3) h3::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 10px;
+  width: 55%;
+  height: 400%;
+  background-color: var(--color-dark-red);
+  z-index: -1;
+}
+
+section#need_us .need_us_content:nth-of-type(2) h3::after {
+  left: 0;
+}
+
+section#need_us .need_us_content:nth-of-type(3) h3::after {
+  right: 0
+}
+
+section#need_us .need_us_content:nth-of-type(3), section#need_us .need_us_content:nth-of-type(4) {
+  text-align: right;
+}
+
+/*div#wrap_body .scene
  {
   margin: 0;
   padding-left: 0;
@@ -54,186 +86,9 @@ div#wrap_body .scene #border_red_triangle
  {
   padding-top: 50px;
   margin-left: -30px;
-}
+}*/
 
-div#wrap_body div#skills
- {
-  padding-top: 47px;
-  padding-bottom: 100px;
-}
-
-div#wrap_body div#skills h3.pro_subtitle
- {
-  font-weight: 600;
-  color: white;
-  text-align: left;
-  font-size: 30px;
-  padding-bottom: 25px;
-  margin-top: 190px;
-}
-
-div#wrap_body div#skills div#paragraph_button
- {
-  display: flex;
-}
-
-div#wrap_body div#skills div#paragraph_button p.pro_paragraph
- {
-  max-width: 710px;
-  max-height: 126px;
-  font-weight: 400;
-  color: white;
-  text-align: left;
-  font-size: 15px;
-  line-height: 1.2;
-}
-
-div#wrap_body div#skills div#paragraph_button p.pro_paragraph span.bold
- {
-  font-weight: bold;
-}
-
-div#wrap_body div#skills div#paragraph_button a#rea
- {
-  margin-left: auto;
-}
-
-div#wrap_body div#skills div#paragraph_button a#rea input[type=button].button
- {
-  display: block;
-  height: 76px;
-  width: 281px;
-  background: linear-gradient(to right, #971212, #590909);
-  margin-left: auto;
-  width: 281px;
-  height: 74px;
-  text-align: center;
-  line-height: 74px;
-  font-weight: 400;
-  color: white;
-  font-size: 22px;
-  border: none;
-  font-weight: 300;
-  font-family: 'Raleway', sans-serif;
-}
-
-div#wrap_body div#projects
- {
-  padding-top: 47px;
-  padding-bottom: 100px;
-}
-
-div#wrap_body div#projects h3.pro_subtitle
- {
-  font-weight: 600;
-  color: white;
-  text-align: left;
-  font-size: 30px;
-  padding-bottom: 25px;
-}
-
-div#wrap_body div#projects p.pro_paragraph_min
- {
-  max-width: 500px;
-  max-height: 126px;
-  font-weight: 400;
-  color: white;
-  text-align: left;
-  font-size: 15px;
-  line-height: 1.2;
-}
-
-div#wrap_body div#projects p.pro_paragraph_min span.bold
- {
-  font-weight: bold;
-}
-
-div#wrap_body div#projects::after
- {
-  display: block;
-  content: "";
-  width: 570px;
-  height: 70px;
-  background-color: #590909;
-  margin-top: -115px;
-}
-
-div#wrap_body div#stage
- {
-  padding-top: 47px;
-  padding-bottom: 100px;
-}
-
-div#wrap_body div#stage h3.pro_subtitle
- {
-  font-weight: 600;
-  color: white;
-  text-align: right;
-  font-size: 30px;
-  padding-bottom: 25px;
-}
-
-div#wrap_body div#stage p.pro_paragraph_min
- {
-  max-width: 500px;
-  max-height: 126px;
-  font-weight: 400;
-  color: white;
-  text-align: right;
-  font-size: 15px;
-  line-height: 1.2;
-  margin-left: auto;
-}
-
-div#wrap_body div#stage p.pro_paragraph_min span.bold
- {
-  font-weight: bold;
-}
-
-div#wrap_body div#stage::after
- {
-  display: block;
-  content: "";
-  width: 570px;
-  height: 70px;
-  background-color: #590909;
-  margin-top: -115px;
-  margin-left: auto;
-}
-
-div#wrap_body div#event
- {
-  padding-top: 47px;
-  padding-bottom: 100px;
-}
-
-div#wrap_body div#event h3.pro_subtitle
- {
-  font-weight: 600;
-  color: white;
-  text-align: right;
-  font-size: 30px;
-  padding-bottom: 25px;
-}
-
-div#wrap_body div#event p.pro_paragraph_min
- {
-  max-width: 500px;
-  max-height: 126px;
-  font-weight: 400;
-  color: white;
-  text-align: right;
-  font-size: 15px;
-  line-height: 1.2;
-  margin-left: auto;
-}
-
-div#wrap_body div#event p.pro_paragraph_min span.bold
- {
-  font-weight: bold;
-}
-
-div#wrap_body #red_triangle,
+/*div#wrap_body #red_triangle,
 div#wrap_body #border_white_triangle,
 div#wrap_body #grey_triangle
  {
@@ -256,165 +111,159 @@ div#wrap_body #grey_triangle
  {
   margin-left: 120px;
   padding-top: 100px;
-}
+}*/
 
-div#wrap_body div.testimony
- {
-  padding: 0px 85px 0px 60px;
-  z-index: 1;
-}
-
-div#wrap_body div.testimony div.testimony_block
- {
+/*Section Testomny*/
+section#testimony .testimony_container {
   display: flex;
-  padding-top: 100px;
+  margin-left: 30px;
+  position: relative;
+  margin-bottom: 100px;
 }
 
-div#wrap_body div.testimony div.testimony_block div.column
- {
-  flex-direction: columns;
-}
+  section#testimony .testimony_container:last-of-type {
+    margin-bottom: 0;
+  }
 
-div#wrap_body div.testimony div.testimony_block div.column h3.testimony_name
- {
-  font-weight: 600;
-  color: white;
-  text-align: left;
-  font-size: 30px;
-  margin-left: 40px;
-}
-
-div#wrap_body div.testimony div.testimony_block div.column span.uppercase
- {
-  text-transform: uppercase;
-}
-
-div#wrap_body div.testimony div.testimony_block div.column p.profession
- {
-  font-weight: 400;
-  color: #971212;
-  text-align: left;
-  font-size: 28px;
-  margin-left: 40px;
-  padding-top: 15px;
-}
-
-div#wrap_body div.testimony div.testimony_block div.column #pro_shape
- {
-  padding-top: 10px;
-  margin-left: 180px;
-}
-
-div#wrap_body div.testimony div.testimony_block p.testimony_comment
- {
-  font-weight: 300;
-  color: white;
-  text-align: center;
-  font-size: 18px;
-  width: 465px;
-  margin-left: auto;
-  line-height: 1.2;
-}
-
-div#wrap_body div.testimony div.testimony_block #quote
- {
-  position: absolute;
-  top: 1850px;
-  right: 290px;
-}
-
-div#wrap_body img#testimony_picture
- {
-  width: 188px;
-  height: 194px;
-}
-
-div#wrap_body div.after::after
- {
-  content: "";
-  border: #971212 solid 3px;
-  display: block;
-  width: 188px;
-  height: 194px;
-  transform: rotate(-17deg);
-  margin-top: -194px;
-  margin-bottom: 105px;
-}
-
-div#wrap_body div.testimony_second
- {
-  padding: 0px 85px 0px 60px;
-  z-index: 1;
-  padding-bottom: 185px;
-}
-
-div#wrap_body div.testimony_second div.testimony_block_second
- {
-  display: flex;
-  padding-top: 100px;
+section#testimony .testimony_container:nth-child(odd) {
   flex-direction: row-reverse;
 }
 
-div#wrap_body div.testimony_second div.testimony_block_second div.column
- {
-  flex-direction: columns;
+  section#testimony .testimony_container:nth-child(even) .testimony_titles {
+    margin-left: 40px;
+  }
+
+  section#testimony .testimony_container:nth-child(odd) .testimony_titles {
+    margin-right: 40px;
+  }
+
+    section#testimony .testimony_container .testimony_titles p:nth-of-type(1) {
+      font-weight: var(--font-extra-bold);
+      font-size: 30px;
+      margin-bottom: 15px;
+    }
+
+    section#testimony .testimony_container .testimony_titles p:nth-of-type(2) {
+      font-weight: var(--font-medium);
+      font-size: 28px;
+      color: var(--color-dark-red);
+      line-height: 1.1em;
+    }
+
+    section#testimony .testimony_container:nth-child(odd) .testimony_titles p {
+      text-align: right;
+    }
+
+    section#testimony .testimony_container:nth-child(even) .testimony_titles img {
+      margin-left: 150px;
+      margin-top: 10px;
+    }
+
+    section#testimony .testimony_container:nth-child(odd) .testimony_titles img {
+      margin-right: 150px;
+      margin-top: 10px;
+    }
+
+  section#testimony .testimony_container .testimony_content {
+    font-size: 17px;
+    text-align: center;
+    width: 40%;
+    margin-top: 30px;
+    line-height: 25px;
+  }
+
+  section#testimony .testimony_container:nth-child(even) .testimony_content {
+    margin-left: auto;
+  }
+
+  section#testimony .testimony_container:nth-child(even) .testimony_content {
+    margin-right: auto;
+  }
+
+  section#testimony .testimony_container .testimony_img {
+    position: relative;
+    height: 200px;
+    width: 200px;
+  }
+
+    section#testimony .testimony_container .testimony_img:after {
+      content: "";
+      display: block;
+      position: absolute;
+      top: -3px;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 3px solid var(--color-dark-red);
+    }
+
+    section#testimony .testimony_container:nth-child(even) .testimony_img:after {
+      transform: rotate(-15deg);
+    }
+
+    section#testimony .testimony_container:nth-child(odd) .testimony_img:after {
+      transform: rotate(15deg);
+    }
+
+    section#testimony .testimony_container .testimony_img >img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    section#testimony .testimony_container:nth-child(even) .testimony_quote {
+      position: absolute;
+      top: -40px;
+      right: -30px;
+    }
+
+    section#testimony .testimony_container:nth-child(odd) .testimony_quote {
+      position: absolute;
+      top: -40px;
+      left: -30px;
+      transform: rotate(180deg);
+    }
+
+/*Section Form*/
+section#form h3 {
+  font-size: 60px;
+  font-weight: var(--font-thin);
 }
 
-div#wrap_body div.testimony_second div.testimony_block_second div.column h3.testimony_name
- {
-  font-weight: 600;
-  color: white;
-  text-align: right;
-  font-size: 30px;
-  margin-right: 40px;
-}
 
-div#wrap_body div.testimony_second div.testimony_block_second div.column span.uppercase
- {
-  text-transform: uppercase;
-}
 
-div#wrap_body div.testimony_second div.testimony_block_second div.column p.profession
- {
-  font-weight: 400;
-  color: #971212;
-  text-align: right;
-  font-size: 28px;
-  margin-right: 40px;
-  padding-top: 15px;
-}
 
-div#wrap_body div.testimony_second div.testimony_block_second div.column #pro_shape
- {
-  padding-top: 10px;
-  margin-right: 185px;
-  transform: rotateX(-180deg);
-}
 
-div#wrap_body div.testimony_second div.testimony_block_second p.testimony_comment
- {
-  font-weight: 300;
-  color: white;
-  text-align: center;
-  font-size: 18px;
-  max-width: 465px;
-  margin-right: auto;
-  line-height: 1.2;
-}
 
-div#wrap_body div.testimony_second div.testimony_block_second #quote
- {
-  position: absolute;
-  transform: rotate(180deg);
-  top: 2375px;
-  left: 250px;
-}
 
-div#wrap_body img#testimony_picture
- {
-  width: 188px;
-  height: 194px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 div#wrap_body div.after::after
  {
@@ -428,20 +277,13 @@ div#wrap_body div.after::after
   box-shadow: 0px 0px 15px 3px #971212;
 }
 
-div#wrap_body h3#form
- {
-  font-weight: 100;
-  color: white;
-  text-align: left;
-  font-size: 60px;
-}
 
 div#wrap_body #form_shape
  {
   margin-top: -40px;
 }
 
-div#wrap_body #red_square,
+/*div#wrap_body #red_square,
 div#wrap_body #white_triangle_three,
 div#wrap_body #border_grey_triangle
  {
@@ -464,7 +306,7 @@ div#wrap_body #border_grey_triangle
  {
   margin-left: -10px;
   padding-top: 60px;
-}
+}*/
 
 div#wrap_body div#wrap_form
  {
@@ -480,7 +322,6 @@ div#wrap_body div#wrap_form div.form_flex
 
 div#wrap_body div#wrap_form div.form_flex input#name
  {
-  font-family: 'Raleway', sans-serif;
   font-weight: 300;
   margin-top: 105px;
   font-size: 18px;
@@ -504,7 +345,6 @@ div#wrap_body div#wrap_form div.form_flex input#name
 
 div#wrap_body div#wrap_form div.form_flex input#surname
  {
-  font-family: 'Raleway', sans-serif;
   font-weight: 300;
   margin-top: 105px;
   font-size: 18px;
@@ -528,7 +368,6 @@ div#wrap_body div#wrap_form div.form_flex input#surname
 
 div#wrap_body div#wrap_form input#email
  {
-  font-family: 'Raleway', sans-serif;
   font-weight: 300;
   margin-top: 45px;
   font-size: 18px;
@@ -552,7 +391,6 @@ div#wrap_body div#wrap_form input#email
 
 div#wrap_body div#wrap_form textarea 
 {
-  font-family: 'Raleway', sans-serif;
   font-weight: 300;
   margin-top: 45px;
   font-size: 18px;
@@ -639,5 +477,4 @@ div#wrap_body div#wrap_form div#grey_pro input[type=submit].button
   font-size: 22px;
   border: none;
   font-weight: 300;
-  font-family: 'Raleway', sans-serif;
 }

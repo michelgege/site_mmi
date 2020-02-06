@@ -13,6 +13,7 @@
 
 	/*Colors*/
 	--color-red: #971212;
+	--color-dark-red: #590909;
 	--color-pink: #BE1E83;
 	--color-purple: #A93DC8;
 	--color-light-blue: #2079D2;
@@ -79,6 +80,10 @@ section {
 	color: white;
 	padding: 150px 0;
 	position: relative;
+}
+
+strong {
+	font-weight: var(--font-bold);
 }
 
 .bold {

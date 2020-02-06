@@ -177,7 +177,7 @@ get_header();
 			<p >Nous vous accueillons sur le site du Bourget du Lac dans des locaux équipés de matériel informatique et 
 			audiovisuel récent que les étudiants peuvent emprunter.</p>
 			<div class="video">
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/GiRjmLiyoe8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/0n6iMZ0-t5E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</div>
 		</div>
 	</section>

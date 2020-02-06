@@ -6,20 +6,36 @@
 
 <?php get_header(); ?>
 
-<section>
+<div class="wrap">
+	<section id="need_us">
+		<h2>Besoin de nous ?</h2>
 
-	<div id="wrap_body">
-
-		<h2 class="pro_title"> Besoin de nous ? </h2>
-
-
-		<div id="company">
-			<h4 class="text"> Vous êtes une entrepise ? <br/>
-			Nos étudiants peuvent vous aider via les stages ou les projets. </h4>
+		<p id="company">Vous êtes une entrepise ?<br/>Nos étudiants peuvent vous aider via les stages ou les projets.</p>
+	
+		<div class="need_us_content">
+			<h3>Les compétences</h3>
+			<div>
+				<?php the_field('pro_content_skills'); ?>
+				<a class="link_button" href="realisation">Voir les réalisations</a>
+			</div>
 		</div>
 
+		<div class="need_us_content">
+			<h3>Les projets</h3>
+			<?php the_field('pro_content_projects'); ?>
+		</div>
 
-		<div id="scene" class="scene">
+		<div class="need_us_content">
+			<h3>Le stage</h3>
+			<?php the_field('pro_content_internship'); ?>
+		</div>
+
+		<div class="need_us_content">
+			<h3>L'évènement MMI Et Après</h3>
+			<?php the_field('pro_content_mmi_et_apres'); ?>
+		</div>
+
+		<!-- <div id="scene" class="scene">
 			<div  class="layer" data-depth="0.10">
 				<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/pro_grey_square_1.svg" id="grey_square" alt="">
 			</div> 
@@ -50,93 +66,59 @@
 			<div  class="layer" data-depth="0.60">
 				<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/pro_border_grey_triangle_3.svg" id="border_grey_triangle" alt=""> 
 			</div>
+		</div> -->
+	</section>
 
 
 
+	<section id="testimony">
+		<h2>Les témoignages</h2>
+		<?php if( have_rows('pro_testimonials') ): ?>
 
-		</div>
+			<?php while( have_rows('pro_testimonials') ): the_row(); 
 
-		<div id="skills"> 
-			<h3 class="pro_subtitle"> Les Compétences </h3>
+				// vars
+				$image = get_sub_field('pro_testimony_img');
+				$name = get_sub_field('pro_testimony_name');
+				$job = get_sub_field('pro_testimony_job');
+				$content = get_sub_field('pro_testimony_content');
 
-			<div id="paragraph_button">
-				<div id="pro_paragraph_p">
-					<p class="pro_paragraph"><?php the_field('pro_content_skills'); ?></p>
+				?>
+
+				<div class="testimony_container">
+					<img class="testimony_quote" src="<?php echo get_template_directory_uri() ?>/img/quote.svg" alt="">
+					<div class="testimony_img">
+						<img src="<?php echo $image; ?>" alt="">
+					</div>
+					<div class="testimony_titles">
+						<p><?php echo $name; ?></p>
+						<p><?php echo $job; ?></p>
+						<img src="<?php echo get_template_directory_uri() ?>/img/accueil/testimony_line_normal.svg" alt="">
+					</div>
+					<div class="testimony_content">
+						<?php echo $content; ?>
+					</div>
 				</div>
 
-				<a href="realisations" id="rea"> <input type="button" class="button" href="realisations" value="Voir les realisations"> </a>
-			</div>
-			
-		</div>
+			<?php endwhile; ?>
+
+		<?php endif; ?>
+	</section>
 
 
 
-		<div id="projects"> 
-			<h3 class="pro_subtitle"> Les Projets </h3>
-
-			<p class="pro_paragraph_min"><?php the_field('pro_content_projects'); ?></p>
-		</div>
-
-		<div id="stage"> 
-			<h3 class="pro_subtitle"> Le Stage </h3>
-
-			<p class="pro_paragraph_min"><?php the_field('pro_content_internship'); ?></p>
-		</div>
+	<section id="form">
+		<h3>Vous aussi, proposer votre projet</h3>
+	</section>
 
 
 
 
 
 
-		<div id="event"> 
-			<h3 class="pro_subtitle"> L'évènement MMI Et Après </h3>
-
-			<p class="pro_paragraph_min"><?php the_field('pro_content_mmi_et_apres'); ?></p>
-		</div>
-
-
-		<h2 class="pro_title"> Les Témoignages </h2>
-
-		<div class="testimony">
-
-			<div class="testimony_block">
-				<div class="after">
-					<img src="<?php the_field("pro_testimony_first_img"); ?>" id="testimony_picture" alt="">
-				</div>
-
-				<div class="column">
-					<h3 class="testimony_name"><?php the_field('pro_testimony_first_name'); ?></h3>
-					<p class="profession"><?php the_field('pro_testimony_first_job'); ?></p> 
-					<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/pro_shape.svg" id="pro_shape" alt="">
-				</div>
-
-				<p class="testimony_comment"><?php the_field('pro_testimony_first_content'); ?></p>
-				<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/quote.svg" id="quote" alt="">
-			</div>
-		</div>
-
-		<div class="testimony_second">
-
-			<div class="testimony_block_second">
-				<div class="after">
-					<img src="<?php the_field("pro_testimony_second_img"); ?>" id="testimony_picture" alt="">
-				</div>
-
-				<div class="column">
-					<h3 class="testimony_name"><?php the_field('pro_testimony_second_name'); ?></h3>
-					<p class="profession"><?php the_field('pro_testimony_second_job'); ?></p> 
-					<img src="<?php echo get_template_directory_uri() ?>/img//coin_pro/pro_shape.svg" id="pro_shape" alt="">
-				</div>
-
-				<p class="testimony_comment"><?php the_field('pro_testimony_second_content'); ?></p>
-				<img src="<?php echo get_template_directory_uri() ?>/img//coin_pro/quote.svg" id="quote" alt="">
-			</div>
-		</div>
 
 
 
-
-		<h3 id="form"> Contactez-nous </h2>
 
 		<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/form_shape.svg" id="form_shape">
 
@@ -176,9 +158,5 @@
 			</form>
 
 		</div>
-
-	</div>
-
-</section>
-
+</div>
 <?php get_footer(); ?>

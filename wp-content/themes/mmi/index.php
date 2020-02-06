@@ -15,7 +15,7 @@
 	<section id="skills">
 		<h2>LES COMPÉTENCES</h2>
 		<div id="skills_container">
-			<p><?php the_field('home_content_skills'); ?></p>
+			<p><?php the_field('home_skills_content'); ?></p>
 			<div id="skills_content">
 				<div>
 					<img src="<?php echo get_template_directory_uri() ?>/img/accueil/audiovisuel.svg" alt="Logo audiovisuel">
@@ -51,30 +51,22 @@
 	<section id="stats">
 		<h2>MMI EN CHIFFRES</h2>
 		<div id="stats_container">
-			<div class="stats_content">
-				<div>
-					<p><?php the_field('home_first_number'); ?></p>
+			<?php while( have_rows('home_numbers') ): the_row(); 
+
+				// vars
+				$number = get_sub_field('home_numbers_content');
+				$desc = get_sub_field('home_numbers_desc');
+
+				?>
+
+				<div class="stats_content">
+					<div>
+						<p><?php echo $number; ?></p>
+					</div>
+					<p><?php echo $desc; ?></p>
 				</div>
-				<p><?php the_field('home_first_desc'); ?></p>
-			</div>
-			<div class="stats_content">
-				<div>
-					<p><?php the_field('home_second_number'); ?></p>
-				</div>
-				<p><?php the_field('home_second_desc'); ?></p>
-			</div>
-			<div class="stats_content">
-				<div>
-					<p><?php the_field('home_third_number'); ?></p>
-				</div>
-				<p><?php the_field('home_third_desc'); ?></p>
-			</div>
-			<div class="stats_content">
-				<div>
-					<p><?php the_field('home_fourth_number'); ?></p>
-				</div>
-				<p><?php the_field('home_fourth_desc'); ?></p>
-			</div>
+
+			<?php endwhile; ?>
 		</div>
 		<div class="scene" id="stats_scene_1">
 			<img data-depth="0.4" src="<?php echo get_template_directory_uri() ?>/img/accueil/stats_triangle_1.svg" alt="">	
@@ -113,7 +105,7 @@
 			<img id="test_slider" src="<?php echo get_template_directory_uri() ?>/img/accueil/slider_1_arrow_left.svg" alt="">
 			<img id="test_slider_2" src="<?php echo get_template_directory_uri() ?>/img/accueil/slider_1_arrow_right.svg" alt="">
 		</div>
-		<a class="link_button" href="#">Voir la vidéo <span class="bold">360°</span></a>
+		<a class="link_button" href="mmi-en-detail.video">Voir la vidéo <span class="bold">360°</span></a>
 		<div class="scene" id="department_scene_1">
 			<img data-depth="0.5" src="<?php echo get_template_directory_uri() ?>/img/accueil/department_triangle_1.svg" alt="">
 			<img data-depth="1.4" src="<?php echo get_template_directory_uri() ?>/img/accueil/department_triangle_2.svg" alt="">
@@ -154,7 +146,7 @@
 		<div id="international_content">
 			<div class="main-carousel" data-flickity>
 	  			<?php 
-					$images = get_field('international_slider_gallery');
+					$images = get_field('home_international_slider_gallery');
 				?>
 				<?php foreach( $images as $image ): ?>
 		            <div class="carousel-cell">
@@ -189,30 +181,36 @@
 
 	<section id="testimony">
 		<h2>LES TÉMOIGNAGES</h2>
-		<div class="testimony_container normal">
-			<img class="testimony_quote" src="<?php echo get_template_directory_uri() ?>/img/quote.svg" alt="">
-			<div class="testimony_img">
-				<img src="<?php the_field("home_testimony_first_img"); ?>" alt="">
-			</div>
-			<div class="testimony_titles">
-				<p><?php the_field("home_testimony_first_name"); ?></p>
-				<p><?php the_field("home_testimony_first_job"); ?></p>
-				<img src="<?php echo get_template_directory_uri() ?>/img/accueil/testimony_line_normal.svg" alt="">
-			</div>
-			<p class="testimony_content"><?php the_field("home_testimony_first_content"); ?></p>
-		</div>
-		<div class="testimony_container reverse">
-			<img class="testimony_quote" src="<?php echo get_template_directory_uri() ?>/img/quote.svg" alt="">
-			<p class="testimony_content"><?php the_field("home_testimony_second_content"); ?></p>
-			<div class="testimony_titles">
-				<p><?php the_field("home_testimony_second_name"); ?></p>
-				<p><?php the_field("home_testimony_second_job"); ?></p>
-				<img src="<?php echo get_template_directory_uri() ?>/img/accueil/testimony_line_reverse.svg" alt="">
-			</div>
-			<div class="testimony_img">
-				<img src="<?php the_field("home_testimony_second_img"); ?>" alt="">
-			</div>
-		</div>
+		<?php if( have_rows('home_testimonials') ): ?>
+
+			<?php while( have_rows('home_testimonials') ): the_row(); 
+
+				// vars
+				$image = get_sub_field('home_testimony_img');
+				$name = get_sub_field('home_testimony_name');
+				$job = get_sub_field('home_testimony_job');
+				$content = get_sub_field('home_testimony_content');
+
+				?>
+
+				<div class="testimony_container">
+					<img class="testimony_quote" src="<?php echo get_template_directory_uri() ?>/img/quote.svg" alt="">
+					<div class="testimony_img">
+						<img src="<?php echo $image; ?>" alt="">
+					</div>
+					<div class="testimony_titles">
+						<p><?php echo $name; ?></p>
+						<p><?php echo $job; ?></p>
+						<img src="<?php echo get_template_directory_uri() ?>/img/accueil/testimony_line_normal.svg" alt="">
+					</div>
+					<div class="testimony_content">
+						<?php echo $content; ?>
+					</div>
+				</div>
+
+			<?php endwhile; ?>
+
+		<?php endif; ?>
 		<a class="link_button" href="et-apres">Après MMI ?</a>
 	</section>
 </div>
