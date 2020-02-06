@@ -2429,81 +2429,30 @@ get_header();
 		<h3>Les démarches</h3>
 		<img src="<?php echo get_template_directory_uri() ?>/img/international/testtest.svg" id="sub_title"/>
 
-
-		<?php while( have_rows('international') ): the_row()?>
-			<?php while( have_rows('steps') ): the_row()?>
-				<?php while( have_rows('intership') ): the_row()?>
-
-					<div class="container">
-						<h4>Stage</h4>
-						<div class="content">
-							<p><?php the_field('content'); ?></p>
-							<!-- <ul>
-								<?php while( have_rows('international_intership_list') ): the_row(); 
-
-									// vars
-									$content = get_sub_field('international_intership_list_item');
-
-									?>
-
-									<li><?php echo $content; ?></li>
-
-								<?php endwhile; ?>
-							</ul> -->
-						</div>
-					</div>
-
-
-
-
-
-
-				    <!-- <div class="container">
-				    <?php while( have_rows('locations') ): the_row(); ?>
-				        <div class="location">
-				            <h3><?php the_sub_field('title'); ?></h3>
-				            <p><?php the_sub_field('description'); ?></p>
-				            <?php if( have_rows('staff_members') ): ?>
-				                <ul class="staff-members">
-				                <?php while( have_rows('staff_members') ): the_row();
-				                    $image = get_sub_field('image');
-				                    ?>
-				                    <li>
-				                        <?php echo wp_get_attachment_image( $image['ID'], 'full' ); ?>
-				                        <h4><?php the_sub_field('name'); ?></h4>
-				                    </li>
-				                <?php endwhile; ?>
-				                </ul>
-				            <?php endif; ?>
-				        </div>
-				    <?php endwhile; ?>
-				    </div> -->
-		    	<?php endwhile; ?>
-		    <?php endwhile; ?>
-		<?php endwhile; ?>
-
-		<!-- <div class="container">
+		<div class="container">
 			<h4>Stage</h4>
 			<div class="content">
-				<p><?php the_field('international_internship_content'); ?></p>
+				<?php the_field('international_steps_internship_content'); ?>
 				<ul>
-					<?php while( have_rows('international_intership_list') ): the_row(); 
-
+					<?php while( have_rows('international_steps_internship_list') ): the_row(); 
+		
 						// vars
-						$content = get_sub_field('international_intership_list_item');
+						$content = get_sub_field('international_steps_internship_list_item');
+						// var_dump(get_sub_field('international_steps_internship_list_item'));
 
 						?>
-
+		
 						<li><?php echo $content; ?></li>
-
+		
 					<?php endwhile; ?>
 				</ul>
 			</div>
-		</div> -->
+		</div>
+		    	
 		<div class="container">
 			<h4>Semestres</h4>
 			<div class="content">
-				<p><?php the_field('international_steps_semesters_content'); ?></p>
+				<?php the_field('international_steps_semesters_content'); ?>
 				<ul>
 					<?php while( have_rows('international_steps_semesters_list') ): the_row(); 
 
@@ -2518,10 +2467,11 @@ get_header();
 				</ul>
 			</div>
 		</div>
+
 		<div class="container">
 			<h4>Comment partir ?</h4>
 			<div class="content">
-				<p><?php the_field('international_steps_howtogo_content'); ?></p>
+				<?php the_field('international_steps_howtogo_content'); ?>
 				<ul>
 					<?php while( have_rows('international_steps_howtogo_list') ): the_row(); 
 
