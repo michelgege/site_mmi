@@ -186,11 +186,21 @@ section#steps .container:first-of-type {
 			}
 
 /*Parallax*/
-section#steps .container:nth-of-type(1) .scene {
-	
+section#steps >.scene {
+	top: 10%;
+	left: 5%;
 }
-	section#steps .container:nth-of-type(1) .scene img:nth-of-type(1) {
-		
+	section#steps >.scene img:nth-of-type(2) {
+		margin-left: 80px;
+	}
+
+section#steps .container:nth-of-type(1) .scene {
+	bottom: 6%;
+	left: 10%;
+}
+	section#steps .container:nth-of-type(1) .scene img:nth-of-type(2) {
+		margin-left: 60px;
+		margin-top: 30px;
 	}
 
 section#steps .container:nth-of-type(2) .scene {
