@@ -35,38 +35,12 @@
 			<?php the_field('pro_content_mmi_et_apres'); ?>
 		</div>
 
-		<!-- <div id="scene" class="scene">
-			<div  class="layer" data-depth="0.10">
-				<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/pro_grey_square_1.svg" id="grey_square" alt="">
-			</div> 
-			<div  class="layer" data-depth="0.40">
-				<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/pro_white_triangle_1.svg" id="white_triangle" alt="">
-			</div> 
-			<div  class="layer" data-depth="0.90">
-				<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/pro_border_red_triangle_1.svg" id="border_red_triangle" alt="">
-			</div> 
-
-
-			<div  class="layer" data-depth="-.50">
-				<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/pro_red_triangle_2.svg" id="red_triangle" alt="">
-			</div> 
-			<div  class="layer" data-depth="0.20">
-				<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/pro_border_white_triangle_2.svg" id="border_white_triangle" alt="">
-			</div> 
-			<div  class="layer" data-depth="0.70">
-				<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/pro_grey_triangle_2.svg" id="grey_triangle" alt="">
-			</div>
-
-			<div  class="layer" data-depth="0.30">
-				<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/pro_red_square_3.svg" id="red_square" alt="">
-			</div> 
-			<div  class="layer" data-depth="-0.20">
-				<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/pro_white_triangle_3.svg" id="white_triangle_three" alt="">
-			</div> 
-			<div  class="layer" data-depth="0.60">
-				<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/pro_border_grey_triangle_3.svg" id="border_grey_triangle" alt=""> 
-			</div>
-		</div> -->
+		<div class="scene">
+			<img data-depth="0.8" src="<?php echo get_template_directory_uri() ?>/img/coin_pro/need_us_rectangle.svg" alt="">
+			<img data-depth="-1.5" src="<?php echo get_template_directory_uri() ?>/img/coin_pro/need_us_triangle_first.svg" alt="">
+			<img data-depth="2.3" src="<?php echo get_template_directory_uri() ?>/img/coin_pro/need_us_triangle_second.svg" alt="">
+		</div>
+		
 	</section>
 
 
@@ -88,7 +62,7 @@
 				<div class="testimony_container">
 					<img class="testimony_quote" src="<?php echo get_template_directory_uri() ?>/img/quote.svg" alt="">
 					<div class="testimony_img">
-						<img src="<?php echo $image; ?>" alt="">
+						<img src="<?php echo $image; ?>" alt="Photo Profil">
 					</div>
 					<div class="testimony_titles">
 						<p><?php echo $name; ?></p>
@@ -103,12 +77,18 @@
 			<?php endwhile; ?>
 
 		<?php endif; ?>
+		<div class="scene">
+			<img data-depth="-0.8" src="<?php echo get_template_directory_uri() ?>/img/coin_pro/testimony_triangle_first.svg" alt="">
+			<img data-depth="1.4" src="<?php echo get_template_directory_uri() ?>/img/coin_pro/testimony_triangle_second.svg" alt="">
+			<img data-depth="-1.9" src="<?php echo get_template_directory_uri() ?>/img/coin_pro/testimony_triangle_third.svg" alt="">
+		</div>
 	</section>
 
 
 
 	<section id="form">
 		<h3>Vous aussi, proposer votre projet</h3>
+		<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/form_line.svg" alt="">
 		<form method="post" action="<?php echo get_template_directory_uri() ?>/post-form.php">
 			<input type="text" placeholder="Nom" name="nom" required>
 			<input type="text" placeholder="Prénom" name="prenom" required>
@@ -130,32 +110,17 @@
 			</div>
 
 			<input type="submit" name="submitpost" value="Envoyer" class="button" id="form_button" required> 
+			<div class="scene">
+				<img data-depth="-0.6" src="<?php echo get_template_directory_uri() ?>/img/coin_pro/form_form_rectangle.svg" alt="">
+				<img data-depth="1.4" src="<?php echo get_template_directory_uri() ?>/img/coin_pro/form_form_triangle_first.svg" alt="">
+				<img data-depth="-1.9" src="<?php echo get_template_directory_uri() ?>/img/coin_pro/form_form_triangle_second.svg" alt="">
+			</div>
 		</form>
-	</section>
-
-
-
-
-
-
-
-		<div id="wrap_form">
-
-			<form method="post" action="<?php echo get_template_directory_uri() ?>/post-form.php">
-				
-
-				
-
-				
-				
-				
-				
-
-				<div id="grey_pro">
-				
-				</div>
-			</form>
-
+		<div class="scene">
+			<img data-depth="0.6" src="<?php echo get_template_directory_uri() ?>/img/coin_pro/form_triangle_first.svg" alt="">
+			<img data-depth="-1.5" src="<?php echo get_template_directory_uri() ?>/img/coin_pro/form_triangle_second.svg" alt="">
+			<img data-depth="1.3" src="<?php echo get_template_directory_uri() ?>/img/coin_pro/form_triangle_third.svg" alt="">
 		</div>
+	</section>
 </div>
 <?php get_footer(); ?>

@@ -64,54 +64,6 @@ section#need_us .need_us_content:nth-of-type(3), section#need_us .need_us_conten
   text-align: right;
 }
 
-/*div#wrap_body .scene
- {
-  margin: 0;
-  padding-left: 0;
-}
-
-div#wrap_body .scene #grey_square,
-div#wrap_body .scene #white_triangle,
-div#wrap_body .scene #border_red_triangle
-{
-  padding-left: 90px;
-}
-
-div#wrap_body .scene #white_triangle
- {
-  margin-top: -20px;
-}
-
-div#wrap_body .scene #border_red_triangle
- {
-  padding-top: 50px;
-  margin-left: -30px;
-}*/
-
-/*div#wrap_body #red_triangle,
-div#wrap_body #border_white_triangle,
-div#wrap_body #grey_triangle
- {
-  padding-left: 110px;
-  margin-top: 750px;
-}
-
-div#wrap_body #red_triangle
- {
-  margin-left: -40px;
-}
-
-div#wrap_body #border_white_triangle 
-{
-  padding-top: 60px;
-  margin-left: -110px;
-}
-
-div#wrap_body #grey_triangle
- {
-  margin-left: 120px;
-  padding-top: 100px;
-}*/
 
 /*Section Testomny*/
 section#testimony .testimony_container {
@@ -226,8 +178,13 @@ section#testimony .testimony_container:nth-child(odd) {
 
 /*Section Form*/
 section#form h3 {
-  font-size: 60px;
+  font-size: 45px;
   font-weight: var(--font-thin);
+}
+
+section#form >img {
+  width: 100%;
+  margin-top: -30px;
 }
 
 section#form form {
@@ -321,31 +278,61 @@ section#form form {
     cursor: pointer;
   }
 
-
-
-
-
-/*div#wrap_body #red_square,
-div#wrap_body #white_triangle_three,
-div#wrap_body #border_grey_triangle
- {
-  margin-left: -30px;
-  margin-top: 2750px;
+/*Parallax*/
+section#need_us .scene {
+  top: 15%;
+  left: 20%;
 }
 
-div#wrap_body #red_square
- {
-  margin-left: -20px;
+  section#need_us .scene img:nth-of-type(2) {
+    margin-left: 10px;
+    margin-top: -20px;
+  }
+
+  section#need_us .scene img:nth-of-type(3) {
+    margin-left: 10px;
+    margin-top: 80px;
+  }
+
+section#testimony .scene {
+  top: -30%;
+  left: 10%;
 }
 
-div#wrap_body #white_triangle_three
- {
-  padding-top: -10px;
-  margin-left: 10px;
+  section#testimony .scene img:nth-of-type(1) {
+    margin-left: 50px;
+    margin-top: -100px;
+  }
+
+  section#testimony .scene img:nth-of-type(3) {
+    margin-top: 50px;
+    margin-left: 140px;
+  }
+
+section#form form .scene {
+  left: -40%;
+  top: -5%;
 }
 
-div#wrap_body #border_grey_triangle
- {
-  margin-left: -10px;
-  padding-top: 60px;
-}*/
+  section#form form .scene img:nth-of-type(2) {
+    margin-left: 30px;
+  }
+
+  section#form form .scene img:nth-of-type(3) {
+    margin-left: 30px;
+    margin-top: 80px;
+  }
+
+section#form .scene {
+  right: 15%;
+}
+
+  section#form .scene img:nth-of-type(2) {
+    margin-left: 40px;
+    margin-top: -60px;
+  }
+
+  section#form .scene img:nth-of-type(3) {
+    margin-left: 60px;
+    margin-top: 20px;
+  }
