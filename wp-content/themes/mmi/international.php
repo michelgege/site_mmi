@@ -2341,6 +2341,10 @@ get_header();
 					<?php endforeach; ?>
 				</ul>
 			</div>
+			<div class="scene">
+				<img src="<?php echo get_template_directory_uri() ?>/img/international/steps_internship_triangle_first.svg" alt="">
+				<img src="<?php echo get_template_directory_uri() ?>/img/international/steps_internship_triangle_second.svg" alt="">
+			</div>
 		</div>
 		    	
 		<div class="container">
@@ -2353,10 +2357,10 @@ get_header();
 					<?php endforeach; ?>
 				</ul>
 			</div>
-			<!-- <div class="scene">
-				<img src="<?php echo get_template_directory_uri() ?>/img/international/steps_semesters_triangle_first.svg" alt="">
-				<img src="<?php echo get_template_directory_uri() ?>/img/international/steps_semesters_triangle_second.svg" alt="">
-			</div> -->
+			<div class="scene">
+				<img data-depth="-1.8" src="<?php echo get_template_directory_uri() ?>/img/international/steps_semesters_triangle_first.svg" alt="">
+				<img data-depth="2.4" src="<?php echo get_template_directory_uri() ?>/img/international/steps_semesters_triangle_second.svg" alt="">
+			</div>
 		</div>
 
 		<div class="container">
@@ -2369,14 +2373,11 @@ get_header();
 					<?php endforeach; ?>
 				</ul>
 			</div>
-			<!-- <div class="scene">
+			<div class="scene">
 				<img data-depth="0.7" src="<?php echo get_template_directory_uri() ?>/img/international/steps_howtogo_rectangle.svg" alt="">
 				<img data-depth="-0.3" src="<?php echo get_template_directory_uri() ?>/img/international/steps_howtogo_triangle.svg" alt="">
-			</div> -->
+			</div>
 		</div>
-		<!-- <div class="scene">
-			
-		</div> -->
 	</section>
 </div>
 
