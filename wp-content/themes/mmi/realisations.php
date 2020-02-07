@@ -390,17 +390,27 @@
 
 				<div class="content">
 
+					<div class="title_and_date">
+						<p><?php echo $name; ?></p>
+						<p><?php echo $year; ?></p>
+					</div>
+
 					<div>
 						
 						<div class="realisation">
+						
 							<img src="<?php echo $image; ?>" alt="">
 
-							<a href="<?php echo $link; ?>">Voir la realisation</a>
 						</div>
 
 						<div class="description">
+
+							<h3 class="domain"><?php echo $category; ?></h3>
+
+							<div class="context"><?php the_sub_field('contexte') ?></div>
+
 							<div class="author_and_name">
-								<p class="author_and_name"><?php echo $name; ?> par <span class="author_bold"><?php echo $author; ?></span></p>
+								<p class="author_and_name">par <span class="author_bold"><?php echo $author; ?></span></p>
 
 								<?php if ($linkedin) : ?>
 
@@ -411,14 +421,6 @@
 								<?php endif; ?>
 
 							</div>
-							<div>
-								<h3 class="domain"><?php echo $category; ?></h3>
-								<p class="date"><?php echo $year; ?></p>
-							</div>
-
-
-
-							<?php the_sub_field('contexte') ?>
 
 							<?php the_sub_field('description') ?>
 
@@ -561,6 +563,8 @@
 				</div>
 				<div class="content">
 					<div class="realisation">
+						
+
 						<img src="<?php echo $image; ?>" alt="">
 
 						<a href="<?php echo $link; ?>">Voir la realisation</a>
