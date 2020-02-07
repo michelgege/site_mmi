@@ -91,7 +91,7 @@
 			?>
 			<?php foreach( $images as $image ): ?>
 	            <div class="carousel-cell">
-	            	<img src="<?php echo esc_url($image['url']); ?>" alt="">
+	            	<img src="<?php echo esc_url($image['url']); ?>" alt="Photo slider">
 	            	<div>
 		            	<span class="border top"></span>
 		            	<span class="border right"></span>
@@ -150,7 +150,7 @@
 				?>
 				<?php foreach( $images as $image ): ?>
 		            <div class="carousel-cell">
-		            	<img src="<?php echo esc_url($image['url']); ?>" alt="">
+		            	<img src="<?php echo esc_url($image['url']); ?>" alt="Photo Slider">
 		            	<div>
 		            		<span class="border top"></span>
 		            		<span class="border right"></span>
@@ -196,7 +196,7 @@
 				<div class="testimony_container">
 					<img class="testimony_quote" src="<?php echo get_template_directory_uri() ?>/img/quote.svg" alt="">
 					<div class="testimony_img">
-						<img src="<?php echo $image; ?>" alt="">
+						<img src="<?php echo $image; ?>" alt="Photo de profil">
 					</div>
 					<div class="testimony_titles">
 						<p><?php echo $name; ?></p>
