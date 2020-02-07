@@ -33,7 +33,7 @@
 		
         // SCRIPT
         	//Parallax
-	  	wp_enqueue_script('parallax_libs', 'https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js', array('jquery'), false, true);
+	  	wp_enqueue_script('parallax_libs', get_template_directory_uri().'/js/libs/parallax.js', array('jquery'), false, true);
 	  	//Flickity
 	  	wp_enqueue_script('flickity_js', get_template_directory_uri().'/js/libs/flickity.js', array('jquery','parallax_libs'), false, true);
 
