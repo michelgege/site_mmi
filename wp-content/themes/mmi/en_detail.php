@@ -7,19 +7,49 @@
 <?php
 get_header();
 ?>
-<div class="wrap_d">
-
-	<div id="scene" class="scene">
-		<div  class="layer" data-depth="0.10">
-			<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/top_triangle_purple.svg" id="top_triangle_purple" alt="top_triangle_purple">
-		</div> 
-		<div  class="layer" data-depth="0.40">
-			<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/top_triangle_white.svg" id="top_triangle_white" alt="top_triangle_white">
-		</div> 
-	</div>
-
-	<section class="le_but">
+<div class="wrap">
+	<section id="but">
 		<h2>Le BUT</h2>
+
+
+		<div class="container">
+			<h3>Les compétences</h3>
+			<?php the_field('detail_but_skills_content'); ?>
+		</div>
+
+		<p></p>
+
+		<div id="skills">
+			<?php while( have_rows('detail_skills') ): the_row(); 
+
+				// vars
+				$image = get_sub_field('detail_team_img');
+				$name = get_sub_field('detail_team_name');
+				$job = get_sub_field('detail_team_job');
+				$testimony = get_sub_field('detail_team_testimony');
+
+				?>
+
+				<div class="skills_container">
+					<div>
+						<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/plus.svg" alt="plus">
+						<h4>Savoir et être capable de produire du contenu multimédia</h4>
+					</div>
+					<ul>
+						<li>en respectant les contraintes techniques du milieu professionnel en vigueur</li>
+						<li>en respectant les contraintes techniques du milieu professionnel en vigueur</li>
+						<li>en respectant les contraintes techniques du milieu professionnel en vigueur</li>
+						<li>en respectant les contraintes techniques du milieu professionnel en vigueur</li>
+						<li>en respectant les contraintes techniques du milieu professionnel en vigueur</li>
+					</ul>
+				</div>	
+
+			<?php endwhile; ?>
+		</div>
+
+
+
+
 		<img class="tablet" src="<?php echo get_template_directory_uri() ?>/img/en_detail/tablet.svg" alt="tablette graphique">
 		<h3 class="left_title"><?php the_field('detail_first_title'); ?></h3>
 		<p class="competences_1"><?php the_field('detail_description_but'); ?></p>
@@ -122,16 +152,6 @@ get_header();
 
 
 
-	<div id="scene" class="scene">
-		<div  class="layer" data-depth="0.10">
-			<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/mid_triangle_white.svg" id="mid_triangle_white" alt="mid_triangle_white">
-		</div> 
-		<div  class="layer" data-depth="0.40">
-			<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/mid_triangle_border_purple.svg" id="mid_triangle_border_purple" alt="mid_triangle_border_purple">
-		</div> 
-	</div>
-</div>
-
 	<div id="wrap_year">
 		<div id="number_one">
 			<h4 class="year"> Première année </h4>
@@ -147,19 +167,6 @@ get_header();
 		</div>
 	</div>
 
-<div class="wrap_d">
-	<div id="scene" class="scene">
-		<div  class="layer" data-depth="0.10">
-			<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/mid_triangle_border_white.svg" id="mid_triangle_border_white" alt="mid_triangle_border_white">
-		</div> 
-		<div  class="layer" data-depth="0.40">
-			<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/medium_mid_triangle_white.svg" id="medium_mid_triangle_white" alt="medium_mid_triangle_white">
-		</div> 
-		<div  class="layer" data-depth="0.80">
-			<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/small_mid_triangle_white.svg" id="small_mid_triangle_white" alt="small_mid_triangle_white">
-		</div> 
-	</div>
-
 
 	<div id="after_content_purple">
 		<h3 class="right_title"> La spécialité de MMI Chambéry </h3>
@@ -171,43 +178,31 @@ get_header();
 
 
 
-	<section class="departement">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<section id="department">
 		<h2>Le département</h2>
-		<div class="intro">
-			<p >Nous vous accueillons sur le site du Bourget du Lac dans des locaux équipés de matériel informatique et 
-			audiovisuel récent que les étudiants peuvent emprunter.</p>
-			<div class="video">
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/0n6iMZ0-t5E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-			</div>
+		<p>Nous vous accueillons sur le site du Bourget du Lac dans des locaux équipés de matériel informatique et audiovisuel récent que les étudiants peuvent emprunter.</p>
+		<div id="video">
+			<?php the_field('detail_department_video'); ?>
 		</div>
 	</section>
 
-
-	<div id="scene" class="scene"> 
-		<div  class="layer" data-depth="0.20">
-			<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/bottom_triangle_border_grey.svg" id="bottom_triangle_border_grey" alt="bottom_triangle_border_grey">
-		</div> 
-		<div  class="layer" data-depth="0.30">
-			<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/bottom_triangle_white.svg" id="bottom_triangle_white" alt="bottom_triangle_white">
-		</div> 
-		<div  class="layer" data-depth="0.10">
-			<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/bottom_square_purple.svg" id="bottom_square_purple" alt="bottom_square_purple">
-		</div>
-	</div>
-
-
-<div id="scene" class="scene"> 
-<div  class="layer" data-depth="0.30">
-			<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/bottom_triangle_purple.svg" id="bottom_triangle_purple" alt="bottom_triangle_purple">
-		</div> 
-		<div  class="layer" data-depth="0.20">
-			<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/bottom_rectangle_grey.svg" id="bottom_rectangle_grey" alt="bottom_rectangle_grey">
-		</div>
-		<div  class="layer" data-depth="0.10">
-			<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/bottom_triangle_border_purple.svg" id="bottom_triangle_border_purple" alt="bottom_triangle_border_purple">
-		</div> 
-	</div>
-	<section id="teams">
+	<section id="team">
 		<h2>L'équipe</h2>
 		<div id="teachers">
 
@@ -222,31 +217,14 @@ get_header();
 				?>
 
 				<div class="column_teacher">
-					<div id="after_picture">
-						<img src="<?php echo $image; ?>" id="team_picture" alt="">
-					</div>
-					<h3 class="name"><?php echo $name; ?></h3>
-					<h3 class="profesion"><?php echo $job; ?></h3>
-					<p class="testimony"><?php echo $testimony; ?></p>
+					<img src="<?php echo $image; ?>" alt="<?php echo $name; ?>">
+					<h3><?php echo $name; ?></h3>
+					<h4><?php echo $job; ?></h4>
+					<p><?php echo $testimony; ?></p>
 				</div>
 
 			<?php endwhile; ?>	    
 		</div>
-		
 	</section>
 </div>
-			
-			
-	
-
-
-
-	</section>
-</div>
-
-
-
-
-<?php
-get_footer();
-?>
+<?php get_footer(); ?>
