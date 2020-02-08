@@ -50,7 +50,7 @@
 			// vars
 			$image = get_sub_field('image');
 			$name = get_sub_field('nom');
-			$author = get_sub_field('auteur');
+			$type = get_sub_field('type');
 			?>
 
 			<div class="img_container">
@@ -69,15 +69,9 @@
 							
 						<?php endif; ?>
 
-
-						<?php if( $author ): ?>
-
 							<p class="author">
-								<?php echo $author; ?>
+								<?php echo $type; ?>
 							</p>
-							
-						<?php endif; ?>
-
 
 					</div>
 
@@ -217,7 +211,7 @@
 								</p>
 							</div>
 						</div>
-					</div>>
+					</div>
 					<div class="img_container">
 
 						<img src="<?php echo get_template_directory_uri() ?>/img/realisations/rea/blog.jpg" alt="">
@@ -380,6 +374,7 @@
 			$description = get_sub_field('description');
 			$context = get_sub_field('contexte');
 			$link = get_sub_field('lien_realisation');
+			$video = get_sub_field('video');
 
 		?>
 			<div class="pop_up" data-name="<?php echo $name; ?>">
@@ -398,8 +393,23 @@
 					<div>
 						
 						<div class="realisation">
-						
-							<img src="<?php echo $image; ?>" alt="">
+							<?php if ($video) : ?>
+								
+								<div class="iframe_container">
+									<?php echo($video); ?>
+								</div>
+
+							<?php else: ?>
+
+								
+								<img src="<?php echo $image; ?>" alt="">
+
+							
+
+							<?php endif; ?>
+							
+							
+
 
 						</div>
 
