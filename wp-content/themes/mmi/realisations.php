@@ -82,271 +82,110 @@
 		<?php endwhile; ?>
 
 	<?php endif; ?>
-					
-					<div class="img_container">
 
-						<img src="<?php echo get_template_directory_uri() ?>/img/realisations/rea/filmframmi.jpg" alt="">
-						<div class="overlay">
-							<div class="text_container">
-								<p class="title">
-									"À proximité"
-								</p>
-
-								<p class="author">
-									Marie RAISON
-								</p>
-							</div>
-						</div>
-					</div>
-					<div class="img_container">
-
-						<img src="<?php echo get_template_directory_uri() ?>/img/realisations/rea/emigrant.jpg" alt="">
-						<div class="overlay">
-							<div class="text_container">
-								<p class="title">
-								"Affiche E-Migrant"
-								</p>
-
-								<p class="author">
-									Artur Gauthier
-								</p>
-							</div>
-						</div>
-					</div>
-					<div class="img_container">
-
-						<img src="<?php echo get_template_directory_uri() ?>/img/realisations/rea/semainedelentreprise.png" alt="">
-						<div class="overlay">
-							<div class="text_container">
-								<p class="title">
-								"lorem ipsum"
-								</p>
-
-								<p class="author">
-									John Doe
-								</p>
-							</div>
-						</div>
-					</div>
+			</div>
 				
+
+	<div class="column">
+
+	<?php if( have_rows('works_column_second') ): ?>
+
+
+		<?php while( have_rows('works_column_second') ): the_row(); 
+
+			// vars
+			$image = get_sub_field('image');
+			$name = get_sub_field('nom');
+			$type = get_sub_field('type');
+			?>
+
+			<div class="img_container">
+
+				<img src="<?php echo $image; ?>" alt="" />
+
+				<div class="overlay" data-name="<?php echo $name; ?>">
+
+					<div class="text_container">
+
+						<?php if( $name ): ?>
+
+							<p class="title">
+								<?php echo $name; ?>
+							</p>
+							
+						<?php endif; ?>
+
+							<p class="author">
+								<?php echo $type; ?>
+							</p>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		<?php endwhile; ?>
+
+	<?php endif; ?>
+
+			</div>
+
+
+			<div class="column">
+
+	<?php if( have_rows('works_column_second') ): ?>
+
+
+		<?php while( have_rows('works_column_second') ): the_row(); 
+
+			// vars
+			$image = get_sub_field('image');
+			$name = get_sub_field('nom');
+			$type = get_sub_field('type');
+			?>
+
+			<div class="img_container">
+
+				<img src="<?php echo $image; ?>" alt="" />
+
+				<div class="overlay" data-name="<?php echo $name; ?>">
+
+					<div class="text_container">
+
+						<?php if( $name ): ?>
+
+							<p class="title">
+								<?php echo $name; ?>
+							</p>
+							
+						<?php endif; ?>
+
+							<p class="author">
+								<?php echo $type; ?>
+							</p>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		<?php endwhile; ?>
+
+	<?php endif; ?>
+
+			</div>
 				
 					
 				</div>
-				
-				<div class="column">
-
-					<?php if( have_rows('works_column_second') ): ?>
-
-
-						<?php while( have_rows('works_column_second') ): the_row(); 
-
-							// vars
-							$image = get_sub_field('image');
-							$name = get_sub_field('nom');
-							$author = get_sub_field('auteur');
-							?>
-
-							<div class="img_container">
-
-								<img src="<?php echo $image; ?>" alt="" />
-
-								<div class="overlay" data-name="<?php echo $name; ?>">
-
-									<div class="text_container">
-
-										<?php if( $name ): ?>
-
-											<p class="title">
-												<?php echo $name; ?>
-											</p>
-											
-										<?php endif; ?>
-
-
-										<?php if( $author ): ?>
-
-											<p class="author">
-												<?php echo $author; ?>
-											</p>
-											
-										<?php endif; ?>
-
-
-									</div>
-
-								</div>
-
-							</div>
-
-						<?php endwhile; ?>
-
-					<?php endif; ?>
-
-
-
-					<div class="img_container">
-
-						<img src="<?php echo get_template_directory_uri() ?>/img/realisations/rea/lifi.jpg" alt="">
-						<div class="overlay">
-							<div class="text_container">
-								<p class="title">
-								"Qu'est-ce que le Lifi ?"
-								</p>
-
-								<p class="author">Mathis EXERTIER & Gabriel DA COSTA</p>
-							</div>
-						</div>
-					</div>
-					<div class="img_container">
-
-						<img src="<?php echo get_template_directory_uri() ?>/img/realisations/rea/Frammi.jpg" alt="">
-						<div class="overlay">
-							<div class="text_container">
-								<p class="title">
-								"Site FRAMMI"
-								</p>
-
-								<p class="author">
-									Emma REYMOND & Thomas GUIGNON
-								</p>
-							</div>
-						</div>
-					</div>
-					<div class="img_container">
-
-						<img src="<?php echo get_template_directory_uri() ?>/img/realisations/rea/blog.jpg" alt="">
-						<div class="overlay">
-							<div class="text_container">
-								<p class="title">
-								"lorem ipsum"
-								</p>
-
-								<p class="author">
-									John Doe
-								</p>
-							</div>
-						</div>
-					</div>
 					
-				</div>
-
-
-
-
-				<div class="column">
-
-					<?php if( have_rows('works_column_third') ): ?>
-
-
-						<?php while( have_rows('works_column_third') ): the_row(); 
-
-							// vars
-							$image = get_sub_field('image');
-							$name = get_sub_field('nom');
-							$author = get_sub_field('auteur');
-							?>
-
-							<div class="img_container">
-
-								<img src="<?php echo $image; ?>" alt="" />
-
-								<div class="overlay" data-name="<?php echo $name; ?>">
-
-									<div class="text_container">
-
-										<?php if( $name ): ?>
-
-											<p class="title">
-												<?php echo $name; ?>
-											</p>
-											
-										<?php endif; ?>
-
-
-										<?php if( $author ): ?>
-
-											<p class="author">
-												<?php echo $author; ?>
-											</p>
-											
-										<?php endif; ?>
-
-
-									</div>
-
-								</div>
-
-							</div>
-
-						<?php endwhile; ?>
-
-					<?php endif; ?>
-					<div class="img_container">
-
-						<img src="<?php echo get_template_directory_uri() ?>/img/realisations/rea/myrelingues.jpg" alt="">
-						<div class="overlay">
-							<div class="text_container">
-								<p class="title">
-								"Myrelingues"
-								</p>
-
-								<p class="author">
-									Antoine REVET
-								</p>
-							</div>
-						</div>
-					</div>
-					<div class="img_container">
-
-						<img src="<?php echo get_template_directory_uri() ?>/img/realisations/rea/pokedex.jpg" alt="">
-						<div class="overlay">
-							<div class="text_container">
-								<p class="title">
-								"Pokedex"
-								</p>
-
-								<p class="author">
-									Juliette BOIS
-								</p>
-							</div>
-						</div>
-					</div>
-					<div class="img_container">
-
-						<img src="<?php echo get_template_directory_uri() ?>/img/realisations/rea/charte_neon.jpg" alt="">
-						<div class="overlay">
-							<div class="text_container">
-								<p class="title">
-								"Charte Graphique Agence Néon"
-								</p>
-
-								<p class="author">
-									Carla REY GAUREZ
-								</p>
-							</div>
-						</div>
-					</div>
-					<div class="img_container">
-
-						<img src="<?php echo get_template_directory_uri() ?>/img/realisations/rea/syrius.jpg" alt="">
-						<div class="overlay">
-							<div class="text_container">
-								<p class="title">
-								"lorem ipsum"
-								</p>
-
-								<p class="author">
-									John Doe
-								</p>
-							</div>
-						</div>
-					</div>
 					
 				</div>
 			</div>
 
 		</div>
-	</div>
+	
 
 	<div id="scene_third" class="scene">
 		<img data-depth="-0.80" src="<?php echo get_template_directory_uri() ?>/img/realisations/pink_triangle_empty.svg" alt="">
@@ -401,15 +240,10 @@
 
 							<?php else: ?>
 
-								
 								<img src="<?php echo $image; ?>" alt="">
-
-							
 
 							<?php endif; ?>
 							
-							
-
 
 						</div>
 
@@ -476,14 +310,13 @@
 
 
 
-	<?php if( have_rows('works_column_second') ): ?>
-
+<?php if( have_rows('works_column_second') ): ?>
 
 		<?php while( have_rows('works_column_second') ): the_row(); 
 
-			// vars
 			$image = get_sub_field('image');
-			$name = get_sub_field('nom');
+			$name = get_sub_field('nom'); 
+			$gallery = get_sub_field('images_rea');
 			$author = get_sub_field('auteur');
 			$linkedin = get_sub_field('auteur_linkedin');
 			$category = get_sub_field('categorie');
@@ -491,43 +324,81 @@
 			$description = get_sub_field('description');
 			$context = get_sub_field('contexte');
 			$link = get_sub_field('lien_realisation');
+			$video = get_sub_field('video');
+
 		?>
 			<div class="pop_up" data-name="<?php echo $name; ?>">
 				
 				<div class="background">
 				</div>
-				<div class="content">
-					<div class="realisation">
-						<img src="<?php echo $image; ?>" alt="">
 
-						<a href="<?php echo $link; ?>">Voir la realisation</a>
+
+				<div class="content">
+
+					<div class="title_and_date">
+						<p><?php echo $name; ?></p>
+						<p><?php echo $year; ?></p>
 					</div>
 
-					<div class="description">
-						<div>
-							<h3 class="domain"><?php echo $category; ?></h3>
-							<p class="date"><?php echo $year; ?></p>
-						</div>
-						<div>
-							<p class="author_and_name"><?php echo $name; ?> par <span class="author_bold"><?php echo $author; ?></span></p>
-
-							<?php if ($linkedin) : ?>
-
-								<div>
-									<a href=" <?php echo $linkedin; ?>"><img src="<?php echo get_template_directory_uri() ?>/img/realisations/linkedin.png"/></a>
+					<div>
+						
+						<div class="realisation">
+							<?php if ($video) : ?>
+								
+								<div class="iframe_container">
+									<?php echo($video); ?>
 								</div>
 
+							<?php else: ?>
+
+								<img src="<?php echo $image; ?>" alt="">
+
 							<?php endif; ?>
+							
 
 						</div>
 
+						<div class="description">
 
+							<h3 class="domain"><?php echo $category; ?></h3>
 
-						<p class="mention"> <?php the_sub_field('context') ?> </a></p>
+							<div class="context"><?php the_sub_field('contexte') ?></div>
 
-						<p class="description"> <?php the_sub_field('description') ?></p>
+							<div class="author_and_name">
+								<p class="author_and_name">par <span class="author_bold"><?php echo $author; ?></span></p>
 
+								<?php if ($linkedin) : ?>
+
+									<div>
+										<a href=" <?php echo $linkedin; ?>"><img src="<?php echo get_template_directory_uri() ?>/img/realisations/linkedin.png"/></a>
+									</div>
+
+								<?php endif; ?>
+
+							</div>
+
+							<?php the_sub_field('description') ?>
+
+						</div>
 					</div>
+
+
+					<div class="gallery_container">
+
+						<?php foreach ($gallery as $image) : ?>
+
+							<img src="<?php echo $image['url']; ?>">
+						
+						<?php endforeach ?>
+						
+					</div>
+
+					
+
+		
+
+				
+
 				</div>
 				<svg xmlns="http://www.w3.org/2000/svg" width="58" height="58" viewBox="0 0 58 58">
 			  <g id="Groupe_61" data-name="Groupe 61" transform="translate(-1739 -434)">
@@ -550,65 +421,92 @@
 
 	<?php if( have_rows('works_column_third') ): ?>
 
-
 		<?php while( have_rows('works_column_third') ): the_row(); 
 
-			// vars
 			$image = get_sub_field('image');
+			$name = get_sub_field('nom'); 
 			$gallery = get_sub_field('images_rea');
-			$name = get_sub_field('nom');
 			$author = get_sub_field('auteur');
 			$linkedin = get_sub_field('auteur_linkedin');
 			$category = get_sub_field('categorie');
 			$year = get_sub_field('annee');
 			$description = get_sub_field('description');
 			$context = get_sub_field('contexte');
-			$link = get_sub_field('lien_realisation');	
-		?>
+			$link = get_sub_field('lien_realisation');
+			$video = get_sub_field('video');
 
+		?>
 			<div class="pop_up" data-name="<?php echo $name; ?>">
-				
 				
 				<div class="background">
 				</div>
+
+
 				<div class="content">
-					<div class="realisation">
-						
 
-						<img src="<?php echo $image; ?>" alt="">
-
-						<a href="<?php echo $link; ?>">Voir la realisation</a>
+					<div class="title_and_date">
+						<p><?php echo $name; ?></p>
+						<p><?php echo $year; ?></p>
 					</div>
 
-					<div class="description">
-						<div>
-							<h3 class="domain"><?php echo $category; ?></h3>
-							<p class="date"><?php echo $year; ?></p>
-						</div>
-						<div>
-							<p class="author_and_name"><?php echo $name; ?> par <span class="author_bold"><?php echo $author; ?></span></p>
-
-							<?php if ($linkedin) : ?>
-
-								<div>
-									<a href=" <?php echo $linkedin; ?>"><img src="<?php echo get_template_directory_uri() ?>/img/realisations/linkedin.png"/></a>
+					<div>
+						
+						<div class="realisation">
+							<?php if ($video) : ?>
+								
+								<div class="iframe_container">
+									<?php echo($video); ?>
 								</div>
 
+							<?php else: ?>
+
+								<img src="<?php echo $image; ?>" alt="">
+
 							<?php endif; ?>
+							
 
 						</div>
 
+						<div class="description">
 
+							<h3 class="domain"><?php echo $category; ?></h3>
 
-						<p class="mention"> <?php the_sub_field('context') ?> </a></p>
+							<div class="context"><?php the_sub_field('contexte') ?></div>
 
-						<?php var_dump($gallery); ?>
+							<div class="author_and_name">
+								<p class="author_and_name">par <span class="author_bold"><?php echo $author; ?></span></p>
 
-						<p class="description"> <?php the_sub_field('description') ?></p>
+								<?php if ($linkedin) : ?>
 
+									<div>
+										<a href=" <?php echo $linkedin; ?>"><img src="<?php echo get_template_directory_uri() ?>/img/realisations/linkedin.png"/></a>
+									</div>
+
+								<?php endif; ?>
+
+							</div>
+
+							<?php the_sub_field('description') ?>
+
+						</div>
 					</div>
 
-			
+
+					<div class="gallery_container">
+
+						<?php foreach ($gallery as $image) : ?>
+
+							<img src="<?php echo $image['url']; ?>">
+						
+						<?php endforeach ?>
+						
+					</div>
+
+					
+
+		
+
+				
 
 				</div>
 				<svg xmlns="http://www.w3.org/2000/svg" width="58" height="58" viewBox="0 0 58 58">
