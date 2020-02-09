@@ -159,7 +159,6 @@
 		            	</div>
 		            </div>
 		        <?php endforeach; ?>
-		        <?php the_field('home_international_content'); ?>
 			</div>
 			<div class="slider_arrows">
 				<img src="<?php echo get_template_directory_uri() ?>/img/accueil/slider_1_arrow_left.svg" alt="">
