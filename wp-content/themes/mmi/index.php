@@ -142,7 +142,7 @@
 
 	<section id="international">
 		<h2>L'INTERNATIONAL</h2>
-		<p>Vous souhaitez partir à l'étranger pour un stage, un S4 ou un DUETI ?</p>
+		<p>Vous souhaitez partir à l'étranger pour un stage, ou un semestre ?</p>
 		<div id="international_content">
 			<div class="main-carousel" data-flickity>
 	  			<?php 
