@@ -15,7 +15,7 @@
 	<section id="skills">
 		<h2>LES COMPÉTENCES</h2>
 		<div id="skills_container">
-			<p><?php the_field('home_skills_content'); ?></p>
+			<?php the_field('home_skills_content'); ?>
 			<div id="skills_content">
 				<div>
 					<img src="<?php echo get_template_directory_uri() ?>/img/accueil/audiovisuel.svg" alt="Logo audiovisuel">
