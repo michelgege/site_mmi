@@ -123,7 +123,7 @@
 		<div id="video">
 			<?php the_field('home_highlights_video'); ?>
 		</div>
-		<a class="link_button" href="realisations">Voir les réalisations</a>
+		<a class="link_button" href="#">Voir les réalisations</a>
 		<div class="scene" id="highlights_scene_1">
 			<img data-depth="0.2" src="<?php echo get_template_directory_uri() ?>/img/accueil/highlights_triangle_1.svg" alt="">
 			<img data-depth="0.5" src="<?php echo get_template_directory_uri() ?>/img/accueil/highlights_triangle_2.svg" alt="">

@@ -16,7 +16,7 @@
 			<h3>Les compétences</h3>
 			<div>
 				<?php the_field('pro_content_skills'); ?>
-				<a class="link_button" href="realisation">Voir les réalisations</a>
+				<a class="link_button" href="#">Voir les réalisations</a>
 			</div>
 		</div>
 

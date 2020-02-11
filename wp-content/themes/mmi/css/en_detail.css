@@ -3,21 +3,48 @@ h2::after {
 }
 
 section#but .container {
+	margin-bottom: 130px;
+}
+
+section#but .left {
 
 }
+
+section#but .right {
+	text-align: right;
+}
+
+section#but .right >p{
+	margin-left: auto;
+}
+
 
 	section#but .container h3 {
 		font-size: 30px;
 		font-weight: var(--font-semi-bold);
 		color: var(--color-dark-purple);
+		margin-bottom: 60px;
 	}
 
-section#but #skills {
+	section#but .container p {
+		width: 40%;
+	}
 
+section#but >p {
+	font-weight: var(--font-light);
+	font-size: 18px;
+	margin: 90px 0;
+	width: 50%;
+}
+
+section#but #skills {
+	margin-bottom: 180px;
+	margin-left: 50%;
+	transform: translateX(-50%);
 }
 
 	section#but #skills .skills_container {
-		margin-bottom: 45px
+		margin-bottom: 45px;
 	}
 
 	section#but #skills .skills_container:last-of-type {
@@ -61,31 +88,64 @@ section#but #skills {
 
 
 
+section#but #years {
+	width: 50%;
+	margin: 100px auto;
+}
 
+section#but #years h4 {
+	font-size: 30px;
+	font-weight: var(--font-semi-bold);
+	margin-bottom: 35px;
+	position: relative;
+}
 
+section#but #years h4:nth-of-type(1)::after{
+	content: "1";
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	color: var(--color-dark-purple);
+	font-size: 150px;
+	font-weight: var(--font-extra-bold);
+	z-index: -1;
+}
 
+section#but #years h4:nth-of-type(2)::after{
+	content: "2";
+	position: absolute;
+	display: block;
+	top: 50px;
+	right: 0;
+	color: var(--color-dark-purple);
+	font-size: 150px;
+	font-weight: var(--font-extra-bold);
+	z-index: -1;
+}
 
+section#but #years h4:nth-of-type(3)::after{
+	content: "3";
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	color: var(--color-dark-purple);
+	font-size: 150px;
+	font-weight: var(--font-extra-bold);
+	z-index: -1;
+}
 
+section#but #years  p {
+	font-weight: var(--font-light);
+	font-size: 15px;
+	margin-left: 40px;
+	margin-bottom: 60px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+section#but #years  p:last-of-type {
+	margin-bottom: 0;
+}
 
 /*Section Department*/
 section#department p {

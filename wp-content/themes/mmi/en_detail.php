@@ -12,15 +12,15 @@ get_header();
 		<h2>Le BUT</h2>
 
 
-		<div class="container">
+		<div class="container right">
 			<h3>Les compétences</h3>
-			<?php the_field('detail_but_skills_content'); ?>
+			<p>Le Bachelor Universitaire de Technologie (BUT) « Métiers du Multimédia et de l’Internet » (MMI) se déroule en 3 ans, découpés en 6 semestres, sur un volume total de 2000 heures de cours en présence d’un enseignant. A cela s’ajoutent 600 heures de projet réparties sur les 3 années.</p>
 		</div>
 
-		<p></p>
+		<p>Chaque étudiant doit valider 5 blocs de compétences pour l’obtention du BUT MMI découpés de la manière suivante :</p>
 
 		<div id="skills">
-			<?php while( have_rows('detail_skills') ): the_row(); 
+			<!-- <?php while( have_rows('detail_skills') ): the_row(); 
 
 				// vars
 				$image = get_sub_field('detail_team_img');
@@ -30,151 +30,125 @@ get_header();
 
 				?>
 
-				<div class="skills_container">
-					<div>
-						<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/plus.svg" alt="plus">
-						<h4>Savoir et être capable de produire du contenu multimédia</h4>
-					</div>
-					<ul>
-						<li>en respectant les contraintes techniques du milieu professionnel en vigueur</li>
-						<li>en respectant les contraintes techniques du milieu professionnel en vigueur</li>
-						<li>en respectant les contraintes techniques du milieu professionnel en vigueur</li>
-						<li>en respectant les contraintes techniques du milieu professionnel en vigueur</li>
-						<li>en respectant les contraintes techniques du milieu professionnel en vigueur</li>
-					</ul>
-				</div>	
+				
 
-			<?php endwhile; ?>
+			<?php endwhile; ?> -->
+			<div class="skills_container">
+				<div>
+					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/plus.svg" alt="plus">
+					<h4>Savoir et être capable de produire du contenu multimédia</h4>
+				</div>
+				<ul>
+					<li>en respectant les contraintes techniques du milieu professionnel en vigueur</li>
+					<li>en considérant les normes de numérisation et leur impact</li>
+					<li>en sachant choisir et utiliser le matériel et logiciels adéquats</li>
+					<li>en faisant preuve d'invention et de créativité dans l'utilisation des outils</li>
+					<li>en mettant en œuvre les fondamentaux des langages plastiques et filmiques</li>
+				</ul>
+			</div>
+			<div class="skills_container">
+				<div>
+					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/plus.svg" alt="plus">
+					<h4>Savoir et être capable de programmer pour le web</h4>
+				</div>
+				<ul>
+					<li>en étant capable de s'adapter aux différentes technologies</li>
+					<li>en produisant en mettant en œuvre des algorithmes répondant aux problématiques</li>
+					<li>en respectant les normes et standards du web</li>
+					<li>en adaptant la présentation du contenu au support et aux utilisateurs</li>
+				</ul>
+			</div>	
+			<div class="skills_container">
+				<div>
+					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/plus.svg" alt="plus">
+					<h4>Savoir et être capable de mettre en place et administrer des systèmes d'information</h4>
+				</div>
+				<ul>
+					<li>en s'appuyant sur des modèles existants</li>
+					<li>en respectant les contraintes de légalité et de sécurité</li>
+					<li>en utilisant des logiciels et outils de gestion de base de données</li>
+					<li>en gérant et mettant en œuvre une configuration matérielle et logicielle locale ou en réseau</li>
+				</ul>
+			</div>	
+			<div class="skills_container">
+				<div>
+					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/plus.svg" alt="plus">
+					<h4>Savoir et être capable de gérer un projet numérique</h4>
+				</div>
+				<ul>
+					<li>en concevant et préparant la mise en œuvre du projet</li>
+					<li>en réceptionnant la demande</li>
+					<li>en ayant une stratégie d'organisation du travail</li>
+					<li>en développant une communication adaptée à la conduite du projet</li>
+				</ul>
+			</div>	
+			<div class="skills_container">
+				<div>
+					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/plus.svg" alt="plus">
+					<h4>Savoir et être capable d'élaborer et rédiger des contenus </h4>
+				</div>
+				<ul>
+					<li>en déterminant les enjeux, les cibles et les objectifs de communication adéquats</li>
+					<li>en mobilisant les univers de sens pertinents</li>
+					<li>en concevant des contenus adaptés à des supports divers et variés</li>
+					<li>en respectant une stratégie de communication</li>
+				</ul>
+			</div>	
+		</div>
+
+		<div class="container left">
+			<h3>A qui est destiné le BUT MMI ?</h3>
+			<p>Notre objectif est de composer une promotion avec :
+-	50% de bacheliers technologiques, de préférence issus de la filière STI2D 
+option SIN, avec un excellent dossier.
+-	50% de bacheliers généraux, avec des options scientifiques.
+Dans l’idéal le candidat au BUT MMI aura également une ouverture à la culture 
+artistique et esthétique.</p>
+		</div>
+
+		<div class="container right">
+			<h3>Les projets</h3>
+			<p>Les projets sont au coeur de la formation MMI. Ils permettent aux étudiants de mettre 
+en application pratique des savoirs théoriques. Grâce aux projets tuteurés, les étudiants 
+peuvent présenter des réalisations de qualité pour leur devenir professionnel (stage, 
+alternance ou emploi).</p>
+		</div>
+		
+
+
+
+
+		<div id="years">
+			<h4>Première année</h4>
+			<p>Réalisation et mise en oeuvre d’une exposition multimédia : conception 
+des oeuvres et des outils de communication relatifs à l’exposition. </p>
+			<h4>Deuxième année</h4>
+			<p>Constitués en agences, les étudiants répondent à un besoin réel issu 
+d’un client : création de sites web, conception de produits audiovisuels, 
+stratégie de communication…</p>
+			<h4>Troisième année</h4>
+			<p>Stage en entreprise et possibilité d'alternance</p>
 		</div>
 
 
 
 
-		<img class="tablet" src="<?php echo get_template_directory_uri() ?>/img/en_detail/tablet.svg" alt="tablette graphique">
-		<h3 class="left_title"><?php the_field('detail_first_title'); ?></h3>
-		<p class="competences_1"><?php the_field('detail_description_but'); ?></p>
-
-		<p class="competences_2"><?php the_field('detail_intro_competence'); ?>:</p>
-
-		<img class="checklist" src="<?php echo get_template_directory_uri() ?>/img/en_detail/checklist.svg" alt="checklist">
-		<img class="camera" src="<?php echo get_template_directory_uri() ?>/img/en_detail/camera.svg" alt="camera">
-
-		<div class="competences_deroulantes">
-			<div class="competence">
-				<div class="titre" data-id="1">
-					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/plus.svg" alt="plus">
-					<h4><?php the_field('detail_title_competence_1'); ?></h4>
-				</div>
-				<div class="content" data-id="1">
-					<p>- <?php the_field('detail_develop_competence_1.1'); ?></p>
-					<p>- <?php the_field('detail_develop_competence_1.2'); ?></p>
-					<p>- <?php the_field('detail_develop_competence_1.3'); ?></p>
-					<p>- <?php the_field('detail_develop_competence_1.4'); ?></p>
-					<p>- <?php the_field('detail_develop_competence_1.5'); ?></p>
-				</div>
-			</div>
-
-			<div class="competence">
-				<div class="titre" data-id="2">
-					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/plus.svg" alt="plus">
-					<h4><?php the_field('detail_title_competence_2'); ?></h4>
-				</div>
-				<div class="content" data-id="2">
-					<p>- <?php the_field('detail_develop_competence_2.1'); ?></p>
-					<p>- <?php the_field('detail_develop_competence_2.2'); ?></p>
-					<p>- <?php the_field('detail_develop_competence_2.3'); ?></p>
-					<p>- <?php the_field('detail_develop_competence_2.4'); ?></p>
-				</div>
-
-			</div>
-
-			<div class="competence">
-				<div class="titre" data-id="3">
-					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/plus.svg" alt="plus">
-					<h4><?php the_field('detail_title_competence_3'); ?></h4>
-				</div>
-				<div class="content" data-id="3">
-					<p>- <?php the_field('detail_develop_competence_3.1'); ?></p>
-					<p>- <?php the_field('detail_develop_competence_3.2'); ?></p>
-					<p>- <?php the_field('detail_develop_competence_3.3'); ?></p>
-					<p>- <?php the_field('detail_develop_competence_3.4'); ?></p>
-				</div>
-			</div>
-
-			<div class="competence">
-				<div class="titre" data-id="4">
-					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/plus.svg" alt="plus">
-					<h4><?php the_field('detail_title_competence_4'); ?></h4>
-				</div>
-				<div class="content" data-id="4">
-					<p>- <?php the_field('detail_develop_competence_4.1'); ?></p>
-					<p>- <?php the_field('detail_develop_competence_4.2'); ?></p>
-					<p>- <?php the_field('detail_develop_competence_4.3'); ?></p>
-					<p>- <?php the_field('detail_develop_competence_4.4'); ?></p>
-				</div>
-			</div>
-
-			<div class="competence">
-				<div class="titre" data-id="5">
-					<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/plus.svg" alt="plus">
-					<h4><?php the_field('detail_title_competence_5'); ?></h4>
-				</div>
-				<div class="content" data-id="5">
-					<p>- <?php the_field('detail_develop_competence_5.1'); ?></p>
-					<p>- <?php the_field('detail_develop_competence_5.2'); ?></p>
-					<p>- <?php the_field('detail_develop_competence_5.3'); ?></p>
-					<p>- <?php the_field('detail_develop_competence_5.4'); ?></p>
-				</div>
-			</div>
 
 
 
+
+		<div class="container left">
+			<h3>La spécialité de MMI Chambéry</h3>
+			<p>Notre objectif est de composer une promotion avec :
+-	50% de bacheliers technologiques, de préférence issus de la filière STI2D 
+option SIN, avec un excellent dossier.
+-	50% de bacheliers généraux, avec des options scientifiques.
+Dans l’idéal le candidat au BUT MMI aura également une ouverture à la culture 
+artistique et esthétique.</p>
 		</div>
 
 	</section>
 
-	<div id="destiny">
-		<img class="code" src="<?php echo get_template_directory_uri() ?>/img/en_detail/code.svg" alt="code">
-		<h3 class="right_title"> A qui est destiné le BUT MMI ? </h3>
-		<p class="content_right"> Notre objectif est de composer une promotion avec : </p>
-		<p class="content_right">-	50% de bacheliers technologiques, de préférence issus de la filière STI2D option SIN, avec un excellent dossier.</p>
-		<p class="content_right">-	50% de bacheliers généraux, avec des options scientifiques.</p>
-		<p class="content_right">Dans l’idéal le candidat au BUT MMI aura également une ouverture à la culture artistique et esthétique. </p>
-	</div>
-
-
-
-	<h3 class="left_title"> Les projets </h3>
-	<p class="content_left">Les projets sont au coeur de la formation MMI. Ils permettent aux étudiants de mettre 
-		en application pratique des savoirs théoriques. Grâce aux projets tuteurés, les étudiants 
-		peuvent présenter des réalisations de qualité pour leur devenir professionnel (stage, 
-	alternance ou emploi).</p>
-
-
-
-	<div id="wrap_year">
-		<div id="number_one">
-			<h4 class="year"> Première année </h4>
-			<p class="content_center">Réalisation et mise en oeuvre d’une exposition multimédia : conception des oeuvres et des outils de communication relatifs à l’exposition. </p>
-		</div>
-		<div id="number_two">
-			<h4 class="year"> Deuxième année </h4>
-			<p class="content_center">Constitués en agences, les étudiants répondent à un besoin réel issu d’un client : création de sites web, conception de produits audiovisuels, stratégie de communication… </p>
-		</div>
-		<div id="number_three">
-			<h4 class="year"> Troisième année </h4>
-			<p class="content_center">Stage en entreprise et possibilité d'alternance </p>
-		</div>
-	</div>
-
-
-	<div id="after_content_purple">
-		<h3 class="right_title"> La spécialité de MMI Chambéry </h3>
-		<p class="content_right"> Notre objectif est de composer une promotion avec : </p>
-		<p class="content_right">-	50% de bacheliers technologiques, de préférence issus de la filière STI2D option SIN, avec un excellent dossier.</p>
-		<p class="content_right">-	50% de bacheliers généraux, avec des options scientifiques.</p>
-		<p class="content_right">Dans l’idéal le candidat au BUT MMI aura également une ouverture à la culture artistique et esthétique. </p>
-	</div>
 
 
 
