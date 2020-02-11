@@ -15,7 +15,7 @@
 	<section id="skills">
 		<h2>LES COMPÉTENCES</h2>
 		<div id="skills_container">
-			<p><?php the_field('home_skills_content'); ?></p>
+			<?php the_field('home_content_skills'); ?>
 			<div id="skills_content">
 				<div>
 					<img src="<?php echo get_template_directory_uri() ?>/img/accueil/audiovisuel.svg" alt="Logo audiovisuel">
@@ -105,7 +105,7 @@
 			<img id="test_slider" src="<?php echo get_template_directory_uri() ?>/img/accueil/slider_1_arrow_left.svg" alt="">
 			<img id="test_slider_2" src="<?php echo get_template_directory_uri() ?>/img/accueil/slider_1_arrow_right.svg" alt="">
 		</div>
-		<a class="link_button" href="mmi-en-detail.video">Voir la vidéo <span class="bold">360°</span></a>
+		<a class="link_button" href="mmi-en-detail.departement">Voir la vidéo <span class="bold">360°</span></a>
 		<div class="scene" id="department_scene_1">
 			<img data-depth="0.5" src="<?php echo get_template_directory_uri() ?>/img/accueil/department_triangle_1.svg" alt="">
 			<img data-depth="1.4" src="<?php echo get_template_directory_uri() ?>/img/accueil/department_triangle_2.svg" alt="">
@@ -142,7 +142,7 @@
 
 	<section id="international">
 		<h2>L'INTERNATIONAL</h2>
-		<p>Vous souhaitez partir à l'étranger pour un stage, un S4 ou un DUETI ?</p>
+		<p><?php the_field('home_international_intro'); ?></p>
 		<div id="international_content">
 			<div class="main-carousel" data-flickity>
 	  			<?php 
