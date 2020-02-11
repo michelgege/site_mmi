@@ -87,7 +87,7 @@
 		<h2>LE DÉPARTEMENT</h2>
 		<div class="main-carousel" data-flickity>
 			<?php 
-				$images = get_field('department_slider_gallery');
+				$images = get_field('home_department_slider_gallery');
 			?>
 			<?php foreach( $images as $image ): ?>
 	            <div class="carousel-cell">
