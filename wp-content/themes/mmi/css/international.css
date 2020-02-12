@@ -13,6 +13,10 @@ section#map #map_container {
 		fill: #2079D2;
 	}
 
+	section#map #map_container .pins.active {
+		fill: #FFF;
+	}
+
 section#map #testimony_container {
 	position: absolute;
 	top: 50%;
