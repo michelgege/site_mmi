@@ -15,6 +15,7 @@ get_header();
 		<div class="container right">
 			<h3>Les compétences</h3>
 			<p>Le Bachelor Universitaire de Technologie (BUT) « Métiers du Multimédia et de l’Internet » (MMI) se déroule en 3 ans, découpés en 6 semestres, sur un volume total de 2000 heures de cours en présence d’un enseignant. A cela s’ajoutent 600 heures de projet réparties sur les 3 années.</p>
+			<img class="icon" src="<?php echo get_template_directory_uri() ?>/img/en_detail/tablet.svg" alt="">
 		</div>
 
 		<p>Chaque étudiant doit valider 5 blocs de compétences pour l’obtention du BUT MMI découpés de la manière suivante :</p>
@@ -93,25 +94,28 @@ get_header();
 					<li>en concevant des contenus adaptés à des supports divers et variés</li>
 					<li>en respectant une stratégie de communication</li>
 				</ul>
-			</div>	
+			</div>
+			<img class="icon" src="<?php echo get_template_directory_uri() ?>/img/en_detail/checklist.svg" alt="">
+			<img class="icon" src="<?php echo get_template_directory_uri() ?>/img/en_detail/camera.svg" alt="">
 		</div>
 
 		<div class="container left">
 			<h3>A qui est destiné le BUT MMI ?</h3>
 			<p>Notre objectif est de composer une promotion avec :
--	50% de bacheliers technologiques, de préférence issus de la filière STI2D 
-option SIN, avec un excellent dossier.
--	50% de bacheliers généraux, avec des options scientifiques.
-Dans l’idéal le candidat au BUT MMI aura également une ouverture à la culture 
-artistique et esthétique.</p>
+				-	50% de bacheliers technologiques, de préférence issus de la filière STI2D 
+				option SIN, avec un excellent dossier.
+				-	50% de bacheliers généraux, avec des options scientifiques.
+				Dans l’idéal le candidat au BUT MMI aura également une ouverture à la culture 
+				artistique et esthétique.</p>
+			<img class="icon" src="<?php echo get_template_directory_uri() ?>/img/en_detail/code.svg" alt="">
 		</div>
 
 		<div class="container right">
 			<h3>Les projets</h3>
 			<p>Les projets sont au coeur de la formation MMI. Ils permettent aux étudiants de mettre 
-en application pratique des savoirs théoriques. Grâce aux projets tuteurés, les étudiants 
-peuvent présenter des réalisations de qualité pour leur devenir professionnel (stage, 
-alternance ou emploi).</p>
+				en application pratique des savoirs théoriques. Grâce aux projets tuteurés, les étudiants 
+				peuvent présenter des réalisations de qualité pour leur devenir professionnel (stage,
+				alternance ou emploi).</p>
 		</div>
 		
 
@@ -121,11 +125,11 @@ alternance ou emploi).</p>
 		<div id="years">
 			<h4>Première année</h4>
 			<p>Réalisation et mise en oeuvre d’une exposition multimédia : conception 
-des oeuvres et des outils de communication relatifs à l’exposition. </p>
+				des oeuvres et des outils de communication relatifs à l’exposition. </p>
 			<h4>Deuxième année</h4>
 			<p>Constitués en agences, les étudiants répondent à un besoin réel issu 
-d’un client : création de sites web, conception de produits audiovisuels, 
-stratégie de communication…</p>
+				d’un client : création de sites web, conception de produits audiovisuels, 
+				stratégie de communication…</p>
 			<h4>Troisième année</h4>
 			<p>Stage en entreprise et possibilité d'alternance</p>
 		</div>
@@ -140,11 +144,11 @@ stratégie de communication…</p>
 		<div class="container left">
 			<h3>La spécialité de MMI Chambéry</h3>
 			<p>Notre objectif est de composer une promotion avec :
--	50% de bacheliers technologiques, de préférence issus de la filière STI2D 
-option SIN, avec un excellent dossier.
--	50% de bacheliers généraux, avec des options scientifiques.
-Dans l’idéal le candidat au BUT MMI aura également une ouverture à la culture 
-artistique et esthétique.</p>
+				-	50% de bacheliers technologiques, de préférence issus de la filière STI2D 
+				option SIN, avec un excellent dossier.
+				-	50% de bacheliers généraux, avec des options scientifiques.
+				Dans l’idéal le candidat au BUT MMI aura également une ouverture à la culture 
+				artistique et esthétique.</p>
 		</div>
 
 	</section>
