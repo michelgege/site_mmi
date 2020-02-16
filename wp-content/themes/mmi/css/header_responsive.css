@@ -22,6 +22,10 @@
 	header .scene >div #header_empty_square_medium, #header_empty_triangle_medium {
 		display: none;
 	}
+
+	.wrap {
+		margin: 0 100px;
+	}
 }
 
 @media all and (max-width: 1000px) {
@@ -65,5 +69,9 @@
 
 	header #menu {
 		padding: 50px 40px 0 40px;
+	}
+
+	.wrap {
+		margin: 0 50px;
 	}
 }

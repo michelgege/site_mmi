@@ -39,7 +39,7 @@
 					<h4><?php echo $job; ?></h4>
 					<p>à <?php echo $company; ?>, <?php echo $city; ?></p>
 				</div>
-				<p><?php echo $content; ?></p>
+				<?php echo $content; ?>
 			</div>
 
 		<?php endwhile; ?>
