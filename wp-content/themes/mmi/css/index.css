@@ -210,6 +210,7 @@ section#stats #stats_container {
 	display: flex;
 	justify-content: space-between;
 	margin-left: 30px;
+	flex-wrap: wrap;
 }
 
 	section#stats #stats_container .stats_content {
@@ -285,7 +286,6 @@ section#department h2:after{
 
 /*Slider Flickity*/
 section#department .carousel-cell.is-next {
-	transform: scale(0.8) translateX(-30%);
 	opacity: 0.5;
 	cursor: pointer;
 }
@@ -403,14 +403,13 @@ section#international >p {
 
 section#international #international_content {
 	position: relative;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
 	margin-top: 100px;
 }
 
 	section#international #international_content >p {
-		position: absolute;
-		top: 50%;
-		right: 0;
-		transform: translateY(-50%);
 		width: 25%;
 		line-height: 20px;
 	}
@@ -468,6 +467,8 @@ section#testimony h2:after {
 
 section#testimony .testimony_container {
 	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
 	margin-left: 30px;
 	position: relative;
 	margin-bottom: 100px;
@@ -481,6 +482,11 @@ section#testimony .testimony_container:nth-child(odd) {
 	flex-direction: row-reverse;
 }
 
+	section#testimony .testimony_container .testimony_titles {
+		margin-top: 30px;
+		width: 30%;
+	}
+
 	section#testimony .testimony_container:nth-child(even) .testimony_titles {
 		margin-left: 40px;
 	}
@@ -493,6 +499,7 @@ section#testimony .testimony_container:nth-child(odd) {
 			font-weight: var(--font-extra-bold);
 			font-size: 30px;
 			margin-bottom: 15px;
+			line-height: 1.1em;
 		}
 
 		section#testimony .testimony_container .testimony_titles p:nth-of-type(2) {
@@ -522,6 +529,7 @@ section#testimony .testimony_container:nth-child(odd) {
 		width: 40%;
 		margin-top: 30px;
 		line-height: 25px;
+		width: 40%;
 	}
 
 	section#testimony .testimony_container:nth-child(even) .testimony_content {

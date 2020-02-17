@@ -1,11 +1,37 @@
 @media all and (max-width: 1500px) {
+	/*section skills*/
 	section#skills #skills_container #skills_content >div {
 		transform: scale(0.7);
+		margin-right: 50px;
+	}
+
+	/*Section Stats*/
+	section#stats #stats_container .stats_content >div {
+		width: 175px;
+		height: 175px;
+	}
+
+	section#stats #stats_container .stats_content >div p {
+		font-size: 40px;
+	}
+
+	/*Section international*/
+	section#international .slider_arrows {
+		bottom: 20%;
+	}
+
+	/*Section testimony*/
+	section#testimony .testimony_container:nth-child(even) .testimony_titles img {
+		margin-left: 50px;
+	}
+
+	section#testimony .testimony_container:nth-child(odd) .testimony_titles img {
 		margin-right: 50px;
 	}
 }
 
 @media all and (max-width: 1300px) {
+	/*section skills*/
 	section#skills #skills_container {
 		flex-direction: column;
 	}
@@ -17,5 +43,179 @@
 	section#skills #skills_container #skills_content >div {
 		transform: scale(1);
 		margin-right: 100px;
+	}
+
+	/*Section Stats*/
+	section#stats #stats_container .stats_content {
+		width: 50%;
+		margin-bottom: 50px;
+	}
+
+	/*Section international*/
+	section#international .slider_arrows {
+		bottom: 30%;
+	}
+
+	/*Section testimony*/
+	section#testimony .testimony_quote {
+		display: none;
+	}
+
+	section#testimony .testimony_container .testimony_content {
+		width: 100%;
+		margin-top: 50px;
+	}
+
+	/*Section testimony*/
+	section#testimony .testimony_container .testimony_titles img {
+		display: none;
+	}
+}
+
+@media all and (max-width: 890px) {
+	/*General*/
+	.link_button {
+		font-size: 18px;
+		text-align: center;
+	}
+
+	/*section skills*/
+	section#skills #skills_container #skills_content >div {
+		margin-right: 50px;
+	}
+
+	section#skills #skills_container #skills_content >div >img {
+		display: none;
+	}
+
+	section#skills #skills_container #skills_content >div >p {
+		transform: rotate(-90deg);
+	}
+
+	/*Section highlights*/
+	section#highlights #video {
+		width: 100%;
+	}
+
+	/*Section international*/
+	section#international #international_content {
+		margin-top: 50px;
+	}
+
+	section#international #international_content >p {
+		width: 100%;
+	}
+
+	section#international .main-carousel {
+		height: 100%;
+		margin-bottom: 100px;
+	}
+
+	section#international .slider_arrows {
+		bottom: 20%;
+	}
+
+	section#international .carousel-cell.is-previous {
+		display: none;
+	}
+
+	section#international .carousel-cell {
+		width: 100%;
+	}
+}
+
+@media all and (max-width: 750px) {
+	/*Department slider*/
+	section#department .carousel-cell.is-previous, section#department .carousel-cell.is-next {
+		display: none;
+	}
+
+	section#department .carousel-cell {
+		width: 100%;
+	}
+
+	/*Section international*/
+	section#international .slider_arrows {
+		bottom: 30%;
+	}
+
+	/*Section testimony */
+	section#testimony .testimony_container:nth-child(even) .testimony_titles {
+		margin-left: 60px;
+	}
+
+	section#testimony .testimony_container:nth-child(odd) .testimony_titles {
+		margin-right: 60px;
+	}
+}
+
+@media all and (max-width: 650px) {
+	/*section skills*/
+	section#skills #skills_container #skills_content >div {
+		width: 60px;
+		margin-right: 10px;
+	}
+
+	/*Section Stats*/
+	section#stats #stats_container {
+		margin-left: 0;
+	}
+
+	section#stats #stats_container .stats_content >div {
+		width: 125px;
+		height: 125px;
+	}
+
+	section#stats #stats_container .stats_content >div p {
+		font-size: 30px;
+	}
+	
+	/*Department slider*/
+	section#department .slider_arrows {
+		bottom: 40%;
+	}
+
+	/*Section international*/
+	section#international #international_content {
+		margin-top: 0px;
+	}
+
+	section#international .slider_arrows {
+		bottom: 40%;
+	}
+
+	/*Section testimony */
+	section#testimony .testimony_container .testimony_img {
+		height: 150px;
+		width: 150px;
+	}
+
+	section#testimony .testimony_container .testimony_img >img {
+		width: 150px;
+		height: 150px;
+	}
+
+	section#testimony .testimony_container .testimony_titles {
+		width: 100%;
+	}
+
+	section#testimony .testimony_container:nth-child(odd) .testimony_titles p {
+		text-align: center;
+	}
+
+	section#testimony .testimony_container {
+		margin-left: 0;
+	}
+}
+
+@media all and (max-width: 410px) {
+	/*Section Stats*/
+	section#stats #stats_container .stats_content {
+		width: 100%;
+	}
+
+	/*Section international*/
+	section#international .slider_arrows {
+		bottom: 50%;
 	}
 }
