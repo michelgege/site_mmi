@@ -234,6 +234,8 @@ div.pop_up.visible
               div.pop_up div.content div.realisation
               {
                   margin-right: 50px;
+                  height: 100%;
+                  position: relative;
               }
 
 
@@ -287,14 +289,17 @@ div.pop_up.visible
                   div.realisation img
                   {
                       width: 100%;
-                      margin-bottom: 10px;
+                      height: 100%;
+                      object-fit: cover;
+                      position: absolute;
                   }
 
                   div.pop_up div.content div.description >*
                   {
-                        margin-bottom: 50px;
+                        margin-bottom: 30px;
                         line-height: 1.2;
                   }
+
                         div.description a
                         {
                              text-decoration: underline;
@@ -307,7 +312,7 @@ div.pop_up.visible
                         }
                         div.description h3.domain
                         {
-                             font-size: 30px;
+                             font-size: 35px;
                              font-weight: var(--font-extra-bold);
                         }
                         div.description p.date
@@ -316,14 +321,13 @@ div.pop_up.visible
                         }
                         div.description p.author_and_name
                         {
-                             font-size: 30px;
+                             font-size: 25px;
+                        }
+                        div.pop_up div.content div.description div.author_and_name + p
+                        {
+                             margin-bottom: 0;
                         }
 
-                        div.description p.author_and_name span.author_bold
-                        {
-                             font-weight: 800;
-                             margin-right: 20px;
-                        }
                         div.pop_up div.content div.description p.description
                         {
                              margin-bottom: 0;

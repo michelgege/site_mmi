@@ -50,7 +50,7 @@
 			// vars
 			$image = get_sub_field('image');
 			$name = get_sub_field('nom');
-			$type = get_sub_field('type');
+			$type = get_sub_field('categorie');
 			?>
 
 			<div class="img_container">
@@ -96,7 +96,7 @@
 			// vars
 			$image = get_sub_field('image');
 			$name = get_sub_field('nom');
-			$type = get_sub_field('type');
+			$type = get_sub_field('categorie');
 			?>
 
 			<div class="img_container">
@@ -142,7 +142,7 @@
 			// vars
 			$image = get_sub_field('image');
 			$name = get_sub_field('nom');
-			$type = get_sub_field('type');
+			$type = get_sub_field('categorie');
 			?>
 
 			<div class="img_container">
@@ -205,7 +205,7 @@
 
 			$image = get_sub_field('image');
 			$name = get_sub_field('nom'); 
-			$gallery = get_sub_field('images_rea');
+			$gallery = get_sub_field('gallery');
 			$author = get_sub_field('auteur');
 			$linkedin = get_sub_field('auteur_linkedin');
 			$category = get_sub_field('categorie');
@@ -254,7 +254,7 @@
 							<div class="context"><?php the_sub_field('contexte') ?></div>
 
 							<div class="author_and_name">
-								<p class="author_and_name">par <span class="author_bold"><?php echo $author; ?></span></p>
+								<p class="author_and_name">Par <span class="author_bold"><?php echo $author; ?></span></p>
 
 								<?php if ($linkedin) : ?>
 
@@ -316,7 +316,7 @@
 
 			$image = get_sub_field('image');
 			$name = get_sub_field('nom'); 
-			$gallery = get_sub_field('images_rea');
+			$gallery = get_sub_field('gallery');
 			$author = get_sub_field('auteur');
 			$linkedin = get_sub_field('auteur_linkedin');
 			$category = get_sub_field('categorie');
@@ -425,7 +425,7 @@
 
 			$image = get_sub_field('image');
 			$name = get_sub_field('nom'); 
-			$gallery = get_sub_field('images_rea');
+			$gallery = get_sub_field('gallery');
 			$author = get_sub_field('auteur');
 			$linkedin = get_sub_field('auteur_linkedin');
 			$category = get_sub_field('categorie');
