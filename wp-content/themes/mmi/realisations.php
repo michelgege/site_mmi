@@ -274,9 +274,9 @@
 
 					<div class="gallery_container">
 
-						<?php foreach ($gallery as $image) : ?>
+						<?php foreach ($gallery as $img) : ?>
 
-							<img src="<?php echo $image['url']; ?>">
+							<img src="<?php echo $img['url']; ?>">
 						
 						<?php endforeach ?>
 						
@@ -385,9 +385,9 @@
 
 					<div class="gallery_container">
 
-						<?php foreach ($gallery as $image) : ?>
+						<?php foreach ($gallery as $img) : ?>
 
-							<img src="<?php echo $image['url']; ?>">
+							<img src="<?php echo $img['url']; ?>">
 						
 						<?php endforeach ?>
 						
@@ -494,9 +494,9 @@
 
 					<div class="gallery_container">
 
-						<?php foreach ($gallery as $image) : ?>
+						<?php foreach ($gallery as $img) : ?>
 
-							<img src="<?php echo $image['url']; ?>">
+							<img src="<?php echo $img['url']; ?>">
 						
 						<?php endforeach ?>
 						
