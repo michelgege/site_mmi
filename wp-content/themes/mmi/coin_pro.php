@@ -46,7 +46,7 @@
 
 
 	<section id="testimony">
-		<h2>Les témoignages</h2>
+		<h2>Les Témoignages</h2>
 		<?php if( have_rows('pro_testimonials') ): ?>
 
 			<?php while( have_rows('pro_testimonials') ): the_row(); 
