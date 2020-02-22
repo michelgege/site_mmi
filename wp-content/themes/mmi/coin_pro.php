@@ -15,24 +15,32 @@
 		<div class="need_us_content">
 			<h3>Les compétences</h3>
 			<div>
+
 				<?php the_field('pro_content_skills'); ?>
+
 				<a class="link_button" href="#">Voir les réalisations</a>
 			</div>
 		</div>
 
 		<div class="need_us_content">
 			<h3>Les projets</h3>
+
 			<?php the_field('pro_content_projects'); ?>
+
 		</div>
 
 		<div class="need_us_content">
 			<h3>Le stage</h3>
+
 			<?php the_field('pro_content_internship'); ?>
+
 		</div>
 
 		<div class="need_us_content">
 			<h3>L'évènement MMI Et Après</h3>
+
 			<?php the_field('pro_content_mmi_et_apres'); ?>
+
 		</div>
 
 		<div class="scene">
@@ -47,6 +55,7 @@
 
 	<section id="testimony">
 		<h2>Les témoignages</h2>
+
 		<?php if( have_rows('pro_testimonials') ): ?>
 
 			<?php while( have_rows('pro_testimonials') ): the_row(); 
@@ -77,6 +86,7 @@
 			<?php endwhile; ?>
 
 		<?php endif; ?>
+		
 		<div class="scene">
 			<img data-depth="-0.8" src="<?php echo get_template_directory_uri() ?>/img/coin_pro/testimony_triangle_first.svg" alt="">
 			<img data-depth="1.4" src="<?php echo get_template_directory_uri() ?>/img/coin_pro/testimony_triangle_second.svg" alt="">

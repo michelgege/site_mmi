@@ -14,7 +14,8 @@ get_header();
 
 		<div class="container right">
 			<h3>Les compétences</h3>
-			<p>Le Bachelor Universitaire de Technologie (BUT) « Métiers du Multimédia et de l’Internet » (MMI) se déroule en 3 ans, découpés en 6 semestres, sur un volume total de 2000 heures de cours en présence d’un enseignant. A cela s’ajoutent 600 heures de projet réparties sur les 3 années.</p>
+			<!-- <p>Le Bachelor Universitaire de Technologie (BUT) « Métiers du Multimédia et de l’Internet » (MMI) se déroule en 3 ans, découpés en 6 semestres, sur un volume total de 2000 heures de cours en présence d’un enseignant. A cela s’ajoutent 600 heures de projet réparties sur les 3 années.</p> -->
+			<?php $test = get_field('detail_but')['detail_but_skills_content']; var_dump($test); ?>
 			<img class="icon" src="<?php echo get_template_directory_uri() ?>/img/en_detail/tablet.svg" alt="">
 		</div>
 

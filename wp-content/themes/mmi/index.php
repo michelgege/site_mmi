@@ -15,7 +15,9 @@
 	<section id="skills">
 		<h2>LES COMPÉTENCES</h2>
 		<div id="skills_container">
-			<?php the_field('home_content_skills'); ?>
+
+			<?php the_field('home_skills_content'); ?>
+
 			<div id="skills_content">
 				<div>
 					<img src="<?php echo get_template_directory_uri() ?>/img/accueil/audiovisuel.svg" alt="Logo audiovisuel">
@@ -51,6 +53,7 @@
 	<section id="stats">
 		<h2>MMI EN CHIFFRES</h2>
 		<div id="stats_container">
+
 			<?php while( have_rows('home_numbers') ): the_row(); 
 
 				// vars
@@ -67,6 +70,7 @@
 				</div>
 
 			<?php endwhile; ?>
+
 		</div>
 		<div class="scene" id="stats_scene_1">
 			<img data-depth="0.4" src="<?php echo get_template_directory_uri() ?>/img/accueil/stats_triangle_1.svg" alt="">	
@@ -86,6 +90,7 @@
 	<section id="department">
 		<h2>LE DÉPARTEMENT</h2>
 		<div class="main-carousel" data-flickity>
+
 			<?php 
 				$images = get_field('home_department_slider_gallery');
 			?>
@@ -100,6 +105,7 @@
 		            </div>
 	            </div>
 	        <?php endforeach; ?>
+
 		</div>
 		<div class="slider_arrows">
 			<img id="test_slider" src="<?php echo get_template_directory_uri() ?>/img/accueil/slider_1_arrow_left.svg" alt="">
@@ -121,7 +127,9 @@
 	<section id="highlights">
 		<h2>LES TEMPS FORTS</h2>
 		<div id="video">
+
 			<?php the_field('home_highlights_video'); ?>
+
 		</div>
 		<a class="link_button" href="realisations">Voir les réalisations</a>
 		<div class="scene" id="highlights_scene_1">
@@ -142,9 +150,12 @@
 
 	<section id="international">
 		<h2>L'INTERNATIONAL</h2>
-		<p><?php the_field('home_international_intro'); ?></p>
+
+		<?php the_field('home_international_intro'); ?>
+
 		<div id="international_content">
 			<div class="main-carousel" data-flickity>
+
 	  			<?php 
 					$images = get_field('home_international_slider_gallery');
 				?>
@@ -159,12 +170,15 @@
 		            	</div>
 		            </div>
 		        <?php endforeach; ?>
+
 			</div>
 			<div class="slider_arrows">
 				<img src="<?php echo get_template_directory_uri() ?>/img/accueil/slider_1_arrow_left.svg" alt="">
 				<img src="<?php echo get_template_directory_uri() ?>/img/accueil/slider_1_arrow_right.svg" alt="">
 			</div>
+
 			<?php the_field('home_international_content')?>
+
 		</div>
 		<a class="link_button" href="international">En savoir plus</a>
 		<div class="scene" id="international_scene_1">
@@ -181,6 +195,7 @@
 
 	<section id="testimony">
 		<h2>LES TÉMOIGNAGES</h2>
+		
 		<?php if( have_rows('home_testimonials') ): ?>
 
 			<?php while( have_rows('home_testimonials') ): the_row(); 

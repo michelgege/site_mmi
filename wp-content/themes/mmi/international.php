@@ -2330,11 +2330,15 @@ get_header();
 	<section id="steps">
 		<h3>Les démarches</h3>
 		<img src="<?php echo get_template_directory_uri() ?>/img/international/testtest.svg" id="sub_title" alt=""/>
+
 		<?php $international_steps = get_field('international_steps', $post->ID); ?>
+		
 		<div class="container">
 			<h4>Stage</h4>
 			<div class="content">
+
 				<?php echo($international_steps['international_steps_internship']['international_steps_internship_content']); ?>
+
 				<ul>
 					<?php foreach($international_steps['international_steps_internship']['international_steps_internship_list'] as $item): ?>
 							<li><?php echo($item['international_steps_internship_list_item']); ?></li>
@@ -2350,7 +2354,9 @@ get_header();
 		<div class="container">
 			<h4>Semestres</h4>
 			<div class="content">
+
 				<?php echo($international_steps['international_steps_semesters']['international_steps_semesters_content']); ?>
+
 				<ul>
 					<?php foreach($international_steps['international_steps_semesters']['international_steps_semesters_list'] as $item): ?>
 							<li><?php echo($item['international_steps_semesters_list_item']); ?></li>
@@ -2366,7 +2372,9 @@ get_header();
 		<div class="container">
 			<h4>Comment partir ?</h4>
 			<div class="content">
+
 				<?php echo($international_steps['international_steps_howtogo']['international_steps_howtogo_content']); ?>
+
 				<ul>
 					<?php foreach($international_steps['international_steps_howtogo']['international_steps_howtogo_list'] as $item): ?>
 							<li><?php echo($item['international_steps_howtogo_list_item']); ?></li>
