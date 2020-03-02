@@ -106,7 +106,6 @@ section#department #video::after {
 }
 
 	section#team #teachers .column_teacher >p {
-		width: 200px;
 		font-size: 10px;
 	}
 
@@ -131,11 +130,6 @@ section#department #video::after {
 		font-size: 12px;
 		font-weight: var(--font-light);
 	}
-
-	section#but #years {
-	width: 70%;
-	margin: 30px auto;
-}
 
 section#but #years h4 {
 	font-size: 15px;

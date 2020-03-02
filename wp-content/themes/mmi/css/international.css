@@ -137,11 +137,111 @@ section#map #testimony_container {
 				right: 0;
 			}
 
+			/*Responsive*/
+section#map #resp_container {
+	background-color: white;
+	color: black;
+	padding: 25px 15px;
+}
+
+	section#map #resp_container >p:nth-of-type(1) {
+		font-size: 15px;
+	}
+
+	section#map #resp_container >p:nth-of-type(2) {
+		font-size: 15px;
+		font-weight: var(--font-bold);
+	}
+
+	section#map #resp_container .resp_content {
+
+	}
+
+	section#map #resp_container select {
+		outline: 0;
+	}
+
+		section#map #resp_container select option {
+			
+		}
+
+		section#map #resp_container .resp_content .resp_content_head {
+			display: flex;
+		}
+
+			section#map #resp_container .resp_content .resp_content_head .resp_img_after {
+
+			}
+
+				section#map #resp_container .resp_content .resp_content_head .resp_img_after img {
+					height: 130px;
+					width: 130px;
+				}
+
+			section#map #resp_container .resp_content .resp_content_head .resp_infos {
+				margin-left: 15px;
+			}
+
+				section#map #resp_container .resp_content .resp_content_head .resp_infos h4 {
+					font-size: 19px;
+					font-weight: var(--font-extra-bold);
+				}
+
+				section#map #resp_container .resp_content .resp_content_head .resp_infos p:nth-of-type(1) {
+					background-color: var(--color-light-blue);
+					color: white;
+					padding: 2px 7px;
+					font-size: 19px;
+					margin: 5px 0;
+				}
+
+				section#map #resp_container .resp_content .resp_content_head .resp_infos p:nth-of-type(2) {
+				}
+
+		section#map #resp_container .resp_content h3 {
+			font-size: 22px;
+			font-weight: var(--font-extra-bold);
+			color: var(--color-light-blue);
+			margin-top: 20px;
+		}
+
+		section#map #resp_container .resp_content .resp_text_quote {
+			font-size: 12px;
+			font-weight: var(--font-light);
+			margin: 10px 0 30px 0;
+		}
+
+		section#map #resp_container .resp_content .resp_testimony {
+			
+		}
+
+			section#map #resp_container .resp_content .resp_testimony p {
+				font-size: 15px;
+				font-weight: var(--font-light);
+				font-style: italic;
+			}
+
+			section#map #resp_container .resp_content .resp_testimony .quote {
+				position: absolute;
+				height: 100px;
+			}
+
+			section#map #resp_container .resp_content .resp_testimony .quote.first {
+				top: -50px;
+				left: 0;
+			}
+
+			section#map #resp_container .resp_content .resp_testimony .quote.second {
+				bottom: -30px;
+				right: 0;
+			}
+
 
 /*Section Steps*/
 section#steps h3 {
 	font-size: 70px;
 	text-align: right;
+	line-height: 1.1em;
 }
 
 section#steps >img {
@@ -165,12 +265,14 @@ section#steps .container:first-of-type {
 	section#steps .container h4 {
 		font-size: 30px;
 		font-weight: var(--font-semi-bold);
+		line-height: 1.1em;
 	}
 
 	section#steps .container .content {
 		display: flex;
 		justify-content: space-between;
 		margin-top: 35px;
+		flex-wrap: wrap;
 	}
 
 		section#steps .container .content p {

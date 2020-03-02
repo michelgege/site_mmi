@@ -2218,7 +2218,7 @@ get_header();
 
 		<?php if( have_rows('international_map') ): ?>
 
-			<div id="testimony_container">
+		<div id="testimony_container">
 
 			<?php while( have_rows('international_map') ): the_row(); 
 
@@ -2234,7 +2234,7 @@ get_header();
 
 				?>
 
-				<div class="testimony_content" data-id="<?php echo $id; ?>">
+			<div class="testimony_content" data-id="<?php echo $id; ?>">
 				<img class="cross" src="http://localhost/site_mmi/wp-content/themes/mmi/img/international/cross.svg" alt="croix">
 				<div class="content_head">
 					<div class="img_after">
@@ -2262,66 +2262,122 @@ get_header();
 
 			<?php endwhile; ?>
 
-			</div>
+		</div>
 
 		<?php endif; ?>
 	
 		<!--Responsive-->
-		<!-- <div class="list_container">
-			<p class="intro">Témoignages d'étudiants étant partis faire leur stage ou leur semestre à l'étranger </p>
-			<h5>Pays de destination :</h5>
-			<div class="list_content">
-				<div class="list_header">
-					<p>Choisir un pays</p>
-					<img src="<?php echo get_template_directory_uri() ?>/img/international/burger.svg" alt="burger menu">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div id="resp_container">
+			<p>Témoignages d'étudiants étant parti faire leur stage ou leur semestre à l'étranger </p>
+
+			<p>Pays de destination :</p>
+
+			<select id="country-list">
+				<?php foreach(get_field('international_map') as $item): ?> 
+
+					<option value="<?php echo($item['international_map_testimony_country']); ?>" data-id="<?php echo($item['international_map_testimony_id']); ?>"><?php echo($item['international_map_testimony_country']); ?></option>
+
+				<?php endforeach; ?>
+			</select>
+
+			<?php while( have_rows('international_map') ): the_row(); 
+
+				// vars
+				$id = get_sub_field('international_map_testimony_id');
+				$image = get_sub_field('international_map_testimony_img');
+				$name = get_sub_field('international_map_testimony_name');
+				$city = get_sub_field('international_map_testimony_city');
+				$country = get_sub_field('international_map_testimony_country');
+				$study = get_sub_field('international_map_testimony_study');
+				$quote = get_sub_field('international_map_testimony_quote');
+				$content = get_sub_field('international_map_testimony_content');
+
+				?>
+
+			<div class="resp_content" data-id="<?php echo $id; ?>">
+				<div class="resp_content_head">
+					<div class="resp_img_after">
+						<img src="<?php echo $image; ?>" alt="<?php echo $name; ?>">
+					</div>
+					<div class="resp_infos">
+						<h4><?php echo $name; ?></h4>
+						<p><?php echo $city; ?>, <?php echo $country; ?></p>
+						<p><?php echo $study; ?></p>
+					</div>
 				</div>
-				<span>"</span>
-				<div class="country">
+				<h3>Expérience</h3>
+				<?php if( $quote ): ?>
+					<p class="resp_text_quote"><?php echo $quote; ?></p>
+				<?php endif; ?>
+				
+				<div class="resp_testimony">
+					<p><?php echo $content; ?></p>
 					
-					<p class="country_content" data-country="Allemagne">Allemagne</p>
-					<p class="country_content"data-country="Brésil">Brésil</p>
-					<p class="country_content"data-country="Espagne">Espagne</p>
-					<p class="country_content"data-country="Etats-Unis">Etats-Unis</p>
-					<p class="country_content"data-country="Japon">Japon</p>
-				</div>	
+					<img class="quote first" src="<?php echo get_template_directory_uri() ?>/img/international/quote_first.svg" alt="guillemet ouvert">
+					<img class="quote second" src="<?php echo get_template_directory_uri() ?>/img/international/quote_second.svg" alt="guillemet fermé">
+				</div>
+				
 			</div>
 
-			<div class="pop_up" data-country="Etats-Unis">
-				<div class="header">
-					<div class="img_after">
-						<img src="http://localhost/site_mmi/wp-content/themes/mmi/img/international/testimony_picture_2.jpg">
-					</div>
-					<div class="infos">
-						<h3>Jean PAT</h3>
-						<h4>DUETI Destination</h4>
-						<p>Métier</p>
-					</div>
-				</div>
-				<h3>Expérience</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-				<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-				<img class="guillemet_1" src="http://localhost/site_mmi/wp-content/themes/mmi/img/international/quote_black.svg" alt="guillemet ouvert">
-				<img class="guillemet_2" src="http://localhost/site_mmi/wp-content/themes/mmi/img/international/quote_black.svg" alt="guillemet fermé">
-			</div>
+			<?php endwhile; ?>
+		</div>
 
-			<div class="pop_up" data-country="Brésil">
-				<div class="header">
-					<div class="img_after">
-						<img src="http://localhost/site_mmi/wp-content/themes/mmi/img/international/testimony_picture_1.jpg">
-					</div>
-					<div class="infos">
-						<h3>Mylène PAT</h3>
-						<h4>DUETI Destination</h4>
-						<p>Métier</p>
-					</div>
-				</div>
-				<h3>Expérience</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-				<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-				<img class="guillemet_1" src="http://localhost/site_mmi/wp-content/themes/mmi/img/international/quote_black.svg" alt="guillemet ouvert">
-				<img class="guillemet_2" src="http://localhost/site_mmi/wp-content/themes/mmi/img/international/quote_black.svg" alt="guillemet fermé">
-			</div>
-		</div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	</section>
 
 
@@ -2392,6 +2448,51 @@ get_header();
 		</div>
 	</section>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+	jQuery(document).ready(function($){
+		// Responsive
+		// var x = $('#country-list option:selected').val();
+		// console.log(x);
+
+		$('#country-list option').each(function(){
+			console.log($(this).attr("data-id"));
+			$('.resp_content').each(function(){
+				
+			});
+		});
+
+
+	});
+	
+	
+</script>
 
 <?php
 get_footer();

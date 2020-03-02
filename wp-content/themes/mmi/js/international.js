@@ -15,29 +15,4 @@ jQuery(document).ready(function($) {
 		})
 	}
 	pins();
-	
-
-	//responsive list
-
-	// $(".list_header img").click(function() {
-
-	// 	$(".list_content").toggleClass('active');
-	// })
-
-	// function selectCountry(){
-
-	// 		$("p.country_content").click(function() {
-
-	// 			$('div.list_header p').text(jQuery(this).attr('data-country'));
-	// 			$(".list_content").removeClass('active');
-	// 			$(".list_content").addClass('absolute');
-
-	// 			var country=$(this).attr("data-country");
-	// 			$('.pop_up[data-country= "'+country+'"]').addClass('active');
-	// 			$(".pop_up").not('.pop_up[data-country= "'+country+'"]').removeClass('active');
-	// 	})
-	// }
-	// selectCountry();
-	
-
 });
