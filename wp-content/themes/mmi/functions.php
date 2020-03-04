@@ -60,8 +60,6 @@
 			wp_enqueue_script('index_js');
 		}
 
-
-
 		else if (is_page('coin-pro')) {
 			wp_enqueue_style('coin_pro');
 			wp_enqueue_style('responsive_coin_pro');
