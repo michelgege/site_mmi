@@ -15,4 +15,21 @@ jQuery(document).ready(function($) {
 		})
 	}
 	pins();
+
+	function testimony_responsive() {
+		$('#country-list').change(function(){
+			$('.resp_content').each(function(){
+				if ($(this).attr('data-country').toLowerCase() == $('#country-list').find(":selected").text().toLowerCase()) {
+					$(this).addClass('active');
+				}
+
+				else {
+					$(this).removeClass('active');
+				}
+			});
+		});
+
+		$('#country-list').trigger('change');
+	}
+	testimony_responsive();
 });

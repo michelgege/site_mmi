@@ -1,4 +1,13 @@
 @media only screen and (max-width : 880px) {
+	/*Section Map*/
+	/*section#map #map_container {
+		display: none;
+	}
+
+	section#map #resp_container {
+		display: block;
+	}*/
+	
 	/*Section Steps*/
 	section#steps h3 {
 		font-size: 50px;

@@ -2267,42 +2267,20 @@ get_header();
 		<?php endif; ?>
 	
 		<!--Responsive-->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 		<div id="resp_container">
 			<p>Témoignages d'étudiants étant parti faire leur stage ou leur semestre à l'étranger </p>
 
-			<p>Pays de destination :</p>
+			<label for="country-list">Pays de destination :</label>
 
 			<select id="country-list">
-				<?php foreach(get_field('international_map') as $item): ?> 
+				<!-- <?php foreach(get_field('international_map') as $item): ?> 
 
-					<option value="<?php echo($item['international_map_testimony_country']); ?>" data-id="<?php echo($item['international_map_testimony_id']); ?>"><?php echo($item['international_map_testimony_country']); ?></option>
+					<option"><?php echo($item['international_map_testimony_country']); ?></option>
 
-				<?php endforeach; ?>
+				<?php endforeach; ?> -->
+				<option>Canada</option>
+				<option>États-Unis</option>
+				<option>Roumanie</option>
 			</select>
 
 			<?php while( have_rows('international_map') ): the_row(); 
@@ -2319,7 +2297,7 @@ get_header();
 
 				?>
 
-			<div class="resp_content" data-id="<?php echo $id; ?>">
+			<div class="resp_content" data-country="<?php echo $country; ?>">
 				<div class="resp_content_head">
 					<div class="resp_img_after">
 						<img src="<?php echo $image; ?>" alt="<?php echo $name; ?>">
@@ -2346,38 +2324,6 @@ get_header();
 
 			<?php endwhile; ?>
 		</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	</section>
 
 
@@ -2448,51 +2394,6 @@ get_header();
 		</div>
 	</section>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<script>
-	jQuery(document).ready(function($){
-		// Responsive
-		// var x = $('#country-list option:selected').val();
-		// console.log(x);
-
-		$('#country-list option').each(function(){
-			console.log($(this).attr("data-id"));
-			$('.resp_content').each(function(){
-				
-			});
-		});
-
-
-	});
-	
-	
-</script>
 
 <?php
 get_footer();
