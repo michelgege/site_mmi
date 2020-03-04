@@ -29,7 +29,7 @@
 
         <h3 class="centerbot"> catherine.vandenbroucke@univ-smb.fr </br>
         04 79 75 81 62 </br> </br>
-        <span class="grey">© MMI Chambéry - Tous droits réservés - Mentions légales </span>
+        <span class="grey">© MMI Chambéry - Tous droits réservés - <a href="mentions-legales">Mentions légales</a> </span>
         </h3>
 
         <div class="right_bot">

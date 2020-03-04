@@ -27,8 +27,7 @@
 		wp_register_style('lptsi', get_template_directory_uri().'/css/lptsi.css');
 		wp_register_style('realisations', get_template_directory_uri().'/css/realisations.css');
 		wp_register_style('responsive_realisations', get_template_directory_uri().'/css/responsive_realisations.css');
-		wp_register_style('post-form', get_template_directory_uri().'/css/post-form.css');
-		wp_register_style('post-form_responsive', get_template_directory_uri().'/css/post-form_responsive.css');
+
 
 		
         // SCRIPT
@@ -61,11 +60,7 @@
 			wp_enqueue_script('index_js');
 		}
 
-		else if (is_page('post-form')) {
-			wp_enqueue_style('post-form');
-			wp_enqueue_style('post-form_responsive');
-			wp_enqueue_script('post-form_js');
-		}
+
 
 		else if (is_page('coin-pro')) {
 			wp_enqueue_style('coin_pro');
