@@ -70,9 +70,9 @@
 
 
 				<div class="testimony_container">
-					<div class="fade-scroll fade"><img class="testimony_quote" src="<?php echo get_template_directory_uri() ?>/img/quote.svg" alt=""></div>
-					<div class="fade-scroll fade"><div class="testimony_img fade-scroll fade"></div>
-					<div class="fade-scroll fade">	<img src="<?php echo $image; ?>" alt="Photo Profil"></div>
+					<img class="testimony_quote" src="<?php echo get_template_directory_uri() ?>/img/quote.svg" alt="">
+					<div class="testimony_img fade-scroll fade">
+						<img src="<?php echo $image; ?>" alt="Photo Profil">
 					</div>
 					<div class="testimony_titles">
 						<p><?php echo $name; ?></p>
