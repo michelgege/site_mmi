@@ -10,36 +10,36 @@
 	<section id="need_us">
 		<h2>Besoin de nous ?</h2>
 
-		<p id="company" class="hideme">Vous êtes une entrepise ?<br/>Nos étudiants peuvent vous aider via les stages ou les projets.</p>
+		<p id="company" class="fade-scroll hideme">Vous êtes une entrepise ?<br/>Nos étudiants peuvent vous aider via les stages ou les projets.</p>
 	
-		<div class="need_us_content hideme" >
+		<div class="need_us_content fade-scroll hideme" >
 			<h3>Les compétences</h3>
 			<div>
 
-				<?php the_field('pro_content_skills'); ?>
+			<div class="fade-scroll hideme">	<?php the_field('pro_content_skills'); ?> </div>
 
 				<a class="link_button" href="#">Voir les réalisations</a>
 			</div>
 		</div>
 
-		<div class="need_us_content hideme">
-			<h3 class="hideme">Les projets</h3>
+		<div class="need_us_content fade-scroll hideme">
+			<h3 class="fade-scroll hideme">Les projets</h3>
 
-			<?php the_field('pro_content_projects'); ?>
-
-		</div>
-
-		<div class="need_us_content hideme" >
-			<h3 class="hideme">Le stage</h3>
-
-			<?php the_field('pro_content_internship'); ?>
+		<div class="fade-scroll hideme">	<?php the_field('pro_content_projects'); ?> </div>
 
 		</div>
 
-		<div class="need_us_content hideme">
-			<h3 class="hideme">L'évènement MMI Et Après</h3>
+		<div class="need_us_content fade-scroll hideme" >
+			<h3 class="fade-scroll hideme">Le stage</h3>
 
-			<?php the_field('pro_content_mmi_et_apres'); ?>
+		<div class="fade-scroll hideme">	<?php the_field('pro_content_internship'); ?> </div>
+
+		</div>
+
+		<div class="need_us_content fade-scroll hideme">
+			<h3 class="fade-scroll hideme">L'évènement MMI Et Après</h3>
+
+		<div class="fade-scroll hideme">	<?php the_field('pro_content_mmi_et_apres'); ?> </div>
 
 		</div>
 
@@ -53,12 +53,12 @@
 
 
 
-	<section id="testimony">
-		<h2 class="hideme">Les témoignages</h2>
+	<section id="testimony" class="fade-scroll hideme">
+		<h2 class="fade-scroll hideme">Les témoignages</h2>
 
-		<?php if( have_rows('pro_testimonials') ): ?>
+		 <?php if( have_rows('pro_testimonials') ): ?> 
 
-			<?php while( have_rows('pro_testimonials') ): the_row(); 
+	<div class="fade-scroll hideme">		<?php while( have_rows('pro_testimonials') ): the_row(); 
 
 				// vars
 				$image = get_sub_field('pro_testimony_img');
@@ -66,11 +66,11 @@
 				$job = get_sub_field('pro_testimony_job');
 				$content = get_sub_field('pro_testimony_content');
 
-				?>
+				?></div>
 
 				<div class="testimony_container">
 					<img class="testimony_quote" src="<?php echo get_template_directory_uri() ?>/img/quote.svg" alt="">
-					<div class="testimony_img hideme">
+					<div class="testimony_img fade-scroll hideme">
 						<img src="<?php echo $image; ?>" alt="Photo Profil">
 					</div>
 					<div class="testimony_titles">
@@ -97,7 +97,7 @@
 
 
 	<section id="form">
-		<h3 class="hideme">Vous aussi, proposer votre projet</h3>
+		<h3 class="fade-scroll hideme">Vous aussi, proposer votre projet</h3>
 		<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/form_line.svg" alt="">
 		<form method="post" action="<?php echo get_template_directory_uri() ?>/post-form.php">
 			<input type="text" placeholder="Nom" name="nom" required>
