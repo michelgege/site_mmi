@@ -1,8 +1,8 @@
-/*.hideme
+.fade
 {
-  opacity: 0.;
+   opacity: 1;
 }
-*/
+
 h2::after {
   background-color: var(--color-dark-red);
 }
