@@ -10,9 +10,9 @@
 	<section id="need_us">
 		<h2>Besoin de nous ?</h2>
 
-		<p id="company">Vous êtes une entrepise ?<br/>Nos étudiants peuvent vous aider via les stages ou les projets.</p>
+		<p id="company" class="hideme">Vous êtes une entrepise ?<br/>Nos étudiants peuvent vous aider via les stages ou les projets.</p>
 	
-		<div class="need_us_content">
+		<div class="need_us_content hideme" >
 			<h3>Les compétences</h3>
 			<div>
 
@@ -22,22 +22,22 @@
 			</div>
 		</div>
 
-		<div class="need_us_content">
-			<h3>Les projets</h3>
+		<div class="need_us_content hideme">
+			<h3 class="hideme">Les projets</h3>
 
 			<?php the_field('pro_content_projects'); ?>
 
 		</div>
 
-		<div class="need_us_content">
-			<h3>Le stage</h3>
+		<div class="need_us_content hideme" >
+			<h3 class="hideme">Le stage</h3>
 
 			<?php the_field('pro_content_internship'); ?>
 
 		</div>
 
-		<div class="need_us_content">
-			<h3>L'évènement MMI Et Après</h3>
+		<div class="need_us_content hideme">
+			<h3 class="hideme">L'évènement MMI Et Après</h3>
 
 			<?php the_field('pro_content_mmi_et_apres'); ?>
 
@@ -54,7 +54,7 @@
 
 
 	<section id="testimony">
-		<h2>Les témoignages</h2>
+		<h2 class="hideme">Les témoignages</h2>
 
 		<?php if( have_rows('pro_testimonials') ): ?>
 
@@ -70,7 +70,7 @@
 
 				<div class="testimony_container">
 					<img class="testimony_quote" src="<?php echo get_template_directory_uri() ?>/img/quote.svg" alt="">
-					<div class="testimony_img">
+					<div class="testimony_img hideme">
 						<img src="<?php echo $image; ?>" alt="Photo Profil">
 					</div>
 					<div class="testimony_titles">
@@ -78,7 +78,7 @@
 						<p><?php echo $job; ?></p>
 						<img src="<?php echo get_template_directory_uri() ?>/img/accueil/testimony_line_normal.svg" alt="">
 					</div>
-					<div class="testimony_content">
+					<div class="testimony_content ">
 						<?php echo $content; ?>
 					</div>
 				</div>
@@ -97,7 +97,7 @@
 
 
 	<section id="form">
-		<h3>Vous aussi, proposer votre projet</h3>
+		<h3 class="hideme">Vous aussi, proposer votre projet</h3>
 		<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/form_line.svg" alt="">
 		<form method="post" action="<?php echo get_template_directory_uri() ?>/post-form.php">
 			<input type="text" placeholder="Nom" name="nom" required>
