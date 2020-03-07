@@ -13,10 +13,10 @@ get_header();
 
 		<?php $detail_but = get_field('detail_but', $post->ID); ?>
 
-		<div class="container right">
+		<div class="container right" data-aos="zoom-in">
 			<h3>Les compétences</h3>
 			<?php echo($detail_but['detail_but_skills_content']); ?>
-			<img class="icon" src="<?php echo get_template_directory_uri() ?>/img/en_detail/tablet.svg" alt="">
+			<img class="icon" data-aos="zoom-in" src="<?php echo get_template_directory_uri() ?>/img/en_detail/tablet.svg" alt="">
 		</div>
 
 		<p>Chaque étudiant doit valider 5 blocs de compétences pour l’obtention du BUT MMI découpés de la manière suivante :</p>
@@ -24,16 +24,15 @@ get_header();
 		<div id="skills">
 			<?php foreach($detail_but['detail_but_skills_list'] as $title): ?>
 
-				<div class="skills_container">
+				<div class="skills_container" data-aos="zoom-in">
 					<div>
-						<img src="<?php echo get_template_directory_uri() ?>/img/en_detail/plus.svg" alt="plus">
-						<h4><?php echo($title['detail_but_skills_list_title']); ?></h4>
+						<img id="test" src="<?php echo get_template_directory_uri() ?>/img/en_detail/plus.svg" alt="plus">
+					<h4><?php echo($title['detail_but_skills_list_title']); ?></h4> 
 					</div>
 					<ul>
+					<?php foreach($title['detail_but_skills_list_second'] as $item): ?> 
 
-						<?php foreach($title['detail_but_skills_list_second'] as $item): ?> 
-
-							<li><?php echo($item['detail_but_skills_list_second_item']); ?></li>
+						<li><?php echo($item['detail_but_skills_list_second_item']); ?></li>
 
 						<?php endforeach; ?>
 
@@ -46,18 +45,18 @@ get_header();
 			
 		</div>
 
-		<div class="container left">
+		<div class="container left" data-aos="zoom-in">
 			<h3>A qui est destiné le BUT MMI ?</h3>
 			<?php echo($detail_but['detail_but_forwho_content']); ?>
 			<img class="icon" src="<?php echo get_template_directory_uri() ?>/img/en_detail/code.svg" alt="">
 		</div>
 
-		<div class="container right">
+		<div class="container right" data-aos="zoom-in">
 			<h3>Les projets</h3>
 			<?php echo($detail_but['detail_but_projects_content']); ?>
 		</div>
 		
-		<div id="years">
+		<div id="years" data-aos="zoom-in">
 			<h4>Première année</h4>
 			<?php echo($detail_but['detail_but_projects_years']['detail_but_projects_years_first']); ?>
 			<h4>Deuxième année</h4>
@@ -66,17 +65,17 @@ get_header();
 			<?php echo($detail_but['detail_but_projects_years']['detail_but_projects_years_third']); ?>
 		</div>
 
-		<div class="container left">
+		<div class="container left" data-aos="zoom-in">
 			<h3>La spécialité de MMI Chambéry</h3>
 			<?php echo($detail_but['detail_but_speciality_content']); ?>
 		</div>
 
 	</section>
 
-	<section id="department">
+	<section id="department" data-aos="zoom-in">
 		<h2>Le département</h2>
 		<p>Nous vous accueillons sur le site du Bourget du Lac dans des locaux équipés de matériel informatique et audiovisuel récent que les étudiants peuvent emprunter.</p>
-		<div id="video">
+		<div id="video" data-aos="zoom-in">
 			<?php the_field('detail_department_video'); ?>
 		</div>
 	</section>
@@ -95,7 +94,7 @@ get_header();
 
 				?>
 
-				<div data-aos="zoom-in-up" data-aos-easing="linear" data-aos-duration="1500">
+				<div data-aos="zoom-in" style="margin-bottom:50px;" >
       <div class="column_teacher">
 
 					<img src="<?php echo $image; ?>" alt="<?php echo $name; ?>">

@@ -1,6 +1,7 @@
 jQuery(document).ready(function ($) {
    	function skills_list() {
    		$('.skills_container >div').click(function() {
+
    			$(this).next().toggleClass('active');
    		})
 	}
@@ -25,5 +26,7 @@ jQuery(document).ready(function ($) {
 	// });
 
     
+  AOS.init();
+
 
 });

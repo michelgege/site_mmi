@@ -53,7 +53,7 @@
 
 
 
-	<section id="testimony" class="fade-scroll fade">
+	<section id="testimony" data-aos="fade-up">
 		<h2 class="fade-scroll fade">Les témoignages</h2>
 
 		<?php if( have_rows('pro_testimonials') ): ?> 

@@ -17,5 +17,7 @@ jQuery(document).ready(function ($) {
   }).scroll(); //invoke scroll-handler on page-load
 	});
 
+AOS.init();
+
 });
 

@@ -53,7 +53,7 @@
 			$type = get_sub_field('categorie');
 			?>
 
-			<div class="img_container">
+			<div class="img_container" data-aos="zoom-in">
 
 				<img src="<?php echo $image; ?>" alt="" />
 
