@@ -30,7 +30,7 @@
 
 		?>	
 
-			<div class="witness">
+			<div class="witness fade">
 				<div class="img_container">
 					<img src="<?php echo $image; ?>" alt="photo de profil">
 				</div>

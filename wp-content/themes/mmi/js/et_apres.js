@@ -1,11 +1,4 @@
 jQuery(document).ready(function ($) {
-   	function skills_list() {
-   		$('.skills_container >div').click(function() {
-   			$(this).next().toggleClass('active');
-   		})
-	}
-   	skills_list();
-
 
 	$(window).on("load",function() {
 		$(window).scroll(function() {
@@ -23,7 +16,5 @@ jQuery(document).ready(function ($) {
   });
   }).scroll(); //invoke scroll-handler on page-load
 	});
-
-    
 
 });

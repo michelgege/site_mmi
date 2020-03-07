@@ -69,6 +69,7 @@
 		else if (is_page('et-apres')) {
 			wp_enqueue_style('et_apres');
 			wp_enqueue_style('et_apres_responsive');
+			wp_enqueue_script('coin_pro_js');
 		}
 
 		else if (is_page('international')) {
