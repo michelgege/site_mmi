@@ -95,15 +95,20 @@ get_header();
 
 				?>
 
-				<div class="column_teacher">
+				<div data-aos="zoom-in-up" data-aos-easing="linear" data-aos-duration="1500">
+      <div class="column_teacher">
+
 					<img src="<?php echo $image; ?>" alt="<?php echo $name; ?>">
 					<h3><?php echo $name; ?></h3>
 					<h4><?php echo $job; ?></h4>
 					<p><?php echo $testimony; ?></p>
 				</div>
+			</div>
 
 			<?php endwhile; ?>	    
 		</div>
 	</section>
 </div>
+
+
 <?php get_footer(); ?>

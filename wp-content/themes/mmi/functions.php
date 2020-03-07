@@ -5,6 +5,7 @@
 			//Libs
 		wp_enqueue_style('reset', get_template_directory_uri().'/css/libs/reset_css.css');
 		wp_enqueue_style('flickity', get_template_directory_uri().'/css/libs/flickity.css');
+		wp_enqueue_style('aos', get_template_directory_uri().'/css/libs/aos.css');
 		wp_enqueue_style('raleway', 'https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800&display=swap');
 
 		wp_enqueue_style('header', get_template_directory_uri().'/css/header.css');
@@ -35,6 +36,8 @@
 	  	wp_enqueue_script('parallax_libs', get_template_directory_uri().'/js/libs/parallax.js', array('jquery'), false, true);
 	  	//Flickity
 	  	wp_enqueue_script('flickity_js', get_template_directory_uri().'/js/libs/flickity.js', array('jquery','parallax_libs'), false, true);
+
+	  	wp_enqueue_script('aos_js', get_template_directory_uri().'/js/libs/aos.js', array('jquery','parallax_libs'), false, true);
 
 	  	wp_enqueue_script('parallax_header', get_template_directory_uri().'/js/parallax_header.js', array('jquery','parallax_libs'), false, true);
 
