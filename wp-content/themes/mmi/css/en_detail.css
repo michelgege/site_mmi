@@ -110,9 +110,9 @@ section#but #skills .skills_container >div img {
 
 
 section#but #skills .skills_container >div img:hover {
--webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
-          transition-duration: 1s;
+	-webkit-transform: rotate(360deg);
+	transform: rotate(360deg);
+	transition-duration: 1s;
 }
 
 
@@ -180,7 +180,7 @@ section#but #years h4:nth-of-type(2)::after{
 	position: absolute;
 	display: block;
 	top: 50px;
-	right: 0;
+	right: 220px;
 	color: var(--color-dark-purple);
 	font-size: 150px;
 	font-weight: var(--font-extra-bold);

@@ -13,13 +13,13 @@ get_header();
 
 		<?php $detail_but = get_field('detail_but', $post->ID); ?>
 
-		<div class="container right" data-aos="zoom-in">
+		<div class="container right" data-aos="zoom-right">
 			<h3>Les compétences</h3>
 			<?php echo($detail_but['detail_but_skills_content']); ?>
 			<img class="icon" data-aos="zoom-in" src="<?php echo get_template_directory_uri() ?>/img/en_detail/tablet.svg" alt="">
 		</div>
 
-		<p>Chaque étudiant doit valider 5 blocs de compétences pour l’obtention du BUT MMI découpés de la manière suivante :</p>
+		<p data-aos="zoom-in">Chaque étudiant doit valider 5 blocs de compétences pour l’obtention du BUT MMI découpés de la manière suivante :</p>
 
 		<div id="skills">
 			<?php foreach($detail_but['detail_but_skills_list'] as $title): ?>
@@ -40,18 +40,18 @@ get_header();
 				</div>
 
 			<?php endforeach; ?>
-			<img class="icon" src="<?php echo get_template_directory_uri() ?>/img/en_detail/checklist.svg" alt="">
-			<img class="icon" src="<?php echo get_template_directory_uri() ?>/img/en_detail/camera.svg" alt="">
+			<img class="icon" data-aos="zoom-in" src="<?php echo get_template_directory_uri() ?>/img/en_detail/checklist.svg" alt="">
+			<img class="icon" data-aos="zoom-in" src="<?php echo get_template_directory_uri() ?>/img/en_detail/camera.svg" alt="">
 			
 		</div>
 
-		<div class="container left" data-aos="zoom-in">
+		<div class="container left" data-aos="zoom-left">
 			<h3>A qui est destiné le BUT MMI ?</h3>
 			<?php echo($detail_but['detail_but_forwho_content']); ?>
 			<img class="icon" src="<?php echo get_template_directory_uri() ?>/img/en_detail/code.svg" alt="">
 		</div>
 
-		<div class="container right" data-aos="zoom-in">
+		<div class="container right" data-aos="zoom-right">
 			<h3>Les projets</h3>
 			<?php echo($detail_but['detail_but_projects_content']); ?>
 		</div>
@@ -65,7 +65,7 @@ get_header();
 			<?php echo($detail_but['detail_but_projects_years']['detail_but_projects_years_third']); ?>
 		</div>
 
-		<div class="container left" data-aos="zoom-in">
+		<div class="container left" data-aos="zoom-left">
 			<h3>La spécialité de MMI Chambéry</h3>
 			<?php echo($detail_but['detail_but_speciality_content']); ?>
 		</div>

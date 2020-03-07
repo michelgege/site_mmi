@@ -16,6 +16,10 @@
 		transform: scale(0.7);
 	}
 
+	section#but #years h4:nth-of-type(2)::after{
+		right: 0;
+	}
+
 }
 
 
@@ -84,9 +88,9 @@
 {
 
 
-section#department #video::after {
-	width: 350px;
-}
+	section#department #video::after {
+		width: 350px;
+	}
 
 	section#department #video iframe {
 		width: 350px;
@@ -98,8 +102,8 @@ section#department #video::after {
 {
 
 	section#department #video::after {
-	width: 250px;
-}
+		width: 250px;
+	}
 
 	section#department #video iframe {
 		width: 250px;
@@ -133,20 +137,20 @@ section#department #video::after {
 		font-weight: var(--font-light);
 	}
 
-section#but #years h4 {
-	font-size: 15px;
-	margin-bottom: 12.5px;
-}
+	section#but #years h4 {
+		font-size: 15px;
+		margin-bottom: 12.5px;
+	}
 
-section#but #years  p {
-	font-size: 12px;
-	margin-left: 20px;
-	margin-bottom: 30px;
-}
+	section#but #years  p {
+		font-size: 12px;
+		margin-left: 20px;
+		margin-bottom: 30px;
+	}
 
-section#department p {
-	font-size: 13px;
-}
+	section#department p {
+		font-size: 13px;
+	}
 
 
 
