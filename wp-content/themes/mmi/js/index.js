@@ -58,6 +58,7 @@ jQuery(document).ready(function($) {
 		});
 	}
 	international_flickity();
+
 });
 
 Flickity.createMethods.push("_createPrevNextCells");
@@ -101,3 +102,4 @@ Flickity.prototype.setPrevNextCells = function() {
 		changeSlideClasses(this.nextSlide, "add", "is-next");
 	}
 };
+

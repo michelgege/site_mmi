@@ -64,7 +64,7 @@
 
 				<div class="stats_content">
 					<div>
-						<p><?php echo $number; ?></p>
+						<p class="count"><?php echo $number; ?></p>
 					</div>
 					<p><?php echo $desc; ?></p>
 				</div>
