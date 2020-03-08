@@ -99,7 +99,7 @@
 			$type = get_sub_field('categorie');
 			?>
 
-			<div class="img_container">
+			<div class="img_container" data-aos="zoom-in">
 
 				<img src="<?php echo $image; ?>" alt="" />
 
@@ -134,10 +134,10 @@
 
 			<div class="column">
 
-	<?php if( have_rows('works_column_second') ): ?>
+	<?php if( have_rows('works_column_third') ): ?>
 
 
-		<?php while( have_rows('works_column_second') ): the_row(); 
+		<?php while( have_rows('works_column_third') ): the_row(); 
 
 			// vars
 			$image = get_sub_field('image');
@@ -145,7 +145,7 @@
 			$type = get_sub_field('categorie');
 			?>
 
-			<div class="img_container">
+			<div class="img_container" data-aos="zoom-in">
 
 				<img src="<?php echo $image; ?>" alt="" />
 
@@ -275,8 +275,11 @@
 					<div class="gallery_container">
 
 						<?php foreach ($gallery as $img) : ?>
+							
+							<div data-aos="fade-up">
+								<img src="<?php echo $img['url']; ?>">
+							</div>
 
-							<img src="<?php echo $img['url']; ?>">
 						
 						<?php endforeach ?>
 						
@@ -496,7 +499,9 @@
 
 						<?php foreach ($gallery as $img) : ?>
 
+						<div data-aos="fade-up">
 							<img src="<?php echo $img['url']; ?>">
+						</div>	
 						
 						<?php endforeach ?>
 						
