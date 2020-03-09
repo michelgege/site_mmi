@@ -10,40 +10,40 @@
 	<section id="need_us">
 		<h2>Besoin de nous ?</h2>
 
-		<p id="company" class="fade-scroll fade">Vous êtes une entrepise ?<br/>Nos étudiants peuvent vous aider via les stages ou les projets.</p>
+		<p id="company" data-aos="fade-left">Vous êtes une entrepise ?<br/>Nos étudiants peuvent vous aider via les stages ou les projets.</p>
 
-		<div class="need_us_content fade-scroll fade" >
+		<div class="need_us_content" data-aos="fade-right">
 			<h3>Les compétences</h3>
 			<div>
 
-				<div class="fade-scroll fade">	<?php the_field('pro_content_skills'); ?> </div>
+				<div data-aos="zoom-in">	<?php the_field('pro_content_skills'); ?> </div>
 
 				<a class="link_button" href="#">Voir les réalisations</a>
 			</div>
 		</div>
 
-		<div class="need_us_content fade-scroll fade">
-			<h3 class="fade-scroll fade">Les projets</h3>
+		<div class="need_us_content" data-aos="fade-right">
+			<h3>Les projets</h3>
 
-			<div class="fade-scroll fade">	<?php the_field('pro_content_projects'); ?> </div>
-
-		</div>
-
-		<div class="need_us_content fade-scroll fade" >
-			<h3 class="fade-scroll fade">Le stage</h3>
-
-			<div class="fade-scroll fade">	<?php the_field('pro_content_internship'); ?> </div>
+				<?php the_field('pro_content_projects'); ?> 
 
 		</div>
 
-		<div class="need_us_content fade-scroll fade">
-			<h3 class="fade-scroll fade">L'évènement MMI Et Après</h3>
+		<div class="need_us_content" data-aos="fade-left">
+			<h3>Le stage</h3>
 
-			<div class="fade-scroll fade">	<?php the_field('pro_content_mmi_et_apres'); ?> </div>
+			<?php the_field('pro_content_internship'); ?> 
 
 		</div>
 
-		<div class="scene">
+		<div class="need_us_content" data-aos="fade-up">
+			<h3 >L'évènement MMI Et Après</h3>
+
+				<?php the_field('pro_content_mmi_et_apres'); ?> 
+
+		</div>
+
+		<div class="scene" data-aos="fade-down">
 			<img data-depth="0.8" src="<?php echo get_template_directory_uri() ?>/img/coin_pro/need_us_rectangle.svg" alt="">
 			<img data-depth="-1.5" src="<?php echo get_template_directory_uri() ?>/img/coin_pro/need_us_triangle_first.svg" alt="">
 			<img data-depth="2.3" src="<?php echo get_template_directory_uri() ?>/img/coin_pro/need_us_triangle_second.svg" alt="">
@@ -53,8 +53,8 @@
 
 
 
-	<section id="testimony" data-aos="fade-up">
-		<h2 class="fade-scroll fade">Les témoignages</h2>
+	<section id="testimony"> 
+		<h2>Les témoignages</h2>
 
 		<?php if( have_rows('pro_testimonials') ): ?> 
 
@@ -69,7 +69,7 @@
 
 
 
-				<div class="testimony_container">
+				<div class="testimony_container" data-aos="fade-up">>
 					<img class="testimony_quote" src="<?php echo get_template_directory_uri() ?>/img/quote.svg" alt="">
 					<div class="testimony_img fade-scroll fade">
 						<img src="<?php echo $image; ?>" alt="Photo Profil">
@@ -88,7 +88,7 @@
 
 		<?php endif; ?>
 
-		<div class="scene">
+		<div class="scene" data-aos="fade-up">
 			<img data-depth="-0.8" src="<?php echo get_template_directory_uri() ?>/img/coin_pro/testimony_triangle_first.svg" alt="">
 			<img data-depth="1.4" src="<?php echo get_template_directory_uri() ?>/img/coin_pro/testimony_triangle_second.svg" alt="">
 			<img data-depth="-1.9" src="<?php echo get_template_directory_uri() ?>/img/coin_pro/testimony_triangle_third.svg" alt="">
@@ -97,8 +97,8 @@
 
 
 
-	<section id="form">
-		<h3 class="fade-scroll fade">Vous aussi, proposer votre projet</h3>
+	<section id="form" data-aos="zoom-in">
+		<h3 >Vous aussi, proposer votre projet</h3>
 		<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/form_line.svg" alt="">
 		<form method="post" action="<?php echo get_template_directory_uri() ?>/post-form.php">
 			<input type="text" placeholder="Nom" name="nom" required>
@@ -121,13 +121,13 @@
 			</div>
 
 			<input type="submit" name="submitpost" value="Envoyer" class="button" id="form_button" required> 
-			<div class="scene">
+			<div class="scene" data-aos="fade-right">
 				<img data-depth="-0.6" src="<?php echo get_template_directory_uri() ?>/img/coin_pro/form_form_rectangle.svg" alt="">
 				<img data-depth="1.4" src="<?php echo get_template_directory_uri() ?>/img/coin_pro/form_form_triangle_first.svg" alt="">
 				<img data-depth="-1.9" src="<?php echo get_template_directory_uri() ?>/img/coin_pro/form_form_triangle_second.svg" alt="">
 			</div>
 		</form>
-		<div class="scene">
+		<div class="scene" data-aos="fade-bottom">
 			<img data-depth="0.6" src="<?php echo get_template_directory_uri() ?>/img/coin_pro/form_triangle_first.svg" alt="">
 			<img data-depth="-1.5" src="<?php echo get_template_directory_uri() ?>/img/coin_pro/form_triangle_second.svg" alt="">
 			<img data-depth="1.3" src="<?php echo get_template_directory_uri() ?>/img/coin_pro/form_triangle_third.svg" alt="">
