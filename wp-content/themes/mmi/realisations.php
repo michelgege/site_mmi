@@ -212,7 +212,6 @@
 			$year = get_sub_field('annee');
 			$description = get_sub_field('description');
 			$context = get_sub_field('contexte');
-			$link = get_sub_field('lien_realisation');
 			$video = get_sub_field('video');
 
 		?>
@@ -316,7 +315,6 @@
 			$year = get_sub_field('annee');
 			$description = get_sub_field('description');
 			$context = get_sub_field('contexte');
-			$link = get_sub_field('lien_realisation');
 			$video = get_sub_field('video');
 
 		?>
@@ -415,8 +413,8 @@
 			$year = get_sub_field('annee');
 			$description = get_sub_field('description');
 			$context = get_sub_field('contexte');
-			$link = get_sub_field('lien_realisation');
 			$video = get_sub_field('video');
+			$link = get_sub_field('lien_realisation');
 
 		?>
 			<div class="pop_up" data-name="<?php echo $name; ?>">
@@ -433,22 +431,32 @@
 					</div>
 
 					<div>
+
+						<?php if ($link) : ?>
+						<a href="<?php echo($link); ?>">
+						<?php endif; ?>
+
 						
-						<div class="realisation">
-							<?php if ($video) : ?>
-								
-								<div class="iframe_container">
-									<?php echo($video); ?>
-								</div>
+							<div class="realisation">
+								<?php if ($video) : ?>
+									
+									<div class="iframe_container">
+										<?php echo($video); ?>
+									</div>
 
-							<?php else: ?>
+								<?php else: ?>
 
-								<img src="<?php echo $image; ?>" alt="">
+									<img src="<?php echo $image; ?>" alt="">
 
-							<?php endif; ?>
-							
+								<?php endif; ?>	
+							</div>
+						
 
-						</div>
+						<?php if ($link) : ?>
+						</a>
+						<?php endif; ?>
+
+
 
 						<div class="description">
 
