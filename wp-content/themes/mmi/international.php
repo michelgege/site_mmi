@@ -2273,6 +2273,11 @@ get_header();
 			<label for="country-list">Pays de destination :</label>
 
 			<select id="country-list">
+				<!-- <?php foreach(get_field('international_map') as $item): ?> 
+
+					<option"><?php echo($item['international_map_testimony_country']); ?></option>
+
+				<?php endforeach; ?> -->
 				<option>Canada</option>
 				<option>États-Unis</option>
 				<option>Roumanie</option>
@@ -2299,7 +2304,7 @@ get_header();
 					</div>
 					<div class="resp_infos">
 						<h4><?php echo $name; ?></h4>
-						<p><?php echo $city; ?>, <span class="maj"><?php echo $country; ?></span></p>
+						<p><?php echo $city; ?>, <?php echo $country; ?></p>
 						<p><?php echo $study; ?></p>
 					</div>
 				</div>
@@ -2310,6 +2315,9 @@ get_header();
 				
 				<div class="resp_testimony">
 					<p><?php echo $content; ?></p>
+					
+					<img class="quote first" src="<?php echo get_template_directory_uri() ?>/img/international/quote_first.svg" alt="guillemet ouvert">
+					<img class="quote second" src="<?php echo get_template_directory_uri() ?>/img/international/quote_second.svg" alt="guillemet fermé">
 				</div>
 				
 			</div>

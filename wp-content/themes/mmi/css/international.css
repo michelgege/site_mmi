@@ -142,17 +142,18 @@ section#map #resp_container {
 	background-color: white;
 	color: black;
 	padding: 25px 15px;
-	display: none;
-}
+/*	display: none;
+*/}
 
 	section#map #resp_container >p:nth-of-type(1) {
 		font-size: 15px;
-		margin-bottom: 25px;
 	}
 
 	section#map #resp_container >label {
 		font-size: 15px;
 		font-weight: var(--font-bold);
+		margin-top: 25px;
+		margin-bottom: 15px;
 	}
 
 	section#map #resp_container .resp_content {
@@ -161,12 +162,7 @@ section#map #resp_container {
 
 	section#map #resp_container .resp_content.active {
 		display: block;
-		margin-bottom: 100px;
 	}
-
-		section#map #resp_container .resp_content.active:last-of-type {
-			margin-bottom: 0px;
-		}
 
 	section#map #resp_container select {
 		outline: 0;
@@ -177,7 +173,6 @@ section#map #resp_container {
 		border: 1px solid black;
 		background-color: transparent;
 		cursor: pointer;
-		margin-top: 15px;
 	}
 
 	section#map #resp_container select:focus {
@@ -243,6 +238,22 @@ section#map #resp_container {
 				font-weight: var(--font-light);
 				font-style: italic;
 			}
+
+			section#map #resp_container .resp_content .resp_testimony .quote {
+				position: absolute;
+				height: 100px;
+			}
+
+			section#map #resp_container .resp_content .resp_testimony .quote.first {
+				top: -50px;
+				left: 0;
+			}
+
+			section#map #resp_container .resp_content .resp_testimony .quote.second {
+				bottom: -30px;
+				right: 0;
+			}
+
 
 /*Section Steps*/
 section#steps h3 {
