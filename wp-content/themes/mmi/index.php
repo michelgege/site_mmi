@@ -92,7 +92,7 @@
 
 	<section id="department">
 		<h2>LE DÉPARTEMENT</h2>
-		<div class="main-carousel" data-flickity>
+		<div class="main-carousel" data-flickity data-aos="zoom-in-down">
 
 			<?php 
 				$images = get_field('home_department_slider_gallery');
@@ -119,7 +119,7 @@
 			<img data-depth="0.5" src="<?php echo get_template_directory_uri() ?>/img/accueil/department_triangle_1.svg" alt="">
 			<img data-depth="1.4" src="<?php echo get_template_directory_uri() ?>/img/accueil/department_triangle_2.svg" alt="">
 		</div>
-		<div class="scene" id="department_scene_2">
+		<div class="scene" id="department_scene_2" data-aos="fade-up">
 			<img data-depth="0.3" src="<?php echo get_template_directory_uri() ?>/img/accueil/department_triangle_3.svg" alt="">
 			<img data-depth="0.8" src="<?php echo get_template_directory_uri() ?>/img/accueil/department_triangle_4.svg" alt="">
 		</div>
@@ -129,22 +129,22 @@
 
 	<section id="highlights">
 		<h2>LES TEMPS FORTS</h2>
-		<div id="video">
+		<div id="video" data-flickity data-aos="zoom-in-up">
 
 			<?php the_field('home_highlights_video'); ?>
 
 		</div>
 		<a class="link_button" href="realisations">Voir les réalisations</a>
-		<div class="scene" id="highlights_scene_1">
+		<div class="scene" id="highlights_scene_1" data-aos="fade-up">
 			<img data-depth="0.2" src="<?php echo get_template_directory_uri() ?>/img/accueil/highlights_triangle_1.svg" alt="">
 			<img data-depth="0.5" src="<?php echo get_template_directory_uri() ?>/img/accueil/highlights_triangle_2.svg" alt="">
 			<img data-depth="0.9" src="<?php echo get_template_directory_uri() ?>/img/accueil/highlights_triangle_3.svg" alt="">
 		</div>
-		<div class="scene" id="highlights_scene_2">
+		<div class="scene" id="highlights_scene_2" data-aos="fade-left">
 			<img data-depth="0.7" src="<?php echo get_template_directory_uri() ?>/img/accueil/highlights_triangle_4.svg" alt="">
 			<img data-depth="0.3" src="<?php echo get_template_directory_uri() ?>/img/accueil/highlights_triangle_5.svg" alt="">
 		</div>
-		<div class="scene" id="highlights_scene_3">
+		<div class="scene" id="highlights_scene_3" data-aos="fade-right">
 			<img data-depth="1.2" src="<?php echo get_template_directory_uri() ?>/img/accueil/highlights_triangle_6.svg" alt="">
 		</div>
 	</section>
@@ -157,7 +157,7 @@
 		<?php the_field('home_international_intro'); ?>
 
 		<div id="international_content">
-			<div class="main-carousel" data-flickity>
+			<div class="main-carousel" data-flickity data-aos="zoom-in-down">
 
 	  			<?php 
 					$images = get_field('home_international_slider_gallery');
@@ -211,17 +211,17 @@
 
 				?>
 
-				<div class="testimony_container">
+				<div class="testimony_container" data-aos="fade-up-right">
 					<img class="testimony_quote" src="<?php echo get_template_directory_uri() ?>/img/quote.svg" alt="">
 					<div class="testimony_img">
 						<img src="<?php echo $image; ?>" alt="Photo de profil">
 					</div>
-					<div class="testimony_titles">
+					<div class="testimony_titles" data-aos="fade-left">
 						<p><?php echo $name; ?></p>
 						<p><?php echo $job; ?></p>
 						<img src="<?php echo get_template_directory_uri() ?>/img/accueil/testimony_line_normal.svg" alt="">
 					</div>
-					<div class="testimony_content">
+					<div class="testimony_content" data-aos="fade-right">
 						<?php echo $content; ?>
 					</div>
 				</div>

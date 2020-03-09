@@ -30,8 +30,8 @@
 
 		?>	
 
-			<div class="witness fade">
-				<div class="img_container">
+			<div class="witness" data-aos="zoom-in">
+				<div class="img_container" data-aos="zoom-in-right">
 					<img src="<?php echo $image; ?>" alt="photo de profil">
 				</div>
 				<div>
