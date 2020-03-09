@@ -92,7 +92,7 @@
 
 	<section id="department">
 		<h2>LE DÉPARTEMENT</h2>
-		<div class="main-carousel" data-flickity>
+		<div class="main-carousel" data-flickity data-aos="zoom-in">
 
 			<?php 
 				$images = get_field('home_department_slider_gallery');
@@ -129,7 +129,7 @@
 
 	<section id="highlights">
 		<h2>LES TEMPS FORTS</h2>
-		<div id="video">
+		<div id="video" data-aos="zoom-in">
 
 			<?php the_field('home_highlights_video'); ?>
 
@@ -157,7 +157,7 @@
 		<?php the_field('home_international_intro'); ?>
 
 		<div id="international_content">
-			<div class="main-carousel" data-flickity>
+			<div class="main-carousel" data-flickity data-aos="zoom-in">
 
 	  			<?php 
 					$images = get_field('home_international_slider_gallery');
@@ -211,7 +211,7 @@
 
 				?>
 
-				<div class="testimony_container">
+				<div class="testimony_container" data-flickity data-aos="zoom-in">
 					<img class="testimony_quote" src="<?php echo get_template_directory_uri() ?>/img/quote.svg" alt="">
 					<div class="testimony_img">
 						<img src="<?php echo $image; ?>" alt="Photo de profil">
