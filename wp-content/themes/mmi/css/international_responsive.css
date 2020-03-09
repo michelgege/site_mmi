@@ -1,12 +1,12 @@
 @media only screen and (max-width : 880px) {
 	/*Section Map*/
-	/*section#map #map_container {
+	section#map #map_container {
 		display: none;
 	}
 
 	section#map #resp_container {
 		display: block;
-	}*/
+	}
 	
 	/*Section Steps*/
 	section#steps h3 {
@@ -37,5 +37,13 @@
 	/*Section Steps*/
 	section#steps h3 {
 		font-size: 30px;
+	}
+}
+
+@media only screen and (max-width : 368px) {
+	/*Section Map*/
+	section#map #resp_container .resp_content .resp_content_head {
+		flex-wrap: wrap;
+		justify-content: center;
 	}
 }

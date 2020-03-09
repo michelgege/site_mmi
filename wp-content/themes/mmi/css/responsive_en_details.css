@@ -8,7 +8,7 @@
 
 }
 
-@media only screen and (max-width : 1536px)
+@media only screen and (max-width : 1546px)
 {
 
 	img.icon
@@ -17,7 +17,7 @@
 	}
 
 	section#but #years h4:nth-of-type(2)::after{
-		right: 0;
+		right: 0px;
 	}
 
 }
