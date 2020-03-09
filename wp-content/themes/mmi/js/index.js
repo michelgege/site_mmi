@@ -58,6 +58,7 @@ jQuery(document).ready(function($) {
 		});
 	}
 	international_flickity();
+	AOS.init();
 
 });
 

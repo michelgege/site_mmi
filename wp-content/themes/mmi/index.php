@@ -16,9 +16,12 @@
 		<h2>LES COMPÉTENCES</h2>
 		<div id="skills_container">
 
+		<span data-aos="fade-up">
 			<?php the_field('home_skills_content'); ?>
+		</span>
 
-			<div id="skills_content">
+
+			<div id="skills_content" data-aos="fade-up" data-aos-delay="300">
 				<div>
 					<img src="<?php echo get_template_directory_uri() ?>/img/accueil/audiovisuel.svg" alt="Logo audiovisuel">
 					<p>Audiovisuel</p>
@@ -41,7 +44,7 @@
 				</div>
 			</div>
 		</div>
-		<a class="link_button" href="mmi-en-detail">MMI en détails</a>
+		<a class="link_button" href="mmi-en-detail" data-aos="zoom-in" >MMI en détails</a>
 		<div class="scene">
 			<img data-depth="1.3" src="<?php echo get_template_directory_uri() ?>/img/accueil/skills_triangle_first.svg" alt="">
 			<img data-depth="0.6" src="<?php echo get_template_directory_uri() ?>/img/accueil/skills_triangle_second.svg" alt="">
@@ -62,7 +65,7 @@
 
 				?>
 
-				<div class="stats_content">
+				<div class="stats_content" data-aos="flip-up">
 					<div>
 						<p class="count"><?php echo $number; ?></p>
 					</div>
@@ -72,14 +75,14 @@
 			<?php endwhile; ?>
 
 		</div>
-		<div class="scene" id="stats_scene_1">
+		<div class="scene" id="stats_scene_1" data-aos="fade-up">
 			<img data-depth="0.4" src="<?php echo get_template_directory_uri() ?>/img/accueil/stats_triangle_1.svg" alt="">	
 		</div>
-		<div class="scene" id="stats_scene_2">
+		<div class="scene" id="stats_scene_2" data-aos="fade-left">
 			<img data-depth="0.7" src="<?php echo get_template_directory_uri() ?>/img/accueil/stats_triangle_2.svg" alt="">
 			<img data-depth="1.2" src="<?php echo get_template_directory_uri() ?>/img/accueil/stats_triangle_3.svg" alt="">
 		</div>
-		<div class="scene" id="stats_scene_3">
+		<div class="scene" id="stats_scene_3" data-aos="fade-right">
 			<img data-depth="1" src="<?php echo get_template_directory_uri() ?>/img/accueil/stats_triangle_4.svg" alt="">
 			<img data-depth="0.5" src="<?php echo get_template_directory_uri() ?>/img/accueil/stats_triangle_5.svg" alt="">
 		</div>
