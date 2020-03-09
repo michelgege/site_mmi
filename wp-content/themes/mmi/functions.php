@@ -40,7 +40,8 @@
 	  	wp_enqueue_script('aos_js', get_template_directory_uri().'/js/libs/aos.js', array('jquery','parallax_libs'), false, true);
 
 	  	wp_enqueue_script('parallax_header', get_template_directory_uri().'/js/parallax_header.js', array('jquery','parallax_libs'), false, true);
-
+		
+		wp_enqueue_script('index_count', get_template_directory_uri().'/js/index_count.js', array('jquery'), false, true);
 
 	  		
 
@@ -49,6 +50,8 @@
 		wp_register_script('coin_pro_js', get_template_directory_uri().'/js/coin_pro.js', array('jquery','parallax_libs'), false, true);
 		wp_register_script('realisations_js', get_template_directory_uri().'/js/realisations.js', array('jquery','parallax_libs'), false, true);
 		wp_register_script('index_js', get_template_directory_uri().'/js/index.js', array('jquery','parallax_libs'), false, true);
+		wp_register_script('index_count', get_template_directory_uri().'/js/index_count.js', array('jquery','parallax_libs'), false, true); 
+
 		wp_register_script('international_js', get_template_directory_uri().'/js/international.js', array('jquery','parallax_libs'), false, true);
 		wp_register_script('post-form_js', get_template_directory_uri().'/js/post-form.js', array('jquery','parallax_libs'), false, true);
 		
@@ -61,6 +64,8 @@
 			wp_enqueue_style('index_responsive');
 			wp_enqueue_style('header_index');
 			wp_enqueue_script('index_js');
+			wp_enqueue_script('index_count');
+
 		}
 
 		else if (is_page('coin-pro')) {
@@ -82,9 +87,9 @@
 		}
 
 		else if (is_page('mmi-en-detail')) {
-			wp_enqueue_script('en_detail_js');
 			wp_enqueue_style('en_detail');
 			wp_enqueue_style('responsive_en_details');
+			wp_enqueue_script('en_detail_js');
 		}
 
 		else if (is_page('realisations')) {

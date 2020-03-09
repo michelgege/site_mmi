@@ -6,6 +6,13 @@
 }
 
 
+@media only screen and (max-width : 1446px){
+
+ section#form form .scene {
+    display: none;
+}
+}
+
 
 @media only screen and (max-width : 1366px){
   section#form h3 {

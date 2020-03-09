@@ -3,16 +3,21 @@
 	section#team #teachers .column_teacher {
 		margin-left: 15px;
 		margin-right: 15px;
+		margin-bottom: 30px;
 	}
 
 }
 
-@media only screen and (max-width : 1536px)
+@media only screen and (max-width : 1546px)
 {
 
 	img.icon
 	{
 		transform: scale(0.7);
+	}
+
+	section#but #years h4:nth-of-type(2)::after{
+		right: 0px;
 	}
 
 }
@@ -83,27 +88,28 @@
 {
 
 
-section#department #video::after {
-	width: 350px;
-}
+	section#department #video::after {
+		width: 350px;
+	}
 
 	section#department #video iframe {
 		width: 350px;
 	}
 }
 
+
 @media only screen and (max-width : 450px)
 {
 
 	section#department #video::after {
-	width: 250px;
-}
+		width: 250px;
+	}
 
 	section#department #video iframe {
 		width: 250px;
 		margin: 20px auto 0 auto;
 	}
-}
+
 
 	section#team #teachers .column_teacher >p {
 		font-size: 10px;
@@ -131,20 +137,20 @@ section#department #video::after {
 		font-weight: var(--font-light);
 	}
 
-section#but #years h4 {
-	font-size: 15px;
-	margin-bottom: 12.5px;
-}
+	section#but #years h4 {
+		font-size: 15px;
+		margin-bottom: 12.5px;
+	}
 
-section#but #years  p {
-	font-size: 12px;
-	margin-left: 20px;
-	margin-bottom: 30px;
-}
+	section#but #years  p {
+		font-size: 12px;
+		margin-left: 20px;
+		margin-bottom: 30px;
+	}
 
-section#department p {
-	font-size: 13px;
-}
+	section#department p {
+		font-size: 13px;
+	}
 
 
 

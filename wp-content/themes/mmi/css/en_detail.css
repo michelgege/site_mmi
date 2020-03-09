@@ -12,59 +12,59 @@ section#but .container {
 	position: relative;
 }
 
-	section#but .container:first-of-type >p, section#but .container:last-of-type >p {
-		position: relative;
-	}
+section#but .container:first-of-type >p, section#but .container:last-of-type >p {
+	position: relative;
+}
 
-	section#but .container:first-of-type >p::after, section#but .container:last-of-type >p::after {
-		content: "";
-		display: block;
-		position: absolute;
-		height: 100%;
-		width: 80%;
-		background-color: var(--color-dark-purple);
-		top: 20%;
-		z-index: -1;
-	}
+section#but .container:first-of-type >p::after, section#but .container:last-of-type >p::after {
+	content: "";
+	display: block;
+	position: absolute;
+	height: 100%;
+	width: 80%;
+	background-color: var(--color-dark-purple);
+	top: 20%;
+	z-index: -1;
+}
 
-	section#but .container:nth-of-type(1) >img {
-		top: 30%;
-		left: 15%;
-	}
+section#but .container:nth-of-type(1) >img {
+	top: 30%;
+	left: 15%;
+}
 
-	section#but .container:nth-of-type(3) >img {
-		top: 20%;
-		left: 70%;
-	}
+section#but .container:nth-of-type(3) >img {
+	top: 20%;
+	left: 70%;
+}
 
-	section#but .container:first-of-type >p::after {
-		left: -25%;
-	}
+section#but .container:first-of-type >p::after {
+	left: -25%;
+}
 
-	section#but .container:last-of-type >p::after {
-		left: 25%;
-	}
+section#but .container:last-of-type >p::after {
+	left: 25%;
+}
 
 section#but .right {
 	text-align: right;
 }
 
-	section#but .right >p{
-		margin-left: auto;
-	}
+section#but .right >p{
+	margin-left: auto;
+}
 
 
-	section#but .container h3 {
-		font-size: 30px;
-		font-weight: var(--font-semi-bold);
-		color: var(--color-dark-purple);
-		margin-bottom: 60px;
-		line-height: 1;
-	}
+section#but .container h3 {
+	font-size: 30px;
+	font-weight: var(--font-semi-bold);
+	color: var(--color-dark-purple);
+	margin-bottom: 60px;
+	line-height: 1;
+}
 
-	section#but .container p {
-		width: 40%;
-	}
+section#but .container p {
+	width: 40%;
+}
 
 section#but >p {
 	font-weight: var(--font-light);
@@ -80,58 +80,72 @@ section#but #skills {
 	position: relative;
 }
 
-	section#but #skills >img:nth-of-type(1) {
-		top: -120px;
-		right: -40%;
-	}
+section#but #skills >img:nth-of-type(1) {
+	top: -120px;
+	right: -40%;
+}
 
-	section#but #skills >img:nth-of-type(2) {
-		top: 20%;
-		left: -50%;
-	}
+section#but #skills >img:nth-of-type(2) {
+	top: 20%;
+	left: -50%;
+}
 
-	section#but #skills .skills_container {
-		margin-bottom: 45px;
-	}
+section#but #skills .skills_container {
+	margin-bottom: 45px;
+}
 
-	section#but #skills .skills_container:last-of-type {
-		margin-bottom: 0px
-	}
+section#but #skills .skills_container:last-of-type {
+	margin-bottom: 0px
+}
 
-		section#but #skills .skills_container >div {
-			display: flex;
-			align-items: center;
-			cursor: pointer;
-		}
+section#but #skills .skills_container >div {
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
 
-			section#but #skills .skills_container >div img {
-				margin-right: 20px;
-			}
+section#but #skills .skills_container >div img {
+	margin-right: 20px;
+}
 
-			section#but #skills .skills_container >div h4 {
-				font-size: 18px;
-				font-weight: var(--font-medium)
-			}
 
-		section#but #skills .skills_container ul {
-			margin-top: 35px;
-			margin-left: 50px;
-			display: none;
-		}
+section#but #skills .skills_container >div img:hover {
+	-webkit-transform: rotate(360deg);
+	transform: rotate(360deg);
+	transition-duration: 1s;
+}
 
-		section#but #skills .skills_container ul.active {
-			display: block;
-		}
 
-			section#but #skills .skills_container ul li {
-				font-size: 15px;
-				font-weight: var(--font-light);
-			}
+section#but #skills .skills_container >div h4 {
+	font-size: 18px;
+	font-weight: var(--font-medium)
+}
 
-			section#but #skills .skills_container ul li::before {
-				content: "-";
-				margin-right: 10px;				
-			}
+section#but #skills .skills_container ul {
+	margin-top: 35px;
+	margin-left: 50px;
+	display: none;
+}
+
+section#but #skills .skills_container ul.active {
+	display: block;
+
+}
+
+section#but #skills .skills_container ul li {
+	font-size: 15px;
+	font-weight: var(--font-light);
+	animation-duration: 1s;
+	animation-name: opa;	
+}
+
+
+section#but #skills .skills_container ul li::before {
+	content: "-";
+	margin-right: 10px;	
+	animation-duration: 1s;
+	animation-name: opa;			
+}
 
 
 
@@ -158,6 +172,7 @@ section#but #years h4:nth-of-type(1)::after{
 	font-weight: var(--font-extra-bold);
 	z-index: -1;
 	opacity: 0.8;
+	
 }
 
 section#but #years h4:nth-of-type(2)::after{
@@ -165,12 +180,13 @@ section#but #years h4:nth-of-type(2)::after{
 	position: absolute;
 	display: block;
 	top: 50px;
-	right: 0;
+	right: 220px;
 	color: var(--color-dark-purple);
 	font-size: 150px;
 	font-weight: var(--font-extra-bold);
 	z-index: -1;
 	opacity: 0.8;
+	
 }
 
 section#but #years h4:nth-of-type(3)::after{
@@ -184,6 +200,7 @@ section#but #years h4:nth-of-type(3)::after{
 	font-weight: var(--font-extra-bold);
 	z-index: -1;
 	opacity: 0.8;
+	
 }
 
 section#but #years  p {
@@ -223,12 +240,12 @@ section#department #video::after {
 	transform: rotate(4deg) translateX(-50%);
 }
 
-	section#department #video iframe {
-		display: block;
-		margin: 80px auto 0 auto;
-		position: relative;
-		width: 550px;
-	}
+section#department #video iframe {
+	display: block;
+	margin: 80px auto 0 auto;
+	position: relative;
+	width: 550px;
+}
 
 /*Section teachers*/
 section#team #teachers {
@@ -238,41 +255,66 @@ section#team #teachers {
 	justify-content: space-between;
 }
 
-	section#team #teachers .column_teacher {
-		text-align: center;
-		width: 300px;
-		margin-bottom: 100px;
+section#team #teachers .column_teacher {
+	text-align: center;
+	width: 300px;
+	margin-bottom: 100px;
+}
+
+section#team #teachers .column_teacher:last-of-type {
+	margin: 0 auto;
+}
+
+section#team #teachers .column_teacher >img {
+	width: 200px;
+	height: 200px;
+}
+
+section#team #teachers .column_teacher >h3 {
+	font-size: 30px;
+	text-align: center;
+	font-weight: var(--font-semi-bold);
+	margin-bottom: 25px;
+	margin-top: 30px;
+	line-height: 1;
+}
+
+section#team #teachers .column_teacher >h4 {
+	font-size: 23px;
+	text-align: center;
+	font-weight: var(--font-medium);
+	color: #9B3BB7;
+	margin-bottom: 25px;
+	line-height: 1;
+}
+
+section#team #teachers .column_teacher >p {
+	font-size: 14px;
+	text-align: center;
+	font-weight: var(--font-light);
+}
+
+
+@keyframes opa {
+	from {
+		opacity: 0;
 	}
 
-	section#team #teachers .column_teacher:last-of-type {
-		margin: 0 auto;
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes pop {
+	0% {
+		transform: scale(0);
 	}
 
-		section#team #teachers .column_teacher >img {
-			width: 200px;
-			height: 200px;
-		}
+	90% {
+		transform: scale(1.1);
+	}
 
-		section#team #teachers .column_teacher >h3 {
-			font-size: 30px;
-			text-align: center;
-			font-weight: var(--font-semi-bold);
-			margin-bottom: 25px;
-			margin-top: 30px;
-			line-height: 1;
-		}
-
-		section#team #teachers .column_teacher >h4 {
-			font-size: 28px;
-			text-align: center;
-			font-weight: var(--font-medium);
-			color: #9B3BB7;
-			margin-bottom: 25px;
-			line-height: 1;
-		}
-
-		section#team #teachers .column_teacher >p {
-			font-size: 15px;
-			text-align: center;
-			font-weight: var(--font-light);
-		}
+	100% {
+		transform: scale(1);
+	}
+}
