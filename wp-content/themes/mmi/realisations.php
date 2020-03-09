@@ -208,7 +208,6 @@
 			$name = get_sub_field('nom'); 
 			$gallery = get_sub_field('gallery');
 			$author = get_sub_field('auteur');
-			$linkedin = get_sub_field('auteur_linkedin');
 			$category = get_sub_field('categorie');
 			$year = get_sub_field('annee');
 			$description = get_sub_field('description');
@@ -256,15 +255,6 @@
 
 							<div class="author_and_name">
 								<p class="author_and_name">Par <span class="author_bold"><?php echo $author; ?></span></p>
-
-								<?php if ($linkedin) : ?>
-
-									<div>
-										<a href=" <?php echo $linkedin; ?>"><img src="<?php echo get_template_directory_uri() ?>/img/realisations/linkedin.png"/></a>
-									</div>
-
-								<?php endif; ?>
-
 							</div>
 
 							<?php the_sub_field('description') ?>
@@ -322,7 +312,6 @@
 			$name = get_sub_field('nom'); 
 			$gallery = get_sub_field('gallery');
 			$author = get_sub_field('auteur');
-			$linkedin = get_sub_field('auteur_linkedin');
 			$category = get_sub_field('categorie');
 			$year = get_sub_field('annee');
 			$description = get_sub_field('description');
@@ -370,15 +359,6 @@
 
 							<div class="author_and_name">
 								<p class="author_and_name">par <span class="author_bold"><?php echo $author; ?></span></p>
-
-								<?php if ($linkedin) : ?>
-
-									<div>
-										<a href=" <?php echo $linkedin; ?>"><img src="<?php echo get_template_directory_uri() ?>/img/realisations/linkedin.png"/></a>
-									</div>
-
-								<?php endif; ?>
-
 							</div>
 
 							<?php the_sub_field('description') ?>
@@ -431,7 +411,6 @@
 			$name = get_sub_field('nom'); 
 			$gallery = get_sub_field('gallery');
 			$author = get_sub_field('auteur');
-			$linkedin = get_sub_field('auteur_linkedin');
 			$category = get_sub_field('categorie');
 			$year = get_sub_field('annee');
 			$description = get_sub_field('description');
@@ -479,14 +458,6 @@
 
 							<div class="author_and_name">
 								<p class="author_and_name">par <span class="author_bold"><?php echo $author; ?></span></p>
-
-								<?php if ($linkedin) : ?>
-
-									<div>
-										<a href=" <?php echo $linkedin; ?>"><img src="<?php echo get_template_directory_uri() ?>/img/realisations/linkedin.png"/></a>
-									</div>
-
-								<?php endif; ?>
 
 							</div>
 
