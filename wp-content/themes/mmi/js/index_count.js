@@ -13,7 +13,7 @@ jQuery(document).ready(function ($) {
 				$(this).prop('Counter',0).animate({
 				Counter: $(this).text()
 				}, {
-					duration: 3000,
+					duration: 2000,
 					easing: 'swing',
 					step: function (now) {
 						
@@ -27,7 +27,7 @@ jQuery(document).ready(function ($) {
 				$(this).prop('Counter',0).animate({
 				Counter: $(this).text()
 				}, {
-					duration: 3000,
+					duration: 2000,
 					easing: 'swing',
 					step: function (now) {
 						
