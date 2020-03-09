@@ -44,7 +44,7 @@
 				</div>
 			</div>
 		</div>
-		<a class="link_button" href="mmi-en-detail" data-aos="zoom-in" >MMI en détails</a>
+		<a class="link_button" href="mmi-en-detail">MMI en détails</a>
 		<div class="scene">
 			<img data-depth="1.3" src="<?php echo get_template_directory_uri() ?>/img/accueil/skills_triangle_first.svg" alt="">
 			<img data-depth="0.6" src="<?php echo get_template_directory_uri() ?>/img/accueil/skills_triangle_second.svg" alt="">
@@ -211,17 +211,21 @@
 
 				?>
 
-				<div class="testimony_container" data-aos="fade-up-right">
+				<div class="testimony_container" data-aos="fade-up" data-aos-offset="200"
+     data-aos-duration="700">
 					<img class="testimony_quote" src="<?php echo get_template_directory_uri() ?>/img/quote.svg" alt="">
-					<div class="testimony_img">
+					<div class="testimony_img" data-aos="fade-up" data-aos-offset="200"
+     data-aos-duration="700">
 						<img src="<?php echo $image; ?>" alt="Photo de profil">
 					</div>
-					<div class="testimony_titles" data-aos="fade-left">
+					<div class="testimony_titles" data-aos="fade-left" data-aos-offset="200"
+     data-aos-duration="700">
 						<p><?php echo $name; ?></p>
 						<p><?php echo $job; ?></p>
 						<img src="<?php echo get_template_directory_uri() ?>/img/accueil/testimony_line_normal.svg" alt="">
 					</div>
-					<div class="testimony_content" data-aos="fade-right">
+					<div class="testimony_content" data-aos="fade-right" data-aos-offset="200"
+     data-aos-duration="700">
 						<?php echo $content; ?>
 					</div>
 				</div>
