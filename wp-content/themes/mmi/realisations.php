@@ -328,6 +328,7 @@
 			$description = get_sub_field('description');
 			$context = get_sub_field('contexte');
 			$video = get_sub_field('video');
+			$link = get_sub_field('lien_realisation');
 
 		?>
 			<div class="pop_up" data-name="<?php echo $name; ?>">

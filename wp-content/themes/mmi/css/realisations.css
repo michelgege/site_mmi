@@ -420,8 +420,8 @@ div#scene
 
 div#scene_two
 {
-      right: 175px;
-      bottom: -520px;
+      right: 75px;
+      bottom: 520px;
 }
       div#scene_two img.white_triangle_full
       {
@@ -431,7 +431,7 @@ div#scene_two
 div#scene_third
 {
       right: 160px;
-      bottom: -180%;
+      bottom: 5%;
 }
       div#scene_third img.white_triangle_full
       {
@@ -440,8 +440,8 @@ div#scene_third
 
 div#scene_fourth
 {
-      top: -400px;
-      left:0;
+      top: 1100px;
+      left: 70px;
 }
 
       div#scene_fourth img.white_triangle_full
