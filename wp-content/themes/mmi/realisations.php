@@ -229,6 +229,10 @@
 					</div>
 
 					<div>
+
+						<?php if ($link) : ?>
+						<a target="_blank" href="<?php echo($link); ?>">
+						<?php endif; ?>
 						
 						<div class="realisation">
 							<?php if ($video) : ?>
@@ -242,9 +246,12 @@
 								<img src="<?php echo $image; ?>" alt="">
 
 							<?php endif; ?>
-							
-
+				
 						</div>
+
+						<?php if ($link) : ?>
+						</a>
+						<?php endif; ?>
 
 						<div class="description">
 
@@ -272,7 +279,7 @@
 
 						
 						<?php endforeach ?>
-						
+			
 					</div>
 
 					
@@ -332,6 +339,10 @@
 					</div>
 
 					<div>
+
+						<?php if ($link) : ?>
+						<a target="_blank" href="<?php echo($link); ?>">
+						<?php endif; ?>
 						
 						<div class="realisation">
 							<?php if ($video) : ?>
@@ -348,6 +359,10 @@
 							
 
 						</div>
+
+						<?php if ($link) : ?>
+						</a>
+						<?php endif; ?>
 
 						<div class="description">
 
@@ -433,7 +448,7 @@
 					<div>
 
 						<?php if ($link) : ?>
-						<a href="<?php echo($link); ?>">
+						<a target="_blank" href="<?php echo($link); ?>">
 						<?php endif; ?>
 
 						
@@ -478,11 +493,9 @@
 					<div class="gallery_container">
 
 						<?php foreach ($gallery as $img) : ?>
-
-						<div data-aos="fade-up">
+			
 							<img src="<?php echo $img['url']; ?>">
-						</div>	
-						
+	
 						<?php endforeach ?>
 						
 					</div>
