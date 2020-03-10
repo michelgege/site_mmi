@@ -48,8 +48,8 @@ div.inner_wrap
 
 div.realisation 
 {
-  display: flex;
-  width:30%;
+  /* display: flex;
+  width:30%; */
   flex-direction: column;
 }
 
@@ -490,6 +490,8 @@ div#scene_fourth
 
       div.pop_up div.content>div
       {
+            display: flex;
+
            flex-direction: column;
       }
 
@@ -519,6 +521,11 @@ div#scene_fourth
       h2
       {
          margin-top: 120px;
+      }
+
+      h3.domain 
+      {
+            margin-top: 50px;
       }
 
       

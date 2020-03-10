@@ -213,6 +213,7 @@
 			$description = get_sub_field('description');
 			$context = get_sub_field('contexte');
 			$video = get_sub_field('video');
+			$link =  get_sub_field('lien_realisation');
 
 		?>
 			<div class="pop_up" data-name="<?php echo $name; ?>">
@@ -230,9 +231,7 @@
 
 					<div>
 
-						<?php if ($link) : ?>
-						<a target="_blank" href="<?php echo($link); ?>">
-						<?php endif; ?>
+						
 						
 						<div class="realisation">
 							<?php if ($video) : ?>
@@ -243,15 +242,21 @@
 
 							<?php else: ?>
 
+							<?php if ($link) : ?>
+							<a target="_blank" href="<?php echo($link); ?>">
+							<?php endif; ?>
+
 								<img src="<?php echo $image; ?>" alt="">
+							
+							<?php if ($link) : ?>
+							</a>
+							<?php endif; ?>
+																			
 
 							<?php endif; ?>
 				
 						</div>
 
-						<?php if ($link) : ?>
-						</a>
-						<?php endif; ?>
 
 						<div class="description">
 
@@ -340,9 +345,6 @@
 
 					<div>
 
-						<?php if ($link) : ?>
-						<a target="_blank" href="<?php echo($link); ?>">
-						<?php endif; ?>
 						
 						<div class="realisation">
 							<?php if ($video) : ?>
@@ -353,16 +355,22 @@
 
 							<?php else: ?>
 
+								<?php if ($link) : ?>
+								<a target="_blank" href="<?php echo($link); ?>">
+								<?php endif; ?>
+
 								<img src="<?php echo $image; ?>" alt="">
+
+								<?php if ($link) : ?>
+								</a>
+								<?php endif; ?>
+
 
 							<?php endif; ?>
 							
 
 						</div>
 
-						<?php if ($link) : ?>
-						</a>
-						<?php endif; ?>
 
 						<div class="description">
 
@@ -461,15 +469,21 @@
 
 								<?php else: ?>
 
+								<?php if ($link) : ?>
+								<a target="_blank" href="<?php echo($link); ?>">
+								<?php endif; ?>
+
 									<img src="<?php echo $image; ?>" alt="">
+									<?php if ($link) : ?>
+
+								</a>
+								<?php endif; ?>
 
 								<?php endif; ?>	
 							</div>
 						
 
-						<?php if ($link) : ?>
-						</a>
-						<?php endif; ?>
+						
 
 
 
