@@ -32,4 +32,7 @@ jQuery(document).ready(function($) {
 		$('#country-list').trigger('change');
 	}
 	testimony_responsive();
+
+
+	AOS.init();
 });
