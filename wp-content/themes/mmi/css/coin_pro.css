@@ -44,6 +44,7 @@ section#need_us .need_us_content {
     font-weight: var(--font-light);
     font-size: 22px;
     padding: 25px 40px;
+    margin-top: 50px;
   } 
 
   section#need_us .need_us_content h3 {
