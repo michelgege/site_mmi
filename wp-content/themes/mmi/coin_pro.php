@@ -18,7 +18,7 @@
 
 				<div data-aos="zoom-in">	<?php the_field('pro_content_skills'); ?> </div>
 
-				<a class="link_button" href="#">Voir les réalisations</a>
+				<a class="link_button" href="realisations">Voir les réalisations</a>
 			</div>
 		</div>
 
@@ -69,7 +69,7 @@
 
 
 
-				<div class="testimony_container" data-aos="fade-up">>
+				<div class="testimony_container" data-aos="fade-up">
 					<img class="testimony_quote" src="<?php echo get_template_directory_uri() ?>/img/quote.svg" alt="">
 					<div class="testimony_img fade-scroll fade">
 						<img src="<?php echo $image; ?>" alt="Photo Profil">
