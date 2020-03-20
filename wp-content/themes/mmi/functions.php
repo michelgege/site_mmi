@@ -41,7 +41,7 @@
 
 	  	wp_enqueue_script('parallax_header', get_template_directory_uri().'/js/parallax_header.js', array('jquery','parallax_libs'), false, true);
 		
-		wp_enqueue_script('index_count', get_template_directory_uri().'/js/index_count.js', array('jquery'), false, true);
+		  
 
 	  		
 

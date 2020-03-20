@@ -252,7 +252,7 @@ section#team #teachers {
 	display: flex;
 	margin-bottom: 100px;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 
 section#team #teachers .column_teacher {

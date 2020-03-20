@@ -53,7 +53,7 @@ jQuery(document).ready(function ($) {
                 var objectBottom = $("div.stats_content").offset().top + $("div.stats_content").outerHeight();
                 
                 /* If the element is completely within bounds of the window, fade it in */
-                if (objectBottom < windowBottom) { //object comes into view (scrolling down)
+                if ((objectBottom /2) < windowBottom) { //object comes into view (scrolling down)
 
                     has_counted = true;
 

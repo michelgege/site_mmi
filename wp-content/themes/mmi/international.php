@@ -12,7 +12,7 @@ get_header();
 	<section id="map">
 		<h2>Destinations</h2>
 
-		<div id="map_container">
+		<div id="map_container" data-aos="zoom-in">
 			<?xml version="1.0" encoding="utf-8"?>
 			<svg version="1.1" id="Carte_Ombre" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
 			y="0px" viewBox="0 0 1048.8 639.2" style="enable-background:new 0 0 1048.8 639.2;" xml:space="preserve">
@@ -2328,59 +2328,59 @@ get_header();
 		<?php $international_steps = get_field('international_steps', $post->ID); ?>
 		
 		<div class="container">
-			<h4>Stage</h4>
-			<div class="content">
+			<h4 data-aos="fade-right">Stage</h4>
+			<div class="content" data-aos="zoom-in">
 
-				<?php echo($international_steps['international_steps_internship']['international_steps_internship_content']); ?>
+			<?php echo($international_steps['international_steps_internship']['international_steps_internship_content']); ?> 
 
-				<ul>
+				<ul data-aos="fade-left">
 					<?php foreach($international_steps['international_steps_internship']['international_steps_internship_list'] as $item): ?>
 							<li><?php echo($item['international_steps_internship_list_item']); ?></li>
 					<?php endforeach; ?>
 				</ul>
 			</div>
-			<div class="scene">
+			<div class="scene" data-aos="fade-up">
 				<img data-depth="1.5" src="<?php echo get_template_directory_uri() ?>/img/international/steps_internship_triangle_first.svg" alt="">
 				<img data-depth="0.9" src="<?php echo get_template_directory_uri() ?>/img/international/steps_internship_triangle_second.svg" alt="">
 			</div>
 		</div>
 		    	
 		<div class="container">
-			<h4>Semestres</h4>
-			<div class="content">
+			<h4 data-aos="fade-right">Semestres</h4>
+			<div class="content"data-aos="zoom-in">
 
-				<?php echo($international_steps['international_steps_semesters']['international_steps_semesters_content']); ?>
+			<?php echo($international_steps['international_steps_semesters']['international_steps_semesters_content']); ?>
 
-				<ul>
+				<ul data-aos="fade-left">
 					<?php foreach($international_steps['international_steps_semesters']['international_steps_semesters_list'] as $item): ?>
 							<li><?php echo($item['international_steps_semesters_list_item']); ?></li>
 					<?php endforeach; ?>
 				</ul>
 			</div>
-			<div class="scene">
+			<div class="scene" data-aos="fade-up">
 				<img data-depth="-1.8" src="<?php echo get_template_directory_uri() ?>/img/international/steps_semesters_triangle_first.svg" alt="">
 				<img data-depth="2.4" src="<?php echo get_template_directory_uri() ?>/img/international/steps_semesters_triangle_second.svg" alt="">
 			</div>
 		</div>
 
 		<div class="container">
-			<h4>Comment partir ?</h4>
-			<div class="content">
+			<h4 data-aos="fade-right">Comment partir ?</h4>
+			<div class="content"data-aos="zoom-in">
 
 				<?php echo($international_steps['international_steps_howtogo']['international_steps_howtogo_content']); ?>
 
-				<ul>
+				<ul data-aos="fade-right">
 					<?php foreach($international_steps['international_steps_howtogo']['international_steps_howtogo_list'] as $item): ?>
 							<li><?php echo($item['international_steps_howtogo_list_item']); ?></li>
 					<?php endforeach; ?>
 				</ul>
 			</div>
-			<div class="scene">
+			<div class="scene" data-aos="fade-up">
 				<img data-depth="0.7" src="<?php echo get_template_directory_uri() ?>/img/international/steps_howtogo_rectangle.svg" alt="">
 				<img data-depth="-0.3" src="<?php echo get_template_directory_uri() ?>/img/international/steps_howtogo_triangle.svg" alt="">
 			</div>
 		</div>
-		<div class="scene">
+		<div class="scene" data-aos="fade-up">
 			<img data-depth="-2.6" src="<?php echo get_template_directory_uri() ?>/img/international/steps_triangle_first.svg" alt="">
 			<img data-depth="1.8" src="<?php echo get_template_directory_uri() ?>/img/international/steps_triangle_second.svg" alt="">
 		</div>

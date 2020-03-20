@@ -29,9 +29,10 @@
 				</div>
 			</div>
 
-			<p class="intro">
-				Au cours des trois ans, les étudiants du BUT, vont être chargés de la conception et de la création de plusieurs réalisations que ce soit sur le domaine numérique ou artistique. Cette page regroupe ainsi quelques unes des réalisations de nos étudiants.
-			</p>
+			<div class="intro">
+				<?php the_field('intro'); ?>
+			</div>
+
 			<div id="scene_two" class="scene">
 				<img data-depth="-1.20" class="white_triangle_full" src="<?php echo get_template_directory_uri() ?>/img/realisations/white_triangle_full.svg" alt="">
 				<img  data-depth="0.90" class="purple_trangle_full" src="<?php echo get_template_directory_uri() ?>/img/realisations/purple_trangle_full.svg" alt="">
@@ -207,13 +208,12 @@
 			$name = get_sub_field('nom'); 
 			$gallery = get_sub_field('gallery');
 			$author = get_sub_field('auteur');
-			$linkedin = get_sub_field('auteur_linkedin');
 			$category = get_sub_field('categorie');
 			$year = get_sub_field('annee');
 			$description = get_sub_field('description');
 			$context = get_sub_field('contexte');
-			$link = get_sub_field('lien_realisation');
 			$video = get_sub_field('video');
+			$link =  get_sub_field('lien_realisation');
 
 		?>
 			<div class="pop_up" data-name="<?php echo $name; ?>">
@@ -230,6 +230,8 @@
 					</div>
 
 					<div>
+
+						
 						
 						<div class="realisation">
 							<?php if ($video) : ?>
@@ -240,12 +242,21 @@
 
 							<?php else: ?>
 
+							<?php if ($link) : ?>
+							<a target="_blank" href="<?php echo($link); ?>">
+							<?php endif; ?>
+
 								<img src="<?php echo $image; ?>" alt="">
+							
+							<?php if ($link) : ?>
+							</a>
+							<?php endif; ?>
+																			
 
 							<?php endif; ?>
-							
-
+				
 						</div>
+
 
 						<div class="description">
 
@@ -255,15 +266,6 @@
 
 							<div class="author_and_name">
 								<p class="author_and_name">Par <span class="author_bold"><?php echo $author; ?></span></p>
-
-								<?php if ($linkedin) : ?>
-
-									<div>
-										<a href=" <?php echo $linkedin; ?>"><img src="<?php echo get_template_directory_uri() ?>/img/realisations/linkedin.png"/></a>
-									</div>
-
-								<?php endif; ?>
-
 							</div>
 
 							<?php the_sub_field('description') ?>
@@ -282,7 +284,7 @@
 
 						
 						<?php endforeach ?>
-						
+			
 					</div>
 
 					
@@ -321,13 +323,12 @@
 			$name = get_sub_field('nom'); 
 			$gallery = get_sub_field('gallery');
 			$author = get_sub_field('auteur');
-			$linkedin = get_sub_field('auteur_linkedin');
 			$category = get_sub_field('categorie');
 			$year = get_sub_field('annee');
 			$description = get_sub_field('description');
 			$context = get_sub_field('contexte');
-			$link = get_sub_field('lien_realisation');
 			$video = get_sub_field('video');
+			$link = get_sub_field('lien_realisation');
 
 		?>
 			<div class="pop_up" data-name="<?php echo $name; ?>">
@@ -344,6 +345,7 @@
 					</div>
 
 					<div>
+
 						
 						<div class="realisation">
 							<?php if ($video) : ?>
@@ -354,12 +356,22 @@
 
 							<?php else: ?>
 
+								<?php if ($link) : ?>
+								<a target="_blank" href="<?php echo($link); ?>">
+								<?php endif; ?>
+
 								<img src="<?php echo $image; ?>" alt="">
+
+								<?php if ($link) : ?>
+								</a>
+								<?php endif; ?>
+
 
 							<?php endif; ?>
 							
 
 						</div>
+
 
 						<div class="description">
 
@@ -369,15 +381,6 @@
 
 							<div class="author_and_name">
 								<p class="author_and_name">par <span class="author_bold"><?php echo $author; ?></span></p>
-
-								<?php if ($linkedin) : ?>
-
-									<div>
-										<a href=" <?php echo $linkedin; ?>"><img src="<?php echo get_template_directory_uri() ?>/img/realisations/linkedin.png"/></a>
-									</div>
-
-								<?php endif; ?>
-
 							</div>
 
 							<?php the_sub_field('description') ?>
@@ -430,13 +433,12 @@
 			$name = get_sub_field('nom'); 
 			$gallery = get_sub_field('gallery');
 			$author = get_sub_field('auteur');
-			$linkedin = get_sub_field('auteur_linkedin');
 			$category = get_sub_field('categorie');
 			$year = get_sub_field('annee');
 			$description = get_sub_field('description');
 			$context = get_sub_field('contexte');
-			$link = get_sub_field('lien_realisation');
 			$video = get_sub_field('video');
+			$link = get_sub_field('lien_realisation');
 
 		?>
 			<div class="pop_up" data-name="<?php echo $name; ?>">
@@ -453,22 +455,38 @@
 					</div>
 
 					<div>
+
+						<?php if ($link) : ?>
+						<a target="_blank" href="<?php echo($link); ?>">
+						<?php endif; ?>
+
 						
-						<div class="realisation">
-							<?php if ($video) : ?>
-								
-								<div class="iframe_container">
-									<?php echo($video); ?>
-								</div>
+							<div class="realisation">
+								<?php if ($video) : ?>
+									
+									<div class="iframe_container">
+										<?php echo($video); ?>
+									</div>
 
-							<?php else: ?>
+								<?php else: ?>
 
-								<img src="<?php echo $image; ?>" alt="">
+								<?php if ($link) : ?>
+								<a target="_blank" href="<?php echo($link); ?>">
+								<?php endif; ?>
 
-							<?php endif; ?>
-							
+									<img src="<?php echo $image; ?>" alt="">
+									<?php if ($link) : ?>
 
-						</div>
+								</a>
+								<?php endif; ?>
+
+								<?php endif; ?>	
+							</div>
+						
+
+						
+
+
 
 						<div class="description">
 
@@ -478,14 +496,6 @@
 
 							<div class="author_and_name">
 								<p class="author_and_name">par <span class="author_bold"><?php echo $author; ?></span></p>
-
-								<?php if ($linkedin) : ?>
-
-									<div>
-										<a href=" <?php echo $linkedin; ?>"><img src="<?php echo get_template_directory_uri() ?>/img/realisations/linkedin.png"/></a>
-									</div>
-
-								<?php endif; ?>
 
 							</div>
 
@@ -498,11 +508,9 @@
 					<div class="gallery_container">
 
 						<?php foreach ($gallery as $img) : ?>
-
-						<div data-aos="fade-up">
+			
 							<img src="<?php echo $img['url']; ?>">
-						</div>	
-						
+	
 						<?php endforeach ?>
 						
 					</div>
