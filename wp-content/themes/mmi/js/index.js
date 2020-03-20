@@ -5,7 +5,8 @@ jQuery(document).ready(function($) {
 	  		cellAlign: 'center',
 	  		contain: true,
 	  		pageDots: false,
-	  		wrapAround: true
+	  		wrapAround: true,
+	  		imagesLoaded: true
 		});
 
 		var $carousel = $('#department .main-carousel').flickity();
@@ -35,7 +36,8 @@ jQuery(document).ready(function($) {
 	  		cellAlign: 'center',
 	  		contain: true,
 	  		pageDots: false,
-	  		wrapAround: true
+	  		wrapAround: true,
+	  		imagesLoaded: true
 		});
 
 		var $carousel = $('#international .main-carousel').flickity();
