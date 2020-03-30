@@ -2,6 +2,7 @@
 <html <?php language_attributes();?>>
 <head>
 	<meta charset="<?php bloginfo('charset');?>">
+	<link rel="shortcut icon" type="image/x-icon" href="<?php echo get_template_directory_uri() ?>/img/mmi_footer.svg" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 	<title><?php the_title(); ?></title>
 	<?php wp_head();?>
