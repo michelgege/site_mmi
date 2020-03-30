@@ -28,6 +28,11 @@ div.wrap
             background-color: #7A034E;
       }
 
+      h2 + div > div
+      {
+            line-height: 1.2;
+      }
+
 
 div.intro     
 {

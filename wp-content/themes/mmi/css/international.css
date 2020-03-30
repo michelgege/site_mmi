@@ -120,6 +120,7 @@ section#map #testimony_container {
 			section#map .testimony_content .testimony p {
 				font-style: italic;
 				margin-top: 65px;
+				line-height: 1.3;
 			}
 
 			section#map .testimony_content .testimony .quote {

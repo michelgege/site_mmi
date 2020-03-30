@@ -71,6 +71,7 @@ section#but >p {
 	font-size: 18px;
 	margin: 90px 0;
 	width: 50%;
+	line-height: 1.2;
 }
 
 section#but #skills {
@@ -221,6 +222,7 @@ section#department p {
 	width: 80%;
 	text-align: center;
 	margin: 0 auto;
+	line-height: 1.2;
 }
 
 section#department #video {
@@ -285,7 +287,7 @@ section#team #teachers .column_teacher >h4 {
 	font-weight: var(--font-medium);
 	color: #9B3BB7;
 	margin-bottom: 25px;
-	line-height: 1;
+	line-height: 1.2;
 }
 
 section#team #teachers .column_teacher >p {

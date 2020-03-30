@@ -1,3 +1,7 @@
+body{
+  line-height: 1.2;
+}
+
 .fade
 {
    opacity: 1;
@@ -110,14 +114,14 @@ section#testimony .testimony_container:nth-child(odd) {
       font-weight: var(--font-extra-bold);
       font-size: 30px;
       margin-bottom: 15px;
-      line-height: 1.1em;
+      line-height: 1.2;
     }
 
     section#testimony .testimony_container .testimony_titles p:nth-of-type(2) {
       font-weight: var(--font-medium);
       font-size: 28px;
       color: var(--color-dark-red);
-      line-height: 1.1em;
+      line-height: 1.2;
     }
 
     section#testimony .testimony_container:nth-child(odd) .testimony_titles p {

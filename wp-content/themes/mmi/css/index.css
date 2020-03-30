@@ -506,7 +506,7 @@ section#testimony .testimony_container:nth-child(odd) {
 			font-weight: var(--font-medium);
 			font-size: 28px;
 			color: var(--color-green);
-			line-height: 1.1em;
+			line-height: 1.2em;
 		}
 
 		section#testimony .testimony_container:nth-child(odd) .testimony_titles p {
