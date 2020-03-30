@@ -58,7 +58,7 @@
 
 				<img src="<?php echo $image; ?>" alt="" />
 
-				<div class="overlay" data-name="<?php echo $name; ?>">
+				<div class="overlay" data-name="<?php echo str_replace('"', '', $name); ?>">
 
 					<div class="text_container">
 
@@ -104,7 +104,7 @@
 
 				<img src="<?php echo $image; ?>" alt="" />
 
-				<div class="overlay" data-name="<?php echo $name; ?>">
+				<div class="overlay" data-name="<?php echo str_replace('"', '', $name); ?>">
 
 					<div class="text_container">
 
@@ -150,7 +150,7 @@
 
 				<img src="<?php echo $image; ?>" alt="" />
 
-				<div class="overlay" data-name="<?php echo $name; ?>">
+				<div class="overlay" data-name="<?php echo str_replace('"', '', $name); ?>">
 
 					<div class="text_container">
 
@@ -216,7 +216,7 @@
 			$link =  get_sub_field('lien_realisation');
 
 		?>
-			<div class="pop_up" data-name="<?php echo $name; ?>">
+			<div class="pop_up" data-name="<?php echo str_replace('"', '', $name); ?>">
 				
 				<div class="background">
 				</div>
@@ -331,7 +331,7 @@
 			$link = get_sub_field('lien_realisation');
 
 		?>
-			<div class="pop_up" data-name="<?php echo $name; ?>">
+			<div class="pop_up" data-name="<?php echo str_replace('"', '', $name); ?>">
 				
 				<div class="background">
 				</div>
@@ -441,7 +441,7 @@
 			$link = get_sub_field('lien_realisation');
 
 		?>
-			<div class="pop_up" data-name="<?php echo $name; ?>">
+			<div class="pop_up" data-name="<?php echo str_replace('"', '', $name); ?>">
 				
 				<div class="background">
 				</div>
