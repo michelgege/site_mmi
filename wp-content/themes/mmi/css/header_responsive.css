@@ -12,7 +12,7 @@
 	}
 
 	header #menu .burger {
-		display:none ;
+		display:block ;
 	}
 
 	header #second_header {

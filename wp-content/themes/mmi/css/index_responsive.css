@@ -218,4 +218,8 @@
 	section#international .slider_arrows {
 		bottom: 50%;
 	}
+
+	section#skills #skills_container #skills_content >div {
+		width: 45px;
+	}
 }
