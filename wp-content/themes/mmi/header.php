@@ -26,11 +26,11 @@
 				<a href="https://www.instagram.com/mmichambery/" target="_blank"><img src="<?php the_field('header_instagram'); ?>" alt="Logo Instagram"></a>
 			</div>
 
-			<ul id="side_links">
-				<li><a href="https://mmi-interne.univ-savoie.fr/Portail/" target="_blank">MMI Interne</a></li>
-				<li><a href="https://mmi-pret.univ-savoie.fr/index.php" target="_blank">MMI Prêt</a></li>
-				<li><a href="https://ade6-usmb-ro.grenet.fr/direct/index.jsp?data=bd72d825015315fecf99b2ab1eb24a5f0412158042ec7880df46b7c8db8028847a856464e9e1a5bac86f839c03d7c55aedc5434d4a4b357ad7a78c3eabf336a2d756ba483954b0e3edf59b9627563685" target="_blank">Emploi du temps</a></li>
-			</ul>
+			<div id="side_links">
+				<a href="https://mmi-interne.univ-savoie.fr/Portail/" target="_blank">MMI Interne</a>
+				<a href="https://mmi-pret.univ-savoie.fr/index.php" target="_blank">MMI Prêt</a>
+				<a href="https://ade6-usmb-ro.grenet.fr/direct/index.jsp?data=bd72d825015315fecf99b2ab1eb24a5f0412158042ec7880df46b7c8db8028847a856464e9e1a5bac86f839c03d7c55aedc5434d4a4b357ad7a78c3eabf336a2d756ba483954b0e3edf59b9627563685" target="_blank">Emploi du temps</a>
+			</div>
 		</div>
 
 		<!-- Header -->
