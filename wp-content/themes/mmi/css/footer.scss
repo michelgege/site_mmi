@@ -84,7 +84,7 @@ div.wrap_footer {
 	{
 		background-color:black;
 		padding: 0 75px;
-}
+	}
 }
 
 @media only screen and (max-width : 768px){
@@ -93,18 +93,18 @@ div.wrap_footer {
 		background-color:black;
 		padding: 0 35px;
 
-	h3.center
-	{   width: calc(100% / 3);
-		font-size: 13px;
-		
-		
-	}
+		h3.center
+		{   width: calc(100% / 3);
+			font-size: 13px;
 
-	h3.centerbot
-	{   width: calc(100% / 3);
-		font-size: 13px;
+
+		}
+
+		h3.centerbot
+		{   width: calc(100% / 3);
+			font-size: 13px;
+		}
 	}
-}
 
 }
 
@@ -116,172 +116,157 @@ div.wrap_footer {
 		padding: 0 35px; 
 
 
-	h3.center
-	{   width:100%;
-		font-size: 17px;
-		padding-top: 60px;
-		padding-bottom: 30px;	
-	}
-
-	div.left
-	{
-		width: 100%;
-		text-align: center;
-		margin-top: 50px;
-		
-		#twitter
-		{
-			margin-right: 34px;
+		h3.center
+		{   width:100%;
+			font-size: 17px;
+			padding-top: 60px;
+			padding-bottom: 30px;	
 		}
 
-		#facebook
+		div.left
 		{
-			margin-right: 34px;
+			width: 100%;
+			text-align: center;
+			margin-top: 50px;
+
+			#twitter
+			{
+				margin-right: 34px;
+			}
+
+			#facebook
+			{
+				margin-right: 34px;
+			}
+
 		}
 
-	}
+		div.right
+		{
+			margin-top: -240px;
+			text-align: center;
+			padding-bottom: 280px;
+			z-index: 20;
+			width: 100%;
+		}
 
-	div.right
-	{
-		text-align: center;
-		margin-left: auto;
-		margin-top: -240px;
-		padding-bottom: 280px;
-		z-index: 20;
-		width: 100%;
-	}
+		div#top
+		{
+			display: flex;
+			padding-top: 70px;
+			flex-direction: column;
+		}
 
-	div#top
-	{
-		display: flex;
-		padding-top: 70px;
-		flex-direction: column;
-	}
-
-	div#bottom
-	{
-		display: flex;
-		padding-top: 35px;
-		flex-direction: column;
-	}
+		div#bottom
+		{
+			display: flex;
+			padding-top: 35px;
+			flex-direction: column;
+		}
 
 		h3.centerbot
-	{   
-		width: 100%;
-		font-size: 17px;
-		margin-top: -200px;		
-	}
+		{   
+			width: 100%;
+			font-size: 17px;
+			margin-top: -200px;		
+		}
 
-	div.left_bot
-	{
-		text-align: left;
-	}
+		div.left_bot
+		{
+			text-align: left;
+		}
 
 
-	div.right_bot
-	{
-		text-align: right;
-		margin-top: -18%;
-		padding-bottom: 115px;
-		margin-left: auto;
-		width: auto;
-	}
-
-	img#mmi
-	{
-		margin-top: 25%;
-	}
-
-	
+		div.right_bot
+		{
+			text-align: right;
+			width: auto;
+			margin-top: -5vh;
+		}
 
 	}	
 
 }
 
-@media only screen and (max-width : 600px){
+
+
+@media only screen and (max-width : 530px){
+
+	div.wrap_footer div.right_bot
+		{
+			margin-top: -9vh;
+		}
+
+
+}
+
+@media only screen and (max-width : 400px){
 	div.wrap_footer
 	{
 		background-color:black;
 		padding: 0 35px; 
 
 
-	h3.center
-	{   width:100%;
-		font-size: 17px;
-		padding-top: 60px;
-		padding-bottom: 30px;	
-	}
-
-	div.left
-	{
-		width: 100%;
-		text-align: center;
-		margin-top: 50px;
-		
-		#twitter
-		{
-			margin-right: 34px;
+		h3.center
+		{   width:100%;
+			font-size: 17px;
+			padding-top: 60px;
+			padding-bottom: 30px;	
 		}
 
-		#facebook
+		div.left
 		{
-			margin-right: 34px;
+			width: 100%;
+			margin-top: 50px;
+
+			#twitter
+			{
+				margin-right: 34px;
+			}
+
+			#facebook
+			{
+				margin-right: 34px;
+			}
+
 		}
 
-	}
+		div.right
+		{
+			margin-top: -240px;
+			padding-bottom: 280px;
+			z-index: 20;
+			width: 100%;
+		}
 
-	div.right
-	{
-		text-align: center;
-		margin-left: auto;
-		margin-top: -240px;
-		padding-bottom: 280px;
-		z-index: 20;
-		width: 100%;
-	}
+		div#top
+		{
+			padding-top: 70px;
+		}
 
-	div#top
-	{
-		display: flex;
-		padding-top: 70px;
-		flex-direction: column;
-	}
-
-	div#bottom
-	{
-		display: flex;
-		padding-top: 35px;
-		flex-direction: column;
-	}
+		div#bottom
+		{
+			padding-top: 35px;
+		}
 
 		h3.centerbot
-	{   
-		width: 100%;
-		font-size: 17px;
-		margin-top: -200px;		
-	}
+		{   
+			width: 100%;
+			font-size: 17px;
+			margin-top: -200px;		
+		}
 
-	div.left_bot
-	{
-		text-align: left;
-	}
+		div.left_bot
+		{
+			text-align: left;
+		}
 
 
-	div.right_bot
-	{
-		text-align: right;
-		margin-top: -18%;
-		padding-bottom: 115px;
-		margin-left: auto;
-		width: auto;
-	}
-
-	img#mmi
-	{
-		margin-top: 0%;
-	}
-
-	
+		div.right_bot
+		{
+			text-align: right;
+			width: auto;
+		}
 
 	}	
 
