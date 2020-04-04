@@ -2299,7 +2299,7 @@ get_header();
 					</div>
 					<div class="resp_infos">
 						<h4><?php echo $name; ?></h4>
-						<p><?php echo $city; ?>, <span class="maj"><?php echo $country; ?></span></p>
+						<p><?php if($city) echo "$city, " ?> <span class="maj"><?php echo $country; ?></span></p>
 						<p><?php echo $study; ?></p>
 					</div>
 				</div>

@@ -26,7 +26,7 @@
 @media only screen and (max-width : 1024px)
 {
 	p {
-		font-size: 12px;
+		font-size: 15px;
 	}
 
 	h4
@@ -35,6 +35,10 @@
 	}
 	section#but .container p {
 		width: 70%;
+	}
+	section#but .container:nth-of-type(1) >img
+	{
+		top: -20%;
 	}
 
 }
@@ -63,6 +67,21 @@
 		font-size: 22px;
 	}
 
+	div#skills {
+		position: inherit;
+		margin: 0;
+		margin-bottom: 100px;
+		width: 100%;
+		transform: translateX(0%);
+	}
+
+	section#but #years {
+		width: 100%;
+	}
+
+	section#departement p {
+		font-size: 18px;
+	}
 
 
 
@@ -80,7 +99,7 @@
 		text-align: center;
 		margin-right: auto;
 		margin-left: auto;
-		font-size: 12px;
+		font-size: 13px;
 	}
 }
 
@@ -112,7 +131,7 @@
 
 
 	section#team #teachers .column_teacher >p {
-		font-size: 10px;
+		font-size: 12px;
 	}
 
 	section#but .container h3 {
@@ -143,13 +162,16 @@
 	}
 
 	section#but #years  p {
-		font-size: 12px;
+		font-size: 15px;
 		margin-left: 20px;
 		margin-bottom: 30px;
 	}
 
 	section#department p {
-		font-size: 13px;
+		font-size: 15px;
+	}
+	section#but .container p {
+		width: 85%;
 	}
 
 

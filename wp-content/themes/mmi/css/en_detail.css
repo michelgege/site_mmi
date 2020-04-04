@@ -291,7 +291,7 @@ section#team #teachers .column_teacher >h4 {
 }
 
 section#team #teachers .column_teacher >p {
-	font-size: 14px;
+	font-size: 16px;
 	text-align: center;
 	font-weight: var(--font-light);
 }
