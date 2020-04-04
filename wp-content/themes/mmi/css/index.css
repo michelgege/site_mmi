@@ -1,4 +1,9 @@
 /*General*/
+
+
+html {
+	overflow-x: auto;
+}
 .link_button {
 	font-weight: var(--font-light);
 	font-size: 22px;
