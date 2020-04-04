@@ -111,6 +111,7 @@ header {
   z-index: 10;
   overflow: hidden;
   background-size: cover;
+  background-position: center;
 }
 
 header .filter {
