@@ -109,7 +109,7 @@ div.wrap_footer {
 }
 
 
-@media only screen and (max-width : 600px){
+@media only screen and (max-width : 650px){
 	div.wrap_footer
 	{
 		background-color:black;
@@ -270,4 +270,12 @@ div.wrap_footer {
 
 	}	
 
+}
+
+
+@media only screen and (max-width : 382px){
+	div.wrap_footer div.right_bot
+		{
+			margin-top: -12vh;
+		}
 }
