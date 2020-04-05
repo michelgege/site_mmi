@@ -184,6 +184,10 @@ div.wrap_footer {
 			margin-top: -5vh;
 		}
 
+		div.wrap_footer div.right > img {
+			margin-top: -12px;
+		}
+
 	}	
 
 }
@@ -194,7 +198,7 @@ div.wrap_footer {
 
 	div.wrap_footer div.right_bot
 		{
-			margin-top: -9vh;
+			margin-top: -7vh;
 		}
 
 
@@ -205,6 +209,7 @@ div.wrap_footer {
 	{
 		background-color:black;
 		padding: 0 35px; 
+		padding-bottom: 20px;
 
 
 		h3.center
@@ -247,6 +252,9 @@ div.wrap_footer {
 		div#bottom
 		{
 			padding-top: 35px;
+			img {
+				transform: scale(0.6);
+			}
 		}
 
 		h3.centerbot
@@ -272,10 +280,9 @@ div.wrap_footer {
 
 }
 
+@media only screen and (max-width : 371px) {
 
-@media only screen and (max-width : 382px){
-	div.wrap_footer div.right_bot
-		{
-			margin-top: -12vh;
-		}
+	div.wrap_footer div.right_bot {
+		margin-top: -10vh;
+	}
 }
