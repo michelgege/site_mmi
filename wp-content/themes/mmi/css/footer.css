@@ -207,10 +207,6 @@ div.wrap_footer div.wrap_footer div.right_bot {
     -webkit-transform: scale(0.6);
             transform: scale(0.6);
   }
-  div.wrap_footer div.wrap_footer div.right_bot {
-    -webkit-transform: scale(0.55);
-            transform: scale(0.55);
-  }
   div.wrap_footer h3.centerbot {
     width: 100%;
     font-size: 17px;
@@ -222,6 +218,11 @@ div.wrap_footer div.wrap_footer div.right_bot {
   div.wrap_footer div.right_bot {
     text-align: right;
     width: auto;
+  }
+  div.wrap_footer div.right_bot {
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95);
+    margin-top: -7.6vh;
   }
 }
 

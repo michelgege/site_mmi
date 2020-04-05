@@ -261,9 +261,7 @@ div.wrap_footer {
 			}
 		}
 
-		div.wrap_footer div.right_bot {
-			transform: scale(0.55);
-		}
+		
 
 		h3.centerbot
 		{   
@@ -285,6 +283,10 @@ div.wrap_footer {
 		}
 
 	}	
+	div.wrap_footer div.right_bot {
+			transform: scale(0.95);
+			margin-top: -7.6vh;
+		}
 
 }
 
