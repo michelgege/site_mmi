@@ -2268,7 +2268,7 @@ get_header();
 	
 		<!--Responsive-->
 		<div id="resp_container">
-			<p>Témoignages d'étudiants étant parti faire leur stage ou leur semestre à l'étranger </p>
+			<p>Témoignages d'étudiants étant partis faire leur stage ou leur semestre à l'étranger : </p>
 
 			<label for="country-list">Pays de destination :</label>
 
