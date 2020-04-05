@@ -11,6 +11,10 @@
 		display: none;
 	}
 
+	header #menu {
+		align-items: center;
+	}
+
 	header #menu .burger {
 		display:block ;
 	}
@@ -22,6 +26,8 @@
 	header .scene >div #header_empty_square_medium, #header_empty_triangle_medium {
 		display: none;
 	}
+
+	
 
 	.wrap {
 		padding: 0 100px;
