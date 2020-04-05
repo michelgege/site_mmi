@@ -244,7 +244,7 @@ div.pop_up.visible
                   {
                        display: flex;
                        align-self: center;
-                       align-items: flex-start;
+                       align-items: center;
                        justify-content: space-between;
                        width: 85%;
                        margin-bottom: 50px;

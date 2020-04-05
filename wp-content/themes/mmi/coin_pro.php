@@ -98,7 +98,7 @@
 
 
 	<section id="form" data-aos="zoom-in">
-		<h3 >Vous aussi, proposer votre projet</h3>
+		<h3 >Vous aussi, proposez votre projet</h3>
 		<img src="<?php echo get_template_directory_uri() ?>/img/coin_pro/form_line.svg" alt="">
 		<form method="post" action="<?php echo get_template_directory_uri() ?>/post-form.php">
 			<input type="text" placeholder="Nom" name="nom" required>
