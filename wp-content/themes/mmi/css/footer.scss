@@ -177,15 +177,16 @@ div.wrap_footer {
 
 		div.left_bot
 		{
-			text-align: left;
+			text-align: center;
+			width: 100%;
 		}
 
 
 		div.right_bot
 		{
-			text-align: right;
+			text-align: center;
 			width: auto;
-			margin-top: -5vh;
+			margin-top: 15%;
 		}
 
 		div.wrap_footer div.right > img {
@@ -198,15 +199,15 @@ div.wrap_footer {
 
 
 
-@media only screen and (max-width : 530px){
+// @media only screen and (max-width : 530px){
 
-	div.wrap_footer div.right_bot
-		{
-			margin-top: -7vh;
-		}
+// 	div.wrap_footer div.right_bot
+// 		{
+// 			margin-top: -7vh;
+// 		}
 
 
-}
+// }
 
 @media only screen and (max-width : 400px){
 	div.wrap_footer
@@ -256,9 +257,6 @@ div.wrap_footer {
 		div#bottom
 		{
 			padding-top: 35px;
-			img {
-				transform: scale(0.6);
-			}
 		}
 
 		
@@ -267,32 +265,32 @@ div.wrap_footer {
 		{   
 			width: 100%;
 			font-size: 17px;
-			margin-top: -200px;		
+			margin-top: -215px;		
 		}
 
-		div.left_bot
-		{
-			text-align: left;
-		}
+		// div.left_bot
+		// {
+		// 	text-align: left;
+		// }
 
 
-		div.right_bot
-		{
-			text-align: right;
-			width: auto;
-		}
+		// div.right_bot
+		// {
+		// 	text-align: right;
+		// 	width: auto;
+		// }
 
 	}	
-	div.wrap_footer div.right_bot {
-			transform: scale(0.95);
-			margin-top: -7.6vh;
-		}
+	// div.wrap_footer div.right_bot {
+	// 		transform: scale(0.95);
+	// 		// margin-top: -7.6vh;
+	// 	}
 
 }
 
-@media only screen and (max-width : 371px) {
+// @media only screen and (max-width : 371px) {
 
-	div.wrap_footer div.right_bot {
-		margin-top: -10vh;
-	}
-}
+// 	div.wrap_footer div.right_bot {
+// 		margin-top: -10vh;
+// 	}
+// }
