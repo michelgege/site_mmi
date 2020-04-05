@@ -11,6 +11,7 @@ h2::after {
   background-color: var(--color-dark-red);
 }
 
+
 /*Section Need_us*/
 section#need_us #company {
   font-weight: var(--font-semi-bold);
@@ -104,6 +105,7 @@ section#testimony .testimony_container:nth-child(odd) {
 
   section#testimony .testimony_container:nth-child(even) .testimony_titles {
     margin-left: 40px;
+    max-width: 650px;
   }
 
   section#testimony .testimony_container:nth-child(odd) .testimony_titles {

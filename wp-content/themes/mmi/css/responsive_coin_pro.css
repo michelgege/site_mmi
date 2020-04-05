@@ -45,6 +45,10 @@
     margin-top: 60px;
   }
 
+  section#testimony .testimony_container:nth-child(even) .testimony_titles img {
+    margin-left: 85px;
+  }
+
 
 }
 
@@ -52,6 +56,10 @@
 
   section#form > img {
     display: none;
+  }
+
+  section#testimony .testimony_container:nth-child(even) .testimony_titles img {
+    margin-left: 50px;
   }
 
 }
@@ -67,6 +75,15 @@
     display: none;
   }
 
+  section#testimony .testimony_container .testimony_titles p:nth-of-type(1) {
+    font-size: 25px;
+  }
+
+  section#testimony .testimony_container .testimony_titles p:nth-of-type(2) {
+    font-size: 22px;
+  }
+
+
 }
 
 
@@ -77,10 +94,6 @@
     margin-right: auto;
     margin-top: 100px;
   } 
-}
-
-
-@media only screen and (max-width : 950px){
 
   section#testimony .testimony_container {
     flex-wrap: wrap;
