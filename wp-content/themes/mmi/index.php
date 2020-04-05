@@ -129,7 +129,7 @@
 
 	<section id="highlights">
 		<h2>LES TEMPS FORTS</h2>
-		<div id="video" data-flickity data-aos="zoom-in-up">
+		<div id="video" data-aos="zoom-in-up">
 
 			<?php the_field('home_highlights_video'); ?>
 
