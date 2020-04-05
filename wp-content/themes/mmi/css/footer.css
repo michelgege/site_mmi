@@ -69,6 +69,11 @@ div.wrap_footer div#bottom {
   padding-top: 35px;
 }
 
+div.wrap_footer div.wrap_footer div.right_bot {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
 @media only screen and (max-width: 1024px) {
   div.wrap_footer {
     background-color: black;
@@ -160,7 +165,7 @@ div.wrap_footer div#bottom {
 
 @media only screen and (max-width: 530px) {
   div.wrap_footer div.right_bot {
-    margin-top: -7vh;
+    margin-top: -7.5vh;
   }
 }
 
@@ -201,6 +206,10 @@ div.wrap_footer div#bottom {
   div.wrap_footer div#bottom img {
     -webkit-transform: scale(0.6);
             transform: scale(0.6);
+  }
+  div.wrap_footer div.wrap_footer div.right_bot {
+    -webkit-transform: scale(0.55);
+            transform: scale(0.55);
   }
   div.wrap_footer h3.centerbot {
     width: 100%;

@@ -77,6 +77,10 @@ div.wrap_footer {
 		padding-top: 35px;
 	}
 
+	div.wrap_footer div.right_bot {
+		transform: scale(0.9);
+	}
+
 }
 
 @media only screen and (max-width : 1024px){
@@ -198,7 +202,7 @@ div.wrap_footer {
 
 	div.wrap_footer div.right_bot
 		{
-			margin-top: -7vh;
+			margin-top: -7.5vh;
 		}
 
 
@@ -255,6 +259,10 @@ div.wrap_footer {
 			img {
 				transform: scale(0.6);
 			}
+		}
+
+		div.wrap_footer div.right_bot {
+			transform: scale(0.55);
 		}
 
 		h3.centerbot
