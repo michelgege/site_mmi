@@ -97,6 +97,7 @@
 
   section#testimony .testimony_container {
     flex-wrap: wrap;
+    margin-left: 0;
   }
 
   section#testimony .testimony_container:nth-child(even) .testimony_titles {

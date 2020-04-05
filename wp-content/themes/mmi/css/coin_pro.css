@@ -2,6 +2,10 @@ body{
   line-height: 1.2;
 }
 
+html {
+  overflow-x:auto;
+}
+
 .fade
 {
    opacity: 1;
